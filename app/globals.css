@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2D7F3E;
+  --primary-dark: #1E5C2B;
+  --primary-light: #4A9E5C;
+  --accent: #FF8C00;
+  --accent-dark: #E07A00;
+  --accent-light: #FFB347;
+  --background: #F8FBF6;
+  --foreground: #1A2E1A;
+  --surface: #FFFFFF;
+  --surface-alt: #EFF7EC;
+  --border: #D4E5D0;
+  --text-muted: #5A7A5A;
+  --text-light: #7A9A7A;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-accent-light: var(--accent-light);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-border: var(--border);
+  --color-text-muted: var(--text-muted);
+  --color-text-light: var(--text-light);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* CTA button hover animation */
+.btn-cta {
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  padding: 0.875rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(255, 140, 0, 0.3);
+}
+
+.btn-cta:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+/* Card styling */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 30px rgba(45, 127, 62, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Section spacing */
+.section {
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 5rem 2rem;
+  }
+}
