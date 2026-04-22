@@ -47,39 +47,36 @@ function Header() {
 /* ─── Hero ─── */
 function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-primary to-primary-dark text-white overflow-hidden">
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 left-10 w-32 h-32 rounded-full bg-white/20" />
-        <div className="absolute bottom-20 right-20 w-48 h-48 rounded-full bg-white/10" />
-        <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full bg-white/15" />
+    <section className="relative overflow-hidden">
+      <div className="absolute inset-0">
+        <img src="/images/kv-top.jpg" alt="庭木の剪定をする専門スタッフ" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1a3a20]/90 via-[#1a3a20]/70 to-[#1a3a20]/40" />
       </div>
-      <div className="relative max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
-        <p className="text-primary-light text-sm font-medium mb-4 tracking-wider">
-          全国対応 ・ 7社厳選比較 ・ 無料見積もり
-        </p>
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
-          剪定・草刈り・伐採
-          <br />
-          <span className="text-accent-light">プロの業者</span>を徹底比較
-        </h1>
-        <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-          「庭木が伸びすぎた」「雑草が手に負えない」「大きな木を切りたい」
-          <br className="hidden md:block" />
-          そんなお悩みを解決する優良業者を、料金・口コミ・サービス内容で比較できます。
-        </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="#ranking"
-            className="btn-cta text-lg px-8 py-4 inline-block"
-          >
-            おすすめ業者を見る
-          </a>
-          <a
-            href="#services"
-            className="text-white/90 border border-white/30 rounded-full px-8 py-4 font-medium hover:bg-white/10 transition-colors inline-block"
-          >
-            サービスから探す
-          </a>
+      <div className="relative max-w-6xl mx-auto px-4 py-20 md:py-28">
+        <div className="max-w-2xl">
+          {/* Badges */}
+          <div className="flex flex-wrap gap-2 mb-6">
+            <span className="bg-gradient-to-r from-yellow-400 to-amber-500 text-yellow-900 text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">🏆 厳選7社を徹底比較</span>
+            <span className="bg-gradient-to-r from-green-400 to-emerald-500 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">🌿 全国対応</span>
+            <span className="bg-gradient-to-r from-blue-400 to-sky-500 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">💰 無料見積もり</span>
+          </div>
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-white drop-shadow-lg">
+            剪定・草刈り・伐採
+            <br />
+            <span className="text-[#90EE90]">プロの業者</span>を徹底比較
+          </h1>
+          <p className="text-white/85 text-base md:text-lg max-w-xl mb-8 leading-relaxed">
+            「庭木が伸びすぎた」「雑草が手に負えない」「大きな木を切りたい」
+            そんなお悩みを解決する優良業者を、料金・口コミ・サービス内容で比較できます。
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a href="#ranking" className="btn-cta text-lg px-8 py-4 inline-block text-center">
+              おすすめ業者を見る
+            </a>
+            <a href="#services" className="text-white/90 border-2 border-white/40 rounded-full px-8 py-4 font-medium hover:bg-white/10 transition-colors inline-block text-center">
+              サービスから探す
+            </a>
+          </div>
         </div>
       </div>
     </section>
