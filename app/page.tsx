@@ -678,18 +678,18 @@ function Footer() {
             <h4 className="text-white font-bold mb-3 text-sm">運営情報</h4>
             <ul className="text-sm space-y-2">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  運営会社情報
+                <a href="/terms/" className="hover:text-white transition-colors">
+                  利用規約
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/privacy/" className="hover:text-white transition-colors">
                   プライバシーポリシー
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  利用規約
+                <a href="/content-policy/" className="hover:text-white transition-colors">
+                  記事の制作ポリシー
                 </a>
               </li>
               <li>

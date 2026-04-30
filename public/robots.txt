@@ -5,3 +5,4 @@ Sitemap: https://oniwa-no-mikata.com/sitemap.xml
 
 Disallow: /_next/
 Disallow: /404/
+Disallow: /api/
