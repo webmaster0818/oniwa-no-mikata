@@ -11,6 +11,7 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://oniwa-no-mikata.com"),
+  alternates: { canonical: "/" },
   title: "お庭のミカタ｜剪定・草刈り・伐採の業者比較【2026年最新】",
   description:
     "剪定・草刈り・伐採・造園の優良業者を徹底比較。全国対応の7社を厳選し、料金・口コミ・サービス内容をわかりやすく紹介。無料見積もりで最適な庭木の手入れ業者が見つかります。",
