@@ -26,4 +26,10 @@
   </url>
   <url><loc>https://oniwa-no-mikata.com/agents/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/agents/sentei-110ban/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/agents/bassai-110ban/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/agents/kusakari-110ban/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/agents/kurashi-no-market/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/agents/duskin/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/agents/oniwa-master/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/agents/smile-garden/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>
