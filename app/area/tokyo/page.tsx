@@ -763,6 +763,10 @@ export default function AreaTokyoPage() {
                 { href: "/area/sendai/", label: "仙台の庭業者おすすめ5選" },
                 { href: "/area/kyoto/", label: "京都の庭業者おすすめ5選" },
                 { href: "/area/kobe/", label: "神戸の庭業者おすすめ5選" },
+                { href: "/area/saitama/", label: "さいたまの庭業者おすすめ5選" },
+                { href: "/area/chiba/", label: "千葉の庭業者おすすめ5選" },
+                { href: "/area/hiroshima/", label: "広島の庭業者おすすめ5選" },
+                { href: "/area/kitakyushu/", label: "北九州の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
