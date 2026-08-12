@@ -759,6 +759,10 @@ export default function AreaYokohamaPage() {
                 { href: "/area/osaka/", label: "大阪の庭業者おすすめ5選" },
                 { href: "/area/nagoya/", label: "名古屋の庭業者おすすめ5選" },
                 { href: "/area/fukuoka/", label: "福岡の庭業者おすすめ5選" },
+                { href: "/area/sapporo/", label: "札幌の庭業者おすすめ5選" },
+                { href: "/area/sendai/", label: "仙台の庭業者おすすめ5選" },
+                { href: "/area/kyoto/", label: "京都の庭業者おすすめ5選" },
+                { href: "/area/kobe/", label: "神戸の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
