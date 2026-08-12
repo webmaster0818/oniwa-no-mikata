@@ -777,6 +777,10 @@ export default function AreaKitakyushuPage() {
                 { href: "/area/saitama/", label: "さいたまの庭業者おすすめ5選" },
                 { href: "/area/chiba/", label: "千葉の庭業者おすすめ5選" },
                 { href: "/area/hiroshima/", label: "広島の庭業者おすすめ5選" },
+                { href: "/area/shizuoka/", label: "静岡の庭業者おすすめ5選" },
+                { href: "/area/okayama/", label: "岡山の庭業者おすすめ5選" },
+                { href: "/area/kumamoto/", label: "熊本の庭業者おすすめ5選" },
+                { href: "/area/niigata/", label: "新潟の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link

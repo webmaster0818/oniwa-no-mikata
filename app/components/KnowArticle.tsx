@@ -26,6 +26,10 @@ export interface KnowRelated {
 
 export interface KnowArticleData {
   slug: string;
+  /** 公開日 YYYY-MM-DD（省略時は KNOW_PUBLISHED） */
+  published?: string;
+  /** 更新日表示ラベル（省略時は KNOW_UPDATED_LABEL） */
+  updatedLabel?: string;
   h1: string;
   breadcrumbLabel: string;
   tagChips: string[];
@@ -72,6 +76,8 @@ function H2({ children }: { children: ReactNode }) {
 
 export default function KnowArticle({ data }: { data: KnowArticleData }) {
   const path = `/${data.slug}/`;
+  const published = data.published ?? KNOW_PUBLISHED;
+  const updatedLabel = data.updatedLabel ?? KNOW_UPDATED_LABEL;
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -79,8 +85,8 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
     headline: data.ldHeadline,
     description: data.ldDescription,
     image: `${SITE}/images/kv-top.jpg`,
-    datePublished: `${KNOW_PUBLISHED}T00:00:00+09:00`,
-    dateModified: `${KNOW_PUBLISHED}T00:00:00+09:00`,
+    datePublished: `${published}T00:00:00+09:00`,
+    dateModified: `${published}T00:00:00+09:00`,
     author: { "@type": "Organization", name: "お庭のミカタ編集部", url: SITE },
     publisher: { "@type": "Organization", name: "お庭のミカタ", url: SITE },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}${path}` },
@@ -136,7 +142,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
             </div>
             <div className="flex flex-wrap items-center gap-4 text-xs font-bold tracking-wide text-[#6b7563]">
               <span>
-                更新日：<time dateTime={KNOW_PUBLISHED}>{KNOW_UPDATED_LABEL}</time>
+                更新日：<time dateTime={published}>{updatedLabel}</time>
               </span>
               <span>
                 ※本記事にはアフィリエイト広告（PR）を含む場合があります。詳しくは
