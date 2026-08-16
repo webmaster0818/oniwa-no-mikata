@@ -791,6 +791,10 @@ export default function AreaSaitamaPage() {
                 { href: "/area/takamatsu/", label: "高松の庭業者おすすめ5選" },
                 { href: "/area/nagano/", label: "長野の庭業者おすすめ5選" },
                 { href: "/area/gifu/", label: "岐阜の庭業者おすすめ5選" },
+                { href: "/area/mito/", label: "水戸の庭業者おすすめ5選" },
+                { href: "/area/maebashi/", label: "前橋の庭業者おすすめ5選" },
+                { href: "/area/toyama/", label: "富山の庭業者おすすめ5選" },
+                { href: "/area/nagasaki/", label: "長崎の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
