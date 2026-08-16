@@ -782,6 +782,10 @@ export default function AreaHiroshimaPage() {
                 { href: "/area/okayama/", label: "岡山の庭業者おすすめ5選" },
                 { href: "/area/kumamoto/", label: "熊本の庭業者おすすめ5選" },
                 { href: "/area/niigata/", label: "新潟の庭業者おすすめ5選" },
+                { href: "/area/kanazawa/", label: "金沢の庭業者おすすめ5選" },
+                { href: "/area/utsunomiya/", label: "宇都宮の庭業者おすすめ5選" },
+                { href: "/area/kagoshima/", label: "鹿児島の庭業者おすすめ5選" },
+                { href: "/area/matsuyama/", label: "松山の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
