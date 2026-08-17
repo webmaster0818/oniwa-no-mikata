@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/privacy/" },
   title: "プライバシーポリシー | お庭のミカタ",
   description: "お庭のミカタのプライバシーポリシーです。個人情報の取り扱いについてご説明します。",
 };

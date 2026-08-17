@@ -11,7 +11,6 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://oniwa-no-mikata.com"),
-  alternates: { canonical: "/" },
   twitter: {
     card: "summary_large_image",
   },

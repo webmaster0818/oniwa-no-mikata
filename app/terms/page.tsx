@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/terms/" },
   title: "利用規約 | お庭のミカタ",
   description: "お庭のミカタの利用規約です。本サービスをご利用いただく前に必ずお読みください。",
 };

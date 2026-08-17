@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/content-policy/" },
   title: "記事の制作ポリシー | お庭のミカタ",
   description: "お庭のミカタの記事制作ポリシーです。コンテンツの品質・正確性・透明性へのこだわりをご説明します。",
 };
