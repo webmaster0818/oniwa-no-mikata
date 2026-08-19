@@ -797,6 +797,10 @@ export default function AreaKanazawaPage() {
                 { href: "/area/maebashi/", label: "前橋の庭業者おすすめ5選" },
                 { href: "/area/toyama/", label: "富山の庭業者おすすめ5選" },
                 { href: "/area/nagasaki/", label: "長崎の庭業者おすすめ5選" },
+                { href: "/area/wakayama/", label: "和歌山の庭業者おすすめ5選" },
+                { href: "/area/kochi/", label: "高知の庭業者おすすめ5選" },
+                { href: "/area/saga/", label: "佐賀の庭業者おすすめ5選" },
+                { href: "/area/aomori/", label: "青森の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
