@@ -810,6 +810,10 @@ export default function AreaGifuPage() {
                 { href: "/area/kochi/", label: "高知の庭業者おすすめ5選" },
                 { href: "/area/saga/", label: "佐賀の庭業者おすすめ5選" },
                 { href: "/area/aomori/", label: "青森の庭業者おすすめ5選" },
+                { href: "/area/akita/", label: "秋田の庭業者おすすめ5選" },
+                { href: "/area/yamagata/", label: "山形の庭業者おすすめ5選" },
+                { href: "/area/fukushima/", label: "福島の庭業者おすすめ5選" },
+                { href: "/area/tokushima/", label: "徳島の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
