@@ -810,6 +810,18 @@ export default function AreaNiigataPage() {
                 { href: "/area/yamagata/", label: "山形の庭業者おすすめ5選" },
                 { href: "/area/fukushima/", label: "福島の庭業者おすすめ5選" },
                 { href: "/area/tokushima/", label: "徳島の庭業者おすすめ5選" },
+                { href: "/area/fukui/", label: "福井の庭業者おすすめ5選" },
+                { href: "/area/kawasaki/", label: "川崎の庭業者おすすめ5選" },
+                { href: "/area/kofu/", label: "甲府の庭業者おすすめ5選" },
+                { href: "/area/matsue/", label: "松江の庭業者おすすめ5選" },
+                { href: "/area/miyazaki/", label: "宮崎の庭業者おすすめ5選" },
+                { href: "/area/morioka/", label: "盛岡の庭業者おすすめ5選" },
+                { href: "/area/nara/", label: "奈良の庭業者おすすめ5選" },
+                { href: "/area/oita/", label: "大分の庭業者おすすめ5選" },
+                { href: "/area/otsu/", label: "大津の庭業者おすすめ5選" },
+                { href: "/area/tottori/", label: "鳥取の庭業者おすすめ5選" },
+                { href: "/area/tsu/", label: "津の庭業者おすすめ5選" },
+                { href: "/area/yamaguchi/", label: "山口の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
