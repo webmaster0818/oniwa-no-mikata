@@ -828,6 +828,12 @@ export default function AreaNahaPage() {
                 { href: "/area/tottori/", label: "鳥取の庭業者おすすめ5選" },
                 { href: "/area/tsu/", label: "津の庭業者おすすめ5選" },
                 { href: "/area/yamaguchi/", label: "山口の庭業者おすすめ5選" },
+                { href: "/area/hamamatsu/", label: "浜松の庭業者おすすめ5選" },
+                { href: "/area/himeji/", label: "姫路の庭業者おすすめ5選" },
+                { href: "/area/kurashiki/", label: "倉敷の庭業者おすすめ5選" },
+                { href: "/area/sagamihara/", label: "相模原の庭業者おすすめ5選" },
+                { href: "/area/sakai/", label: "堺の庭業者おすすめ5選" },
+                { href: "/area/takasaki/", label: "高崎の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
