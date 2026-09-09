@@ -828,11 +828,6 @@ export default function AreaHigashiosakaPage() {
                 { href: "/area/himeji/", label: "姫路の庭業者おすすめ5選" },
                 { href: "/area/kurashiki/", label: "倉敷の庭業者おすすめ5選" },
                 { href: "/area/takasaki/", label: "高崎の庭業者おすすめ5選" },
-                { href: "/area/hachioji/", label: "八王子の庭業者おすすめ5選" },
-                { href: "/area/funabashi/", label: "船橋の庭業者おすすめ5選" },
-                { href: "/area/kawaguchi/", label: "川口の庭業者おすすめ5選" },
-                { href: "/area/amagasaki/", label: "尼崎の庭業者おすすめ5選" },
-                { href: "/area/fujisawa/", label: "藤沢の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link

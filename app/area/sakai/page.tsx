@@ -827,6 +827,7 @@ export default function AreaSakaiPage() {
                 { href: "/area/himeji/", label: "姫路の庭業者おすすめ5選" },
                 { href: "/area/kurashiki/", label: "倉敷の庭業者おすすめ5選" },
                 { href: "/area/takasaki/", label: "高崎の庭業者おすすめ5選" },
+                { href: "/area/higashiosaka/", label: "東大阪の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
