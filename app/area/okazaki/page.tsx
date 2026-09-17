@@ -840,6 +840,10 @@ export default function AreaOkazakiPage() {
                 { href: "/area/matsudo/", label: "松戸の庭業者おすすめ5選" },
                 { href: "/area/koriyama/", label: "郡山の庭業者おすすめ5選" },
                 { href: "/area/nagaoka/", label: "長岡の庭業者おすすめ5選" },
+                { href: "/area/ichikawa/", label: "市川の庭業者おすすめ5選" },
+                { href: "/area/toyohashi/", label: "豊橋の庭業者おすすめ5選" },
+                { href: "/area/nishinomiya/", label: "西宮の庭業者おすすめ5選" },
+                { href: "/area/machida/", label: "町田の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
