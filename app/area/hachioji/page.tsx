@@ -392,7 +392,7 @@ export default function AreaHachiojiPage() {
 
   const toc: { href: string; label: string; sub?: { href: string; label: string }[] }[] = [
     {
-      href: "#sagamihara5",
+      href: "#hachioji5",
       label: "1｜八王子で頼れるおすすめの庭業者5選",
       sub: [
         { href: "#hikaku", label: "八王子の庭業者を一覧表で徹底比較" },
@@ -520,7 +520,7 @@ export default function AreaHachiojiPage() {
           </nav>
 
           {/* 1｜5選 */}
-          <H2 id="sagamihara5" num="1">八王子で頼れるおすすめの庭業者5選</H2>
+          <H2 id="hachioji5" num="1">八王子で頼れるおすすめの庭業者5選</H2>
           <p className="leading-loose mb-2 text-[#4a5443]">
             八王子市内から依頼できる主要な庭業者5社を紹介します。掲載している料金・サービス内容は、当サイト編集部が各社のレビュー記事作成時に公式サイト等を調査した掲載値です（2026年9月9日時点の掲載内容）。実際の総額は樹種・本数・庭の状況で変わるため、必ず作業前に見積もりで確認してください。なお、口コミで地域の業者を選べるくらしのマーケットと、大手直営のダスキンは、比較表に掲載しています。
           </p>
@@ -843,6 +843,10 @@ export default function AreaHachiojiPage() {
                 { href: "/area/toyohashi/", label: "豊橋の庭業者おすすめ5選" },
                 { href: "/area/nishinomiya/", label: "西宮の庭業者おすすめ5選" },
                 { href: "/area/machida/", label: "町田の庭業者おすすめ5選" },
+                { href: "/area/toyonaka/", label: "豊中の庭業者おすすめ5選" },
+                { href: "/area/kawagoe/", label: "川越の庭業者おすすめ5選" },
+                { href: "/area/ichinomiya/", label: "一宮の庭業者おすすめ5選" },
+                { href: "/area/atsugi/", label: "厚木の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link

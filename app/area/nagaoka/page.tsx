@@ -844,6 +844,10 @@ export default function AreaNagaokaPage() {
                 { href: "/area/toyohashi/", label: "豊橋の庭業者おすすめ5選" },
                 { href: "/area/nishinomiya/", label: "西宮の庭業者おすすめ5選" },
                 { href: "/area/machida/", label: "町田の庭業者おすすめ5選" },
+                { href: "/area/toyonaka/", label: "豊中の庭業者おすすめ5選" },
+                { href: "/area/kawagoe/", label: "川越の庭業者おすすめ5選" },
+                { href: "/area/ichinomiya/", label: "一宮の庭業者おすすめ5選" },
+                { href: "/area/atsugi/", label: "厚木の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link

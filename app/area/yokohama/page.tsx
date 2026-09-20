@@ -394,7 +394,7 @@ export default function AreaYokohamaPage() {
     { href: "#keisha", label: "2｜坂・傾斜地・造成地の庭で確認したいこと" },
     { href: "#hanshutsu", label: "3｜搬出経路と駐車環境は見積もり時に必ず伝える" },
     { href: "#shamen", label: "4｜斜面の草刈りは無理をせず業者への切り替えを" },
-    { href: "#shobun", label: "5｜剪定枝・刈り草の処分は総額で確認を" },
+    { href: "#arukumichi", label: "5｜庭を歩く道——通路の幅・段差・手すりを先に直しておくと、庭の手入れそのものが続けやすくなる" },
     { href: "#erabikata", label: "6｜失敗しない庭業者の選び方4ステップ" },
     { href: "#faq", label: "7｜横浜の庭業者でよくある質問" },
     { href: "#matome", label: "8｜まとめ" },
@@ -673,13 +673,16 @@ export default function AreaYokohamaPage() {
             無理を続けてけがをする前に、業者への切り替えを検討しましょう。草刈り110番は1平米600円〜が目安で、刈った後の<Hl>防草シート施工や除草剤散布</Hl>まで相談できます。斜面は毎回の草刈りも大変な場所だからこそ、防草対策で「そもそも生えにくくする」ほうが長期的な負担を減らせる場合があります。定期メンテナンスプランを使えば、夏場に伸び続ける雑草の管理を任せきりにすることもできます。作業条件が悪い斜面は料金が変わりやすいため、傾斜の程度と面積を伝えて見積もりで確認してください。
           </p>
 
-          {/* 5｜処分 */}
-          <H2 id="shobun" num="5">剪定枝・刈り草の処分は総額で確認を</H2>
+          {/* 5｜庭を歩く道 */}
+          <H2 id="arukumichi" num="5">庭を歩く道——通路の幅・段差・手すりを先に直しておくと、庭の手入れそのものが続けやすくなる</H2>
           <p className="leading-loose mb-4 text-[#4a5443]">
-            剪定や草刈りで出た枝・草を家庭ごみとして出す場合、<Hl>長さ・束ね方・一度に出せる量などのルールは自治体ごとに定められています</Hl>。量が多いと一度に出しきれないうえ、坂や階段のある家では収集場所まで運ぶだけでも負担になります。
+            庭の手入れが続かなくなる理由は、木や草の量だけではありません。<Hl>庭の中を安全に歩けるかどうか</Hl>も同じくらい効いてきます。踏み石がぐらつく、段差の高さがそろっていない、雨のあとに滑る——こうした場所が一つあるだけで庭に出る回数が減り、気づけば手をつけられない状態になります。通路と段差の考え方は<Link href="/niwa-barrier-free/" className="text-[#2D7F3E] underline">庭のバリアフリー</Link>にまとめています。
           </p>
           <p className="leading-loose mb-4 text-[#4a5443]">
-            業者に依頼する場合は、<Hl>処分費まで含めた総額</Hl>を見積もり時に確認するのがポイントです。伐採110番は伐採後の木材処分まで一括対応をうたっており、切った後の後片付けごと任せられます。処分費が料金に含まれるかどうかはサービス・加盟店により異なるため、「処分込みの金額かどうか」を必ず確認しましょう。
+            見ておきたいのは三つです。<Hl>人がすれ違わずに通れる幅があるか、段差の高さがそろっているか、暗いときに足元が見えるか</Hl>。飛び石や敷石は年数とともに沈んだりずれたりするため、まず動かないかを踏んで確かめます（<Link href="/tobiishi-zasso/" className="text-[#2D7F3E] underline">飛び石まわりの雑草対策</Link>）。レンガや枕木を使った通路は傷み方が見た目に出にくいので注意が必要です（<Link href="/renga-makuragi-rekka/" className="text-[#2D7F3E] underline">レンガ・枕木の劣化</Link>）。夜の見え方は<Link href="/niwa-shomei-keikaku/" className="text-[#2D7F3E] underline">庭の照明計画の基本</Link>と<Link href="/garden-light-chui/" className="text-[#2D7F3E] underline">ガーデンライトと配線の注意点</Link>を参考にしてください。
+          </p>
+          <p className="leading-loose mb-4 text-[#4a5443]">
+            通路が歩きやすくなると、<Hl>業者に頼むときの条件もよくなります</Hl>。道具を運び込みやすくなり、作業にかかる時間が短くなるためです。草刈り110番は1平米600円〜という面積単価のため、通路まわりのように範囲がはっきりした依頼と相性がよく、刈った後の防草シート施工も相談できます。足元を土のままにしない仕上げは<Link href="/jarishiki/" className="text-[#2D7F3E] underline">砂利敷きの基本</Link>と<Link href="/niwa-doma-concrete/" className="text-[#2D7F3E] underline">庭の土間コンクリート</Link>、水がたまる場所があるなら<Link href="/niwa-mizuhake/" className="text-[#2D7F3E] underline">庭の水はけ</Link>もあわせて確認しておきましょう。smileガーデンは定額制の年間管理プランで回数と時期を決めて任せられます。
           </p>
 
           {/* 6｜選び方 */}
@@ -823,6 +826,10 @@ export default function AreaYokohamaPage() {
                 { href: "/area/toyohashi/", label: "豊橋の庭業者おすすめ5選" },
                 { href: "/area/nishinomiya/", label: "西宮の庭業者おすすめ5選" },
                 { href: "/area/machida/", label: "町田の庭業者おすすめ5選" },
+                { href: "/area/toyonaka/", label: "豊中の庭業者おすすめ5選" },
+                { href: "/area/kawagoe/", label: "川越の庭業者おすすめ5選" },
+                { href: "/area/ichinomiya/", label: "一宮の庭業者おすすめ5選" },
+                { href: "/area/atsugi/", label: "厚木の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
