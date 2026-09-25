@@ -47,7 +47,7 @@
   <url><loc>https://oniwa-no-mikata.com/area/osaka/</loc><lastmod>2026-08-12</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/nagoya/</loc><lastmod>2026-08-12</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/yokohama/</loc><lastmod>2026-08-12</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://oniwa-no-mikata.com/area/fukuoka/</loc><lastmod>2026-08-12</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/fukuoka/</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/ikegaki-karikomi/</loc><lastmod>2026-08-12</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/takagi-sentei-kiken/</loc><lastmod>2026-08-12</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/taifu-niwaki-taisaku/</loc><lastmod>2026-08-12</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
@@ -218,4 +218,8 @@
   <url><loc>https://oniwa-no-mikata.com/area/hachioji/</loc><lastmod>2026-09-09</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/funabashi/</loc><lastmod>2026-09-09</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/kawaguchi/</loc><lastmod>2026-09-09</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/fukuyama/</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/hirakata/</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/kashiwa/</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/toyota/</loc><lastmod>2026-09-25</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>

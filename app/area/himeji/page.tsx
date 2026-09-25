@@ -845,6 +845,10 @@ export default function AreaHimejiPage() {
                 { href: "/area/kawagoe/", label: "川越の庭業者おすすめ5選" },
                 { href: "/area/ichinomiya/", label: "一宮の庭業者おすすめ5選" },
                 { href: "/area/atsugi/", label: "厚木の庭業者おすすめ5選" },
+                { href: "/area/fukuyama/", label: "福山の庭業者おすすめ5選" },
+                { href: "/area/hirakata/", label: "枚方の庭業者おすすめ5選" },
+                { href: "/area/kashiwa/", label: "柏の庭業者おすすめ5選" },
+                { href: "/area/toyota/", label: "豊田の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
