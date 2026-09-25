@@ -879,6 +879,16 @@ export default function AreaAkitaPage() {
                 { href: "/area/hirakata/", label: "枚方の庭業者おすすめ5選" },
                 { href: "/area/kashiwa/", label: "柏の庭業者おすすめ5選" },
                 { href: "/area/toyota/", label: "豊田の庭業者おすすめ5選" },
+                { href: "/area/yokkaichi/", label: "四日市の庭業者おすすめ5選" },
+                { href: "/area/akashi/", label: "明石の庭業者おすすめ5選" },
+                { href: "/area/takatsuki/", label: "高槻の庭業者おすすめ5選" },
+                { href: "/area/tokorozawa/", label: "所沢の庭業者おすすめ5選" },
+                { href: "/area/koshigaya/", label: "越谷の庭業者おすすめ5選" },
+                { href: "/area/kasugai/", label: "春日井の庭業者おすすめ5選" },
+                { href: "/area/kurume/", label: "久留米の庭業者おすすめ5選" },
+                { href: "/area/tsukuba/", label: "つくばの庭業者おすすめ5選" },
+                { href: "/area/hiratsuka/", label: "平塚の庭業者おすすめ5選" },
+                { href: "/area/yao/", label: "八尾の庭業者おすすめ5選" },
               ].map((l) => (
                 <li key={l.href}>
                   <Link
