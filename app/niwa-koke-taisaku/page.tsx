@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "草刈り110番の口コミ・評判",
       desc: "草刈りから防草対策まで対応するサービス",
     },
+    {
+      href: "/niwa-kinoko/",
+      label: "庭や芝生にキノコが生えた",
+      desc: "原因と放置してよいかの判断",
+    },
+    {
+      href: "/niwa-jiban-chinka/",
+      label: "庭の地面が沈む・陥没した",
+      desc: "考えられる原因と相談先の切り分け",
+    },
   ],
 };
 

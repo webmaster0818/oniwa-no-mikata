@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "北向き・日陰の庭の植栽の考え方",
       desc: "日当たりの悪い庭でも育てやすい植栽の考え方",
     },
+    {
+      href: "/tsutsuji-satsuki-teire/",
+      label: "ツツジ・サツキの剪定と手入れ",
+      desc: "花後すぐ切る理由と花が咲かない原因",
+    },
+    {
+      href: "/niwaki-rakka-shimatsu/",
+      label: "庭木の実が落ちて汚れる",
+      desc: "道路・駐車場・隣家への落果対策",
+    },
   ],
 };
 

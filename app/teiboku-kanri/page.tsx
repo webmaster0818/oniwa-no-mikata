@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "庭木の病害虫対策の基本",
       desc: "葉の異変・虫のサインの見つけ方と対処",
     },
+    {
+      href: "/tsutsuji-satsuki-teire/",
+      label: "ツツジ・サツキの剪定と手入れ",
+      desc: "花後すぐ切る理由と花が咲かない原因",
+    },
+    {
+      href: "/sentei-kirikuchi-yugozai/",
+      label: "剪定の切り口の処理",
+      desc: "太い枝を切ったあとの癒合剤と切り方",
+    },
   ],
 };
 

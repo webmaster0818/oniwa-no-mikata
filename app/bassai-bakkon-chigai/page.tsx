@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "庭・剪定業者の一覧・比較",
       desc: "伐採・抜根に対応する業者を比較",
     },
+    {
+      href: "/niwaki-bassai-kyoka/",
+      label: "庭木の伐採に許可・届出は必要か",
+      desc: "切る前に確認したい5つの立場",
+    },
+    {
+      href: "/niwaki-hikuku-suru/",
+      label: "大きくなりすぎた庭木を低くする",
+      desc: "芯止め・切り下げの限界と判断",
+    },
   ],
 };
 

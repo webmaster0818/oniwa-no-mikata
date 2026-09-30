@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "剪定110番の口コミ・評判",
       desc: "剪定1本からの明朗会計をうたう専門サービス",
     },
+    {
+      href: "/niwa-kujo-taio/",
+      label: "庭のことで近隣から苦情を受けたら",
+      desc: "最初の対応と再発防止の進め方",
+    },
+    {
+      href: "/niwaki-rakka-shimatsu/",
+      label: "庭木の実が落ちて汚れる",
+      desc: "道路・駐車場・隣家への落果対策",
+    },
   ],
 };
 

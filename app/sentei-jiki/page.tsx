@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "東京の庭業者おすすめ5選",
       desc: "東京都内で剪定を頼める業者の比較",
     },
+    {
+      href: "/tsutsuji-satsuki-teire/",
+      label: "ツツジ・サツキの剪定と手入れ",
+      desc: "花後すぐ切る理由と花が咲かない原因",
+    },
+    {
+      href: "/sentei-kirikuchi-yugozai/",
+      label: "剪定の切り口の処理",
+      desc: "太い枝を切ったあとの癒合剤と切り方",
+    },
   ],
 };
 

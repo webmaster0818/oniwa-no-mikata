@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "くらしのマーケットの口コミ・評判",
       desc: "庭掃除・剪定の出品者を比較して選べるサービス",
     },
+    {
+      href: "/niwaki-rakka-shimatsu/",
+      label: "庭木の実が落ちて汚れる",
+      desc: "道路・駐車場・隣家への落果対策",
+    },
+    {
+      href: "/niwa-kujo-taio/",
+      label: "庭のことで近隣から苦情を受けたら",
+      desc: "最初の対応と再発防止の進め方",
+    },
   ],
 };
 

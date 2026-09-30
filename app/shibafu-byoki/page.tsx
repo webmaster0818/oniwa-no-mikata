@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "人工芝と天然芝の比較",
       desc: "庭にどちらが向くかの判断材料",
     },
+    {
+      href: "/niwa-kinoko/",
+      label: "庭や芝生にキノコが生えた",
+      desc: "原因と放置してよいかの判断",
+    },
+    {
+      href: "/karibarai-anzen/",
+      label: "草刈り機を安全に使う",
+      desc: "飛び石・キックバックと服装の基本",
+    },
   ],
 };
 

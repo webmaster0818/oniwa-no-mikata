@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "伐採110番の口コミ・評判",
       desc: "伐採・抜根に対応する専門サービスのレビュー",
     },
+    {
+      href: "/niwaki-kanbu-fukyu/",
+      label: "庭木の幹が腐っている・空洞がある",
+      desc: "倒木のサインと相談先",
+    },
+    {
+      href: "/niwa-jiban-chinka/",
+      label: "庭の地面が沈む・陥没した",
+      desc: "考えられる原因と相談先の切り分け",
+    },
   ],
 };
 

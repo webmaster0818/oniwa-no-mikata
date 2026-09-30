@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "東京の庭業者おすすめ5選",
       desc: "東京都内で草刈りを頼める業者の比較",
     },
+    {
+      href: "/karibarai-anzen/",
+      label: "草刈り機を安全に使う",
+      desc: "飛び石・キックバックと服装の基本",
+    },
+    {
+      href: "/niwa-kujo-taio/",
+      label: "庭のことで近隣から苦情を受けたら",
+      desc: "最初の対応と再発防止の進め方",
+    },
   ],
 };
 

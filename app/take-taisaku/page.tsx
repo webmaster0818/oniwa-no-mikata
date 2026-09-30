@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "大阪の庭業者おすすめ5選",
       desc: "大阪府内で伐採・草刈りを頼める業者の比較",
     },
+    {
+      href: "/karibarai-anzen/",
+      label: "草刈り機を安全に使う",
+      desc: "飛び石・キックバックと服装の基本",
+    },
+    {
+      href: "/niwaki-bassai-kyoka/",
+      label: "庭木の伐採に許可・届出は必要か",
+      desc: "切る前に確認したい5つの立場",
+    },
   ],
 };
 

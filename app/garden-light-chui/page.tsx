@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "狭い庭のレイアウトの考え方",
       desc: "限られたスペースを活かす庭の設計の考え方",
     },
+    {
+      href: "/densen-eda-sesshoku/",
+      label: "枝が電線に触れそうなとき",
+      desc: "連絡先と自分で切ってはいけない理由",
+    },
+    {
+      href: "/niwa-jiban-chinka/",
+      label: "庭の地面が沈む・陥没した",
+      desc: "考えられる原因と相談先の切り分け",
+    },
   ],
 };
 

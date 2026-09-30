@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "庭木の水やりの基本",
       desc: "植え付けからの年数に応じた水やりの考え方",
     },
+    {
+      href: "/niwaki-kanbu-fukyu/",
+      label: "庭木の幹が腐っている・空洞がある",
+      desc: "倒木のサインと相談先",
+    },
+    {
+      href: "/sentei-kirikuchi-yugozai/",
+      label: "剪定の切り口の処理",
+      desc: "太い枝を切ったあとの癒合剤と切り方",
+    },
   ],
 };
 

@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "伐採110番の口コミ・評判",
       desc: "倒木・危険木の伐採に対応する専門サービス",
     },
+    {
+      href: "/niwaki-kanbu-fukyu/",
+      label: "庭木の幹が腐っている・空洞がある",
+      desc: "倒木のサインと相談先",
+    },
+    {
+      href: "/densen-eda-sesshoku/",
+      label: "枝が電線に触れそうなとき",
+      desc: "連絡先と自分で切ってはいけない理由",
+    },
   ],
 };
 

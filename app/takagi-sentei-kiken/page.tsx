@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "剪定110番の口コミ・評判",
       desc: "剪定1本からの明朗会計をうたう専門サービス",
     },
+    {
+      href: "/niwaki-hikuku-suru/",
+      label: "大きくなりすぎた庭木を低くする",
+      desc: "芯止め・切り下げの限界と判断",
+    },
+    {
+      href: "/densen-eda-sesshoku/",
+      label: "枝が電線に触れそうなとき",
+      desc: "連絡先と自分で切ってはいけない理由",
+    },
   ],
 };
 

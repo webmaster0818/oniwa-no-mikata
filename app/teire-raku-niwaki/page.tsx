@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "庭・剪定業者の一覧・比較",
       desc: "剪定・造園に対応する業者を比較",
     },
+    {
+      href: "/niwaki-rakka-shimatsu/",
+      label: "庭木の実が落ちて汚れる",
+      desc: "道路・駐車場・隣家への落果対策",
+    },
+    {
+      href: "/niwaki-hikuku-suru/",
+      label: "大きくなりすぎた庭木を低くする",
+      desc: "芯止め・切り下げの限界と判断",
+    },
   ],
 };
 

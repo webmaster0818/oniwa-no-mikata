@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "芝生の手入れの基本",
       desc: "水はけと関わりの深い芝生の年間管理",
     },
+    {
+      href: "/niwa-jiban-chinka/",
+      label: "庭の地面が沈む・陥没した",
+      desc: "考えられる原因と相談先の切り分け",
+    },
+    {
+      href: "/niwa-kinoko/",
+      label: "庭や芝生にキノコが生えた",
+      desc: "原因と放置してよいかの判断",
+    },
   ],
 };
 

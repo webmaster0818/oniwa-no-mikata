@@ -172,6 +172,16 @@ const data: KnowArticleData = {
       label: "草刈り110番の口コミ・評判",
       desc: "草刈り600円/平米〜の掲載値を確認した専門サービス",
     },
+    {
+      href: "/niwa-kujo-taio/",
+      label: "庭のことで近隣から苦情を受けたら",
+      desc: "最初の対応と再発防止の進め方",
+    },
+    {
+      href: "/niwaki-bassai-kyoka/",
+      label: "庭木の伐採に許可・届出は必要か",
+      desc: "切る前に確認したい5つの立場",
+    },
   ],
 };
 
