@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "庭の照明計画の立て方",
       desc: "どこを何のために照らすか照明計画の考え方",
     },
+    {
+      href: "/niwa-neko-taisaku/",
+      label: "庭に猫が来てフンをする",
+      desc: "してはいけないことと寄せない工夫",
+    },
   ],
 };
 

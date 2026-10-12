@@ -182,6 +182,11 @@ const data: KnowArticleData = {
       label: "大きくなりすぎた庭木を低くする",
       desc: "芯止め・切り下げの限界と判断",
     },
+    {
+      href: "/hikobae-dobukieda/",
+      label: "ひこばえ・胴吹き枝が出る",
+      desc: "出る理由と切り方の考え方",
+    },
   ],
 };
 

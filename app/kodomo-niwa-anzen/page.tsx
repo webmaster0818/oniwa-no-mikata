@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "芝生の手入れの基本",
       desc: "遊び場に向く芝生の年間管理の基本",
     },
+    {
+      href: "/niwa-hebi/",
+      label: "庭にヘビが出た",
+      desc: "近寄らない対応と寄せない庭の整え方",
+    },
   ],
 };
 

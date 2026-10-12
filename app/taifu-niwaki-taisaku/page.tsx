@@ -182,6 +182,11 @@ const data: KnowArticleData = {
       label: "枝が電線に触れそうなとき",
       desc: "連絡先と自分で切ってはいけない理由",
     },
+    {
+      href: "/niwaki-katamuki/",
+      label: "庭木が傾いてきた",
+      desc: "倒れる前に見るサインと相談先",
+    },
   ],
 };
 

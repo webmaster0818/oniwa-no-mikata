@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "中古住宅購入時の庭の現状確認",
       desc: "見るべきポイントと入居後の手入れ",
     },
+    {
+      href: "/niwa-tsuchi-ryushutsu/",
+      label: "雨で庭の土が流れる・えぐれる",
+      desc: "表土の流出の原因と対処",
+    },
   ],
 };
 

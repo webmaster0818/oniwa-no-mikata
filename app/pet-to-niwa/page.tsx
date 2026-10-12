@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "子どもと庭遊びの安全対策",
       desc: "子どもが庭で安全に遊べる環境づくり",
     },
+    {
+      href: "/niwa-hebi/",
+      label: "庭にヘビが出た",
+      desc: "近寄らない対応と寄せない庭の整え方",
+    },
+    {
+      href: "/niwa-neko-taisaku/",
+      label: "庭に猫が来てフンをする",
+      desc: "してはいけないことと寄せない工夫",
+    },
   ],
 };
 

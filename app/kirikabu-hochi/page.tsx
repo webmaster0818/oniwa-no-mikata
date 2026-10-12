@@ -182,6 +182,16 @@ const data: KnowArticleData = {
       label: "庭の地面が沈む・陥没した",
       desc: "考えられる原因と相談先の切り分け",
     },
+    {
+      href: "/niwa-ari-taisaku/",
+      label: "庭や庭木にアリが大量に出る",
+      desc: "巣の場所と減らし方の考え方",
+    },
+    {
+      href: "/hikobae-dobukieda/",
+      label: "ひこばえ・胴吹き枝が出る",
+      desc: "出る理由と切り方の考え方",
+    },
   ],
 };
 

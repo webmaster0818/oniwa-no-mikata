@@ -172,6 +172,11 @@ const data: KnowArticleData = {
       label: "smileガーデンの口コミ・評判",
       desc: "年間管理プランで手入れごと任せられるサービス",
     },
+    {
+      href: "/niwaki-ha-henshoku/",
+      label: "庭木の葉が黄色・茶色になる",
+      desc: "変色の原因を切り分ける",
+    },
   ],
 };
 

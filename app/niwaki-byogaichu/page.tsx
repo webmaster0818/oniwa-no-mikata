@@ -172,6 +172,21 @@ const data: KnowArticleData = {
       label: "庭・剪定業者の一覧・比較",
       desc: "消毒・剪定に対応する業者を比較",
     },
+    {
+      href: "/niwaki-ha-henshoku/",
+      label: "庭木の葉が黄色・茶色になる",
+      desc: "変色の原因を切り分ける",
+    },
+    {
+      href: "/niwaki-jueki-yani/",
+      label: "庭木の幹から樹液・ヤニが出ている",
+      desc: "正常な分泌と異常の見分け方",
+    },
+    {
+      href: "/niwaki-kikuzu-ana/",
+      label: "庭木の幹に穴があき木くずが出ている",
+      desc: "幹の中の虫が疑われるときの対処",
+    },
   ],
 };
 

@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "剪定110番の口コミ・評判",
       desc: "剪定1本2,890円〜の掲載値を確認したサービス",
     },
+    {
+      href: "/hikobae-dobukieda/",
+      label: "ひこばえ・胴吹き枝が出る",
+      desc: "出る理由と切り方の考え方",
+    },
   ],
 };
 

@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "庭木の病害虫対策の基本",
       desc: "葉の異変・虫のサインの見つけ方と対処",
     },
+    {
+      href: "/niwa-tsuchi-ryushutsu/",
+      label: "雨で庭の土が流れる・えぐれる",
+      desc: "表土の流出の原因と対処",
+    },
   ],
 };
 

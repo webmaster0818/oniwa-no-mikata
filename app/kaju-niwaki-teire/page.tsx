@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "和歌山の庭業者まとめ",
       desc: "果樹のある庭を残す木と手放す木に分ける考え方",
     },
+    {
+      href: "/niwa-tori-higai/",
+      label: "庭木に鳥が集まる・フンや実の被害",
+      desc: "法律の注意と物理的な対策",
+    },
   ],
 };
 

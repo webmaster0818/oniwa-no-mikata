@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "庭木が枯れたかの見分け方",
       desc: "枯死か休眠かの判断と枯れ木の扱い",
     },
+    {
+      href: "/niwa-ari-taisaku/",
+      label: "庭や庭木にアリが大量に出る",
+      desc: "巣の場所と減らし方の考え方",
+    },
   ],
 };
 

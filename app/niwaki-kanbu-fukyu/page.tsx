@@ -174,6 +174,26 @@ const data: KnowArticleData = {
       label: "伐採と抜根の違い",
       desc: "切り株や根を残すとどうなるか",
     },
+    {
+      href: "/niwaki-katamuki/",
+      label: "庭木が傾いてきた",
+      desc: "倒れる前に見るサインと相談先",
+    },
+    {
+      href: "/niwaki-jueki-yani/",
+      label: "庭木の幹から樹液・ヤニが出ている",
+      desc: "正常な分泌と異常の見分け方",
+    },
+    {
+      href: "/niwaki-kikuzu-ana/",
+      label: "庭木の幹に穴があき木くずが出ている",
+      desc: "幹の中の虫が疑われるときの対処",
+    },
+    {
+      href: "/niwaki-juhi-hagare/",
+      label: "庭木の樹皮がはがれる・幹が割れる",
+      desc: "自然な剥がれと異常の見分け方",
+    },
   ],
 };
 

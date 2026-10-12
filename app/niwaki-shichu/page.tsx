@@ -182,6 +182,11 @@ const data: KnowArticleData = {
       label: "剪定の切り口の処理",
       desc: "太い枝を切ったあとの癒合剤と切り方",
     },
+    {
+      href: "/niwaki-katamuki/",
+      label: "庭木が傾いてきた",
+      desc: "倒れる前に見るサインと相談先",
+    },
   ],
 };
 

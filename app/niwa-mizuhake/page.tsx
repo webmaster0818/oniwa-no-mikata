@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "庭や芝生にキノコが生えた",
       desc: "原因と放置してよいかの判断",
     },
+    {
+      href: "/niwa-tsuchi-ryushutsu/",
+      label: "雨で庭の土が流れる・えぐれる",
+      desc: "表土の流出の原因と対処",
+    },
   ],
 };
 

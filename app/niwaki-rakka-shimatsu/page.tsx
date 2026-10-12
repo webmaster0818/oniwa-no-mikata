@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "隣家への枝の越境と対処の基本",
       desc: "まず話し合いから始める考え方",
     },
+    {
+      href: "/niwa-tori-higai/",
+      label: "庭木に鳥が集まる・フンや実の被害",
+      desc: "法律の注意と物理的な対策",
+    },
   ],
 };
 

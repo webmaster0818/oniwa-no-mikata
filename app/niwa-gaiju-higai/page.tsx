@@ -172,6 +172,21 @@ const data: KnowArticleData = {
       label: "雑草対策の方法比較",
       desc: "見通しの悪い茂み・下草を整理する方法の選び方",
     },
+    {
+      href: "/niwa-hebi/",
+      label: "庭にヘビが出た",
+      desc: "近寄らない対応と寄せない庭の整え方",
+    },
+    {
+      href: "/niwa-tori-higai/",
+      label: "庭木に鳥が集まる・フンや実の被害",
+      desc: "法律の注意と物理的な対策",
+    },
+    {
+      href: "/niwa-neko-taisaku/",
+      label: "庭に猫が来てフンをする",
+      desc: "してはいけないことと寄せない工夫",
+    },
   ],
 };
 

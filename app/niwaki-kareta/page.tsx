@@ -182,6 +182,21 @@ const data: KnowArticleData = {
       label: "庭木の伐採に許可・届出は必要か",
       desc: "切る前に確認したい5つの立場",
     },
+    {
+      href: "/niwaki-ha-henshoku/",
+      label: "庭木の葉が黄色・茶色になる",
+      desc: "変色の原因を切り分ける",
+    },
+    {
+      href: "/niwaki-kikuzu-ana/",
+      label: "庭木の幹に穴があき木くずが出ている",
+      desc: "幹の中の虫が疑われるときの対処",
+    },
+    {
+      href: "/niwaki-juhi-hagare/",
+      label: "庭木の樹皮がはがれる・幹が割れる",
+      desc: "自然な剥がれと異常の見分け方",
+    },
   ],
 };
 

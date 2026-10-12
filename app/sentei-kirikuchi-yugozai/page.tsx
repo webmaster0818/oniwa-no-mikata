@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "庭仕事の道具の選び方と手入れ",
       desc: "最初にそろえる7つと刃物の扱い",
     },
+    {
+      href: "/niwaki-jueki-yani/",
+      label: "庭木の幹から樹液・ヤニが出ている",
+      desc: "正常な分泌と異常の見分け方",
+    },
+    {
+      href: "/niwaki-juhi-hagare/",
+      label: "庭木の樹皮がはがれる・幹が割れる",
+      desc: "自然な剥がれと異常の見分け方",
+    },
   ],
 };
 
