@@ -694,6 +694,11 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/about/" className="hover:text-white transition-colors">
+                  運営者情報
+                </a>
+              </li>
+              <li>
                 <a href="#" className="hover:text-white transition-colors">
                   お問い合わせ
                 </a>

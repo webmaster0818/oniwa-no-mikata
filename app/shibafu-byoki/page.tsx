@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-aki-fuyu-teire/",
+      label: "芝生の秋冬の手入れ",
+      desc: "刈り込みを止める時期・落ち葉・冬の踏圧の考え方",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "芝刈り・水やり・年間管理の基本",

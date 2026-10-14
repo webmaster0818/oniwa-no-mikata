@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yofu-garden-kanri/",
+      label: "洋風ガーデンの管理の基本",
+      desc: "花壇中心の庭を1年間維持する手順",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花を良くする手入れ",
       desc: "花が咲かない原因と剪定・施肥の考え方",

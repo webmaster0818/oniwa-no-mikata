@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yofu-garden-kanri/",
+      label: "洋風ガーデンの管理の基本",
+      desc: "花壇中心の庭を1年間維持する手順",
+    },
+    {
       href: "/niwaki-hiryo/",
       label: "庭木の肥料・施肥の基礎",
       desc: "寒肥・お礼肥など肥料の考え方の基本",

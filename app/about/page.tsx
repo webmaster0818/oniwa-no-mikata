@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "運営者情報・サイトについて｜お庭の味方",
   description:
     "お庭の味方の運営者情報、運営方針、編集ポリシー、お問い合わせ先を掲載しています。",
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "/about/" },
 };
 
 const SITE_NAME = "お庭の味方";
