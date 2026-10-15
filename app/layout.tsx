@@ -61,7 +61,7 @@ export default function RootLayout({
         {children}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"お庭の味方\",\"url\":\"https://oniwa-no-mikata-deploy.pages.dev/\",\"logo\":\"https://oniwa-no-mikata-deploy.pages.dev/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://oniwa-no-mikata-deploy.pages.dev/about/\"]}" }}
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"お庭の味方\",\"url\":\"https://oniwa-no-mikata.com/\",\"logo\":\"https://oniwa-no-mikata.com/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://oniwa-no-mikata.com/about/\"]}" }}
         />
         
       </body>

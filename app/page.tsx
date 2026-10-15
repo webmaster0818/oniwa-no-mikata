@@ -624,22 +624,22 @@ function Footer() {
             </h4>
             <ul className="text-sm space-y-2">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/agents/" className="hover:text-white transition-colors">
                   剪定業者を比較
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/agents/" className="hover:text-white transition-colors">
                   草刈り業者を比較
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/agents/" className="hover:text-white transition-colors">
                   伐採業者を比較
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/agents/" className="hover:text-white transition-colors">
                   造園業者を比較
                 </a>
               </li>
@@ -668,9 +668,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  料金相場ガイド
-                </a>
+                <span>料金相場ガイド</span>
               </li>
             </ul>
           </div>
@@ -699,7 +697,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="/about/" className="hover:text-white transition-colors">
                   お問い合わせ
                 </a>
               </li>
