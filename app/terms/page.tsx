@@ -129,7 +129,7 @@ export default function TermsPage() {
           <div className="flex flex-wrap justify-center gap-6 mb-4">
             <Link href="/terms/" className="hover:text-white transition-colors">利用規約</Link>
             <Link href="/privacy/" className="hover:text-white transition-colors">プライバシーポリシー</Link>
-            <Link href="/content-policy/" className="hover:text-white transition-colors">記事の制作ポリシー</Link>
+            <Link href="/content-policy/" className="hover:text-white transition-colors">コンテンツ制作ポリシー</Link>
             <Link href="/about/" className="hover:text-white transition-colors">運営者情報</Link>
           </div>
           <p className="text-xs text-white/30">&copy; 2026 お庭のミカタ（運営: 株式会社MediaX）All Rights Reserved.</p>

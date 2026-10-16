@@ -29,24 +29,24 @@ export default async function AgentPage({ params }: Props) {
   const { slug } = await params;
   const a = getAgent(slug);
   if (!a) {
-    return <div className="max-w-4xl mx-auto px-4 py-20 text-center">業者が見つかりません。</div>;
+    return <div className="max-w-4xl mx-auto px-4 py-20 text-center">該当する業者の情報はありません。</div>;
   }
 
   const toc: [string, string][] = [
-    ["about", `${a.name}とはどんなサービスか`],
+    ["about", `${a.name}のサービス概要`],
     ["service", "対応している作業の種類"],
     ["price", `${a.name}の料金体系と相場`],
-    ["reviews", "利用者のリアルな口コミ・評判"],
+    ["reviews", "利用者の口コミ・評判"],
     ["merit", "メリットと注意点"],
-    ["recommend", `${a.name}がおすすめな人`],
-    ["compare", "他社と比較するときのチェックポイント"],
+    ["recommend", `${a.name}をおすすめする方`],
+    ["compare", "他社と比較する際の確認事項"],
     ["faq", "よくある質問"],
     ["summary", "まとめ"],
   ];
 
   const articleSchema = {
     "@context": "https://schema.org", "@type": "Article",
-    headline: `${a.name}の口コミ・評判・料金を徹底調査`, description: a.metaDesc,
+    headline: `${a.name}の口コミ・評判・料金の調査`, description: a.metaDesc,
     image: `${SITE}${a.image}`,
     datePublished: "2026-06-10T00:00:00+09:00", dateModified: "2026-06-10T00:00:00+09:00",
     author: { "@type": "Organization", name: "お庭のミカタ編集部", url: SITE },
@@ -61,7 +61,7 @@ export default async function AgentPage({ params }: Props) {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "お庭のミカタ", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: "業者レビュー", item: `${SITE}/agents/` },
+      { "@type": "ListItem", position: 2, name: "業者の口コミ・評判", item: `${SITE}/agents/` },
       { "@type": "ListItem", position: 3, name: `${a.name}の口コミ・評判`, item: `${SITE}/agents/${slug}/` },
     ],
   };
@@ -77,7 +77,7 @@ export default async function AgentPage({ params }: Props) {
           <ol className="flex flex-wrap gap-1">
             <li><Link href="/" className="hover:underline">お庭のミカタ</Link></li>
             <li>/</li>
-            <li><Link href="/agents/" className="hover:underline">業者レビュー</Link></li>
+            <li><Link href="/agents/" className="hover:underline">業者の口コミ・評判</Link></li>
             <li>/</li>
             <li className="text-[#33402f]">{a.name}の口コミ・評判</li>
           </ol>
@@ -85,11 +85,11 @@ export default async function AgentPage({ params }: Props) {
 
         <header className="relative overflow-hidden bg-gradient-to-br from-[#1f5e2e] to-[#2D7F3E] text-white mt-4">
           <div className="mx-auto max-w-4xl px-4 py-12 md:py-16">
-            <p className="text-sm tracking-widest text-[#FFB347] mb-3">庭・剪定業者レビュー</p>
+            <p className="text-sm tracking-widest text-[#FFB347] mb-3">庭・剪定業者の口コミ・評判</p>
             <h1 className="font-bold text-2xl md:text-4xl leading-relaxed mb-4">
-              {a.name}の口コミ・評判は？
+              {a.name}の口コミ・評判
               <br className="hidden md:block" />
-              料金・対応・メリットを徹底調査
+              料金・対応・メリットの調査結果
             </h1>
             <p className="text-green-50 leading-relaxed max-w-2xl">{a.heroLead}</p>
             <div className="mt-6 flex flex-wrap gap-2">
@@ -120,7 +120,7 @@ export default async function AgentPage({ params }: Props) {
           </nav>
 
           <section id="about" className="scroll-mt-20 mb-14">
-            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">{a.name}とはどんなサービスか</h2>
+            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">{a.name}のサービス概要</h2>
             {a.about.map((p, i) => (<p key={i} className="leading-loose mb-4 text-[#4a5443]">{p}</p>))}
             {a.featureImage && (
               <div className="mt-6 overflow-hidden rounded-2xl border border-[#d6e4d0]">
@@ -131,7 +131,7 @@ export default async function AgentPage({ params }: Props) {
 
           <section id="service" className="scroll-mt-20 mb-14">
             <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">対応している作業の種類</h2>
-            <p className="leading-loose mb-5 text-[#4a5443]">剪定だけでなく、庭木に関わる幅広い作業に対応しています。まとめて相談しやすいのが利点です。</p>
+            <p className="leading-loose mb-5 text-[#4a5443]">{a.name}が対応している主な作業は次のとおりです。複数の作業をまとめて相談できるかどうかは、依頼前にご確認ください。</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {a.serviceTags.map((s) => (
                 <div key={s} className="rounded-xl border border-[#d6e4d0] p-4 text-center font-medium text-[#4a5443]">{s}</div>
@@ -159,7 +159,7 @@ export default async function AgentPage({ params }: Props) {
           </section>
 
           <section id="reviews" className="scroll-mt-20 mb-14">
-            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">利用者のリアルな口コミ・評判</h2>
+            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">利用者の口コミ・評判</h2>
             <div className="rounded-2xl bg-[#fff6e9] border border-[#ffe0b3] p-6 mb-6">
               <p className="text-[#4a5443] text-sm leading-relaxed">{a.reviewsSummary}</p>
             </div>
@@ -183,7 +183,7 @@ export default async function AgentPage({ params }: Props) {
                 </div>
               ))}
             </div>
-            <p className="text-xs text-[#9aa394] mt-4">※ 口コミは各種口コミサイト・Googleのクチコミ等で見られる利用者の声をもとに、編集部が傾向を要約したものです。感じ方には個人差があります。</p>
+            <p className="text-xs text-[#9aa394] mt-4">※ 口コミは、各種口コミサイトやGoogleのクチコミなどに掲載されている利用者の声をもとに、編集部が傾向を要約したものです。感じ方には個人差があります。</p>
           </section>
 
           <section id="merit" className="scroll-mt-20 mb-14">
@@ -201,7 +201,7 @@ export default async function AgentPage({ params }: Props) {
           </section>
 
           <section id="recommend" className="scroll-mt-20 mb-14">
-            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">{a.name}がおすすめな人</h2>
+            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">{a.name}をおすすめする方</h2>
             <ul className="space-y-3 text-[#4a5443]">
               {a.recommend.map((r, i) => (
                 <li key={i} className="flex gap-3"><span className="text-[#FF8C00] font-bold">●</span>{r}</li>
@@ -210,14 +210,14 @@ export default async function AgentPage({ params }: Props) {
           </section>
 
           <section id="compare" className="scroll-mt-20 mb-14">
-            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">他社と比較するときのチェックポイント</h2>
-            <p className="leading-loose mb-4 text-[#4a5443]">庭・剪定業者は料金の安さだけでなく、出張費を含めた総額や仕上がり、対応範囲を含めて比較することが大切です。{a.name}を他社と比べる際は、次の点を確認すると判断しやすくなります。</p>
+            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">他社と比較する際の確認事項</h2>
+            <p className="leading-loose mb-4 text-[#4a5443]">庭・剪定業者は料金の安さだけでなく、出張費を含めた総額や仕上がり、対応範囲を含めて比較することが大切です。{a.name}を他社と比較する際は、次の点をご確認ください。</p>
             <ol className="space-y-3 text-[#4a5443]">
               {a.comparePoints.map((c, i) => (
                 <li key={i} className="flex gap-3"><span className="font-bold text-[#FF8C00]">{i + 1}.</span>{c}</li>
               ))}
             </ol>
-            <p className="leading-loose mt-4 text-[#4a5443]">料金や対応は地域・庭の状況で変わるため、{a.name}を含めて<Link href="/agents/" className="text-[#2D7F3E] underline">複数の業者を比較</Link>し、無料見積もりを取ったうえで選ぶのがおすすめです。</p>
+            <p className="leading-loose mt-4 text-[#4a5443]">料金や対応は地域・庭の状況で変わるため、{a.name}を含めて<Link href="/agents/" className="text-[#2D7F3E] underline">複数の業者を比較</Link>し、無料見積もりを取ったうえで選ぶことをおすすめします。</p>
           </section>
 
           <section id="faq" className="scroll-mt-20 mb-14">
@@ -237,7 +237,7 @@ export default async function AgentPage({ params }: Props) {
             {a.summary.map((p, i) => (<p key={i} className="leading-loose mb-4 text-[#4a5443]">{p}</p>))}
             <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center mt-2">
               <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
-              <p className="text-green-50 text-sm mb-4">地域・庭の状況に合った業者を比較して、無料見積もりを取りましょう。</p>
+              <p className="text-green-50 text-sm mb-4">地域や庭の状況に合った業者を比較し、無料見積もりを取ることをおすすめします。</p>
               <Link href="/agents/" className="inline-block rounded-lg bg-[#FF8C00] hover:bg-[#e67e00] px-6 py-3 font-bold text-white">業者を比較して探す</Link>
             </div>
           </section>

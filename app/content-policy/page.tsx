@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/content-policy/" },
-  title: "記事の制作ポリシー | お庭のミカタ",
-  description: "お庭のミカタの記事制作ポリシーです。コンテンツの品質・正確性・透明性へのこだわりをご説明します。",
+  title: "コンテンツ制作ポリシー | お庭のミカタ",
+  description: "お庭のミカタのコンテンツ制作ポリシーです。当サイトの掲載方針、情報の収集方法、業者の評価基準および広告の取り扱いについてご説明します。",
 };
 
 export default function ContentPolicyPage() {
@@ -26,52 +26,52 @@ export default function ContentPolicyPage() {
           <nav className="text-sm text-text-muted mb-8">
             <Link href="/" className="hover:text-primary transition-colors">ホーム</Link>
             <span className="mx-2">/</span>
-            <span>記事の制作ポリシー</span>
+            <span>コンテンツ制作ポリシー</span>
           </nav>
 
-          <h1 className="text-3xl font-bold text-foreground mb-2">記事の制作ポリシー</h1>
+          <h1 className="text-3xl font-bold text-foreground mb-2">コンテンツ制作ポリシー</h1>
           <p className="text-text-muted text-sm mb-8">最終更新日：2026年4月27日</p>
 
           <div className="space-y-8 text-foreground">
             <section>
               <p className="leading-relaxed text-text-muted">
-                「お庭のミカタ」は、剪定・草刈り・伐採・造園の業者選びに役立つ正確で信頼性の高い情報をお届けすることを使命としています。本ポリシーでは、当サイトのコンテンツ制作における基準・方針を明示します。
+                「お庭のミカタ」は、剪定・草刈り・伐採・造園の業者選びに役立つ、正確で信頼性の高い情報の提供を目的としています。本ポリシーでは、当サイトのコンテンツ制作における基準と方針についてご説明します。
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">1. 運営体制</h2>
+              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">1. 運営体制について</h2>
               <p className="text-text-muted leading-relaxed">
                 本サービスは株式会社MediaXが運営しています。コンテンツの企画・執筆・編集は、造園・ガーデニング分野の知識を持つ編集スタッフが担当しています。専門的な判断が必要な内容については、外部の専門家・実務経験者の監修を受けることがあります。
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">2. 情報の正確性・信頼性</h2>
+              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">2. 公式情報にもとづく正確な情報提供に努めます</h2>
               <ul className="space-y-3 text-text-muted">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
-                  <span>掲載する料金相場・サービス内容は、各業者の公式情報や業界標準をもとに定期的に調査・更新しています。</span>
+                  <span>掲載する料金相場およびサービス内容は、各業者の公式情報や業界標準をもとに、定期的に調査・更新しています。</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
-                  <span>事実に基づいた情報のみを掲載し、根拠のない誇張表現は使用しません。</span>
+                  <span>事実にもとづく情報のみを掲載し、根拠のない誇張表現は使用しません。未確認の情報は掲載しません。</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
-                  <span>情報の鮮度を保つため、定期的な見直し・更新を行っています。更新日は各ページに明示しています。</span>
+                  <span>情報の鮮度を保つため、定期的な見直しと更新を行っています。掲載情報には更新日を記載しています。</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
-                  <span>誤りが発覚した場合は、速やかに修正・訂正を行います。</span>
+                  <span>誤りが判明した場合は、速やかに修正・訂正を行います。</span>
                 </li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">3. 業者評価・ランキングの基準</h2>
+              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">3. 中立的な立場で業者を評価します</h2>
               <p className="text-text-muted leading-relaxed mb-3">
-                当サイトに掲載する業者の評価・ランキングは、以下の独自基準に基づき編集部が総合的に判断しています。
+                当サイトに掲載する業者の評価およびランキングは、以下の独自基準にもとづき、編集部が総合的に判断しています。
               </p>
               <ul className="space-y-3 text-text-muted">
                 <li className="flex items-start gap-2">
@@ -98,14 +98,14 @@ export default function ContentPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">4. アフィリエイト・広告に関する開示</h2>
+              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">4. 広告・アフィリエイトの取り扱いを開示します</h2>
               <p className="text-text-muted leading-relaxed">
                 本サービスはアフィリエイトプログラムに参加しており、掲載している業者へのリンク経由でお申し込みが発生した場合、当社が報酬を受け取ることがあります。ただし、報酬の有無はランキングや評価に一切影響しません。掲載業者の選定・順位付けは、上記の独自評価基準のみに基づいて行っています。
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">5. 読者への約束</h2>
+              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">5. 読者の利益を最優先に考えます</h2>
               <ul className="space-y-3 text-text-muted">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
@@ -117,19 +117,19 @@ export default function ContentPolicyPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
-                  <span>読者から誤りの指摘を受けた場合、迅速に対応します。</span>
+                  <span>読者の方から誤りのご指摘をいただいた場合は、速やかに対応します。</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
-                  <span>バックボタンハイジャッキング等、ユーザー体験を損なう手法は一切使用しません。</span>
+                  <span>バックボタンハイジャッキングなど、利用者の閲覧体験を損なう手法は使用しません。</span>
                 </li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">6. お問い合わせ</h2>
+              <h2 className="text-xl font-bold text-foreground mb-3 pb-2 border-b border-border">6. お問い合わせについて</h2>
               <p className="text-text-muted leading-relaxed mb-3">
-                コンテンツの内容に関するご意見・ご指摘は、以下までお知らせください。
+                コンテンツの内容に関するご意見・ご指摘は、以下の運営会社までお寄せください。
               </p>
               <div className="bg-surface-alt rounded-lg p-4 space-y-1 text-text-muted text-sm">
                 <p><span className="font-medium text-foreground">会社名：</span>株式会社MediaX</p>
@@ -146,7 +146,7 @@ export default function ContentPolicyPage() {
           <div className="flex flex-wrap justify-center gap-6 mb-4">
             <Link href="/terms/" className="hover:text-white transition-colors">利用規約</Link>
             <Link href="/privacy/" className="hover:text-white transition-colors">プライバシーポリシー</Link>
-            <Link href="/content-policy/" className="hover:text-white transition-colors">記事の制作ポリシー</Link>
+            <Link href="/content-policy/" className="hover:text-white transition-colors">コンテンツ制作ポリシー</Link>
             <Link href="/about/" className="hover:text-white transition-colors">運営者情報</Link>
           </div>
           <p className="text-xs text-white/30">&copy; 2026 お庭のミカタ（運営: 株式会社MediaX）All Rights Reserved.</p>

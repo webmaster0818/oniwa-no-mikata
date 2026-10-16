@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "お庭のミカタ｜剪定・草刈り・伐採の業者比較【2026年最新】",
   description:
-    "剪定・草刈り・伐採・造園の優良業者を徹底比較。全国対応の7社を厳選し、料金・口コミ・サービス内容をわかりやすく紹介。無料見積もりで最適な庭木の手入れ業者が見つかります。",
+    "剪定・草刈り・伐採・造園の業者のうち、全国に対応する7社を、公式サイトの情報にもとづいて比較する専門ガイドです。料金・口コミ・サービス内容を掲載しています。各社とも見積もりは無料です。",
 };
 
 /* ─── Header ─── */
@@ -57,18 +57,17 @@ function Hero() {
         <div className="max-w-2xl">
           {/* Badges */}
           <div className="flex flex-wrap gap-2 mb-6">
-            <span className="bg-gradient-to-r from-yellow-400 to-amber-500 text-yellow-900 text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">🏆 厳選7社を徹底比較</span>
+            <span className="bg-gradient-to-r from-yellow-400 to-amber-500 text-yellow-900 text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">🏆 厳選7社を比較</span>
             <span className="bg-gradient-to-r from-green-400 to-emerald-500 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">🌿 全国対応</span>
             <span className="bg-gradient-to-r from-blue-400 to-sky-500 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg inline-flex items-center gap-1">💰 無料見積もり</span>
           </div>
           <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-white drop-shadow-lg">
             剪定・草刈り・伐採
             <br />
-            <span className="text-[#90EE90]">プロの業者</span>を徹底比較
+            <span className="text-[#90EE90]">専門業者</span>の比較
           </h1>
           <p className="text-white/85 text-base md:text-lg max-w-xl mb-8 leading-relaxed">
-            「庭木が伸びすぎた」「雑草が手に負えない」「大きな木を切りたい」
-            そんなお悩みを解決する優良業者を、料金・口コミ・サービス内容で比較できます。
+            「庭木が伸びすぎた」「雑草が手に負えない」「大きな木を切りたい」といったお悩みに対応する業者を、料金・口コミ・サービス内容で比較できます。
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#ranking" className="btn-cta text-lg px-8 py-4 inline-block text-center">
@@ -87,9 +86,9 @@ function Hero() {
 /* ─── Trust Badges ─── */
 function TrustBadges() {
   const badges = [
-    { icon: "🏆", title: "7社厳選", desc: "実績ある優良業者のみ掲載" },
+    { icon: "🏆", title: "7社厳選", desc: "実績のある業者を掲載" },
     { icon: "🗾", title: "全国対応", desc: "47都道府県をカバー" },
-    { icon: "💰", title: "無料見積もり", desc: "比較・見積もりは完全無料" },
+    { icon: "💰", title: "無料見積もり", desc: "比較・見積もりは無料" },
   ];
   return (
     <section className="bg-surface border-b border-border">
@@ -119,28 +118,28 @@ function ServiceCategories() {
     {
       icon: "✂️",
       name: "剪定",
-      desc: "庭木の形を整え、健康を保つ。見た目の美しさと日当たり改善に。",
+      desc: "庭木の形を整え、樹木の健康を保ちます。見た目と日当たりの改善に役立ちます。",
       price: "1本 2,890円〜",
       link: "#",
     },
     {
       icon: "🌾",
       name: "草刈り",
-      desc: "雑草の刈り取りから防草対策まで。定期メンテナンスで庭をキレイに。",
+      desc: "雑草の刈り取りから防草対策まで対応します。定期的な手入れで庭をきれいに保てます。",
       price: "1㎡ 600円〜",
       link: "#",
     },
     {
       icon: "🪓",
       name: "伐採",
-      desc: "大木・高木の安全な伐採。抜根や木材の処分までまとめて対応。",
+      desc: "大木・高木を安全に伐採します。抜根や木材の処分までまとめて対応します。",
       price: "1本 5,000円〜",
       link: "#",
     },
     {
       icon: "🌳",
       name: "造園",
-      desc: "庭のデザインから施工まで。植栽・外構・ガーデニングをトータルサポート。",
+      desc: "庭のデザインから施工まで対応します。植栽・外構・ガーデニングを総合的に支援します。",
       price: "要見積もり",
       link: "#",
     },
@@ -153,7 +152,7 @@ function ServiceCategories() {
             サービスから探す
           </h2>
           <p className="text-text-muted max-w-xl mx-auto">
-            お庭のお悩みに合わせて、最適なサービスカテゴリからプロの業者を探せます。
+            お庭のお悩みに合わせて、サービスの種類ごとに業者を探せます。
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -195,15 +194,15 @@ function TopRanking() {
       ],
       pros: [
         "深夜・早朝でも電話受付可能",
-        "少量から依頼OK",
-        "料金が明確で安心",
+        "少量の依頼にも対応",
+        "料金体系が明確",
       ],
       cons: [
         "加盟店のため品質にばらつきあり",
         "繁忙期は予約が取りにくい",
       ],
       recommend:
-        "初めて業者に依頼する方や、手軽に1本から剪定したい方におすすめ。料金の明確さと対応の早さが魅力です。",
+        "初めて業者に依頼する方や、1本から剪定を依頼したい方におすすめです。料金体系が明確で、対応が早い点が特長です。",
     },
     {
       rank: 2,
@@ -218,23 +217,23 @@ function TopRanking() {
       ],
       pros: [
         "実際の利用者の口コミが参考になる",
-        "業者の顔が見える安心感",
-        "料金比較が簡単",
+        "事前に業者の情報を確認できる",
+        "料金を比較しやすい",
       ],
       cons: [
         "業者によって品質差がある",
         "人気業者は予約が埋まりやすい",
       ],
       recommend:
-        "じっくり口コミを確認して業者を選びたい方におすすめ。地域の職人さんを直接比較・指名できるのが強みです。",
+        "口コミを確認したうえで業者を選びたい方におすすめです。地域の職人を直接比較し、指名できる点が特長です。",
     },
     {
       rank: 3,
       name: "ダスキン",
       badge: "大手の安心感",
-      tagline: "大手ならではの安心と信頼のトータルガーデンケア",
+      tagline: "大手企業による庭の総合管理サービス",
       features: [
-        "年間管理プランで一括おまかせ",
+        "年間管理プランで一括管理",
         "芝生・庭木・花壇のトータルケア",
         "資格を持った専門スタッフ",
         "全国約600拠点のネットワーク",
@@ -244,9 +243,9 @@ function TopRanking() {
         "研修を受けた専門スタッフが担当",
         "アフターフォローが充実",
       ],
-      cons: ["料金がやや高め", "スポット依頼には不向き"],
+      cons: ["料金はやや高めの水準", "スポット依頼には不向き"],
       recommend:
-        "年間を通してお庭を任せたい方におすすめ。大手ならではの安定したサービスと手厚いサポートが魅力です。",
+        "年間を通して庭の管理を任せたい方におすすめです。大手企業による安定したサービスと、手厚いサポート体制が特長です。",
     },
   ];
 
@@ -264,7 +263,7 @@ function TopRanking() {
             おすすめ業者ランキング TOP3
           </h2>
           <p className="text-text-muted max-w-xl mx-auto">
-            料金・サービス内容・口コミ・対応力を総合的に評価し、自信を持っておすすめできる3社を厳選しました。
+            料金・サービス内容・口コミ・対応力を総合的に評価し、おすすめの3社を選定しました。
           </p>
         </div>
         <div className="flex flex-col gap-8">
@@ -370,27 +369,27 @@ function HowToChoose() {
     {
       num: "01",
       title: "料金体系が明確か確認する",
-      desc: "見積もり時に内訳を提示してくれるか、追加料金の有無を事前に確認しましょう。「1本〇円〜」など明朗会計の業者を選ぶと安心です。出張費やゴミ処分費が別途かかる場合もあるため、総額で比較することが重要です。",
+      desc: "見積もり時に内訳が提示されるか、追加料金が発生するかを事前にご確認ください。「1本〇円〜」のように料金体系が明確な業者をおすすめします。出張費やゴミ処分費が別途かかる場合もあるため、総額で比較することが重要です。",
     },
     {
       num: "02",
-      title: "実績と口コミをチェックする",
-      desc: "施工実績の写真や利用者の口コミは業者選びの重要な判断材料です。くらしのマーケットなど口コミが充実したプラットフォームを活用するのも有効。Before/After写真がある業者は技術力の参考になります。",
+      title: "実績と口コミを確認する",
+      desc: "施工実績の写真や利用者の口コミは、業者選びの重要な判断材料です。くらしのマーケットなど、口コミが充実したプラットフォームを活用する方法も有効です。作業前後の写真を公開している業者は、技術力を判断する参考になります。",
     },
     {
       num: "03",
       title: "対応エリアと対応スピードを確認する",
-      desc: "お住まいの地域に対応しているか、依頼から作業までどのくらいかかるかを事前に確認しましょう。台風後の緊急対応が必要な場合は、24時間受付の業者が便利です。繁忙期（春・秋）は早めの予約をおすすめします。",
+      desc: "お住まいの地域が対応エリアに含まれるか、依頼から作業までにどの程度の期間がかかるかを事前にご確認ください。台風後などに緊急の対応が必要な場合は、24時間受付の業者が便利です。繁忙期（春・秋）は早めの予約をおすすめします。",
     },
     {
       num: "04",
       title: "資格・保険の有無を確認する",
-      desc: "造園技能士や樹木医などの資格を持つスタッフがいるか確認しましょう。また、作業中の事故に備え、賠償責任保険に加入している業者を選ぶことが大切です。万が一の物損にも対応してもらえます。",
+      desc: "造園技能士や樹木医などの資格を持つスタッフが在籍しているかをご確認ください。また、作業中の事故に備え、賠償責任保険に加入している業者を選ぶことをおすすめします。万が一物損が発生した場合にも、保険による補償を受けられます。",
     },
     {
       num: "05",
       title: "複数社の見積もりを比較する",
-      desc: "最低でも2〜3社から見積もりを取って比較しましょう。料金だけでなく、作業内容・処分費・保証の有無など総合的に判断することが重要です。無料見積もりを活用し、現地調査をしてもらうとより正確な金額がわかります。",
+      desc: "2〜3社以上から見積もりを取り、比較することをおすすめします。料金だけでなく、作業内容・処分費・保証の有無などを含めて総合的に判断することが重要です。無料見積もりの際に現地調査を依頼すると、より正確な金額を確認できます。",
     },
   ];
   return (
@@ -398,10 +397,10 @@ function HowToChoose() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-            失敗しない業者の選び方 5つのポイント
+            業者の選び方（5つのポイント）
           </h2>
           <p className="text-text-muted max-w-xl mx-auto">
-            庭木の手入れ業者を初めて選ぶ方でも、この5つのポイントを押さえれば安心です。
+            庭木の手入れ業者を初めて選ぶ方は、次の5つのポイントを確認することをおすすめします。
           </p>
         </div>
         <div className="flex flex-col gap-6">
@@ -438,7 +437,7 @@ function SeasonalCalendar() {
         "春の植栽・植え替え",
         "害虫予防の消毒",
       ],
-      tip: "新芽が出る前の3月が剪定のベストタイミング。春先に消毒をしておくと害虫被害を予防できます。",
+      tip: "新芽が出る前の3月は、剪定に適した時期です。春先に消毒を行うと、害虫の被害を予防できます。",
     },
     {
       season: "夏（6〜8月）",
@@ -449,7 +448,7 @@ function SeasonalCalendar() {
         "害虫駆除",
         "水やり管理",
       ],
-      tip: "雑草が最も伸びる時期。梅雨明けの草刈りが効果的です。猛暑日の強剪定は樹木にダメージを与えるため避けましょう。",
+      tip: "雑草が最も伸びる時期で、梅雨明けの草刈りが効果的です。猛暑日の強剪定は樹木を傷めるため、避けてください。",
     },
     {
       season: "秋（9〜11月）",
@@ -460,7 +459,7 @@ function SeasonalCalendar() {
         "秋の植栽",
         "冬支度の施肥",
       ],
-      tip: "台風シーズン前に危険な枝を剪定しておくと安心。10〜11月は剪定の依頼が集中するため、早めの予約がおすすめです。",
+      tip: "台風シーズンの前に、危険な枝を剪定しておくことをおすすめします。10〜11月は剪定の依頼が集中するため、早めに予約してください。",
     },
     {
       season: "冬（12〜2月）",
@@ -471,7 +470,7 @@ function SeasonalCalendar() {
         "雪囲い・冬囲い",
         "剪定の計画立案",
       ],
-      tip: "葉が落ちた冬は樹形が見やすく、強い剪定に最適。業者も比較的空いているため、価格交渉がしやすい時期です。",
+      tip: "葉が落ちた冬は樹形を確認しやすく、強い剪定に適した時期です。業者の予約も比較的取りやすく、料金の相談がしやすい時期でもあります。",
     },
   ];
   return (
@@ -479,10 +478,10 @@ function SeasonalCalendar() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-            季節別お手入れカレンダー
+            季節別の手入れカレンダー
           </h2>
           <p className="text-text-muted max-w-xl mx-auto">
-            庭木の手入れは時期が大切。季節ごとの最適な作業を知って、計画的にお庭を管理しましょう。
+            庭木の手入れは時期が重要です。季節ごとに適した作業を把握し、計画的に庭を管理することをおすすめします。
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -525,19 +524,19 @@ function FAQ() {
     },
     {
       q: "見積もりは本当に無料ですか？",
-      a: "当サイトで紹介している業者はすべて見積もり無料です。現地調査も無料で行ってくれる業者がほとんどです。見積もり後にキャンセルしても費用は発生しません。安心して複数社に見積もり依頼してください。",
+      a: "当サイトで紹介している業者は、いずれも見積もりが無料です。現地調査を無料で行う業者も多くあります。見積もり後にキャンセルしても費用は発生しません。複数社への見積もり依頼をおすすめします。",
     },
     {
       q: "庭木の剪定に最適な時期はいつですか？",
-      a: "樹種によって最適な時期は異なりますが、一般的に落葉樹は冬（12〜2月）、常緑樹は春先（3〜4月）か秋（9〜10月）が適しています。真夏の強剪定は樹木を弱らせるため避けましょう。詳しくは上の季節別カレンダーを参考にしてください。",
+      a: "樹種によって適した時期は異なりますが、一般的に落葉樹は冬（12〜2月）、常緑樹は春先（3〜4月）または秋（9〜10月）が適しています。真夏の強剪定は樹木を弱らせるため、避けてください。詳しくは、上記の季節別カレンダーをご覧ください。",
     },
     {
       q: "作業後に出たゴミ（枝葉）の処分はどうなりますか？",
-      a: "多くの業者が剪定枝や伐採木の処分まで対応しています。ただし、処分費が見積もりに含まれているか別途かかるかは業者によって異なります。見積もり時に「処分費込みか」を必ず確認しましょう。",
+      a: "多くの業者が剪定枝や伐採木の処分まで対応しています。ただし、処分費が見積もりに含まれているか別途かかるかは業者によって異なります。見積もりの際に、処分費が含まれているかを必ずご確認ください。",
     },
     {
       q: "マンションのベランダや小さな庭でも依頼できますか？",
-      a: "はい、庭木1本からでも対応可能な業者がほとんどです。マンションの植栽やベランダの鉢植えの手入れに対応している業者もあります。剪定110番やくらしのマーケットでは、少量の依頼も気軽に相談できます。",
+      a: "はい。多くの業者が庭木1本から対応しています。マンションの植栽やベランダの鉢植えの手入れに対応している業者もあります。剪定110番やくらしのマーケットでは、少量の依頼も相談できます。",
     },
   ];
   return (
@@ -579,12 +578,12 @@ function CTASection() {
     <section className="bg-gradient-to-r from-primary to-primary-dark text-white section">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          お庭のお悩み、今すぐ解決しませんか？
+          庭の手入れに関するご相談について
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-          無料見積もりで料金を比較。最短即日対応の業者もご紹介しています。
+          無料見積もりで料金を比較できます。最短即日対応の業者も掲載しています。
           <br className="hidden md:block" />
-          まずはお気軽にご相談ください。
+          ご利用前に、公式サイトにて最新情報をご確認ください。
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a href="#ranking" className="btn-cta text-lg px-10 py-4 inline-block">
@@ -592,7 +591,7 @@ function CTASection() {
           </a>
         </div>
         <p className="text-white/50 text-xs mt-6">
-          ※見積もり依頼は完全無料です。キャンセル料も一切かかりません。
+          ※見積もりの依頼は無料です。キャンセル料はかかりません。
         </p>
       </div>
     </section>
@@ -614,7 +613,7 @@ function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed">
-              剪定・草刈り・伐採・造園の優良業者を比較できるサービスです。あなたに最適な業者をお探しいただけます。
+              剪定・草刈り・伐採・造園の業者を、公式サイトの情報にもとづいて比較する専門ガイドです。
             </p>
           </div>
           {/* Service links */}
@@ -659,7 +658,7 @@ function Footer() {
                   href="#calendar"
                   className="hover:text-white transition-colors"
                 >
-                  季節別お手入れカレンダー
+                  季節別の手入れカレンダー
                 </a>
               </li>
               <li>
@@ -688,7 +687,7 @@ function Footer() {
               </li>
               <li>
                 <a href="/content-policy/" className="hover:text-white transition-colors">
-                  記事の制作ポリシー
+                  コンテンツ制作ポリシー
                 </a>
               </li>
               <li>

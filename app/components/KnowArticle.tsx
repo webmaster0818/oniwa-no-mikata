@@ -169,7 +169,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
 
           {/* 結論先出しボックス */}
           <div className="mt-8 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
-            <p className="font-bold text-[#2D7F3E] mb-2 leading-snug">結論：{data.conclusionTitle}</p>
+            <p className="font-bold text-[#2D7F3E] mb-2 leading-snug">要点：{data.conclusionTitle}</p>
             <div className="text-sm md:text-base leading-loose text-[#4a5443]">{data.conclusionBody}</div>
           </div>
 
@@ -217,7 +217,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
             {data.ngs.map((n) => (
               <div key={n.title} className="rounded-2xl border border-red-200 bg-white p-5">
-                <h3 className="font-bold text-red-700 mb-1.5 text-sm">NG：{n.title}</h3>
+                <h3 className="font-bold text-red-700 mb-1.5 text-sm">注意：{n.title}</h3>
                 <p className="text-sm leading-loose text-[#4a5443]">{n.desc}</p>
               </div>
             ))}
