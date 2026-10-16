@@ -3,13 +3,13 @@ import Link from "next/link";
 
 
 export const metadata: Metadata = {
-  title: "運営者情報・サイトについて｜お庭の味方",
+  title: "運営者情報・サイトについて｜お庭のミカタ",
   description:
-    "お庭の味方の運営者情報、運営方針、編集ポリシー、お問い合わせ先を掲載しています。",
+    "お庭のミカタの運営者情報、運営方針、編集ポリシー、お問い合わせ先を掲載しています。",
   alternates: { canonical: "/about/" },
 };
 
-const SITE_NAME = "お庭の味方";
+const SITE_NAME = "お庭のミカタ";
 
 export default function AboutPage() {
   return (
