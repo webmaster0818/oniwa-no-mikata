@@ -217,7 +217,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
             {data.ngs.map((n) => (
               <div key={n.title} className="rounded-2xl border border-red-200 bg-white p-5">
-                <h3 className="font-bold text-red-700 mb-1.5 text-sm">注意：{n.title}</h3>
+                <h3 className="font-bold text-red-700 mb-1.5 text-sm">{n.title}</h3>
                 <p className="text-sm leading-loose text-[#4a5443]">{n.desc}</p>
               </div>
             ))}
