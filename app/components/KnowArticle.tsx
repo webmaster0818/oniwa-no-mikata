@@ -169,7 +169,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
 
           {/* 結論先出しボックス */}
           <div className="mt-8 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
-            <p className="font-bold text-[#2D7F3E] mb-2 leading-snug">要点：{data.conclusionTitle}</p>
+            <p className="font-bold text-[#2D7F3E] mb-2 leading-snug">{data.conclusionTitle}</p>
             <div className="text-sm md:text-base leading-loose text-[#4a5443]">{data.conclusionBody}</div>
           </div>
 

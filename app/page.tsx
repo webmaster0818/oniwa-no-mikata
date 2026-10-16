@@ -448,7 +448,7 @@ function SeasonalCalendar() {
         "害虫駆除",
         "水やり管理",
       ],
-      tip: "雑草が最も伸びる時期で、梅雨明けの草刈りが効果的です。猛暑日の強剪定は樹木を傷めるため、避けてください。",
+      tip: "夏は雑草が最も伸びる時期のため、梅雨明けの草刈りが効果的です。猛暑日の強剪定は樹木を傷めるため、避けてください。",
     },
     {
       season: "秋（9〜11月）",
@@ -503,7 +503,6 @@ function SeasonalCalendar() {
               </ul>
               <div className="bg-surface-alt rounded-lg p-3">
                 <p className="text-xs text-foreground leading-relaxed">
-                  <span className="font-bold text-primary">ポイント：</span>
                   {s.tip}
                 </p>
               </div>
