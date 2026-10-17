@@ -56,7 +56,7 @@ const companies: AreaCompany[] = [
     num: "1-1",
     catch: "伐採・抜根専門・処分まで一括",
     name: "伐採110番",
-    officialUrl: "https://www.bassai110.com/",
+    officialUrl: "",
     image: "/images/bassai-110ban-features.png",
     intro: (
       <>
@@ -90,7 +90,7 @@ const companies: AreaCompany[] = [
     num: "1-2",
     catch: "1本2,890円〜・24時間365日受付",
     name: "剪定110番",
-    officialUrl: "https://www.sentei110.com/",
+    officialUrl: "",
     image: "/images/sentei-110ban-features.png",
     intro: (
       <>
@@ -124,7 +124,7 @@ const companies: AreaCompany[] = [
     num: "1-3",
     catch: "1平米600円〜・防草対策まで対応",
     name: "草刈り110番",
-    officialUrl: "https://www.kusakari110.com/",
+    officialUrl: "",
     image: "/images/kusakari-110ban-features.png",
     intro: (
       <>
@@ -157,7 +157,7 @@ const companies: AreaCompany[] = [
     num: "1-4",
     catch: "定額制の年間管理・写真付き報告書",
     name: "smileガーデン",
-    officialUrl: "https://www.smile-garden.jp/",
+    officialUrl: "https://www.smile-garden1128.com/",
     image: "/images/smile-garden-features.png",
     intro: (
       <>
@@ -573,7 +573,7 @@ export default function AreaOitaPage() {
 
               {c.image ? (
                 <a
-                  href={AFF[c.slug] ?? c.officialUrl}
+                  href={AFF[c.slug] ?? (c.officialUrl || undefined)}
                   rel="sponsored nofollow noopener"
                   target="_blank"
                   className="block mb-5 overflow-hidden rounded-2xl border border-[#d6e4d0] transition-opacity hover:opacity-90"
@@ -587,16 +587,16 @@ export default function AreaOitaPage() {
                   />
                 </a>
               ) : (
-                <p className="mb-5">
+                (AFF[c.slug] ?? c.officialUrl) ? (<p className="mb-5">
                   <a
-                    href={AFF[c.slug] ?? c.officialUrl}
+                    href={AFF[c.slug] ?? (c.officialUrl || undefined)}
                     rel="sponsored nofollow noopener"
                     target="_blank"
                     className="text-[#2D7F3E] underline font-bold"
                   >
                     {c.name} 公式サイト
                   </a>
-                </p>
+                </p>) : null
               )}
 
               <p className="leading-loose text-[#4a5443]">{c.intro}</p>
@@ -637,14 +637,14 @@ export default function AreaOitaPage() {
               </div>
 
               <div className="mt-6 grid gap-3 md:grid-cols-2">
-                <a
-                  href={AFF[c.slug] ?? c.officialUrl}
+                {(AFF[c.slug] ?? c.officialUrl) ? (<a
+                  href={AFF[c.slug] ?? (c.officialUrl || undefined)}
                   rel="sponsored nofollow noopener"
                   target="_blank"
                   className="block rounded-full bg-[#FF8C00] hover:bg-[#E07A00] transition-colors px-4 py-4 text-center text-[15px] font-bold text-white shadow-[0_4px_14px_rgba(255,140,0,0.3)]"
                 >
                   {c.name}の公式サイトを見る
-                </a>
+                </a>) : null}
                 <Link
                   href={`/agents/${c.slug}/`}
                   className="block rounded-full bg-[#2D7F3E] hover:bg-[#1E5C2B] transition-colors px-4 py-4 text-center text-[15px] font-bold text-white"
