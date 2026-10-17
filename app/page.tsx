@@ -184,6 +184,7 @@ function TopRanking() {
     {
       rank: 1,
       name: "剪定110番",
+      officialUrl: "",
       badge: "総合力No.1",
       tagline: "24時間365日対応の剪定専門サービス",
       features: [
@@ -207,6 +208,7 @@ function TopRanking() {
     {
       rank: 2,
       name: "くらしのマーケット",
+      officialUrl: "https://curama.jp/",
       badge: "口コミ充実",
       tagline: "口コミで選べる地域密着型プラットフォーム",
       features: [
@@ -230,6 +232,7 @@ function TopRanking() {
     {
       rank: 3,
       name: "ダスキン",
+      officialUrl: "https://www.duskin.co.jp/",
       badge: "大手の安心感",
       tagline: "大手企業による庭の総合管理サービス",
       features: [
@@ -288,9 +291,11 @@ function TopRanking() {
                     <p className="text-text-muted text-sm mb-4">
                       {c.tagline}
                     </p>
-                    <a href="#" className="btn-cta text-sm inline-block">
-                      無料見積もりを依頼
-                    </a>
+                    {c.officialUrl ? (
+                      <a href={c.officialUrl} target="_blank" rel="noopener noreferrer nofollow" className="btn-cta text-sm inline-block">
+                        公式サイトで見積もりを依頼
+                      </a>
+                    ) : null}
                   </div>
                   {/* Right: Details */}
                   <div className="md:w-2/3">

@@ -188,11 +188,11 @@ const companies: AreaCompany[] = [
     num: "1-5",
     catch: "剪定1本550円〜・関東エリア中心",
     name: "お庭マスター",
-    officialUrl: "https://www.oniwa-master.com/",
+    officialUrl: "https://oniwa-master.info/",
     image: "/images/oniwa-master-features.png",
     intro: (
       <>
-        お庭マスターは、関東・関西・中部エリアを中心に展開する職人品質のマッチング型サービスで、宇都宮を含む関東は主力エリアです。
+        お庭マスターは、全国47都道府県を対応エリアとする（公式表記）職人品質のマッチング型サービスで、宇都宮を含む関東は主力エリアです。
         <Hl>経験10年以上の職人が対応</Hl>
         し、中間マージンをカットすることで
         <Hl>剪定1本550円〜・伐採1本3,300円〜</Hl>
