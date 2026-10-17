@@ -6,13 +6,13 @@ const PATH = "/niwaki-kanbu-fukyu/";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "庭木の幹が腐っている・空洞がある｜倒木のサインと相談先をわかりやすく解説｜お庭のミカタ",
+    absolute: "木の幹に空洞・くぼみがある、腐っている｜倒木のサインと相談先をわかりやすく解説｜お庭のミカタ",
   },
   description:
     "庭木の幹の腐りや空洞について一般知識として解説。腐りが入る原因、外から見える7つのサイン、空洞があっても立っていられる理由、倒木の危険が高い状態、応急的にできること、業者や樹木の専門家に相談する目安まで編集部が中立的な立場でまとめています。",
   alternates: { canonical: `${SITE}${PATH}` },
   openGraph: {
-    title: "庭木の幹が腐っている・空洞がある｜倒木のサインと相談先",
+    title: "木の幹に空洞・くぼみがある、腐っている｜倒木のサインと相談先",
     description:
       "幹の腐りや空洞は外から見えにくく、気づいたときには進んでいることがあります。外から見えるサインと相談先の考え方を一般知識で解説します。",
     url: `${SITE}${PATH}`,
@@ -193,6 +193,11 @@ const data: KnowArticleData = {
       href: "/niwaki-juhi-hagare/",
       label: "庭木の樹皮がはがれる・幹が割れる",
       desc: "自然な剥がれと異常の見分け方",
+    },
+    {
+      href: "/niwaki-miki-fuchakubutsu/",
+      label: "庭木の幹や枝に白・緑・灰色のものが付いている",
+      desc: "地衣類・コケ・虫の見分け方",
     },
   ],
 };

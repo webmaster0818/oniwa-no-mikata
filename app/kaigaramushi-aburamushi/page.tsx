@@ -179,6 +179,26 @@ const data: KnowArticleData = {
       label: "庭や庭木にアリが大量に出る",
       desc: "巣の場所と減らし方の考え方",
     },
+    {
+      href: "/niwaki-ha-ana/",
+      label: "庭木の葉に穴があく・葉が食べられている",
+      desc: "虫・ナメクジ・病気の見分け方",
+    },
+    {
+      href: "/niwaki-ha-shiroi/",
+      label: "庭木の葉が白くなる・白い粉が付く",
+      desc: "うどんこ病・ハダニなどの見分け方",
+    },
+    {
+      href: "/niwaki-ha-makuru/",
+      label: "庭木の葉が丸まる・縮れる",
+      desc: "虫・乾燥・薬剤の飛散など原因の見分け方",
+    },
+    {
+      href: "/niwaki-miki-fuchakubutsu/",
+      label: "庭木の幹や枝に白・緑・灰色のものが付いている",
+      desc: "地衣類・コケ・虫の見分け方",
+    },
   ],
 };
 

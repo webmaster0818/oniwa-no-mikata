@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "庭じまいとは？",
       desc: "ローメンテナンス化の進め方と業者に依頼する範囲",
     },
+    {
+      href: "/ikegaki-shitaeda-kare/",
+      label: "生垣の下枝が枯れる・すき間があく",
+      desc: "原因と再生の考え方",
+    },
   ],
 };
 

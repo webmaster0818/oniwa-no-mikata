@@ -172,6 +172,11 @@ const data: KnowArticleData = {
       label: "庭業者の一覧・比較",
       desc: "移植・伐採・剪定を依頼できる業者の比較",
     },
+    {
+      href: "/niwaki-ha-shioreru/",
+      label: "庭木の葉がしおれる・垂れ下がる",
+      desc: "水切れと根の傷みの見分け方",
+    },
   ],
 };
 

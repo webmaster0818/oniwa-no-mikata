@@ -182,6 +182,16 @@ const data: KnowArticleData = {
       label: "庭のことで近隣から苦情を受けたら",
       desc: "最初の対応と再発防止の進め方",
     },
+    {
+      href: "/shibafu-zasso/",
+      label: "芝生に雑草が増える",
+      desc: "増える理由と手取り・除草剤・張り替えの判断",
+    },
+    {
+      href: "/niwaki-ha-makuru/",
+      label: "庭木の葉が丸まる・縮れる",
+      desc: "虫・乾燥・薬剤の飛散など原因の見分け方",
+    },
   ],
 };
 

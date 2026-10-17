@@ -182,6 +182,16 @@ const data: KnowArticleData = {
       label: "庭の地面が沈む・陥没した",
       desc: "考えられる原因と相談先の切り分け",
     },
+    {
+      href: "/niwa-namekuji/",
+      label: "庭にナメクジが出る",
+      desc: "出やすい場所・季節と減らし方",
+    },
+    {
+      href: "/niwaki-miki-fuchakubutsu/",
+      label: "庭木の幹や枝に白・緑・灰色のものが付いている",
+      desc: "地衣類・コケ・虫の見分け方",
+    },
   ],
 };
 

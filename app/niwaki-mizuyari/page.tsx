@@ -177,6 +177,11 @@ const data: KnowArticleData = {
       label: "庭木の葉が黄色・茶色になる",
       desc: "変色の原因を切り分ける",
     },
+    {
+      href: "/niwaki-ha-shioreru/",
+      label: "庭木の葉がしおれる・垂れ下がる",
+      desc: "水切れと根の傷みの見分け方",
+    },
   ],
 };
 

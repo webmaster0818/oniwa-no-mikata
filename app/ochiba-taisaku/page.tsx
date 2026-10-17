@@ -182,6 +182,11 @@ const data: KnowArticleData = {
       label: "庭のことで近隣から苦情を受けたら",
       desc: "最初の対応と再発防止の進め方",
     },
+    {
+      href: "/niwaki-ha-ochiru/",
+      label: "庭木の葉が季節外れに落ちる",
+      desc: "常緑樹の葉の入れ替わりと異常の見分け方",
+    },
   ],
 };
 

@@ -174,6 +174,16 @@ const data: KnowArticleData = {
       label: "庭掃除・庭仕事の年間スケジュール",
       desc: "季節ごとの庭仕事の段取りと省力化",
     },
+    {
+      href: "/niwaki-ha-shioreru/",
+      label: "庭木の葉がしおれる・垂れ下がる",
+      desc: "水切れと根の傷みの見分け方",
+    },
+    {
+      href: "/niwaki-ha-makuru/",
+      label: "庭木の葉が丸まる・縮れる",
+      desc: "虫・乾燥・薬剤の飛散など原因の見分け方",
+    },
   ],
 };
 

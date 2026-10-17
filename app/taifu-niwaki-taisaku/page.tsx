@@ -187,6 +187,11 @@ const data: KnowArticleData = {
       label: "庭木が傾いてきた",
       desc: "倒れる前に見るサインと相談先",
     },
+    {
+      href: "/niwaki-eda-oreta/",
+      label: "庭木の枝が折れた・裂けた",
+      desc: "応急の確認と切り直しの考え方",
+    },
   ],
 };
 

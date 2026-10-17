@@ -189,6 +189,11 @@ const data: KnowArticleData = {
       label: "草刈り機を安全に使う",
       desc: "飛び石・キックバックと服装の基本",
     },
+    {
+      href: "/shibafu-bubun-gare/",
+      label: "芝生が部分的に枯れる・はげる",
+      desc: "まだらに茶色くなる原因の切り分け",
+    },
   ],
 };
 

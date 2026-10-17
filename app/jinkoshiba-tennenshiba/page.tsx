@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "防草シートの基礎知識",
       desc: "人工芝の下地にも使うシートの仕組みと選び方",
     },
+    {
+      href: "/shibafu-zasso/",
+      label: "芝生に雑草が増える",
+      desc: "増える理由と手取り・除草剤・張り替えの判断",
+    },
   ],
 };
 

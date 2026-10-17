@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "庭の苔対策の基本",
       desc: "苔が広がる原因と対処の方向性",
     },
+    {
+      href: "/shibafu-bubun-gare/",
+      label: "芝生が部分的に枯れる・はげる",
+      desc: "まだらに茶色くなる原因の切り分け",
+    },
   ],
 };
 

@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "庭木の剪定時期の基本",
       desc: "風通しを保つ剪定の季節ごとの考え方",
     },
+    {
+      href: "/niwaki-ha-shiroi/",
+      label: "庭木の葉が白くなる・白い粉が付く",
+      desc: "うどんこ病・ハダニなどの見分け方",
+    },
   ],
 };
 

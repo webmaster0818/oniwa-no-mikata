@@ -187,6 +187,21 @@ const data: KnowArticleData = {
       label: "庭木の幹に穴があき木くずが出ている",
       desc: "幹の中の虫が疑われるときの対処",
     },
+    {
+      href: "/niwaki-ha-ochiru/",
+      label: "庭木の葉が季節外れに落ちる",
+      desc: "常緑樹の葉の入れ替わりと異常の見分け方",
+    },
+    {
+      href: "/niwaki-ha-ana/",
+      label: "庭木の葉に穴があく・葉が食べられている",
+      desc: "虫・ナメクジ・病気の見分け方",
+    },
+    {
+      href: "/niwaki-ha-shiroi/",
+      label: "庭木の葉が白くなる・白い粉が付く",
+      desc: "うどんこ病・ハダニなどの見分け方",
+    },
   ],
 };
 

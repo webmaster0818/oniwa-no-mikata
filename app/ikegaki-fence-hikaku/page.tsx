@@ -172,6 +172,11 @@ const data: KnowArticleData = {
       label: "庭じまい・ローメンテナンス化の基本",
       desc: "生垣を含めた庭全体の手間を減らす計画の立て方",
     },
+    {
+      href: "/ikegaki-shitaeda-kare/",
+      label: "生垣の下枝が枯れる・すき間があく",
+      desc: "原因と再生の考え方",
+    },
   ],
 };
 

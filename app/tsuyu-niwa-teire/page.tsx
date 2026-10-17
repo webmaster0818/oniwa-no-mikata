@@ -179,6 +179,16 @@ const data: KnowArticleData = {
       label: "雨で庭の土が流れる・えぐれる",
       desc: "表土の流出の原因と対処",
     },
+    {
+      href: "/niwaki-ha-shiroi/",
+      label: "庭木の葉が白くなる・白い粉が付く",
+      desc: "うどんこ病・ハダニなどの見分け方",
+    },
+    {
+      href: "/niwa-namekuji/",
+      label: "庭にナメクジが出る",
+      desc: "出やすい場所・季節と減らし方",
+    },
   ],
 };
 

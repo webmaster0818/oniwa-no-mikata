@@ -184,6 +184,16 @@ const data: KnowArticleData = {
       label: "庭に猫が来てフンをする",
       desc: "避けるべき対応と寄せつけない工夫",
     },
+    {
+      href: "/shibafu-bubun-gare/",
+      label: "芝生が部分的に枯れる・はげる",
+      desc: "まだらに茶色くなる原因の切り分け",
+    },
+    {
+      href: "/niwa-namekuji/",
+      label: "庭にナメクジが出る",
+      desc: "出やすい場所・季節と減らし方",
+    },
   ],
 };
 

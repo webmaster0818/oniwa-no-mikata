@@ -189,6 +189,11 @@ const data: KnowArticleData = {
       label: "庭や庭木にアリが大量に出る",
       desc: "巣の場所と減らし方の考え方",
     },
+    {
+      href: "/niwa-namekuji/",
+      label: "庭にナメクジが出る",
+      desc: "出やすい場所・季節と減らし方",
+    },
   ],
 };
 

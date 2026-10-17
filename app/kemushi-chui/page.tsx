@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "庭木に蜂の巣ができたときの対処",
       desc: "剪定前の確認方法と発見時の安全な対応",
     },
+    {
+      href: "/niwaki-ha-ana/",
+      label: "庭木の葉に穴があく・葉が食べられている",
+      desc: "虫・ナメクジ・病気の見分け方",
+    },
   ],
 };
 

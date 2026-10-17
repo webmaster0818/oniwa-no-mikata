@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "目隠しになる庭木の選び方",
       desc: "常緑樹の候補と管理の考え方",
     },
+    {
+      href: "/niwaki-ha-ana/",
+      label: "庭木の葉に穴があく・葉が食べられている",
+      desc: "虫・ナメクジ・病気の見分け方",
+    },
   ],
 };
 

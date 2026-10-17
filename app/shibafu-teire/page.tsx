@@ -177,6 +177,16 @@ const data: KnowArticleData = {
       label: "ダスキンの庭木・剪定の口コミ・評判",
       desc: "芝生管理を含むトータルケアに対応",
     },
+    {
+      href: "/shibafu-bubun-gare/",
+      label: "芝生が部分的に枯れる・はげる",
+      desc: "まだらに茶色くなる原因の切り分け",
+    },
+    {
+      href: "/shibafu-zasso/",
+      label: "芝生に雑草が増える",
+      desc: "増える理由と手取り・除草剤・張り替えの判断",
+    },
   ],
 };
 

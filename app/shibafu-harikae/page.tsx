@@ -172,6 +172,11 @@ const data: KnowArticleData = {
       label: "福岡の庭業者おすすめ5選",
       desc: "福岡県内で庭の手入れを依頼できる業者の比較",
     },
+    {
+      href: "/shibafu-zasso/",
+      label: "芝生に雑草が増える",
+      desc: "増える理由と手取り・除草剤・張り替えの判断",
+    },
   ],
 };
 

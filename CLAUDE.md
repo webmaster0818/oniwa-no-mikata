@@ -9,3 +9,4 @@
 ## 作業ログ
 - 2026-09-30 悩み・症状型Know 11本（陥没/キノコ/幹の空洞/木の実 等）。sitemap 244URL。
 - 2026-10-12 悩み・症状型Know 11本：niwaki-ha-henshoku / niwa-tsuchi-ryushutsu / niwa-ari-taisaku / niwaki-katamuki / niwaki-jueki-yani / niwaki-kikuzu-ana / niwaki-juhi-hagare / hikobae-dobukieda / niwa-hebi / niwa-tori-higai / niwa-neko-taisaku。既存21ページのrelatedから被リンク追加（各3〜6本）。sitemap 255URL。GSC（9/10〜10/10）3,853表示/89クリック、9/30公開分は陥没・キノコ・空洞・木の実で既に表示あり。
+- 2026-10-17 悩み・症状型Know 11本：shibafu-bubun-gare / shibafu-zasso / niwaki-ha-shioreru / ikegaki-shitaeda-kare / niwaki-ha-ochiru / niwaki-ha-ana / niwaki-ha-shiroi / niwaki-ha-makuru / niwaki-eda-oreta / niwa-namekuji / niwaki-miki-fuchakubutsu。既存30ページのrelatedから各4本。title調整2本（densen-eda-sesshoku 147表示0クリック9.5位、niwaki-kanbu-fukyu「木の空洞」10.1位）。sitemap 267URL。

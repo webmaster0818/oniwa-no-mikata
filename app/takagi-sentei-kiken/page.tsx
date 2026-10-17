@@ -182,6 +182,11 @@ const data: KnowArticleData = {
       label: "枝が電線に触れそうなとき",
       desc: "連絡先と自分で切ってはいけない理由",
     },
+    {
+      href: "/niwaki-eda-oreta/",
+      label: "庭木の枝が折れた・裂けた",
+      desc: "応急の確認と切り直しの考え方",
+    },
   ],
 };
 

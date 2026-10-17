@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "庭木の支柱の立て方の基本",
       desc: "食い込みや擦れを防ぐ扱い方",
     },
+    {
+      href: "/niwaki-miki-fuchakubutsu/",
+      label: "庭木の幹や枝に白・緑・灰色のものが付いている",
+      desc: "地衣類・コケ・虫の見分け方",
+    },
   ],
 };
 

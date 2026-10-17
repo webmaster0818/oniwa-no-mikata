@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "隣家への枝の越境と対処の基本",
       desc: "境界近くの木で起こりやすいトラブルの予防",
     },
+    {
+      href: "/ikegaki-shitaeda-kare/",
+      label: "生垣の下枝が枯れる・すき間があく",
+      desc: "原因と再生の考え方",
+    },
   ],
 };
 

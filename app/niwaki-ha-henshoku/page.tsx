@@ -174,6 +174,21 @@ const data: KnowArticleData = {
       label: "庭木が傾いてきた",
       desc: "根元の変化の見方と倒木リスクの考え方",
     },
+    {
+      href: "/niwaki-ha-shioreru/",
+      label: "庭木の葉がしおれる・垂れ下がる",
+      desc: "水切れと根の傷みの見分け方",
+    },
+    {
+      href: "/niwaki-ha-ochiru/",
+      label: "庭木の葉が季節外れに落ちる",
+      desc: "常緑樹の葉の入れ替わりと異常の見分け方",
+    },
+    {
+      href: "/niwaki-ha-makuru/",
+      label: "庭木の葉が丸まる・縮れる",
+      desc: "虫・乾燥・薬剤の飛散など原因の見分け方",
+    },
   ],
 };
 

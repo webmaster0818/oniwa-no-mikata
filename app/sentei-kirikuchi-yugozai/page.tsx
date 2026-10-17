@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "庭木の樹皮がはがれる・幹が割れる",
       desc: "自然な剥がれと異常の見分け方",
     },
+    {
+      href: "/niwaki-eda-oreta/",
+      label: "庭木の枝が折れた・裂けた",
+      desc: "応急の確認と切り直しの考え方",
+    },
   ],
 };
 

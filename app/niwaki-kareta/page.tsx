@@ -197,6 +197,11 @@ const data: KnowArticleData = {
       label: "庭木の樹皮がはがれる・幹が割れる",
       desc: "自然な剥がれと異常の見分け方",
     },
+    {
+      href: "/niwaki-ha-ochiru/",
+      label: "庭木の葉が季節外れに落ちる",
+      desc: "常緑樹の葉の入れ替わりと異常の見分け方",
+    },
   ],
 };
 

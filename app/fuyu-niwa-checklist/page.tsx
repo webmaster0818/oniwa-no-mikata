@@ -184,6 +184,11 @@ const data: KnowArticleData = {
       label: "庭仕事の道具の選び方と手入れ",
       desc: "最初にそろえる7つと刃物の扱い",
     },
+    {
+      href: "/niwaki-eda-oreta/",
+      label: "庭木の枝が折れた・裂けた",
+      desc: "応急の確認と切り直しの考え方",
+    },
   ],
 };
 
