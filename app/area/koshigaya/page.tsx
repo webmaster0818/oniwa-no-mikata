@@ -673,7 +673,7 @@ export default function AreaKoshigayaPage() {
             確認できるようになるのは三点です。一つ目は<Hl>枝の込み具合</Hl>で、内側で交差している枝や、内向きに伸びた枝がはっきり分かります。二つ目は<Hl>枯れ枝</Hl>で、葉がある時期は生きている枝と見分けにくいものも、この時期であれば容易に判別できます。三つ目は<Hl>鳥の巣や虫が越冬している跡</Hl>で、葉の陰に隠れていたものが見えるようになります。枯れているかどうかの見分け方は<Link href="/niwaki-kareta/" className="text-[#2D7F3E] underline">庭木が枯れたかどうかの見分け方の解説記事</Link>、病害虫の兆候は<Link href="/niwaki-byogaichu/" className="text-[#2D7F3E] underline">庭木の病害虫の解説記事</Link>を参考にしてください。
           </p>
           <p className="leading-loose mb-4 text-[#4a5443]">
-            ただし、<Hl>確認できる時期と、作業に適した時期は同じとは限りません</Hl>。剪定に適した時期は木の種類によって異なります。花を楽しむ木は、翌年の花になる芽ができたあとに切ると、その年の花が減ります。そのため、<Hl>下見の日と作業日を分ける</Hl>という考え方が有効です。落葉期に現地を確認してもらい、必要な作業を洗い出したうえで、木ごとに適した時期に作業日を割り振る進め方です。時期の考え方は<Link href="/sentei-jiki/" className="text-[#2D7F3E] underline">剪定の時期の解説記事</Link>、花木は<Link href="/kaboku-kaika-teire/" className="text-[#2D7F3E] underline">花木の開花と手入れの解説記事</Link>にまとめています。
+            ただし、<Hl>確認できる時期と、作業に適した時期は同じとは限りません</Hl>。剪定に適した時期は木の種類によって異なります。花を楽しむ木は、翌年の花になる芽ができたあとに切ると、翌年の花が減ります。そのため、<Hl>下見の日と作業日を分ける</Hl>という考え方が有効です。落葉期に現地を確認してもらい、必要な作業を洗い出したうえで、木ごとに適した時期に作業日を割り振る進め方です。時期の考え方は<Link href="/sentei-jiki/" className="text-[#2D7F3E] underline">剪定の時期の解説記事</Link>、花木は<Link href="/kaboku-kaika-teire/" className="text-[#2D7F3E] underline">花木の開花と手入れの解説記事</Link>にまとめています。
           </p>
 
           {/* 4 */}

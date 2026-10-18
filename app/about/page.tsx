@@ -38,7 +38,7 @@ export default function AboutPage() {
             <dt className="font-semibold">会社名</dt>
             <dd>株式会社MediaX</dd>
             <dt className="font-semibold">所在地</dt>
-            <dd>東京都内（詳細はお問い合わせください）</dd>
+            <dd>東京都渋谷区</dd>
             <dt className="font-semibold">事業内容</dt>
             <dd>Web メディア運営、比較情報サイトの企画・運営、SEO 関連サービス</dd>
             <dt className="font-semibold">公式サイト</dt>

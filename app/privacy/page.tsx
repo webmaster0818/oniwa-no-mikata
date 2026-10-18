@@ -92,6 +92,11 @@ export default function PrivacyPage() {
               <p className="text-text-muted leading-relaxed">
                 当社は、本人から個人情報の開示を求められたときは、本人に対し、遅滞なくこれを開示します。ただし、開示することにより次のいずれかに該当する場合は、その全部または一部を開示しないこともあり、開示しない決定をした場合には、その旨を遅滞なく通知します。
               </p>
+              <ol className="list-decimal list-inside space-y-2 text-text-muted mt-3">
+                <li>本人または第三者の生命、身体、財産その他の権利利益を害するおそれがある場合</li>
+                <li>当社の業務の適正な実施に著しい支障を及ぼすおそれがある場合</li>
+                <li>他の法令に違反することとなる場合</li>
+              </ol>
             </section>
 
             <section>
