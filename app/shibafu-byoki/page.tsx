@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次の場合は、現地で見てもらうほうが早く解決します。<Hl>（1）管理を改めても症状が広がり続ける、（2）庭の広い範囲が同時に傷んでいる、（3）毎年同じ時期に同じ場所で再発する、（4）張り替えや下地からの作り直しまで検討したい</Hl>といったケースです。特に（3）は、土壌や排水といった下地側の条件が原因になっていることが多く、表面の対処では解決しません。
     </p>,
     <p key="2">
-      芝生の管理は、草刈り・除草の延長で対応してもらえる場合と、造園として下地から見てもらう場合があります。面積単位で依頼したい場合は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米600円〜の掲載料金）、庭全般をまとめて相談したい場合は<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>や<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>が候補になります。作業単位で近隣の事業者を比べたいときは<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>も選択肢です。
+      芝生の管理は、草刈り・除草の延長で対応してもらえる場合と、造園として下地から見てもらう場合があります。面積単位で依頼したい場合は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>、庭全般をまとめて相談したい場合は<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>や<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>が候補になります。作業単位で近隣の事業者を比べたいときは<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>も選択肢です。
     </p>,
     <p key="3">
       日常の手入れの基本は<Link href="/shibafu-teire/" className="text-[#2D7F3E] underline">芝生の手入れの基本</Link>、傷みが広範囲のときは<Link href="/shibafu-harikae/" className="text-[#2D7F3E] underline">芝生の張り替えの基礎知識</Link>、そもそも天然芝を続けるか迷うなら<Link href="/jinkoshiba-tennenshiba/" className="text-[#2D7F3E] underline">人工芝と天然芝の比較</Link>もあわせてご覧ください。地域から探す場合は<Link href="/area/sapporo/" className="text-[#2D7F3E] underline">札幌の庭業者まとめ</Link>や<Link href="/area/fukuoka/" className="text-[#2D7F3E] underline">福岡の庭業者まとめ</Link>が便利です。

@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       新築の庭づくりでは、<Hl>依頼したい内容が「構造物中心」であれば外構・エクステリア業者、「植栽・庭空間中心」であれば造園業者、両方であれば両対応の会社</Hl>という視点で相談先を考えると整理しやすくなります。造園業者と植木屋の違いや守備範囲は<Link href="/zoen-uekiya-chigai/" className="text-[#2D7F3E] underline">造園業者と植木屋の違い</Link>で詳しく解説しています。屋外照明や電源の設置は電気工事士の資格が関わる領域のため、照明計画がある場合は対応可否もご確認ください。
     </p>,
     <p key="2">
-      植え付けや芝張りなど作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が選択肢になります。庭が完成した後の維持管理は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような手入れサービスや、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）のような単発依頼を組み合わせる方法があります。<Hl>「作る費用」だけでなく「維持する費用と手間」まで見据えて計画する</Hl>ことが、新築の庭づくりで最も重要なポイントです。
+      植え付けや芝張りなど作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が選択肢になります。庭が完成した後の維持管理は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような手入れサービスや、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>のような単発依頼を組み合わせる方法があります。<Hl>「作る費用」だけでなく「維持する費用と手間」まで見据えて計画する</Hl>ことが、新築の庭づくりで最も重要なポイントです。
     </p>,
     <p key="3">
       なお、庭のリフォームと外構工事の領域の違いは<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭のリフォームと外構工事の違い</Link>でも整理しています。手入れの楽な樹種選びは<Link href="/teire-raku-niwaki/" className="text-[#2D7F3E] underline">手入れが楽な庭木の選び方</Link>が参考になります。横浜市周辺で庭の手入れの依頼先を探す場合は<Link href="/area/yokohama/" className="text-[#2D7F3E] underline">横浜の庭業者まとめ</Link>もあわせてご覧ください。
