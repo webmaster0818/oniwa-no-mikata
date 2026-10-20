@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、業者への依頼をおすすめします。<Hl>（1）樹種が分からず適期の判断がつかない、（2）大きくなりすぎて自分では剪定できない、（3）数年手を入れておらず枝が混み合っている、（4）花付きの悪化に加えて枝枯れや変色がある</Hl>といったケースです。特に（4）は病害虫や根の問題が絡んでいる可能性があり、剪定だけでは解決しないことがあります。
     </p>,
     <p key="2">
-      花木の剪定は樹種ごとの知識が求められる作業です。相談先としては<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜の掲載料金）、資格を持つスタッフによる年間管理を希望する場合は<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>が候補になります。依頼時に<Hl>花をよく咲かせたいという目的を明確に伝える</Hl>ことが重要です。目的が伝わると、切る時期と切り方の提案が変わります。
+      花木の剪定は樹種ごとの知識が求められる作業です。相談先としては<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜の掲載料金）、資格を持つスタッフによる年間管理を希望する場合は<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>が候補になります。依頼時に<Hl>花をよく咲かせたいという目的を明確に伝える</Hl>ことが重要です。目的が伝わると、切る時期と切り方の提案が変わります。
     </p>,
     <p key="3">
       葉の異変や虫の痕跡が見られる場合は<Link href="/niwaki-byogaichu/" className="text-[#2D7F3E] underline">庭木の病害虫対策の基本</Link>と<Link href="/kaigaramushi-aburamushi/" className="text-[#2D7F3E] underline">カイガラムシ・アブラムシ等の見分け方</Link>を、剪定の適期そのものを確認したい場合は<Link href="/sentei-jiki/" className="text-[#2D7F3E] underline">庭木の剪定時期の基本</Link>をご覧ください。地域の依頼先は<Link href="/area/kyoto/" className="text-[#2D7F3E] underline">京都の庭業者まとめ</Link>や<Link href="/area/kobe/" className="text-[#2D7F3E] underline">神戸の庭業者まとめ</Link>などのエリアページから探せます。

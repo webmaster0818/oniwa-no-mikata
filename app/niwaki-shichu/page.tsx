@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>背丈を大きく超える木の支柱、台風で傾いた木の立て直し、植え替え・移植に伴う支柱の設置、支柱が幹に食い込んでしまった木の処置</Hl>は、業者に相談したほうが確実です。特に傾いた木の立て直しは、根の状態の見極めと重量物の扱いが伴う危険な作業であり、専門知識のない方が行うべきではありません。また、移植した木の支柱は活着を左右する重要な工程のため、移植とセットで業者に任せるのが一般的です。移植の考え方は<Link href="/niwaki-ishoku/" className="text-[#2D7F3E] underline">庭木の植え替え・移植の基礎</Link>で解説しています。
     </p>,
     <p key="2">
-      支柱の設置・交換は単体で依頼するより、剪定や植え付け・台風前の点検とまとめて依頼するのが効率的です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、支柱の設置・資材は別途の扱いになるのが一般的なため、<Hl>見積もり時に「支柱の点検・設置を含むか」と資材費の扱いを確認する</Hl>ことが重要です。
+      支柱の設置・交換は単体で依頼するより、剪定や植え付け・台風前の点検とまとめて依頼するのが効率的です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、支柱の設置・資材は別途の扱いになるのが一般的なため、<Hl>見積もり時に「支柱の点検・設置を含むか」と資材費の扱いを確認する</Hl>ことが重要です。
     </p>,
     <p key="3">
       台風シーズン前に庭全体の備えを見直したい場合は、<Link href="/taifu-niwaki-taisaku/" className="text-[#2D7F3E] underline">台風前後の庭木対策</Link>の記事で事前対策の全体像を解説しています。年間を通じた管理を任せたい場合は<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような定期管理サービスも選択肢です。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、札幌など都市別の依頼は<Link href="/area/sapporo/" className="text-[#2D7F3E] underline">札幌の庭業者まとめ</Link>をあわせて参考にしてください。

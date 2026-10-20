@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>広い面積を一度に施工したい、駐車場や傾斜地など強度・排水の設計が必要、雑草が広がった庭を除草からやり直したい</Hl>。このような場合は、業者への依頼をおすすめします。砂利は1平米あたりでも相当な重量になり、広い庭では材料の運搬だけでも大きな負担になります。業者に依頼すると、除草・整地・防草シート・砂利敷きを一連の工程として施工してもらえ、下準備の精度が仕上がりに直結するこの工法では、その価値が特に大きいといえます。
     </p>,
     <p key="2">
-      依頼時は、<Hl>「雑草を抑えたい」「駐車場にしたい」など目的を伝えたうえで、除草・整地・シート・砂利・残土や刈草の処分まで含んだ総額</Hl>を見積もりで確認してください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜という掲載値で、草刈り後の防草シート施工にも対応しています。砂利敷きを含む外まわりの施工は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のように事業者ごとの料金・作業範囲を比較して選べるサービスもあります。見積もりの比較の考え方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>も参考になります。
+      依頼時は、<Hl>「雑草を抑えたい」「駐車場にしたい」など目的を伝えたうえで、除草・整地・シート・砂利・残土や刈草の処分まで含んだ総額</Hl>を見積もりで確認してください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）という掲載値で、草刈り後の防草シート施工にも対応しています。砂利敷きを含む外まわりの施工は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のように事業者ごとの料金・作業範囲を比較して選べるサービスもあります。見積もりの比較の考え方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>も参考になります。
     </p>,
     <p key="3">
       庭木の伐採や庭の縮小とあわせて砂利敷きを検討している場合は、<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまい・ローメンテナンス化</Link>の記事で全体の進め方を解説しています。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、横浜など都市別の依頼は<Link href="/area/yokohama/" className="text-[#2D7F3E] underline">横浜の庭業者まとめ</Link>をあわせて参考にしてください。

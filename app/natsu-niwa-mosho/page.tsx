@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、無理にご自身で作業せず、業者への依頼をご検討ください。<Hl>（1）炎天下での草刈り・剪定が体力的に不安、（2）雑草や枝の量が涼しい時間帯だけでは処理しきれない、（3）高齢の家族だけで夏の庭管理を続けている、（4）留守がちで夏の水やり・見回りができない</Hl>といったケースです。夏の庭作業は熱中症のリスクと隣り合わせであり、ご自身でできるかどうかだけでなく、安全にできるかどうかで判断することが大切です。
     </p>,
     <p key="2">
-      伸びた雑草の処理は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米600円〜の掲載値）のような面積単価のサービスが検討しやすく、庭木の手入れは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>に相談できます。<Hl>夏場は依頼が集中しやすいため、庭の写真を添えて早めに無料見積もりを取り、作業日を確保しておく</Hl>ことをおすすめします。
+      伸びた雑草の処理は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米163円〜・税込の掲載値）のような面積単価のサービスが検討しやすく、庭木の手入れは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>に相談できます。<Hl>夏場は依頼が集中しやすいため、庭の写真を添えて早めに無料見積もりを取り、作業日を確保しておく</Hl>ことをおすすめします。
     </p>,
     <p key="3">
       水やりや見回りを含む定期的な管理は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような庭の手入れサービスや、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で地域の事業者を探す方法があります。水やりの通年の考え方は<Link href="/niwaki-mizuyari/" className="text-[#2D7F3E] underline">庭木の水やりの基本</Link>で詳しく解説しています。名古屋市周辺で依頼先を探す場合は<Link href="/area/nagoya/" className="text-[#2D7F3E] underline">名古屋の庭業者まとめ</Link>も参考にしてください。

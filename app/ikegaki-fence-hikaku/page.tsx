@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>伸びすぎた生垣の大規模な刈り込みや仕立て直し、生垣の撤去（伐採・抜根）とフェンス設置の組み合わせ、境界付近での工事</Hl>は、業者に相談したほうが確実です。特に「生垣をやめてフェンスにする」工事は、生垣の伐採・抜根・処分と、フェンスの基礎・設置という異なる工事の組み合わせになるため、外構工事とあわせて対応できる業者か、庭業者と外構業者の分担かを含めて、現地調査で段取りを確認すると円滑に進みます。
     </p>,
     <p key="2">
-      生垣を維持する場合の刈り込みは、多くの庭業者が対応している一般的な作業です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）という掲載値を確認していますが、生垣は本数ではなく長さや高さで見積もられることも多く、実際の金額は現地調査での確認が前提です。毎年の管理をまとめて任せたい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような定期管理サービスに、生垣の刈り込みを組み込む方法もあります。
+      生垣を維持する場合の刈り込みは、多くの庭業者が対応している一般的な作業です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）という掲載値を確認していますが、生垣は本数ではなく長さや高さで見積もられることも多く、実際の金額は現地調査での確認が前提です。毎年の管理をまとめて任せたい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような定期管理サービスに、生垣の刈り込みを組み込む方法もあります。
     </p>,
     <p key="3">
       撤去まで含めた見積もりの見方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>で、切り株を残した場合のリスクは<Link href="/kirikabu-hochi/" className="text-[#2D7F3E] underline">切り株の放置リスクと対処</Link>で解説しています。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、京都など都市別の依頼は<Link href="/area/kyoto/" className="text-[#2D7F3E] underline">京都の庭業者まとめ</Link>をあわせて参考にしてください。

@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>庭全体の草に手が回らなくなっている、腰や膝の負担で隙間の草取りがつらい、アプローチや駐車場の目地を本格的に補修したい</Hl>といった場合は、業者への依頼が現実的です。隙間の草取りは単体では小さな作業のため、庭全体の草刈り・除草とまとめて依頼すると効率的です。また、目地の補修や固まる土の施工、防草を考慮した外まわりの改修は、水はけと仕上がりの調整が必要になるため、施工経験のある業者に任せる価値があります。
     </p>,
     <p key="2">
-      当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜という掲載値で、草刈り後の防草シート施工・除草剤散布・定期メンテナンスプランにも対応しています。<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のように、地域の事業者ごとの料金と作業内容を比較して選べるサービスもあります。石まわりの細かい作業が依頼範囲に含まれるかは、サービスや事業者によって異なります。<Hl>見積もり時に、縁石・飛び石まわりの際処理まで含むかを具体的にご確認</Hl>ください。
+      当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）という掲載値で、草刈り後の防草シート施工・除草剤散布・定期メンテナンスプランにも対応しています。<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のように、地域の事業者ごとの料金と作業内容を比較して選べるサービスもあります。石まわりの細かい作業が依頼範囲に含まれるかは、サービスや事業者によって異なります。<Hl>見積もり時に、縁石・飛び石まわりの際処理まで含むかを具体的にご確認</Hl>ください。
     </p>,
     <p key="3">
       庭の広い面の雑草対策は<Link href="/zasso-taisaku/" className="text-[#2D7F3E] underline">雑草対策の方法比較</Link>、防草シートと砂利による面の対策は<Link href="/bousou-sheet/" className="text-[#2D7F3E] underline">防草シートの基礎知識</Link>と<Link href="/jarishiki/" className="text-[#2D7F3E] underline">庭の砂利敷きの基礎知識</Link>で解説しています。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、神戸など都市別の依頼先は<Link href="/area/kobe/" className="text-[#2D7F3E] underline">神戸の庭業者まとめ</Link>をあわせてご参照ください。

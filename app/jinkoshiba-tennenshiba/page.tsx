@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のようなケースでは、自力での施工や管理にこだわらず業者への相談を検討してください。<Hl>（1）施工したい面積が広い、（2）地面の凹凸や水はけの悪さなど下地に不安がある、（3）今ある天然芝や雑草を撤去してから張り替えたい、（4）天然芝の手入れが続けられなくなってきた</Hl>のいずれかに当てはまる場合です。特に下地作りは仕上がりを左右する工程のため、転圧の道具や整地の経験がある業者に任せることをおすすめします。
     </p>,
     <p key="2">
-      今の庭の状態を整えるところから始めるなら、雑草だらけの庭は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米600円〜）で草刈りと防草シート施工をまとめて相談できます。人工芝の施工を地域の業者に依頼したい場合は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で人工芝施工を扱う出店者を口コミと料金で比較し、庭の写真を送って相談できます。<Hl>下地処理・整地・材料費まで含めた総額</Hl>を見積もりで確認することが重要です。
+      今の庭の状態を整えるところから始めるなら、雑草だらけの庭は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米163円〜・税込）で草刈りと防草シート施工をまとめて相談できます。人工芝の施工を地域の業者に依頼したい場合は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で人工芝施工を扱う出店者を口コミと料金で比較し、庭の写真を送って相談できます。<Hl>下地処理・整地・材料費まで含めた総額</Hl>を見積もりで確認することが重要です。
     </p>,
     <p key="3">
       天然芝を選んだ場合の日常の手入れは<Link href="/shibafu-teire/" className="text-[#2D7F3E] underline">芝生の手入れの解説記事</Link>を、傷んだ芝の張り替えを考えている場合は<Link href="/shibafu-harikae/" className="text-[#2D7F3E] underline">芝生の張り替えの解説記事</Link>を参考にしてください。芝の手入れを含めて庭全体の管理を任せたい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような年間管理プランのあるサービスに相談する方法もあります。

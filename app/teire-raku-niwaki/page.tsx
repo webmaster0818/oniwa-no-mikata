@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       「選び方を知る前に植えてしまい、すでに大きくなりすぎている」という場合、取れる道は大きく2つです。ひとつは、<Hl>強めの剪定で木のサイズと骨格を作り直し、以後は自分の手が届く大きさで維持していく</Hl>方法です。もうひとつは、<Hl>伐採（必要に応じて抜根まで）で整理し、改めて手入れの楽な木や別の使い方に切り替える</Hl>方法です。どちらが適切かは、木の状態・樹種・思い入れによって変わるため、現地を確認できる業者に相談するのが確実です。
     </p>,
     <p key="2">
-      サイズの作り直しは剪定業者の領域で、当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（剪定1本2,890円〜・出張費3,000円別途の掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定1本550円〜の掲載値）が庭木1本から対応しています。整理する場合は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような伐採・抜根専門サービスが候補です。いずれも実際の総額は木の大きさ・状態で変わるため、見積もりで確認してください。
+      サイズの作り直しは剪定業者の領域で、当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（剪定1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定1本550円〜の掲載値）が庭木1本から対応しています。整理する場合は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような伐採・抜根専門サービスが候補です。いずれも実際の総額は木の大きさ・状態で変わるため、見積もりで確認してください。
     </p>,
     <p key="3">
       また、これから庭木を植える・植え替える場合も、樹種選びと配置の段階から造園に対応する業者（<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>は造園・デザインの相談にも対応）に相談すると、「植えた後の手入れまで見据えた庭」を最初から設計できます。業者ごとの特徴は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>で、東京都内での相談は<Link href="/area/tokyo/" className="text-[#2D7F3E] underline">東京の庭業者まとめ</Link>で確認できます。

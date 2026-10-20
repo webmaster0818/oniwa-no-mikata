@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、ご自身で試行錯誤を続けるより、業者に相談することをおすすめします。<Hl>（1）高木の枝が茂って庭が暗く、高所の剪定が必要、（2）水はけが悪く土壌から改善したい、（3）日陰に合わせた植栽計画をまとめて設計してほしい、（4）何を植えても枯れる原因が分からない</Hl>のいずれかに当てはまるケースです。特に高い木の剪定は転落リスクの高い作業で、自力対処の範囲を超えます。詳しくは<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定の危険性</Link>の記事も参考にしてください。
     </p>,
     <p key="2">
-      剪定で庭に光を入れたい場合は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応の剪定サービスに相談できます。剪定110番は1本2,890円〜という掲載料金がありますが、木の高さや本数で総額は変わるため、<Hl>庭の写真を添えて無料見積もりで確認する</Hl>ことをおすすめします。「庭を明るくしたい」という目的を伝えると、切るべき枝の提案も受けやすくなります。
+      剪定で庭に光を入れたい場合は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応の剪定サービスに相談できます。剪定110番は1本4,000円〜（税込）という掲載料金がありますが、木の高さや本数で総額は変わるため、<Hl>庭の写真を添えて無料見積もりで確認する</Hl>ことをおすすめします。「庭を明るくしたい」という目的を伝えると、切るべき枝の提案も受けやすくなります。
     </p>,
     <p key="3">
       日陰を前提とした植栽計画や土壌改良まで含めて相談したい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような植栽・管理に対応するサービスや、地域の造園業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>も選択肢です。地域の気候を知る事業者ほど、その土地の日陰で実績のある植物を提案しやすくなります。仙台市周辺で依頼先を探す場合は<Link href="/area/sendai/" className="text-[#2D7F3E] underline">仙台の庭業者まとめ</Link>も参考にしてください。

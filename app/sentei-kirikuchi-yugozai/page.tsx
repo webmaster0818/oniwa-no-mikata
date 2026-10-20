@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>切りたい枝が太い、脚立が必要な高さにある、枝の下に建物や車・ガラスがある、どこで切ればよいか判断がつかない、過去に切られた切り口がふさがっていない</Hl>といった場合は業者に任せるのが妥当です。太い枝の処理は、切る位置の判断と、落とし方の段取りの両方が必要な作業で、失敗したときに木に残る傷は何年も消えません。業者に依頼するときは、<Hl>「どの枝を、なぜ切りたいのか」を伝える</Hl>と、切らずに済む方法や、より負担の小さい切り方が提案されることがあります。
     </p>,
     <p key="2">
-      費用は、木の高さと本数、枝の太さ、作業スペースと搬出のしやすさ、出た枝の処分量で変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、高木や太い枝の処理がこの金額で収まるとは限りません。<Hl>「処分費が含まれるか」「高さで単価が変わるか」を見積書で確認</Hl>してください。
+      費用は、木の高さと本数、枝の太さ、作業スペースと搬出のしやすさ、出た枝の処分量で変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、高木や太い枝の処理がこの金額で収まるとは限りません。<Hl>「処分費が含まれるか」「高さで単価が変わるか」を見積書で確認</Hl>してください。
     </p>,
     <p key="3">
       自分で行うか依頼するかの判断は<Link href="/sentei-diy-gyosha/" className="text-[#2D7F3E] underline">剪定は自分でできる？</Link>、道具の選び方と刃の手入れは<Link href="/niwa-dogu-erabikata/" className="text-[#2D7F3E] underline">庭仕事の道具の選び方と手入れ</Link>、高い位置での作業の危険性は<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定を自分で行う危険性</Link>、出た枝の処分は<Link href="/senteieda-shobun/" className="text-[#2D7F3E] underline">剪定枝・刈り草の処分方法</Link>にまとめています。

@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、ご自身での模様替えにこだわらず業者への相談を検討してください。<Hl>（1）茂りすぎた既存の木の剪定・伐採から仕切り直したい、（2）床面の舗装や土壌改良など施工を伴う変更をしたい、（3）狭さを活かした設計をまとめて提案してほしい、（4）物置や大きな庭石など重量物の撤去が必要</Hl>といったケースです。特に既存の木の整理は、その後のレイアウトの自由度を大きく左右するため、最初に手を付ける価値があります。
     </p>,
     <p key="2">
-      木の整理から始める場合は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような専門サービスに相談できます。<Hl>庭全体の写真を添えて「狭い庭を使いやすくしたい」という目的ごと伝える</Hl>と、単発の剪定にとどまらない提案を受けやすくなります。総額は木の本数・大きさで変わるため、無料見積もりでご確認ください。
+      木の整理から始める場合は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような専門サービスに相談できます。<Hl>庭全体の写真を添えて「狭い庭を使いやすくしたい」という目的ごと伝える</Hl>と、単発の剪定にとどまらない提案を受けやすくなります。総額は木の本数・大きさで変わるため、無料見積もりでご確認ください。
     </p>,
     <p key="3">
       植栽計画や床面の仕上げまで含めて相談したい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような庭全般に対応するサービス、地域の造園業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が選択肢になります。業者選びの基本は<Link href="/zoen-uekiya-chigai/" className="text-[#2D7F3E] underline">造園業者と植木屋の違い</Link>の記事も参考にしてください。横浜市周辺で依頼先を探す場合は<Link href="/area/yokohama/" className="text-[#2D7F3E] underline">横浜の庭業者まとめ</Link>もご覧ください。

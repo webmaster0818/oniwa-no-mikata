@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次の場合は業者への相談が現実的です。<Hl>（1）大きくなりすぎた木の樹冠を縮めたい、（2）隣家や側溝の上に張り出した枝を整理したい、（3）落ち葉が多すぎる木を伐採して植え替えたい、（4）どの木が原因か判断がつかない</Hl>といったケースです。高い位置の枝の作業は転落の危険があるため、脚立で無理をせず業者にご依頼ください。判断の目安は<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定の危険性</Link>をご覧ください。
     </p>,
     <p key="2">
-      剪定で対応する場合は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜・伐採3,300円〜の掲載料金）、木そのものを整理する場合は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>が相談先の候補です。依頼時に<Hl>「落ち葉の量を減らしたい」「隣家側と側溝の上を優先したい」と目的を伝える</Hl>と、単に形を整えるだけでない提案を受けやすくなります。金額は木の高さ・本数で変わるため、無料見積もりでご確認ください。
+      剪定で対応する場合は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜・伐採3,300円〜の掲載料金）、木そのものを整理する場合は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>が相談先の候補です。依頼時に<Hl>「落ち葉の量を減らしたい」「隣家側と側溝の上を優先したい」と目的を伝える</Hl>と、単に形を整えるだけでない提案を受けやすくなります。金額は木の高さ・本数で変わるため、無料見積もりでご確認ください。
     </p>,
     <p key="3">
       年間を通した掃除まで含めて任せたい場合は、<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような年間管理プランを持つサービスや、作業単位で依頼できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>も選択肢です。掲載各社の比較は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧</Link>、地域から探す場合は<Link href="/area/sapporo/" className="text-[#2D7F3E] underline">札幌の庭業者まとめ</Link>や<Link href="/area/osaka/" className="text-[#2D7F3E] underline">大阪の庭業者まとめ</Link>をご覧ください。

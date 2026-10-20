@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>高木や本数の多い庭木の伐採・抜根、広い面積の草刈りと防草工事、処分量の多い庭の片付け</Hl>は、業者に依頼したほうが安全で、結果的に早く完了します。特に庭じまいは「伐採＋抜根＋整地＋防草シート＋砂利敷き」のように複数の作業が組み合わさることが多く、一括で依頼すると工程の調整や跡地の仕上がりまで含めて計画してもらえるのが利点です。
     </p>,
     <p key="2">
-      費用は木の本数・大きさ・処分量・面積によって大きく変わるため、必ず現地調査を含む無料見積もりで総額を確認してください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような伐採専門サービスのほか、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が伐採1本3,300円〜、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜という掲載値を確認していますが、いずれも下限の金額であり、庭じまいのようにまとまった作業では現場ごとの見積もりが前提です。見積書の見方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>で解説しています。
+      費用は木の本数・大きさ・処分量・面積によって大きく変わるため、必ず現地調査を含む無料見積もりで総額を確認してください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような伐採専門サービスのほか、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が伐採1本3,300円〜、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）という掲載値を確認していますが、いずれも下限の金額であり、庭じまいのようにまとまった作業では現場ごとの見積もりが前提です。見積書の見方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>で解説しています。
     </p>,
     <p key="3">
       すべてをなくすか迷っている段階でも、現地調査で相談しながら範囲を決められる業者は多くあります。残す木の年間管理まで依頼する場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような定期管理サービスも選択肢です。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、大阪など都市別の依頼は<Link href="/area/osaka/" className="text-[#2D7F3E] underline">大阪の庭業者まとめ</Link>をあわせて参考にしてください。
@@ -140,7 +140,7 @@ const data: KnowArticleData = {
     },
     {
       q: "庭じまいの費用はどれくらいかかりますか？",
-      a: "木の本数・大きさ・処分量・面積・跡地の仕上げによって大きく変わるため、一律には決められません。当サイトの紹介ページ作成時の掲載値では、お庭マスターの伐採1本3,300円〜、草刈り110番の草刈り1平米600円〜という下限の金額を確認していますが、庭じまいのように複数作業をまとめる場合は現地調査を含む無料見積もりで総額を確認することが前提です。優先度の高い作業から数回に分けて実行する方法もあります。",
+      a: "木の本数・大きさ・処分量・面積・跡地の仕上げによって大きく変わるため、一律には決められません。当サイトの紹介ページ作成時の掲載値では、お庭マスターの伐採1本3,300円〜、草刈り110番の草刈り1平米163円〜（税込）という下限の金額を確認していますが、庭じまいのように複数作業をまとめる場合は現地調査を含む無料見積もりで総額を確認することが前提です。優先度の高い作業から数回に分けて実行する方法もあります。",
     },
     {
       q: "庭じまいは自分でどこまでできますか？",

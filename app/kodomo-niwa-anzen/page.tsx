@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       子どもの安全に関わる庭の作業には、家庭で抱え込まず専門家に任せるべきものがあります。<Hl>（1）蜂の巣の駆除、（2）高い木の剪定や枯れ枝・枯れ木の除去、（3）毛虫が大量発生した木への対処、（4）誤食が心配な庭木の伐採・抜根</Hl>といった作業です。蜂の巣は自治体によって相談窓口や補助の仕組みが異なるため、まず住んでいる自治体の案内を確認するのも有効です。頭上から落ちてくる枯れ枝は、子どもが下で遊ぶ庭では特に見逃せないリスクで、高所の作業は転落の危険から業者の領域です。
     </p>,
     <p key="2">
-      庭木まわりの作業は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応サービスに相談できます。<Hl>「子どもが庭で遊ぶので、危ない枝や毛虫のつきやすい枝を整理したい」と目的を伝える</Hl>と、優先すべき作業の提案を受けやすくなります。作業前に蜂の巣の有無を確認してもらえるのも、業者に任せる利点のひとつです。総額は木の本数・高さで変わるため、写真を添えた無料見積もりでご確認ください。
+      庭木まわりの作業は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応サービスに相談できます。<Hl>「子どもが庭で遊ぶので、危ない枝や毛虫のつきやすい枝を整理したい」と目的を伝える</Hl>と、優先すべき作業の提案を受けやすくなります。作業前に蜂の巣の有無を確認してもらえるのも、業者に任せる利点のひとつです。総額は木の本数・高さで変わるため、写真を添えた無料見積もりでご確認ください。
     </p>,
     <p key="3">
       遊び場づくりの地面整備（芝生・人工芝など）や柵の設置を作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>、庭全体の手入れは<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のようなサービスも選択肢です。蜂の巣の対応の基本は<Link href="/niwaki-hachinosu/" className="text-[#2D7F3E] underline">庭木に蜂の巣ができたときの対処</Link>で詳しく解説しています。京都市周辺で依頼先を探す場合は<Link href="/area/kyoto/" className="text-[#2D7F3E] underline">京都の庭業者まとめ</Link>も参考にしてください。

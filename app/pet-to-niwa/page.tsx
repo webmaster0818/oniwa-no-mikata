@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       庭の環境づくりでは、次のような場面で業者に依頼すると、安全かつ確実に進められます。<Hl>（1）茂みや雑草が多くマダニなどが心配で、まとめて刈り取りたい場合、（2）危険と分かった庭木の伐採・撤去をしたい場合、（3）ペット用の区画分けやフェンスの補修・設置をしたい場合、（4）薬剤を使う庭木の消毒をペットに配慮して進めたい場合</Hl>です。庭木の伐採は、幹の太さや周囲の状況によっては危険な作業になるため、自己流で進めないことが大切です。
     </p>,
     <p key="2">
-      雑草や茂みの整理は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（600円/平米〜の掲載料金）、庭木の伐採は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような専門サービスに相談できます。<Hl>依頼時には必ず犬（猫）を庭に出していることを伝え、作業時の配慮や、薬剤を使う場合に立ち入りを控える期間をご確認</Hl>ください。ペットがいることを前提とした薬剤の選定や作業手順は、経験のある業者ほど相談に応じやすい部分です。
+      雑草や茂みの整理は<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（163円/平米〜・税込の掲載料金）、庭木の伐採は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような専門サービスに相談できます。<Hl>依頼時には必ず犬（猫）を庭に出していることを伝え、作業時の配慮や、薬剤を使う場合に立ち入りを控える期間をご確認</Hl>ください。ペットがいることを前提とした薬剤の選定や作業手順は、経験のある業者ほど相談に応じやすい部分です。
     </p>,
     <p key="3">
       庭全体をペットと暮らしやすい形に整えたい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような庭づくり全般に対応するサービス、フェンス設置などを作業単位で依頼できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が選択肢になります。地面の素材選びは<Link href="/jinkoshiba-tennenshiba/" className="text-[#2D7F3E] underline">人工芝と天然芝の比較</Link>もご参照ください。神戸市周辺で依頼先を探す場合は<Link href="/area/kobe/" className="text-[#2D7F3E] underline">神戸の庭業者まとめ</Link>もご覧ください。

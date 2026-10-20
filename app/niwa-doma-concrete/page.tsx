@@ -128,7 +128,7 @@ const data: KnowArticleData = {
       費用は面積・厚さ・下地の状態・重機の入りやすさなど条件によって大きく変わるため、<Hl>庭の写真と希望範囲を伝え、複数の見積もりで総額と内訳を比較する</Hl>ことをおすすめします。地域の外構・土間工事の事業者を比較したい場合は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のようなマッチング型サービスも使えます。見積もりの見方の基本は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>の記事も参考になります。
     </p>,
     <p key="3">
-      コンクリート化には踏み切れないものの庭の手入れを減らしたい場合は、防草シート＋砂利の施工や、手入れの少ない庭への作り替え（庭じまい）を造園業者に相談する方法もあります。<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（草刈り600円/平米〜の掲載料金）のようなサービスで当面の雑草を抑えながら、時間をかけて検討する方法もあります。さいたま市周辺で依頼先を探す場合は<Link href="/area/saitama/" className="text-[#2D7F3E] underline">さいたまの庭業者まとめ</Link>も参考にしてください。
+      コンクリート化には踏み切れないものの庭の手入れを減らしたい場合は、防草シート＋砂利の施工や、手入れの少ない庭への作り替え（庭じまい）を造園業者に相談する方法もあります。<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（草刈り163円/平米〜・税込の掲載料金）のようなサービスで当面の雑草を抑えながら、時間をかけて検討する方法もあります。さいたま市周辺で依頼先を探す場合は<Link href="/area/saitama/" className="text-[#2D7F3E] underline">さいたまの庭業者まとめ</Link>も参考にしてください。
     </p>,
   ],
   ctaHeading: "庭の省管理化は、コンクリート化の前に選択肢の比較をおすすめします",

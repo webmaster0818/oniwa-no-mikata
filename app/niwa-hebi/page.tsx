@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>庭に居座って動かない、家や物置に入り込んだ、子どもが遊ぶ場所で繰り返し見かける</Hl>といった場合は、ご自身で対処しようとせずにご相談ください。まずは<Hl>お住まいの自治体の環境や生活衛生を担当する窓口</Hl>に問い合わせると、対応の可否や相談先を案内してもらえることがあります。対応は自治体によって異なるため、対応範囲を事前にご確認ください。ヘビの捕獲や移動を扱う専門の業者もあります。<Hl>咬まれた場合は、相談先を探すより先に医療機関を受診</Hl>してください。
     </p>,
     <p key="2">
-      予防の中心になる草刈りや庭の片付けは、庭が広い場合や手が回らない場合は、業者に任せる選択肢があります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜という掲載値を確認しています。これは最低価格であり、草の量や刈った草の処分、斜面かどうかなどによって総額は変わります。<Hl>依頼時にはヘビを見かけた場所があることを伝え、作業範囲と処分の有無を見積もり時にご確認</Hl>ください。
+      予防の中心になる草刈りや庭の片付けは、庭が広い場合や手が回らない場合は、業者に任せる選択肢があります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）という掲載値を確認しています。これは最低価格であり、草の量や刈った草の処分、斜面かどうかなどによって総額は変わります。<Hl>依頼時にはヘビを見かけた場所があることを伝え、作業範囲と処分の有無を見積もり時にご確認</Hl>ください。
     </p>,
     <p key="3">
       草を伸ばしにくくする方法は<Link href="/zasso-taisaku/" className="text-[#2D7F3E] underline">雑草対策の方法比較</Link>と<Link href="/zasso-haenikui-niwa/" className="text-[#2D7F3E] underline">雑草が生えにくい庭のつくり方</Link>、モグラなど他の動物の痕跡は<Link href="/niwa-gaiju-higai/" className="text-[#2D7F3E] underline">庭の害獣被害の基礎知識</Link>、子どもが遊ぶ庭の安全確認は<Link href="/kodomo-niwa-anzen/" className="text-[#2D7F3E] underline">子どもと庭遊びの安全対策</Link>、物陰に潜む虫については<Link href="/mukade-yasude-taisaku/" className="text-[#2D7F3E] underline">庭のムカデ・ヤスデ・ダンゴムシ対策</Link>をご覧ください。

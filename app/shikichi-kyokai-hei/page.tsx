@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       相談先は内容によって分かれます。<Hl>境界の位置を明確にしたい場合や測量図を取得したい場合は土地家屋調査士、隣家との対立が生じている場合は弁護士</Hl>が対応する領域です。自治体の無料相談窓口を最初の相談先にする方法もあります。当サイトはこれらの法的判断を行う立場にはないため、個別の判断は必ず有資格の専門家にご確認ください。
     </p>,
     <p key="2">
-      一方、<Hl>境界付近の植栽の整理、生垣の刈り込み、塀際の伐採・抜根、フェンスの施工</Hl>といった作業は、庭・外構の業者の領域です。境界に近い木の伐採は、倒す方向の確保が難しく、隣家の構造物を傷めるおそれもあるため、専門業者に任せることをおすすめします。伐採は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>、剪定や生垣の刈り込みは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）が相談先の候補です。
+      一方、<Hl>境界付近の植栽の整理、生垣の刈り込み、塀際の伐採・抜根、フェンスの施工</Hl>といった作業は、庭・外構の業者の領域です。境界に近い木の伐採は、倒す方向の確保が難しく、隣家の構造物を傷めるおそれもあるため、専門業者に任せることをおすすめします。伐採は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>、剪定や生垣の刈り込みは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）が相談先の候補です。
     </p>,
     <p key="3">
       生垣からフェンスへの切り替えや塀の更新を検討している場合は、<Link href="/ikegaki-fence-hikaku/" className="text-[#2D7F3E] underline">生垣とフェンスの比較</Link>と<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭のリフォームと外構工事の違い</Link>もあわせてご覧ください。地域の事業者を作業単位で比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が利用しやすく、エリア別の依頼先は<Link href="/area/saitama/" className="text-[#2D7F3E] underline">埼玉の庭業者まとめ</Link>などのページで確認できます。

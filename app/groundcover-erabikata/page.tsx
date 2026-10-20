@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のいずれかに当てはまる場合は、自力での作業にこだわらず、業者への相談を検討してください。<Hl>（1）植えたい範囲が広く、雑草処理や土作りが手に負えない、（2）雑草が茂った庭を一度整理してから植えたい、（3）広がりすぎた植物の整理に困っている、（4）庭全体の雑草対策の組み合わせを設計から相談したい</Hl>。特に植え付け前の除草と整地は重労働のため、この工程を業者に任せるだけでも計画を進めやすくなります。
     </p>,
     <p key="2">
-      雑草が茂った状態から始める場合は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米600円〜）で草刈りと除草をまとめて依頼し、更地に近い状態にしてから植え付けを始める流れが効率的です。歩く場所や物置まわりなど植物を植えない範囲は、<Link href="/bousou-sheet/" className="text-[#2D7F3E] underline">防草シート</Link>や<Link href="/jarishiki/" className="text-[#2D7F3E] underline">砂利敷き</Link>と組み合わせると、庭全体の雑草管理が楽になります。<Hl>「植物で覆う場所」「シート・砂利で覆う場所」「歩く場所」を分けて設計する</Hl>ことが効果的です。
+      雑草が茂った状態から始める場合は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米163円〜・税込）で草刈りと除草をまとめて依頼し、更地に近い状態にしてから植え付けを始める流れが効率的です。歩く場所や物置まわりなど植物を植えない範囲は、<Link href="/bousou-sheet/" className="text-[#2D7F3E] underline">防草シート</Link>や<Link href="/jarishiki/" className="text-[#2D7F3E] underline">砂利敷き</Link>と組み合わせると、庭全体の雑草管理が楽になります。<Hl>「植物で覆う場所」「シート・砂利で覆う場所」「歩く場所」を分けて設計する</Hl>ことが効果的です。
     </p>,
     <p key="3">
       植栽の設計から相談したい場合は、地域の造園業者や植木屋のほか、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で植栽・庭づくりを扱う出店者を口コミで比較する方法もあります。庭木の剪定とあわせて地面まわりを相談する場合は、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>のような見積もり無料のサービスで、庭の写真を見せながら全体の手入れを相談することをおすすめします。

@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>屋外コンセントの新設、地中への配線、100Vの直結工事は電気工事士の資格が必要な領域</Hl>です。この部分は必ず有資格の専門業者に依頼してください。あわせて、外構工事と同時に配線を仕込む、門柱や塀に器具を埋め込む、といった計画は外構・エクステリアの施工業者の領域になります。工事の区分については<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭のリフォームと外構工事の違い</Link>で整理しています。
     </p>,
     <p key="2">
-      一方、<Hl>照明計画の前提として庭木を整える作業</Hl>は造園・剪定業者の領域です。茂りすぎた木は光を遮り、せっかくの照明が届きません。ライトアップしたい木の樹形を整える、暗がりを作っている枝を透かすといった相談は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜の掲載料金）で依頼できます。照明を意識した剪定であることを伝えると、枝の残し方が変わります。
+      一方、<Hl>照明計画の前提として庭木を整える作業</Hl>は造園・剪定業者の領域です。茂りすぎた木は光を遮り、せっかくの照明が届きません。ライトアップしたい木の樹形を整える、暗がりを作っている枝を透かすといった相談は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜の掲載料金）で依頼できます。照明を意識した剪定であることを伝えると、枝の残し方が変わります。
     </p>,
     <p key="3">
       器具の取り付けだけを作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が使いやすい選択肢です。器具選びと配線の注意点は<Link href="/garden-light-chui/" className="text-[#2D7F3E] underline">ガーデンライトと配線の注意点</Link>、防犯目的の照明については<Link href="/niwa-bohan/" className="text-[#2D7F3E] underline">庭の防犯対策の基本</Link>をあわせてご覧ください。地域の依頼先は<Link href="/area/fukuoka/" className="text-[#2D7F3E] underline">福岡の庭業者まとめ</Link>などのエリアページから探せます。

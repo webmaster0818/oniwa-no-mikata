@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>実が落ちる枝が脚立では届かない高さにある、道路や隣地の上に張り出している、毎年の掃除が負担になってきた、実の付かない木に替えることを検討している</Hl>といった場合は、業者への相談が現実的です。依頼する際は、実が落ちて困ることだけでなく、<Hl>「どこに落ちるのが困るのか」を伝える</Hl>ことが重要です。落ちて困る方向がはっきりすれば、木全体を切らずに、その方向の張り出しだけを整理するという最小限の作業で済むことがあります。前のステップで取った記録と写真が、そのまま伝える材料になります。
     </p>,
     <p key="2">
-      費用は、木の高さと本数、作業スペース、出た枝の処分量によって変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜・伐採1本3,300円〜という掲載値を確認していますが、いずれも最低価格です。<Hl>植え替えを検討する場合は、伐採・根の処理・新しい木の植え付けまでの総額</Hl>で比べてください。毎年の掃除の負担と、一度の植え替え費用を比較すると判断しやすくなります。
+      費用は、木の高さと本数、作業スペース、出た枝の処分量によって変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜・伐採1本3,300円〜という掲載値を確認していますが、いずれも最低価格です。<Hl>植え替えを検討する場合は、伐採・根の処理・新しい木の植え付けまでの総額</Hl>で比べてください。毎年の掃除の負担と、一度の植え替え費用を比較すると判断しやすくなります。
     </p>,
     <p key="3">
       落ち葉の少ない樹種の条件は<Link href="/ochiba-sukunai-niwaki/" className="text-[#2D7F3E] underline">落ち葉が少ない庭木の選び方</Link>、手のかからない木の選び方は<Link href="/teire-raku-niwaki/" className="text-[#2D7F3E] underline">手入れが楽な庭木の選び方</Link>、駐車場まわりは<Link href="/carport-mawari-shokusai/" className="text-[#2D7F3E] underline">カーポート・駐車場まわりの植栽</Link>、掃除の年間の段取りは<Link href="/niwa-soji-nenkan/" className="text-[#2D7F3E] underline">庭掃除・庭仕事の年間スケジュール</Link>にまとめています。

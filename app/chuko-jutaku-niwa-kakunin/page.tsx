@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       中古住宅の庭の立ち上げでは、<Hl>（1）伸び放題の庭木の剪定・伐採、（2）切り株の抜根、（3）雑草のリセット草刈り、（4）庭石・灯篭・物置などの撤去、（5）蜂の巣の駆除</Hl>が業者に依頼すべき代表的な作業です。これらは一度の依頼にまとめると出張の手間が省け、庭全体を見たうえでの提案も受けられます。「入居に合わせて庭を安全な状態にしたい」と目的を伝え、内見時や現地の写真を添えて相談すると話が早く進みます。
     </p>,
     <p key="2">
-      庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）、伐採や抜根は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>、雑草のリセットは<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米600円〜の掲載値）に相談できます。<Hl>総額は木の本数・高さ・撤去物の量で大きく変わるため、無料見積もりで内訳（作業費・処分費・重機の要否）を確認し、複数社で比較する</Hl>のが基本です。購入前の概算確認に見積もりを活用する方法もあります。
+      庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）、伐採や抜根は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>、雑草のリセットは<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米163円〜・税込の掲載値）に相談できます。<Hl>総額は木の本数・高さ・撤去物の量で大きく変わるため、無料見積もりで内訳（作業費・処分費・重機の要否）を確認し、複数社で比較する</Hl>のが基本です。購入前の概算確認に見積もりを活用する方法もあります。
     </p>,
     <p key="3">
       庭全体の手入れや再生プランは<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>、作業単位の依頼は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>という選択肢もあります。切り株のリスクは<Link href="/kirikabu-hochi/" className="text-[#2D7F3E] underline">切り株の放置リスクと対処</Link>、庭石の撤去は<Link href="/niwaishi-toro-tekkyo/" className="text-[#2D7F3E] underline">庭石・灯篭の撤去の基礎知識</Link>で詳しく解説しています。神戸市周辺で依頼先を探す場合は<Link href="/area/kobe/" className="text-[#2D7F3E] underline">神戸の庭業者まとめ</Link>も参考にしてください。

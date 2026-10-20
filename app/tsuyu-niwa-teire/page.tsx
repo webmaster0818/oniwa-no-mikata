@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような状態の場合は、家庭で抱え込まず業者への依頼を検討する目安です。<Hl>（1）雑草が膝丈を超えて手作業では追いつかない、（2）庭木が茂りすぎて内部の蒸れ・病害虫が手に負えない、（3）高所の枝や広い生垣など危険・重労働を伴う、（4）水はけの悪さが毎年繰り返されている</Hl>といったケースです。特に高木の剪定は転落リスクがあるため業者の領域で、水はけの改善は原因の見極めが必要な分野です。梅雨時に確認した水の溜まる場所の写真は、相談時にそのまま役立ちます。
     </p>,
     <p key="2">
-      広がった雑草は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>のように面積単価（1平米600円〜の掲載値）で依頼できるサービスは、費用の見当をつけやすい点が利点です。庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）などの全国対応サービスに相談できます。<Hl>梅雨明け以降は依頼が集中しやすい時期でもあるため、梅雨の間に見積もりを取り、作業日を押さえておく</Hl>と段取りが円滑に進みます。
+      広がった雑草は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>のように面積単価（1平米163円〜・税込の掲載値）で依頼できるサービスは、費用の見当をつけやすい点が利点です。庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）などの全国対応サービスに相談できます。<Hl>梅雨明け以降は依頼が集中しやすい時期でもあるため、梅雨の間に見積もりを取り、作業日を押さえておく</Hl>と段取りが円滑に進みます。
     </p>,
     <p key="3">
       庭全体の手入れをまとめて相談したい場合は<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>、作業単位で地域の事業者を比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>という選択肢もあります。水はけの悩みは<Link href="/niwa-mizuhake/" className="text-[#2D7F3E] underline">庭の水はけ改善の考え方</Link>で改善アプローチを解説しています。大阪市周辺で依頼先を探す場合は<Link href="/area/osaka/" className="text-[#2D7F3E] underline">大阪の庭業者まとめ</Link>も参考にしてください。

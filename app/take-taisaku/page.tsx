@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>竹・笹が庭の広範囲や隣地との境界まで広がっている、建物の基礎や配管の近くにタケノコが出ている、高く育った竹が多数あり自力で刈れない、何年も自力で対処したが勢いが衰えない</Hl>といった状況では、自力での対処は労力に対して成果が出にくく、業者への依頼を検討する段階といえます。業者であれば、伐採・地下茎の掘り取り・根止めの施工・処分までを一括して計画でき、再発を見込んだ対策の提案も受けられます。
     </p>,
     <p key="2">
-      費用は、竹の本数・太さ・範囲・地下茎処理の有無・発生した竹材の処分量によって大きく変わるため、必ず現地調査のうえで総額の見積もりをご確認ください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が伐採3,300円〜、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り600円/平米〜という掲載値を確認していますが、いずれも最低価格であり、竹の伐採や地下茎処理の総額は現場条件で変わります。見積もり時には「伐採のみか、地下茎の処理や根止めまで含むか」の範囲を必ず確認してください。
+      費用は、竹の本数・太さ・範囲・地下茎処理の有無・発生した竹材の処分量によって大きく変わるため、必ず現地調査のうえで総額の見積もりをご確認ください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が伐採3,300円〜、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り163円/平米〜（税込）という掲載値を確認していますが、いずれも最低価格であり、竹の伐採や地下茎処理の総額は現場条件で変わります。見積もり時には「伐採のみか、地下茎の処理や根止めまで含むか」の範囲を必ず確認してください。
     </p>,
     <p key="3">
       伐採と抜根（根の処理）の違いや、切り株を残すとどうなるかについては、<Link href="/bassai-bakkon-chigai/" className="text-[#2D7F3E] underline">伐採と抜根の違いの記事</Link>で詳しく解説しています。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、東京都内での依頼は<Link href="/area/tokyo/" className="text-[#2D7F3E] underline">東京の庭業者まとめ</Link>をあわせて参考にしてください。
@@ -165,7 +165,7 @@ const data: KnowArticleData = {
     {
       href: "/agents/kusakari-110ban/",
       label: "草刈り110番の口コミ・評判",
-      desc: "草刈り600円/平米〜の掲載値を確認した専門サービス",
+      desc: "草刈り163円/平米〜・税込の掲載値を確認した専門サービス",
     },
     {
       href: "/area/osaka/",

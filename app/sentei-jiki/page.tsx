@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>樹種が分からない木が多い、木が2階の屋根に届くほど大きい、何年も放置して枝が暴れている、花が咲かなくなった原因が分からない</Hl>といったケースは、時期の判断も含めて専門業者に任せることをおすすめします。剪定業者は樹種を見分けたうえで、その木に合った時期と切り方を提案してくれます。特に大きくなりすぎた木は、適期に強い剪定で骨格を作り直してもらい、翌年以降の維持を自分で行うという分担が現実的です。
     </p>,
     <p key="2">
-      依頼のタイミングとしては、剪定の繁忙期（春から初夏、年末前など）は予約が混みやすいため、<Hl>適期の1か月ほど前に見積もりを取り始める</Hl>と余裕をもって進められます。料金は樹種・高さ・本数・庭の状況により変わるため、必ず作業前に総額の見積もりをご確認ください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、実際の総額は木の状態で変わります。
+      依頼のタイミングとしては、剪定の繁忙期（春から初夏、年末前など）は予約が混みやすいため、<Hl>適期の1か月ほど前に見積もりを取り始める</Hl>と余裕をもって進められます。料金は樹種・高さ・本数・庭の状況により変わるため、必ず作業前に総額の見積もりをご確認ください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、実際の総額は木の状態で変わります。
     </p>,
     <p key="3">
       複数の木の適期が異なり、年に何度も依頼するのが負担な場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような年間管理プランのあるサービスに、時期の管理ごと任せる方法もあります。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、東京都内での依頼は<Link href="/area/tokyo/" className="text-[#2D7F3E] underline">東京の庭業者まとめ</Link>をあわせて参考にしてください。

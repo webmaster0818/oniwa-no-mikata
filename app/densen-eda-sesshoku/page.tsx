@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>電線そのものに関わる作業は設備の管理者（電力会社・通信事業者）の領域、木を切って今後接触しないようにする作業は庭の剪定業者の領域</Hl>という区分が基本です。ただし実際には、線に近い位置の枝を切る作業が必要になることが多く、その場合は事業者との調整が前提になります。剪定業者に依頼するときは、<Hl>「電線が近い」ことを最初に伝え、線まわりの調整をどちらが行うかを確認</Hl>してください。電気工事にあたる作業は資格を持つ人が行う領域であり、庭の業者が単独で判断できる範囲ではありません。
     </p>,
     <p key="2">
-      庭側の作業費用は、木の高さ・本数、作業スペース、出た枝の処分量によって変わります。線が近い現場では、作業の段取りが増えることで通常より手間がかかる場合があります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、電線が近い高木の作業がこの金額に収まるとは限りません。必ず現地を見てもらったうえで総額を確認してください。
+      庭側の作業費用は、木の高さ・本数、作業スペース、出た枝の処分量によって変わります。線が近い現場では、作業の段取りが増えることで通常より手間がかかる場合があります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、電線が近い高木の作業がこの金額に収まるとは限りません。必ず現地を見てもらったうえで総額を確認してください。
     </p>,
     <p key="3">
       高い位置での作業の危険性は<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定を自分で行う危険性</Link>、木の高さを抑える考え方は<Link href="/niwaki-hikuku-suru/" className="text-[#2D7F3E] underline">大きくなりすぎた庭木を低くする</Link>、台風の前後にやることは<Link href="/taifu-niwaki-taisaku/" className="text-[#2D7F3E] underline">台風前後の庭木対策</Link>にまとめています。庭の照明の配線など、電気に関わる作業の境界は<Link href="/garden-light-chui/" className="text-[#2D7F3E] underline">ガーデンライトと配線の注意点</Link>もあわせてご覧ください。

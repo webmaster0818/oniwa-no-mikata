@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>刈る面積が広い、斜面や足場の悪い場所がある、隣家の車や窓が近い、草が深くて中に何があるか分からない、体力や体調に不安がある、作業と処分の時間が取れない</Hl>といった条件が一つでもあれば、業者に依頼するのは妥当な判断です。草刈りは作業そのものより、<Hl>刈った草の量と処分</Hl>が負担になることが多く、そこまで含めて任せられるのが依頼の利点です。依頼するときは、刈る範囲のおおよその広さと、斜面や障害物の有無を伝えると、見積もりが早く出ます。
     </p>,
     <p key="2">
-      費用は面積で計算されることが多く、草丈、斜面かどうか、刈った草の処分を含むかで変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜という掲載値を確認していますが、これは最低価格であり、草丈や現場条件によって変わります。<Hl>「刈った草の処分は含まれるか」「最低料金や出張費があるか」を見積もり時に確認</Hl>してください。見積書の読み方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>にまとめています。
+      費用は面積で計算されることが多く、草丈、斜面かどうか、刈った草の処分を含むかで変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）という掲載値を確認していますが、これは最低価格であり、草丈や現場条件によって変わります。<Hl>「刈った草の処分は含まれるか」「最低料金や出張費があるか」を見積もり時に確認</Hl>してください。見積書の読み方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>にまとめています。
     </p>,
     <p key="3">
       そもそも刈る回数を減らしたい場合は、<Link href="/zasso-taisaku/" className="text-[#2D7F3E] underline">雑草対策の方法比較</Link>、<Link href="/bousou-sheet/" className="text-[#2D7F3E] underline">防草シートの基礎知識</Link>、<Link href="/zasso-haenikui-niwa/" className="text-[#2D7F3E] underline">雑草が生えにくい庭のつくり方</Link>をご覧ください。刈った草の処分は<Link href="/senteieda-shobun/" className="text-[#2D7F3E] underline">剪定枝・刈り草の処分方法</Link>、地下茎で広がる草は<Link href="/dokudami-sugina-taisaku/" className="text-[#2D7F3E] underline">ドクダミ・スギナなどしつこい雑草の対策</Link>にまとめています。
@@ -172,7 +172,7 @@ const data: KnowArticleData = {
     {
       href: "/agents/kusakari-110ban/",
       label: "草刈り110番の口コミ・評判",
-      desc: "草刈り1平米600円〜の掲載値を確認したサービス",
+      desc: "草刈り1平米163円〜（税込）の掲載値を確認したサービス",
     },
   ],
 };

@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       枝の越境への対応は、<Hl>「誰が切るかの合意形成」と「実際に切る作業」の2段階</Hl>に分けて考えると整理しやすくなります。前者の合意形成で困ったとき（話し合いに応じてもらえない、所有者不明、法律上の扱いを知りたい）の相談先は、弁護士や自治体の法律相談窓口です。後者の作業は、合意ができていれば通常の剪定として業者に依頼できます。境界付近の作業になるため、依頼時には「境界からはみ出している枝の処理」であることと、隣地側と合意済みであることを伝えておくとスムーズです。
     </p>,
     <p key="2">
-      自分の木の越境を解消する場合や、合意のうえでお隣の木を手入れする場合の費用感としては、当サイトの各社紹介ページ作成時の調査で、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認しています。いずれも最低価格であり、木の高さや状態、隣地側からの作業の要否などで総額は変わるため、必ず現地調査のうえで見積もりを確認してください。高所の枝や電線に近い枝が絡む場合は、<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定の危険性の記事</Link>も参考に、自力作業を避けて業者に任せることをおすすめします。
+      自分の木の越境を解消する場合や、合意のうえでお隣の木を手入れする場合の費用感としては、当サイトの各社紹介ページ作成時の調査で、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認しています。いずれも最低価格であり、木の高さや状態、隣地側からの作業の要否などで総額は変わるため、必ず現地調査のうえで見積もりを確認してください。高所の枝や電線に近い枝が絡む場合は、<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定の危険性の記事</Link>も参考に、自力作業を避けて業者に任せることをおすすめします。
     </p>,
     <p key="3">
       境界付近の木を今後も維持するかどうか自体を見直したい場合は、剪定で小さく保つほかに、伐採して植え替えるという選択肢もあります。<Link href="/bassai-bakkon-chigai/" className="text-[#2D7F3E] underline">伐採と抜根の違いの記事</Link>もあわせてご覧ください。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、東京都内での依頼は<Link href="/area/tokyo/" className="text-[#2D7F3E] underline">東京の庭業者まとめ</Link>を参考にしてください。

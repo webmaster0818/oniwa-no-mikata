@@ -122,7 +122,7 @@ const data: KnowArticleData = {
   proHeading: "当サイトで比較できる依頼先と使い分けの例",
   proParas: [
     <p key="1">
-      手入れ系の単発依頼であれば、全国対応の専門サービスが手軽です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜・伐採1本3,300円〜という掲載値を確認しています。いずれも最低価格のため、実際の総額は無料見積もりでの確認が前提ですが、<Hl>作業単位の料金の分かりやすさと受付の手軽さ</Hl>がこのタイプの特長です。
+      手入れ系の単発依頼であれば、全国対応の専門サービスが手軽です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜・伐採1本3,300円〜という掲載値を確認しています。いずれも最低価格のため、実際の総額は無料見積もりでの確認が前提ですが、<Hl>作業単位の料金の分かりやすさと受付の手軽さ</Hl>がこのタイプの特長です。
     </p>,
     <p key="2">
       地域の事業者（植木屋・造園業者を含む）をご自身で比較して選びたい場合は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のようなマッチング型が適しています。料金・口コミ・作業内容を一覧で比較できるため、<Hl>近隣で、特定の作業を、予算内で依頼できる事業者を探す</Hl>ことができます。継続的な庭の管理まで見据える場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような定期手入れに対応するサービスに、年間の手入れ計画を含めて相談する方法もあります。

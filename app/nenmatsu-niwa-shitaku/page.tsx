@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       年末の庭仕事のうち、<Hl>（1）松の手入れ（もみあげ・剪定）、（2）高い木や本数の多い庭木の剪定、（3）広い生垣の刈り込み、（4）大量の枝・落ち葉の処分</Hl>は、業者への依頼を検討すべき代表的な作業です。特に松は手間と専門性の面で業者依頼の多い分野であり、高所作業は転落リスクから業者の領域です。依頼時は「正月前に終えたい」という希望と、庭の写真・木の本数を伝えると、日程と概算の回答を得やすくなります。
     </p>,
     <p key="2">
-      庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応サービスに相談できます。<Hl>総額は木の本数・高さ・処分量で変わるため、無料見積もりで「年内対応の可否」と「処分費込みかどうか」を必ず確認する</Hl>ことが、年末に依頼する際の重要な点です。複数社の見積もりを比べる時間的余裕を持つためにも、早めの依頼をおすすめします。
+      庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応サービスに相談できます。<Hl>総額は木の本数・高さ・処分量で変わるため、無料見積もりで「年内対応の可否」と「処分費込みかどうか」を必ず確認する</Hl>ことが、年末に依頼する際の重要な点です。複数社の見積もりを比べる時間的余裕を持つためにも、早めの依頼をおすすめします。
     </p>,
     <p key="3">
       庭全体の手入れをまとめて依頼したい場合は<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>、掃除や片付けなど作業単位で地域の事業者を探すなら<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>も選択肢です。松の手入れの内容は<Link href="/matsu-teire/" className="text-[#2D7F3E] underline">松の手入れの基礎知識</Link>で詳しく解説しています。金沢市周辺で依頼先を探す場合は<Link href="/area/kanazawa/" className="text-[#2D7F3E] underline">金沢の庭業者まとめ</Link>も参考にしてください。

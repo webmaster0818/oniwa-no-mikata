@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       秋の庭仕事のうち、<Hl>（1）高い木の剪定・枯れ枝下ろし、（2）本数の多い庭木の剪定や広い生垣の刈り込み、（3）大量の雑草・落ち葉の処理と処分、（4）大きな木の移植や伐採</Hl>は業者に任せることを検討したい領域です。特に高所作業は転落の危険があるため業者の領域です。また、処分まで含めて依頼できる点も業者依頼の大きな利点です。「台風前に危ない枝を見てほしい」「年内に庭を一度きれいにしたい」と目的を伝えると、優先すべき作業の提案を受けやすくなります。
     </p>,
     <p key="2">
-      庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>、草刈りは<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米600円〜の掲載値）に相談できます。<Hl>年末が近づくほど依頼は混み合いやすいため、秋の早い時期に写真付きで無料見積もりを取り、作業日を確保しておく</Hl>ことをおすすめします。総額は木の本数・高さ・処分量で変わるため、見積もりで内訳をご確認ください。
+      庭木の剪定は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>、草刈りは<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米163円〜・税込の掲載値）に相談できます。<Hl>年末が近づくほど依頼は混み合いやすいため、秋の早い時期に写真付きで無料見積もりを取り、作業日を確保しておく</Hl>ことをおすすめします。総額は木の本数・高さ・処分量で変わるため、見積もりで内訳をご確認ください。
     </p>,
     <p key="3">
       庭全体の手入れを定期的に依頼したい場合は<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>、作業単位で地域の事業者を比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>も選択肢です。台風への備えの詳細は<Link href="/taifu-niwaki-taisaku/" className="text-[#2D7F3E] underline">台風前後の庭木対策</Link>を参照してください。仙台市周辺で依頼先を探す場合は<Link href="/area/sendai/" className="text-[#2D7F3E] underline">仙台の庭業者まとめ</Link>も参考になります。

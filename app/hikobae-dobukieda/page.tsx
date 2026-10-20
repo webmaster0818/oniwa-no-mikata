@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>強い剪定をしていないのに胴吹き枝が急に増えた、上の枝の葉の付きが悪い、枝先が枯れてきた、根元や幹に割れ・変色・穴などの異常がある</Hl>といった場合は、枝を切ることより<Hl>木が弱っている原因を確かめること</Hl>が先です。庭木の手入れを扱う業者に見てもらってください。また、高い位置の胴吹き枝で脚立が必要な場合、根元に太く育ったひこばえが密集している場合、接ぎ木の台木の枝か判断がつかない場合も、無理をせず相談するのが安全です。小さいひこばえを時々取り除く程度であれば、自分で対応できることが多いものです。
     </p>,
     <p key="2">
-      剪定とあわせて依頼する場合、費用は木の高さや本数、作業の量、処分量によって変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）という掲載値を確認していますが、これは最低価格であり、高い木や作業量の多い剪定がこの金額で収まるとは限りません。<Hl>ひこばえや胴吹き枝の整理が剪定の範囲に含まれるか</Hl>を見積もり時に確認しておくと安心です。
+      剪定とあわせて依頼する場合、費用は木の高さや本数、作業の量、処分量によって変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）という掲載値を確認していますが、これは最低価格であり、高い木や作業量の多い剪定がこの金額で収まるとは限りません。<Hl>ひこばえや胴吹き枝の整理が剪定の範囲に含まれるか</Hl>を見積もり時に確認しておくと安心です。
     </p>,
     <p key="3">
       伐採後の切り株から出る芽については<Link href="/kirikabu-hochi/" className="text-[#2D7F3E] underline">切り株を放置するとどうなる？</Link>、強く切り詰めた影響は<Link href="/niwaki-hikuku-suru/" className="text-[#2D7F3E] underline">大きくなりすぎた庭木を低くする</Link>、切る時期は<Link href="/sentei-jiki/" className="text-[#2D7F3E] underline">庭木の剪定時期の基本</Link>、木が弱っているか気になる場合は<Link href="/niwaki-kareta/" className="text-[#2D7F3E] underline">庭木が枯れたかどうかの見分け方</Link>や<Link href="/niwaki-kanbu-fukyu/" className="text-[#2D7F3E] underline">庭木の幹が腐っている・空洞がある</Link>、葉の色の変化は<Link href="/niwaki-ha-henshoku/" className="text-[#2D7F3E] underline">庭木の葉が黄色・茶色になる</Link>をご覧ください。

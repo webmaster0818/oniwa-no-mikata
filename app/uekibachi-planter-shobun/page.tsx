@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、業者への依頼を検討するタイミングです。<Hl>（1）鉢の数が数十個規模で分別・運搬が現実的でない、（2）土の行き先が確保できない、（3）大きな陶器鉢や重い物が多い、（4）実家の片付けや引っ越しで期限がある、（5）庭木の伐採・庭じまいと同時に片付けたい</Hl>といったケースです。不用品回収業者は鉢・土・プランターをまとめて引き取れる場合が多く、庭の片付けに対応する業者なら植木や庭石の処分と一括で相談できます。土の回収に対応しているかは業者により異なるため、依頼前に必ずご確認ください。
     </p>,
     <p key="2">
-      鉢の処分が「庭全体の整理」の一部なら、庭系のサービスにまとめて相談するのが効率的です。鉢植えから育って大きくなった木の伐採は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>、庭木の整理を含む手入れは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円別途の掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>に相談できます。<Hl>見積もり時に「鉢と土の処分も含めてほしい」と伝え、対応範囲と処分費の内訳を確認する</Hl>ことが重要です。
+      鉢の処分が「庭全体の整理」の一部なら、庭系のサービスにまとめて相談するのが効率的です。鉢植えから育って大きくなった木の伐採は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>、庭木の整理を含む手入れは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載値）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>に相談できます。<Hl>見積もり時に「鉢と土の処分も含めてほしい」と伝え、対応範囲と処分費の内訳を確認する</Hl>ことが重要です。
     </p>,
     <p key="3">
       不用品回収や片付けを作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で「不用品回収」等のカテゴリから探す方法もあります。剪定枝や抜いた植物の処分ルールは<Link href="/senteieda-shobun/" className="text-[#2D7F3E] underline">剪定枝・刈り草の処分方法</Link>、庭全体を省管理化する考え方は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまい・庭のローメンテナンス化</Link>で詳しく解説しています。福岡市周辺で依頼先を探す場合は<Link href="/area/fukuoka/" className="text-[#2D7F3E] underline">福岡の庭業者まとめ</Link>も参考にしてください。

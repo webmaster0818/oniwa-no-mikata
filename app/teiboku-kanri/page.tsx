@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>植え込みの本数や長さが多く自分では手が回らない、樹種が分からない木が混ざっている、大きくなりすぎた低木を仕立て直したい、蜂や毛虫が発生している</Hl>。このような場合は、業者への依頼をおすすめします。低木は1本ずつは小さくても、玄関まわり・境界沿い・庭の縁取りと合計すると作業量が多くなりがちで、刈りかすの処分も含めるとまとまった労力になります。業者に依頼すると、樹種ごとの適期を踏まえ、刈り込みと枝抜きを組み合わせた手入れを受けられます。
     </p>,
     <p key="2">
-      料金の考え方として、低木の手入れは本数・大きさ・範囲で見積もられるのが一般的です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）という掲載値を確認していますが、いずれも最低価格であり、低木の数が多い場合や刈り込み面積で見積もる場合は総額が変わります。見積もり時には、対象の本数・範囲と処分費の扱いを必ず確認してください。比較の考え方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>で解説しています。
+      料金の考え方として、低木の手入れは本数・大きさ・範囲で見積もられるのが一般的です。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）という掲載値を確認していますが、いずれも最低価格であり、低木の数が多い場合や刈り込み面積で見積もる場合は総額が変わります。見積もり時には、対象の本数・範囲と処分費の扱いを必ず確認してください。比較の考え方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">剪定・伐採の見積もりの見方</Link>で解説しています。
     </p>,
     <p key="3">
       高木の剪定や生垣の刈り込みとまとめて依頼すると、出張の回数を減らせて効率的です。年間を通じた手入れを依頼する場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような定期管理サービスも選択肢になります。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、福岡など都市別の依頼は<Link href="/area/fukuoka/" className="text-[#2D7F3E] underline">福岡の庭業者まとめ</Link>をあわせて参考にしてください。

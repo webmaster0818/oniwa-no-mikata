@@ -125,10 +125,10 @@ const data: KnowArticleData = {
       次のような場合は、業者に依頼することをおすすめします。<Hl>（1）高く茂った木や生垣の剪定・刈り込みが自分では危険、（2）家の裏手のうっそうとした茂みをまとめて整理したい、（3）足場になっている高木の枝下ろしが必要、（4）防犯砂利の施工を防草シートごと任せたい</Hl>といったケースです。特に高所の剪定は転落リスクの高い作業で、防犯のためのはずが事故につながっては本末転倒です。詳しくは<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定の危険性</Link>もご覧ください。
     </p>,
     <p key="2">
-      剪定・刈り込みは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応サービスに相談できます。依頼時に<Hl>「防犯のために見通しを良くしたい」「窓まわりと裏手の枝を透かしたい」と目的を伝える</Hl>と、単に形を整えるだけでない提案を受けやすくなります。総額は木の本数・高さで変わるため、写真を添えた無料見積もりでご確認ください。
+      剪定・刈り込みは<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のような全国対応サービスに相談できます。依頼時に<Hl>「防犯のために見通しを良くしたい」「窓まわりと裏手の枝を透かしたい」と目的を伝える</Hl>と、単に形を整えるだけでない提案を受けやすくなります。総額は木の本数・高さで変わるため、写真を添えた無料見積もりでご確認ください。
     </p>,
     <p key="3">
-      裏手の茂みの整理には草刈りを含むことも多く、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（600円/平米〜の掲載料金）のような専門サービスも選択肢です。防犯砂利の施工やセンサーライトの取り付けなど作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が使えます。千葉市周辺で依頼先を探す場合は<Link href="/area/chiba/" className="text-[#2D7F3E] underline">千葉の庭業者まとめ</Link>も参考にしてください。
+      裏手の茂みの整理には草刈りを含むことも多く、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（163円/平米〜・税込の掲載料金）のような専門サービスも選択肢です。防犯砂利の施工やセンサーライトの取り付けなど作業単位で依頼したい場合は、地域の事業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>が使えます。千葉市周辺で依頼先を探す場合は<Link href="/area/chiba/" className="text-[#2D7F3E] underline">千葉の庭業者まとめ</Link>も参考にしてください。
     </p>,
   ],
   ctaHeading: "茂った庭の見通しは、業者の剪定で回復できます",

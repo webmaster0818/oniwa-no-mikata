@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       遠方の庭の管理を外部に任せる場合は、<Hl>草刈り・剪定を都度または定期で業者に依頼する方法</Hl>が基本になります。多くの業者は、事前の打ち合わせと写真報告により立ち会いなしで作業を完結できるかどうか、相談に応じています。見積もり時に遠方在住で立ち会いが難しいことを伝え、作業前後の写真報告や鍵・入場の段取りを確認しておくことをおすすめします。空き家全体の見回りサービスを提供する事業者もありますが、庭の草木の作業は別料金や対象外の場合があるため、対応範囲の確認が必要です。
     </p>,
     <p key="2">
-      費用は庭の広さ・草丈・庭木の本数と高さ・処分量によって大きく変わるため、必ず総額の見積もりをご確認ください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り600円/平米〜、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜・伐採3,300円〜という掲載値を確認しています。いずれも最低価格であり、放置期間が長い庭は草丈や枝の量によって総額が変わります。<Hl>放置期間が長いほど費用は増える傾向にあるため、定期化して1回あたりの作業量を減らすほうが合理的</Hl>です。
+      費用は庭の広さ・草丈・庭木の本数と高さ・処分量によって大きく変わるため、必ず総額の見積もりをご確認ください。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り163円/平米〜（税込）、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜・伐採3,300円〜という掲載値を確認しています。いずれも最低価格であり、放置期間が長い庭は草丈や枝の量によって総額が変わります。<Hl>放置期間が長いほど費用は増える傾向にあるため、定期化して1回あたりの作業量を減らすほうが合理的</Hl>です。
     </p>,
     <p key="3">
       年間を通じた管理を任せたい場合は、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>や<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような定期管理に対応するサービスも選択肢になります。見積もりの比較方法は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">見積もりの見方の記事</Link>を、業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>をご参照ください。
@@ -170,7 +170,7 @@ const data: KnowArticleData = {
     {
       href: "/agents/kusakari-110ban/",
       label: "草刈り110番の口コミ・評判",
-      desc: "草刈り600円/平米〜の掲載値を確認した専門サービス",
+      desc: "草刈り163円/平米〜・税込の掲載値を確認した専門サービス",
     },
     {
       href: "/niwa-kujo-taio/",

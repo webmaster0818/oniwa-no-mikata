@@ -57,7 +57,7 @@ const data: KnowArticleData = {
   basics: [
     {
       title: "剪定料金は「高さ×本数」で組み立てられることが多い",
-      desc: "剪定サービスの料金表は、低木・中木・高木といった高さの区分ごとに1本あたりの単価を示す形式が一般的です。たとえば剪定110番では1本2,890円〜、出張費3,000円という掲載料金が示されており、樹種や高さによって変動すると案内されています。つまり、依頼側が「高さの目安」と「本数」を把握しているだけで、業者は概算を出しやすくなります。高さは正確なメートル数でなくてもよく、「自分の背より少し高い」「2階の窓に届く」といった表現でも十分に伝わります。",
+      desc: "剪定サービスの料金表は、低木・中木・高木といった高さの区分ごとに1本あたりの単価を示す形式が一般的です。たとえば剪定110番では1本4,000円〜（税込）、出張費は地域により別途の場合ありとの掲載料金が示されており、樹種や高さによって変動すると案内されています。つまり、依頼側が「高さの目安」と「本数」を把握しているだけで、業者は概算を出しやすくなります。高さは正確なメートル数でなくてもよく、「自分の背より少し高い」「2階の窓に届く」といった表現でも十分に伝わります。",
     },
     {
       title: "高さは「身近なものとの比較」で測ると簡単",
@@ -122,10 +122,10 @@ const data: KnowArticleData = {
   proHeading: "業者選びと依頼のポイント",
   proParas: [
     <p key="1">
-      準備が整ったら、まずは無料見積もりに対応しているサービスに問い合わせます。剪定を1本単位で依頼したい場合は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜・出張費3,000円の掲載料金）、費用を抑えて相談したい場合は<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜・伐採3,300円〜の掲載料金）が候補になります。いずれも<Hl>正確な金額は現地調査・見積もりで決まる</Hl>ため、掲載価格は判断の目安としてお考えください。
+      準備が整ったら、まずは無料見積もりに対応しているサービスに問い合わせます。剪定を1本単位で依頼したい場合は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込、出張費は地域により別途の場合ありとの掲載料金）、費用を抑えて相談したい場合は<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜・伐採3,300円〜の掲載料金）が候補になります。いずれも<Hl>正確な金額は現地調査・見積もりで決まる</Hl>ため、掲載価格は判断の目安としてお考えください。
     </p>,
     <p key="2">
-      庭全体が草に覆われていて剪定前に足場を確保する必要がある場合は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米あたり600円〜の掲載料金）のような草刈り専門サービスと組み合わせる方法もあります。作業単位で近隣の事業者を比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>、年間を通した管理まで任せたい場合は<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような大手のプランも選択肢です。掲載各社の特徴は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の比較一覧</Link>にまとめています。
+      庭全体が草に覆われていて剪定前に足場を確保する必要がある場合は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米あたり163円〜・税込の掲載料金）のような草刈り専門サービスと組み合わせる方法もあります。作業単位で近隣の事業者を比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>、年間を通した管理まで任せたい場合は<Link href="/agents/duskin/" className="text-[#2D7F3E] underline">ダスキン</Link>のような大手のプランも選択肢です。掲載各社の特徴は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の比較一覧</Link>にまとめています。
     </p>,
     <p key="3">
       なお、<Hl>3メートルを超える高木、電線や隣家に近い枝、脚立が安定しない斜面の作業はご自身で行わない</Hl>ことが原則です。転落や感電の危険があり、装備と経験のある業者に任せるべき領域です。判断の目安は<Link href="/takagi-sentei-kiken/" className="text-[#2D7F3E] underline">高い木の剪定の危険性</Link>と<Link href="/sentei-diy-gyosha/" className="text-[#2D7F3E] underline">剪定DIYと業者依頼の判断基準</Link>をご覧ください。地域から探す場合は<Link href="/area/tokyo/" className="text-[#2D7F3E] underline">東京の庭業者まとめ</Link>や<Link href="/area/yokohama/" className="text-[#2D7F3E] underline">横浜の庭業者まとめ</Link>も参考になります。

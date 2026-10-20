@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       動物への対応そのもの（種類の特定・捕獲・駆除）は、<Hl>自治体への相談を入口に、必要に応じて案内される駆除の専門業者が担う領域</Hl>です。捕獲には法律上の手続きが関わるため、庭業者や自分で完結させようとせず、正規のルートで進めてください。一方、被害で荒れた庭を立て直す作業（掘り返された芝生の補修や張り替え、傷んだ植栽の整理、見通しを悪くしている茂みの刈り込み、隠れ家になりやすい庭の整理）は、<Hl>庭業者に相談できる領域</Hl>です。
     </p>,
     <p key="2">
-      環境整備として茂みの刈り込みや下草刈りをまとめて行いたい場合、当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、庭の状態によって総額は変わります。荒れた庭の片付けと復旧をまとめて依頼する場合は、現地調査を含む無料見積もりで作業範囲と総額をご確認ください。
+      環境整備として茂みの刈り込みや下草刈りをまとめて行いたい場合、当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認していますが、いずれも最低価格であり、庭の状態によって総額は変わります。荒れた庭の片付けと復旧をまとめて依頼する場合は、現地調査を含む無料見積もりで作業範囲と総額をご確認ください。
     </p>,
     <p key="3">
       庭全体の見通しを良くし、管理しやすい状態に整えることは、日常の異変に気づきやすくする意味でも役立ちます。放置気味だった庭を立て直す考え方は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまい・ローメンテナンス化の基本</Link>や<Link href="/akiya-niwa-kanri/" className="text-[#2D7F3E] underline">空き家・遠方の実家の庭管理</Link>の記事で解説しています。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、仙台など都市別の依頼は<Link href="/area/sendai/" className="text-[#2D7F3E] underline">仙台の庭業者まとめ</Link>をあわせて参考にしてください。

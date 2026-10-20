@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、処分まで業者に任せることが現実的です。<Hl>（1）木を丸ごと切るなど枝の量が多い、（2）太い幹や長い枝が多く規格内に切りそろえるのが大変、（3）運搬する車や体力がない、（4）剪定自体も業者に依頼する予定がある</Hl>のいずれかに当てはまるケースです。剪定・伐採とあわせて依頼すれば、切った枝がその日のうちに片付くため、作業後の負担が大きく減ります。見積もりでは「処分費が含まれているか」「別料金の場合はいくらか」を必ずご確認ください。見積書の見方は<Link href="/niwa-mitsumori-mikata/" className="text-[#2D7F3E] underline">見積もりの見方の記事</Link>で詳しく解説しています。
     </p>,
     <p key="2">
-      当サイトで紹介しているサービスでは、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米600円〜という掲載値を確認しています。いずれも枝や草の処分費が含まれるかは依頼内容によるため、<Hl>無料見積もりの段階で処分費を含めた総額を確認して比較する</Hl>ことが重要です。<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のように剪定・伐採から片付けまで一括対応を掲げるサービスもあります。
+      当サイトで紹介しているサービスでは、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>が草刈り1平米163円〜（税込）という掲載値を確認しています。いずれも枝や草の処分費が含まれるかは依頼内容によるため、<Hl>無料見積もりの段階で処分費を含めた総額を確認して比較する</Hl>ことが重要です。<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のように剪定・伐採から片付けまで一括対応を掲げるサービスもあります。
     </p>,
     <p key="3">
       自分で切った枝の回収だけを依頼したい場合は、地域の便利屋や回収業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のようなマッチング型が探しやすいサービスです。なお、無許可の回収業者による高額請求のトラブルは各地で注意喚起されています。一般家庭の廃棄物の回収には自治体の許可が必要とされるため、極端に安い巡回業者には注意し、実績と口コミを確認できる依頼先を選んでください。さいたま市周辺での依頼は<Link href="/area/saitama/" className="text-[#2D7F3E] underline">さいたまの庭業者まとめ</Link>も参考になります。

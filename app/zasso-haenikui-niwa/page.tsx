@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       次のような場合は、業者への依頼をおすすめします。<Hl>（1）草が伸びきっていて着手できない、（2）防草シート＋砂利を広い面積に施工したい、（3）根の張った低木や竹が混ざっている、（4）水はけが悪く下地から手を入れる必要がある</Hl>といったケースです。特に下地づくりは仕上がりの寿命を左右するため、面積が広いほど専門業者に依頼する利点が大きくなります。
     </p>,
     <p key="2">
-      草刈りと防草対策をまとめて相談するなら<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米あたり600円〜の掲載料金）が入口になります。庭木の整理も同時に行いたい場合は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本2,890円〜の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜の掲載料金）が候補です。<Hl>いずれも面積・草の状態・追加作業で金額が変わる</Hl>ため、現地を確認したうえでの無料見積もりでご確認ください。
+      草刈りと防草対策をまとめて相談するなら<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（1平米あたり163円〜・税込の掲載料金）が入口になります。庭木の整理も同時に行いたい場合は<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>（1本4,000円〜・税込の掲載料金）や<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>（剪定550円〜の掲載料金）が候補です。<Hl>いずれも面積・草の状態・追加作業で金額が変わる</Hl>ため、現地を確認したうえでの無料見積もりでご確認ください。
     </p>,
     <p key="3">
       庭全体の省管理化を検討する場合は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまい・庭のローメンテナンス化</Link>、舗装まで検討する場合は<Link href="/niwa-doma-concrete/" className="text-[#2D7F3E] underline">庭をコンクリート・土間打ちにする判断</Link>もあわせてご覧ください。作業単位で近隣の事業者を比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>、地域から探す場合は<Link href="/area/nagoya/" className="text-[#2D7F3E] underline">名古屋の庭業者まとめ</Link>などのエリアページが参考になります。

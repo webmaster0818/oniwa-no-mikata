@@ -123,7 +123,7 @@ const data: KnowArticleData = {
       <Hl>高い庭木が日陰を作っていて自分では剪定できない、庭の水はけが悪く雨のたびに水たまりができる、広範囲の苔と雑草で庭全体が荒れてしまった</Hl>といったケースは、苔の除去だけを繰り返しても解決しにくいため、環境改善を含めて業者に相談することをおすすめします。庭木の剪定で日照と風通しが変わると、苔の生えやすさも変わります。剪定の適期は樹種により異なるため、業者と時期を相談しながら計画してください。
     </p>,
     <p key="2">
-      剪定を依頼する場合の費用は、木の大きさ・本数・枝の処分量で変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認しています。いずれも下限の金額のため、総額は無料見積もりで確認してください。庭が雑草と苔で荒れている場合は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（草刈り1平米600円〜の掲載値）のように、草刈りから防草シート施工まで対応するサービスに、地面の対策ごと相談する方法もあります。
+      剪定を依頼する場合の費用は、木の大きさ・本数・枝の処分量で変わります。当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認しています。いずれも下限の金額のため、総額は無料見積もりで確認してください。庭が雑草と苔で荒れている場合は、<Link href="/agents/kusakari-110ban/" className="text-[#2D7F3E] underline">草刈り110番</Link>（草刈り1平米163円〜・税込の掲載値）のように、草刈りから防草シート施工まで対応するサービスに、地面の対策ごと相談する方法もあります。
     </p>,
     <p key="3">
       砂利敷きや防草シートで地面を覆う対策は、雑草対策と共通する部分が多いため、<Link href="/zasso-taisaku/" className="text-[#2D7F3E] underline">雑草対策の方法比較</Link>もあわせて参考にしてください。芝生に苔が出て困っている場合は、芝生自体の管理状態の見直しも必要になるため<Link href="/shibafu-teire/" className="text-[#2D7F3E] underline">芝生の手入れの基本</Link>をご覧ください。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>、東京都内での依頼は<Link href="/area/tokyo/" className="text-[#2D7F3E] underline">東京の庭業者まとめ</Link>にまとめています。

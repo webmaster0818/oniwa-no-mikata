@@ -125,7 +125,7 @@ const data: KnowArticleData = {
       <Hl>菜園の日照を確保するために高い木や大きく茂った木を剪定したい、庭木の根が広がりすぎて菜園の場所が取れない、庭木の病害虫が菜園に広がりそう</Hl>といったケースは、庭木側の対処を専門業者に任せることをおすすめします。特に高所の剪定や樹形を大きく変える強い剪定は、危険を伴ううえ、時期や切り方を誤ると木を弱らせるため、樹種と状態を見て判断できる剪定業者にご相談ください。「菜園に光を入れたい」という目的を伝えれば、それを踏まえた剪定の提案が受けられます。
     </p>,
     <p key="2">
-      料金の目安として、当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本2,890円〜（出張費3,000円別途）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認しています。いずれも最低価格で、実際の総額は樹種・高さ・本数で変わるため、<Hl>現地調査を含む無料見積もりで、菜園計画も伝えたうえで総額を確認する</Hl>ことをおすすめします。庭木の消毒を依頼する際は、菜園や食用の植物が近くにあることを必ず事前に伝えてください。
+      料金の目安として、当サイトの各社紹介ページ作成時の調査では、<Link href="/agents/sentei-110ban/" className="text-[#2D7F3E] underline">剪定110番</Link>が剪定1本4,000円〜（税込・出張費は地域により別途の場合あり）、<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>が剪定1本550円〜という掲載値を確認しています。いずれも最低価格で、実際の総額は樹種・高さ・本数で変わるため、<Hl>現地調査を含む無料見積もりで、菜園計画も伝えたうえで総額を確認する</Hl>ことをおすすめします。庭木の消毒を依頼する際は、菜園や食用の植物が近くにあることを必ず事前に伝えてください。
     </p>,
     <p key="3">
       菜園スペースの新設にあたって、レイズドベッドの設置や庭の一部の造成まで依頼したい場合は、<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で地域の事業者を比較する方法や、<Link href="/agents/smile-garden/" className="text-[#2D7F3E] underline">smileガーデン</Link>のような庭のお手入れサービスに庭全体の管理と合わせて相談する方法があります。業者選びの全体像は<Link href="/agents/" className="text-[#2D7F3E] underline">庭業者の一覧・比較</Link>を、さいたま市での依頼は<Link href="/area/saitama/" className="text-[#2D7F3E] underline">さいたまの庭業者まとめ</Link>を参考にしてください。
