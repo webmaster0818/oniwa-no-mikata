@@ -57,7 +57,7 @@ const companies: AreaCompany[] = [
     catch: "1平米163円〜（税込）・防草対策まで対応",
     name: "草刈り110番",
     officialUrl: "https://www.sharing-tech.co.jp/kusakari/",
-    image: "/images/kusakari-110ban-features.png",
+    image: "/images/kusakari-110ban-features-v2.png",
     intro: (
       <>
         草刈り110番は、草刈り・除草に特化したサービスです。
@@ -89,7 +89,7 @@ const companies: AreaCompany[] = [
     catch: "伐採・抜根専門・処分まで一括",
     name: "伐採110番",
     officialUrl: "https://www.sharing-tech.co.jp/baxtusai/",
-    image: "/images/bassai-110ban-features.png",
+    image: "/images/bassai-110ban-features-v2.png",
     intro: (
       <>
         伐採110番は、伐採・抜根に特化した専門サービスです。庭木の伐採から
@@ -121,7 +121,7 @@ const companies: AreaCompany[] = [
     catch: "1本4,000円〜（税込）・24時間365日受付",
     name: "剪定110番",
     officialUrl: "https://www.sharing-tech.co.jp/sentei/",
-    image: "/images/sentei-110ban-features.png",
+    image: "/images/sentei-110ban-features-v2.png",
     intro: (
       <>
         剪定110番は、シェアリングテクノロジー株式会社が運営する剪定専門のマッチングサービスです。
