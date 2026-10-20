@@ -184,8 +184,8 @@ function TopRanking() {
     {
       rank: 1,
       name: "剪定110番",
-      officialUrl: "",
-      badge: "総合力No.1",
+      officialUrl: "https://www.sharing-tech.co.jp/sentei/",
+      badge: "木1本から依頼可",
       tagline: "24時間365日対応の剪定専門サービス",
       features: [
         "24時間365日受付",

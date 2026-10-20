@@ -56,7 +56,7 @@ const companies: AreaCompany[] = [
     num: "1-1",
     catch: "1本2,890円〜・24時間365日受付",
     name: "剪定110番",
-    officialUrl: "",
+    officialUrl: "https://www.sharing-tech.co.jp/sentei/",
     image: "/images/sentei-110ban-features.png",
     intro: (
       <>
@@ -127,7 +127,7 @@ const companies: AreaCompany[] = [
     num: "1-3",
     catch: "伐採・抜根専門・処分まで一括",
     name: "伐採110番",
-    officialUrl: "",
+    officialUrl: "https://www.sharing-tech.co.jp/baxtusai/",
     image: "/images/bassai-110ban-features.png",
     intro: (
       <>
@@ -159,7 +159,7 @@ const companies: AreaCompany[] = [
     num: "1-4",
     catch: "1平米600円〜・防草対策まで対応",
     name: "草刈り110番",
-    officialUrl: "",
+    officialUrl: "https://www.sharing-tech.co.jp/kusakari/",
     image: "/images/kusakari-110ban-features.png",
     intro: (
       <>
