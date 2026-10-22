@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kaboku-tsubomi-ochiru/",
+      label: "花木のつぼみが咲く前に落ちる",
+      desc: "落蕾の原因の見分け方と翌年に向けた手入れ",
+    },
+    {
       href: "/kemushi-chui/",
       label: "毛虫に触れたときの注意と予防",
       desc: "毒針毛への初期対応と発生しやすい木",

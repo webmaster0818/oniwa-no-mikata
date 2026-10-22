@@ -153,6 +153,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kaboku-tsubomi-ochiru/",
+      label: "花木のつぼみが咲く前に落ちる",
+      desc: "落蕾の原因の見分け方と翌年に向けた手入れ",
+    },
+    {
       href: "/niwaki-kareta/",
       label: "庭木が枯れたかどうかの見分け方",
       desc: "水切れか枯死か迷ったときの確認方法",

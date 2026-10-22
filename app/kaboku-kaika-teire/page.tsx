@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kaboku-tsubomi-ochiru/",
+      label: "花木のつぼみが咲く前に落ちる",
+      desc: "落蕾の原因の見分け方と翌年に向けた手入れ",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "いつ剪定すべきか季節ごとの考え方",
