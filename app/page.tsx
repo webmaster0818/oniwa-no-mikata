@@ -714,7 +714,7 @@ function Footer() {
         </div>
         {/* Copyright */}
         <div className="text-center text-xs text-white/30">
-          <p>運営: 株式会社MediaX（東京都渋谷区）</p>
+          <p>運営: 株式会社MediaX</p>
           <p className="mt-1">
             &copy; 2026 お庭のミカタ All Rights Reserved.
           </p>

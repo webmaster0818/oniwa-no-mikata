@@ -133,7 +133,7 @@ export default function ContentPolicyPage() {
               </p>
               <div className="bg-surface-alt rounded-lg p-4 space-y-1 text-text-muted text-sm">
                 <p><span className="font-medium text-foreground">会社名：</span>株式会社MediaX</p>
-                <p><span className="font-medium text-foreground">所在地：</span>東京都渋谷区</p>
+                <p><span className="font-medium text-foreground">メール：</span><a href="mailto:webmaster@mediax.biz" className="text-blue-600 hover:underline">webmaster@mediax.biz</a>（所在地はメールでお問い合わせいただいた方にご案内します）</p>
               </div>
             </section>
           </div>
