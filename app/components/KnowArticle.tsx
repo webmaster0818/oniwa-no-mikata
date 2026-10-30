@@ -78,6 +78,15 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
   const path = `/${data.slug}/`;
   const published = data.published ?? KNOW_PUBLISHED;
   const updatedLabel = data.updatedLabel ?? KNOW_UPDATED_LABEL;
+  // 構造化データの dateModified は、ページに表示している更新日（updatedLabel）と同じ日にする。
+  // updatedLabel を指定していないページ・読めない形式・公開日より前になる場合は公開日（従来どおり）。
+  const modified = (() => {
+    if (!data.updatedLabel) return published;
+    const m = data.updatedLabel.match(/^(\d{4})年(\d{1,2})月(\d{1,2})日$/);
+    if (!m) return published;
+    const iso = `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`;
+    return iso < published ? published : iso;
+  })();
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -86,7 +95,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
     description: data.ldDescription,
     image: `${SITE}/images/kv-top.jpg`,
     datePublished: `${published}T00:00:00+09:00`,
-    dateModified: `${published}T00:00:00+09:00`,
+    dateModified: `${modified}T00:00:00+09:00`,
     author: { "@type": "Organization", name: "お庭のミカタ編集部", url: SITE },
     publisher: { "@type": "Organization", name: "お庭のミカタ", url: SITE },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}${path}` },
