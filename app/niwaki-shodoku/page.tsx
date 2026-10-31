@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-shodoku",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木の消毒の時期と考え方｜いつ・何のために行うのかをわかりやすく解説",
   breadcrumbLabel: "庭木の消毒の時期と考え方",
   tagChips: ["庭木の消毒", "病害虫予防", "散布の時期", "基礎知識"],

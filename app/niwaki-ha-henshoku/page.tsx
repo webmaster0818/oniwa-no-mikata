@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-ha-henshoku",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の葉が黄色・茶色になる｜原因の切り分けと対処の考え方をわかりやすく解説",
   breadcrumbLabel: "庭木の葉が黄色・茶色になる",
   tagChips: ["葉の変色", "水やり", "葉焼け", "庭木の異変"],

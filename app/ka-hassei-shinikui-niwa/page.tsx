@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "ka-hassei-shinikui-niwa",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "蚊が発生しにくい庭づくり｜水たまり・茂み・風通しの見直し",
   breadcrumbLabel: "蚊が発生しにくい庭づくり",
   tagChips: ["蚊対策", "水たまり", "風通し", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-reform-gaiko-chigai",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月19日",
   h1: "庭のリフォームと外構工事の違い｜どの業者に何を依頼すべきか",
   breadcrumbLabel: "庭のリフォームと外構工事の違い",
   tagChips: ["庭リフォーム", "外構・エクステリア", "業者の選び方", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "wafu-niwa-teire",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月20日",
   h1: "和風の庭の手入れの基本｜苔・砂利・石組みを保つ年間の手順",
   breadcrumbLabel: "和風の庭の手入れの基本",
   tagChips: ["和風庭園", "苔", "石組み", "基礎知識"],

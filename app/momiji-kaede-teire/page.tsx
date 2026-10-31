@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "momiji-kaede-teire",
   published: "2026-09-09",
-  updatedLabel: "2026年9月9日",
+  updatedLabel: "2026年10月20日",
   h1: "モミジ・カエデの手入れ｜強剪定を避ける理由と樹形の整え方",
   breadcrumbLabel: "モミジ・カエデの手入れ",
   tagChips: ["モミジ", "カエデ", "剪定", "透かし剪定", "基礎知識"],

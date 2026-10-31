@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-mizuyari",
+  updatedLabel: "2026年10月22日",
   h1: "庭木の水やりの基本｜頻度・時間帯・季節ごとの考え方をわかりやすく解説",
   breadcrumbLabel: "庭木の水やりの基本",
   tagChips: ["庭木", "水やり", "頻度", "基礎知識"],

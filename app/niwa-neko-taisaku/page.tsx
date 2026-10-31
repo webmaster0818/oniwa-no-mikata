@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-neko-taisaku",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "庭に猫が来てフンをする｜来にくい庭づくりと相談の進め方をわかりやすく解説",
   breadcrumbLabel: "庭に猫が来てフンをする",
   tagChips: ["猫", "フン", "花壇", "近隣"],

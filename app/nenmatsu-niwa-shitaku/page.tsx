@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "nenmatsu-niwa-shitaku",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "正月前の庭の整え方｜年末の庭仕事と業者に依頼する段取り",
   breadcrumbLabel: "正月前の庭の整え方",
   tagChips: ["年末の庭仕事", "正月準備", "松の手入れ", "基礎知識"],

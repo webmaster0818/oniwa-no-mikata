@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "karibarai-anzen",
   published: "2026-09-30",
-  updatedLabel: "2026年9月30日",
+  updatedLabel: "2026年10月20日",
   h1: "草刈り機（刈払機）を安全に使う｜飛び石・キックバックと服装の基本をわかりやすく解説",
   breadcrumbLabel: "草刈り機を安全に使う",
   tagChips: ["草刈り機", "刈払機", "安全", "服装"],

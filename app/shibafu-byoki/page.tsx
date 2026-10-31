@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shibafu-byoki",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月19日",
   h1: "芝生の病気の見分け方｜変色・枯れの原因を切り分ける基本",
   breadcrumbLabel: "芝生の病気の見分け方",
   tagChips: ["芝生", "病気", "変色・枯れ", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-tsuchi-ryushutsu",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "雨で庭の土が流れる・えぐれる原因｜土の流出を防ぐ考え方を解説",
   breadcrumbLabel: "雨で庭の土が流れる・えぐれる原因",
   tagChips: ["土の流出", "雨", "泥はね", "庭の異変"],

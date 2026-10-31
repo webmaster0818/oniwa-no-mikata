@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "taniku-shokubutsu-niwa-ue",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月17日",
   h1: "多肉植物を庭に植えるときの注意｜地植えに向く条件・水はけ・冬越しの考え方",
   breadcrumbLabel: "多肉植物を庭に植えるときの注意",
   tagChips: ["多肉植物", "地植え", "植栽の選び方", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shitsugaiki-shokusai",
   published: "2026-09-02",
-  updatedLabel: "2026年9月2日",
+  updatedLabel: "2026年10月20日",
   h1: "室外機まわりの植栽と注意点｜植えてよい距離と避けるべき配置",
   breadcrumbLabel: "室外機まわりの植栽と注意点",
   tagChips: ["室外機", "植栽", "配置", "基礎知識"],

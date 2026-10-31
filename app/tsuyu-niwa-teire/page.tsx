@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "tsuyu-niwa-teire",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "梅雨時の庭の手入れの基本｜雨の時期にやるべきこと・避けること",
   breadcrumbLabel: "梅雨時の庭の手入れの基本",
   tagChips: ["梅雨の庭仕事", "雑草対策", "湿気と病害虫", "基礎知識"],

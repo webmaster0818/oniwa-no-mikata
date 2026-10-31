@@ -30,7 +30,7 @@ export default function ContentPolicyPage() {
           </nav>
 
           <h1 className="text-3xl font-bold text-foreground mb-2">コンテンツ制作ポリシー</h1>
-          <p className="text-text-muted text-sm mb-8">最終更新日：2026年4月27日</p>
+          <p className="text-text-muted text-sm mb-8">最終更新日：2026年10月23日</p>
 
           <div className="space-y-8 text-foreground">
             <section>

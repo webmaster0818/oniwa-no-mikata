@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shukkonso-ichinenso",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月20日",
   h1: "宿根草と一年草の使い分け｜植え替えの手間と見映えを両立させる",
   breadcrumbLabel: "宿根草と一年草の使い分け",
   tagChips: ["宿根草", "一年草", "花壇", "基礎知識"],

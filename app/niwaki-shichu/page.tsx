@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-shichu",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の支柱の立て方の基本｜種類・必要な期間・外す時期の考え方をわかりやすく解説",
   breadcrumbLabel: "庭木の支柱の立て方の基本",
   tagChips: ["支柱", "植え付け", "台風対策", "庭木"],

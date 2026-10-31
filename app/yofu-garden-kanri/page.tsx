@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "yofu-garden-kanri",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月20日",
   h1: "洋風ガーデンの管理の基本｜花壇中心の庭を1年間維持する手順",
   breadcrumbLabel: "洋風ガーデンの管理の基本",
   tagChips: ["洋風ガーデン", "花壇", "年間管理", "基礎知識"],

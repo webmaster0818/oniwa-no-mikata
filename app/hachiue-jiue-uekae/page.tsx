@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "hachiue-jiue-uekae",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "鉢植えから地植えへの植え替え｜庭に下ろす前の確認事項",
   breadcrumbLabel: "鉢植えから地植えへの植え替え",
   tagChips: ["鉢植え", "地植え", "植え替え", "基礎知識"],

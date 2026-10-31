@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-ishoku",
+  updatedLabel: "2026年10月17日",
   h1: "庭木の植え替え・移植の基礎知識｜できる条件・適期・根回しの考え方をわかりやすく解説",
   breadcrumbLabel: "庭木の植え替え・移植の基礎知識",
   tagChips: ["移植", "植え替え", "庭木", "基礎知識"],

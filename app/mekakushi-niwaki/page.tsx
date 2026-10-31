@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "mekakushi-niwaki",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "目隠しになる庭木の選び方｜視線を遮る木の条件と管理の注意点を解説",
   breadcrumbLabel: "目隠しになる庭木の選び方",
   tagChips: ["目隠しの庭木", "視線対策", "植栽", "基礎知識"],

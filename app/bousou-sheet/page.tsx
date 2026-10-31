@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "bousou-sheet",
+  updatedLabel: "2026年10月20日",
   h1: "防草シートの基礎知識｜仕組み・寿命・敷き方の注意点をわかりやすく解説",
   breadcrumbLabel: "防草シートの基礎知識",
   tagChips: ["防草シート", "雑草対策", "庭", "基礎知識"],

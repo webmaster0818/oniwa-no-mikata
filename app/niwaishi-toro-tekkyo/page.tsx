@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaishi-toro-tekkyo",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月17日",
   h1: "庭石・灯篭の撤去の基礎知識｜処分の進め方と業者に依頼する判断を解説",
   breadcrumbLabel: "庭石・灯篭の撤去の基礎知識",
   tagChips: ["庭石の撤去", "灯篭の処分", "庭の作り替え", "基礎知識"],

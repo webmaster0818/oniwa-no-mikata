@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "dokudami-sugina-taisaku",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "ドクダミ・スギナなどしつこい雑草の対策｜地下茎で広がる草の考え方",
   breadcrumbLabel: "ドクダミ・スギナなどしつこい雑草の対策",
   tagChips: ["ドクダミ", "スギナ", "雑草対策", "基礎知識"],

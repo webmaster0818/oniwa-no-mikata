@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kyukon-shokubutsu-kanri",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月20日",
   h1: "球根植物の管理の基本｜植え付け・花後・掘り上げの年間サイクル",
   breadcrumbLabel: "球根植物の管理の基本",
   tagChips: ["球根", "植え付け", "花壇", "基礎知識"],

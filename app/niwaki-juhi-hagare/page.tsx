@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-juhi-hagare",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木の樹皮がはがれる・幹が割れる｜自然なはがれと異常の見分け方をわかりやすく解説",
   breadcrumbLabel: "樹皮のはがれ・幹の割れ",
   tagChips: ["樹皮", "幹の割れ", "日焼け", "幹の異変"],

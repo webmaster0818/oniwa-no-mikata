@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kaigaramushi-aburamushi",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月17日",
   h1: "カイガラムシ・アブラムシ等の見分け方｜庭木につく虫のサインと対処の方向性",
   breadcrumbLabel: "カイガラムシ・アブラムシ等の見分け方",
   tagChips: ["カイガラムシ", "アブラムシ", "庭木の害虫", "見分け方", "基礎知識"],

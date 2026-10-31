@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "takuhaibox-gaiko",
   published: "2026-09-02",
-  updatedLabel: "2026年9月2日",
+  updatedLabel: "2026年10月20日",
   h1: "宅配ボックス設置と外構の考え方｜置き場所の選び方と庭との関係",
   breadcrumbLabel: "宅配ボックス設置と外構の考え方",
   tagChips: ["宅配ボックス", "外構", "動線", "基礎知識"],

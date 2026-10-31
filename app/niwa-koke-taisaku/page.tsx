@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwa-koke-taisaku",
+  updatedLabel: "2026年10月20日",
   h1: "庭の苔対策の基本｜生える原因と除去・予防の方法をわかりやすく解説",
   breadcrumbLabel: "庭の苔対策の基本",
   tagChips: ["苔", "コケ対策", "庭の手入れ", "基礎知識"],

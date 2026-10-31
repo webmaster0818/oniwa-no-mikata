@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-katamuki",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木が傾いてきた｜原因の見分け方と倒木リスクへの対処をわかりやすく解説",
   breadcrumbLabel: "庭木が傾いてきた",
   tagChips: ["傾き", "倒木", "支柱", "庭木の異変"],

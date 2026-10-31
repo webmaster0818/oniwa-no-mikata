@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kaju-niwaki-teire",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "庭の果樹（柑橘・柿・ブルーベリーなど）の手入れの基本｜実がならないときの見方",
   breadcrumbLabel: "庭の果樹の手入れの基本",
   tagChips: ["果樹", "柑橘", "柿", "ブルーベリー", "実がならない", "基礎知識"],

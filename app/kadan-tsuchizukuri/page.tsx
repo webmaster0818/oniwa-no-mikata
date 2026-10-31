@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kadan-tsuchizukuri",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月17日",
   h1: "花壇の土づくりの基本｜土壌改良と植え付け前の準備をわかりやすく解説",
   breadcrumbLabel: "花壇の土づくりの基本",
   tagChips: ["花壇", "土づくり", "土壌改良", "ガーデニング", "基礎知識"],

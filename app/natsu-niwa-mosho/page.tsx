@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "natsu-niwa-mosho",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "夏の庭の水やりと猛暑対策｜植物と人を暑さから守る基本",
   breadcrumbLabel: "夏の庭の水やりと猛暑対策",
   tagChips: ["夏の水やり", "猛暑対策", "熱中症予防", "基礎知識"],

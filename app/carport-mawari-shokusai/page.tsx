@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "carport-mawari-shokusai",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "カーポート・駐車場まわりの植栽｜落ち葉・樹液・根上がりを避ける考え方",
   breadcrumbLabel: "カーポート・駐車場まわりの植栽",
   tagChips: ["カーポート", "駐車場の植栽", "根上がり", "基礎知識"],

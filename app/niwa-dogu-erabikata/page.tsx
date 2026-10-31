@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-dogu-erabikata",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "庭仕事の道具の選び方と手入れ｜最初にそろえる7つと刃物の扱い",
   breadcrumbLabel: "庭仕事の道具の選び方と手入れ",
   tagChips: ["剪定ばさみ", "道具の選び方", "手入れ", "基礎知識"],

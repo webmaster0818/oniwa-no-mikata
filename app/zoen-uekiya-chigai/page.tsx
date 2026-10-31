@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "zoen-uekiya-chigai",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月20日",
   h1: "造園業者と植木屋の違い｜作業内容ごとの依頼先の選び方を解説",
   breadcrumbLabel: "造園業者と植木屋の違い",
   tagChips: ["造園業者", "植木屋", "庭師", "業者選び", "基礎知識"],

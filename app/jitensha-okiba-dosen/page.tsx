@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "jitensha-okiba-dosen",
   published: "2026-09-02",
-  updatedLabel: "2026年9月2日",
+  updatedLabel: "2026年10月20日",
   h1: "自転車置き場と庭の動線｜スペースの取り方と地面の仕上げ方",
   breadcrumbLabel: "自転車置き場と庭の動線",
   tagChips: ["自転車置き場", "動線", "外構", "基礎知識"],

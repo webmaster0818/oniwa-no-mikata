@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "shibafu-harikae",
+  updatedLabel: "2026年10月17日",
   h1: "芝生の張り替えの基礎知識｜時期・手順・下地作りの考え方をわかりやすく解説",
   breadcrumbLabel: "芝生の張り替えの基礎知識",
   tagChips: ["芝生", "張り替え", "庭", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-ari-taisaku",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "庭や庭木にアリが大量に出る｜原因と減らし方の考え方をわかりやすく解説",
   breadcrumbLabel: "庭や庭木にアリが大量に出る",
   tagChips: ["アリ", "アブラムシ", "羽アリ", "庭の虫"],

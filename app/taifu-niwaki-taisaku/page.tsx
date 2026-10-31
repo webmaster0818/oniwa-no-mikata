@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "taifu-niwaki-taisaku",
+  updatedLabel: "2026年10月20日",
   h1: "台風前後の庭木対策｜倒木・枝折れを防ぐ事前準備と台風後の対応をわかりやすく解説",
   breadcrumbLabel: "台風前後の庭木対策",
   tagChips: ["台風", "庭木", "倒木対策", "基礎知識"],

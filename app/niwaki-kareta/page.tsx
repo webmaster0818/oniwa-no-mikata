@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-kareta",
+  updatedLabel: "2026年10月17日",
   h1: "庭木が枯れたかどうかの見分け方｜休眠との違いと枯れ木の扱いを解説",
   breadcrumbLabel: "庭木が枯れたかの見分け方",
   tagChips: ["庭木", "枯れ", "見分け方", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-rakka-shimatsu",
   published: "2026-09-30",
-  updatedLabel: "2026年9月30日",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の実が落ちて汚れる｜道路・駐車場・隣家への落果対策をわかりやすく解説",
   breadcrumbLabel: "庭木の実の落果対策",
   tagChips: ["落果", "実", "掃除", "近隣"],

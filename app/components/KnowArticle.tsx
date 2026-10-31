@@ -151,7 +151,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
             </div>
             <div className="flex flex-wrap items-center gap-4 text-xs font-bold tracking-wide text-[#6b7563]">
               <span>
-                更新日：<time dateTime={published}>{updatedLabel}</time>
+                更新日：<time dateTime={modified}>{updatedLabel}</time>
               </span>
               <span>
                 ※本記事にはアフィリエイト広告（PR）を含む場合があります。詳しくは

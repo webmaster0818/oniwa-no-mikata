@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-jueki-yani",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の幹から樹液・ヤニ・泡が出ている｜原因の見分け方と対処をわかりやすく解説",
   breadcrumbLabel: "幹から樹液・ヤニが出ている",
   tagChips: ["樹液", "ヤニ", "幹の異変", "病害虫"],

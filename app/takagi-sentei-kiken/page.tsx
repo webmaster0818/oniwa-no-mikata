@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "takagi-sentei-kiken",
+  updatedLabel: "2026年10月20日",
   h1: "高い木の剪定を自分で行う危険性｜事故のリスクと安全な依頼方法をわかりやすく解説",
   breadcrumbLabel: "高い木の剪定の危険性",
   tagChips: ["高い木", "剪定", "高所作業", "安全"],

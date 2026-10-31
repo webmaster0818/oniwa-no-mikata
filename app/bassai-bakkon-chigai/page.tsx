@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "bassai-bakkon-chigai",
+  updatedLabel: "2026年10月17日",
   h1: "伐採と抜根の違い｜切り株を残すとどうなる？判断基準と依頼の考え方",
   breadcrumbLabel: "伐採と抜根の違い",
   tagChips: ["伐採", "抜根", "切り株", "基礎知識"],

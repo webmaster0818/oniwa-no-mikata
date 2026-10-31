@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-bassai-kyoka",
   published: "2026-09-30",
-  updatedLabel: "2026年9月30日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木の伐採に許可・届出は必要か｜切る前に確認したい5つの立場をわかりやすく解説",
   breadcrumbLabel: "庭木の伐採に許可は必要か",
   tagChips: ["伐採", "許可", "条例", "確認先"],

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/yamaguchi/";
-const UPDATED = "2026年9月8日";
-const UPDATED_ISO = "2026-09-08";
+const UPDATED = "2026年10月20日";
+const UPDATED_ISO = "2026-10-20";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {

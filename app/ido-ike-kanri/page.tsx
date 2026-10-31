@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "ido-ike-kanri",
   published: "2026-09-02",
-  updatedLabel: "2026年9月2日",
+  updatedLabel: "2026年10月20日",
   h1: "井戸・池のある庭の管理｜使わなくなったときの扱いと安全の考え方",
   breadcrumbLabel: "井戸・池のある庭の管理",
   tagChips: ["井戸", "池", "庭の水まわり", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-barrier-free",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "高齢の親の庭を安全にする｜段差・足元・手入れの負担を減らす庭のバリアフリー",
   breadcrumbLabel: "高齢の親の庭を安全にする",
   tagChips: ["高齢者と庭", "バリアフリー", "転倒防止", "基礎知識"],

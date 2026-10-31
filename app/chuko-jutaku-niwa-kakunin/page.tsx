@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "chuko-jutaku-niwa-kakunin",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "中古住宅購入時の庭の現状確認｜見るべきポイントと入居後の手入れ",
   breadcrumbLabel: "中古住宅購入時の庭の現状確認",
   tagChips: ["中古住宅の庭", "内見チェック", "庭の再生", "基礎知識"],

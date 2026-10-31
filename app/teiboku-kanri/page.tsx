@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "teiboku-kanri",
+  updatedLabel: "2026年10月20日",
   h1: "低木・植え込みの管理の基本｜刈り込みの時期・頻度と年間の手入れをわかりやすく解説",
   breadcrumbLabel: "低木・植え込みの管理の基本",
   tagChips: ["低木", "植え込み", "刈り込み", "年間管理"],

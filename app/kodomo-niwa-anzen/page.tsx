@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kodomo-niwa-anzen",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "子どもと庭遊びの安全対策｜危険の見つけ方と安心して遊べる環境づくり",
   breadcrumbLabel: "子どもと庭遊びの安全対策",
   tagChips: ["子どもと庭", "庭遊びの安全", "危険の点検", "基礎知識"],

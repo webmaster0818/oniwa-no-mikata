@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "mukade-yasude-taisaku",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "庭のムカデ・ヤスデ・ダンゴムシ対策｜発生しやすい場所と減らし方",
   breadcrumbLabel: "庭のムカデ・ヤスデ・ダンゴムシ対策",
   tagChips: ["ムカデ", "ヤスデ", "ダンゴムシ", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shinchiku-niwazukuri-junbi",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月19日",
   h1: "新築の庭づくりを業者に依頼する前の整理｜決めておくこと・伝え方",
   breadcrumbLabel: "新築の庭づくりを業者に依頼する前の整理",
   tagChips: ["新築の庭づくり", "依頼前の準備", "植栽計画", "基礎知識"],

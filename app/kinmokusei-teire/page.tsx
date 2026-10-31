@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kinmokusei-teire",
   published: "2026-09-09",
-  updatedLabel: "2026年9月9日",
+  updatedLabel: "2026年10月20日",
   h1: "キンモクセイの手入れ｜花を楽しむ剪定時期と大きさの抑え方",
   breadcrumbLabel: "キンモクセイの手入れ",
   tagChips: ["キンモクセイ", "剪定時期", "大きさの抑え方", "生垣", "基礎知識"],

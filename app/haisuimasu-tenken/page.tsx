@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "haisuimasu-tenken",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "庭の排水桝の点検の基本｜詰まりのサインと自分で見られる範囲",
   breadcrumbLabel: "庭の排水桝の点検の基本",
   tagChips: ["排水桝", "点検・清掃", "水はけ", "基礎知識"],

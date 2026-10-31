@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "hikobae-dobukieda",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月20日",
   h1: "ひこばえ・胴吹き枝が出る｜出る理由と切り方・時期をわかりやすく解説",
   breadcrumbLabel: "ひこばえ・胴吹き枝",
   tagChips: ["ひこばえ", "胴吹き枝", "剪定", "幹の異変"],

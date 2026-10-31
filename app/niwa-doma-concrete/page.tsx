@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-doma-concrete",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "庭をコンクリート・土間打ちにする判断｜メリット・デメリットと検討の考え方",
   breadcrumbLabel: "庭をコンクリートにする判断",
   tagChips: ["庭のコンクリート化", "土間打ち", "雑草対策", "外構の基礎知識"],

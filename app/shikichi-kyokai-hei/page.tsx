@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shikichi-kyokai-hei",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月20日",
   h1: "敷地境界と塀の基礎知識｜境界標の見方と庭仕事での注意点",
   breadcrumbLabel: "敷地境界と塀の基礎知識",
   tagChips: ["敷地境界", "境界標", "塀", "基礎知識"],

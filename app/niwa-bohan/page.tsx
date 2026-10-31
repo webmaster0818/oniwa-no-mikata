@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-bohan",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "庭の防犯対策の基本｜見通し・防犯砂利・センサーライトの考え方",
   breadcrumbLabel: "庭の防犯対策の基本",
   tagChips: ["庭の防犯", "防犯砂利", "見通しの確保", "基礎知識"],

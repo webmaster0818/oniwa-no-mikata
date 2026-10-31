@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "bohan-jari-erabikata",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "防犯砂利の選び方｜素材・粒の大きさ・敷く量の考え方",
   breadcrumbLabel: "防犯砂利の選び方",
   tagChips: ["防犯砂利", "選び方", "庭の防犯", "基礎知識"],

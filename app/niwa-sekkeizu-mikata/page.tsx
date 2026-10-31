@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-sekkeizu-mikata",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月19日",
   h1: "庭の設計図・平面図の読み方｜提案を受けた際に確認すべき7つの点",
   breadcrumbLabel: "庭の設計図・平面図の読み方",
   tagChips: ["設計図", "平面図", "庭づくり", "基礎知識"],

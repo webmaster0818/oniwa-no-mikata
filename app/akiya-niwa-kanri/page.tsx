@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "akiya-niwa-kanri",
+  updatedLabel: "2026年10月20日",
   h1: "空き家・遠方の実家の庭管理｜放置のリスクと管理の方法を解説",
   breadcrumbLabel: "空き家・遠方の実家の庭管理",
   tagChips: ["空き家", "庭管理", "草刈り", "基礎知識"],

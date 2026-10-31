@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-kikuzu-ana",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木の幹に穴があき木くずが出ている｜疑われる原因と対処の方向性をわかりやすく解説",
   breadcrumbLabel: "幹の穴と木くず",
   tagChips: ["幹の穴", "木くず", "カミキリムシ", "病害虫"],

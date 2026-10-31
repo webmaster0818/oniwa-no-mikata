@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-neagari-hoso",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の根上がりと舗装への影響｜地面や塀を押し上げる問題への対処",
   breadcrumbLabel: "庭木の根上がりと舗装への影響",
   tagChips: ["根上がり", "舗装", "庭木", "基礎知識"],

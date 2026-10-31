@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "uekibachi-planter-shobun",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "植木鉢・プランターの大量処分｜土・鉢・植物それぞれの手放し方",
   breadcrumbLabel: "植木鉢・プランターの大量処分",
   tagChips: ["植木鉢の処分", "土の処分", "プランター整理", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kanyo-shokubutsu-soto",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月20日",
   h1: "観葉植物を屋外に出すときの注意｜葉焼け・虫・取り込みの判断",
   breadcrumbLabel: "観葉植物を屋外に出すときの注意",
   tagChips: ["観葉植物", "屋外管理", "葉焼け", "基礎知識"],

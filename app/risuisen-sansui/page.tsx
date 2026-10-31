@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "risuisen-sansui",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月17日",
   h1: "立水栓・散水まわりの基礎知識｜構成・水はねと凍結への備え・相談先",
   breadcrumbLabel: "立水栓・散水まわりの基礎知識",
   tagChips: ["立水栓", "散水栓", "水やり", "基礎知識"],

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-byogaichu",
+  updatedLabel: "2026年10月22日",
   h1: "庭木の病害虫対策の基本｜異変のサインの見つけ方と対処の考え方",
   breadcrumbLabel: "庭木の病害虫対策の基本",
   tagChips: ["病害虫", "消毒", "庭木", "基礎知識"],

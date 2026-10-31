@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "groundcover-erabikata",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "グランドカバープランツの選び方｜雑草対策と景観を両立する地被植物の基本",
   breadcrumbLabel: "グランドカバープランツの選び方",
   tagChips: ["グランドカバー", "雑草対策", "地被植物", "基礎知識"],

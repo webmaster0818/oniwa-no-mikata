@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kaboku-kaika-teire",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月22日",
   h1: "花木の開花を良くする手入れ｜花が咲かない原因と剪定・施肥の考え方",
   breadcrumbLabel: "花木の開花を良くする手入れ",
   tagChips: ["花木", "花が咲かない", "剪定時期", "基礎知識"],

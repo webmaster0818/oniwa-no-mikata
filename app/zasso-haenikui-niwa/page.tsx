@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "zasso-haenikui-niwa",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月20日",
   h1: "雑草が生えにくい庭のつくり方｜草取りの手間を根本から減らす設計",
   breadcrumbLabel: "雑草が生えにくい庭のつくり方",
   tagChips: ["雑草対策", "省管理", "庭づくり", "基礎知識"],

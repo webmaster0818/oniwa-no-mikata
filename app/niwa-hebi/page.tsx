@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-hebi",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月20日",
   h1: "庭にヘビが出た場合の対処｜最初に行うことと寄せつけにくい庭づくりを解説",
   breadcrumbLabel: "庭にヘビが出た場合の対処",
   tagChips: ["ヘビ", "草丈", "物陰", "安全"],

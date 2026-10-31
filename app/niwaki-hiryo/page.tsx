@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-hiryo",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の肥料・施肥の基礎｜寒肥・お礼肥の考え方と与え方をわかりやすく解説",
   breadcrumbLabel: "庭木の肥料・施肥の基礎",
   tagChips: ["庭木", "肥料", "寒肥", "基礎知識"],

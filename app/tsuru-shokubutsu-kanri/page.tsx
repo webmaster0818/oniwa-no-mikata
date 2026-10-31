@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "tsuru-shokubutsu-kanri",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月20日",
   h1: "ツル植物の管理の基本｜フェンス・壁面の誘引と繁茂対策をわかりやすく解説",
   breadcrumbLabel: "ツル植物の管理の基本",
   tagChips: ["ツル植物", "誘引", "フェンス", "壁面", "基礎知識"],

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "sentei-diy-gyosha",
+  updatedLabel: "2026年10月20日",
   h1: "剪定は自分でできる？DIYと業者依頼の判断基準をわかりやすく解説",
   breadcrumbLabel: "剪定DIYと業者依頼の判断基準",
   tagChips: ["剪定", "DIY", "業者依頼", "基礎知識"],

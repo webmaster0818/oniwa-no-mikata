@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-soji-nenkan",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月20日",
   h1: "庭掃除・庭仕事の年間スケジュール｜季節ごとの段取りと省力化の方法をわかりやすく解説",
   breadcrumbLabel: "庭仕事の年間スケジュール",
   tagChips: ["庭仕事", "年間スケジュール", "庭掃除", "段取り", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "wood-fence-rekka",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月17日",
   h1: "ウッドフェンスの劣化と交換判断｜傷みのサインと修理・交換の考え方",
   breadcrumbLabel: "ウッドフェンスの劣化と交換判断",
   tagChips: ["ウッドフェンス", "劣化のサイン", "修理と交換", "基礎知識"],

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "sentei-jiki",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の剪定時期の基本｜季節ごとの考え方と樹種による違いをわかりやすく解説",
   breadcrumbLabel: "庭木の剪定時期の基本",
   tagChips: ["剪定", "剪定時期", "庭木", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "ajisai-sentei-kanri",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "アジサイの剪定と管理｜花後の切り方と翌年咲かせる考え方",
   breadcrumbLabel: "アジサイの剪定と管理",
   tagChips: ["アジサイ", "剪定", "花後の手入れ", "日陰の庭", "基礎知識"],

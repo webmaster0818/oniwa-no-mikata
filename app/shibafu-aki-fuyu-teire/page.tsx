@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shibafu-aki-fuyu-teire",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "芝生の秋冬の手入れ｜刈り込みを止める時期・落ち葉・冬の踏圧の考え方",
   breadcrumbLabel: "芝生の秋冬の手入れ",
   tagChips: ["芝生", "秋の手入れ", "冬の手入れ", "落ち葉", "基礎知識"],

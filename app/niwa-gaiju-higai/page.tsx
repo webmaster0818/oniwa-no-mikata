@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwa-gaiju-higai",
+  updatedLabel: "2026年10月20日",
   h1: "庭の害獣被害の基礎知識｜モグラなどのサインの見分け方と相談先をわかりやすく解説",
   breadcrumbLabel: "庭の害獣被害の基礎知識",
   tagChips: ["害獣", "モグラ", "庭の被害", "自治体相談"],

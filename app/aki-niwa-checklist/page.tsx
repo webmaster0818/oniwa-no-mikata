@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "aki-niwa-checklist",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "秋の庭仕事チェックリスト｜冬を迎える前に行う作業",
   breadcrumbLabel: "秋の庭仕事チェックリスト",
   tagChips: ["秋の庭仕事", "冬支度", "落ち葉・台風", "基礎知識"],

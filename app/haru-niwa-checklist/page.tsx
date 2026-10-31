@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "haru-niwa-checklist",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "春の庭仕事チェックリスト｜冬明けから梅雨前までに行う作業",
   breadcrumbLabel: "春の庭仕事チェックリスト",
   tagChips: ["春の庭仕事", "チェックリスト", "季節の手入れ", "基礎知識"],

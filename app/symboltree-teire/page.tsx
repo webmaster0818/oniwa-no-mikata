@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "symboltree-teire",
+  updatedLabel: "2026年10月20日",
   h1: "シンボルツリーの手入れの基本｜定番樹種の管理の手間と育て方の注意点",
   breadcrumbLabel: "シンボルツリーの手入れの基本",
   tagChips: ["シンボルツリー", "手入れ", "庭木", "基礎知識"],

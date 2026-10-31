@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "tobiishi-zasso",
+  updatedLabel: "2026年10月20日",
   h1: "縁石・飛び石まわりの雑草対策｜隙間から生える草の対処と予防の考え方を解説",
   breadcrumbLabel: "縁石・飛び石まわりの雑草対策",
   tagChips: ["雑草", "飛び石", "縁石", "隙間の草"],

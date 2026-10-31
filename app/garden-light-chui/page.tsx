@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "garden-light-chui",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月17日",
   h1: "ガーデンライトと配線の注意点｜自分で設置できる範囲と電気工事の境界",
   breadcrumbLabel: "ガーデンライトと配線の注意点",
   tagChips: ["ガーデンライト", "庭の照明", "屋外配線", "基礎知識"],

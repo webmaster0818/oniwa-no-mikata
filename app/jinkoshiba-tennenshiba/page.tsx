@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "jinkoshiba-tennenshiba",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "人工芝と天然芝の比較｜庭にはどっちが向く？違いと選び方を解説",
   breadcrumbLabel: "人工芝と天然芝の比較",
   tagChips: ["人工芝", "天然芝", "庭の芝生", "基礎知識"],

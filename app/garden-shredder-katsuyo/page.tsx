@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "garden-shredder-katsuyo",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "ガーデンシュレッダーの活用｜剪定枝を減らす効果と選び方の基準",
   breadcrumbLabel: "ガーデンシュレッダーの活用",
   tagChips: ["ガーデンシュレッダー", "剪定枝", "処分・減量", "基礎知識"],

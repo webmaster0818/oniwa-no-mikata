@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "tsurusei-fence-katsuyo",
   published: "2026-08-21",
-  updatedLabel: "2026年8月21日",
+  updatedLabel: "2026年10月20日",
   h1: "つる性植物のフェンス活用｜目隠しに使うときの選び方と誘引の基本",
   breadcrumbLabel: "つる性植物のフェンス活用",
   tagChips: ["つる性植物", "フェンス", "目隠し", "基礎知識"],

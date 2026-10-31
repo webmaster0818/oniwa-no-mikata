@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "sentei-irai-junbi",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月20日",
   h1: "庭木の剪定を依頼する前の準備｜写真・希望の伝え方・当日までの段取り",
   breadcrumbLabel: "庭木の剪定を依頼する前の準備",
   tagChips: ["剪定の依頼", "見積もりの準備", "伝え方", "基礎知識"],

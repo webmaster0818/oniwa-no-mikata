@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-kujo-taio",
   published: "2026-09-30",
-  updatedLabel: "2026年9月30日",
+  updatedLabel: "2026年10月20日",
   h1: "庭のことで近隣から苦情を受けたら｜最初の対応と再発防止の進め方をわかりやすく解説",
   breadcrumbLabel: "庭のことで苦情を受けたとき",
   tagChips: ["近隣", "苦情", "対応", "再発防止"],

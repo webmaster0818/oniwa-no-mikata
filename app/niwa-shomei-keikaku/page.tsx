@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-shomei-keikaku",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月20日",
   h1: "庭の照明計画の立て方｜どこを何のために照らすかを決める手順",
   breadcrumbLabel: "庭の照明計画の立て方",
   tagChips: ["庭の照明", "ライティング計画", "配置", "基礎知識"],

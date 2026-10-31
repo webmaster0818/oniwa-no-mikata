@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "jarishiki",
+  updatedLabel: "2026年10月20日",
   h1: "庭の砂利敷きの基礎知識｜種類・敷き方・防草効果の考え方をわかりやすく解説",
   breadcrumbLabel: "庭の砂利敷きの基礎知識",
   tagChips: ["砂利敷き", "防草", "雑草対策", "外まわり"],

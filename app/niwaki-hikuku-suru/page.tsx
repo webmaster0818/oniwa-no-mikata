@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-hikuku-suru",
   published: "2026-09-30",
-  updatedLabel: "2026年9月30日",
+  updatedLabel: "2026年10月20日",
   h1: "大きくなりすぎた庭木を低くする｜芯止め・切り下げの限界と判断をわかりやすく解説",
   breadcrumbLabel: "大きくなりすぎた庭木を低くする",
   tagChips: ["芯止め", "強剪定", "樹高", "庭木"],

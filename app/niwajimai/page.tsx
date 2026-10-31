@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwajimai",
+  updatedLabel: "2026年10月20日",
   h1: "庭じまいとは？庭のローメンテナンス化の進め方と業者に依頼する範囲をわかりやすく解説",
   breadcrumbLabel: "庭じまい・ローメンテナンス化の基本",
   tagChips: ["庭じまい", "ローメンテナンス", "伐採", "防草対策"],

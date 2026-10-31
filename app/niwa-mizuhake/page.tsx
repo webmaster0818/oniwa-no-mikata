@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-mizuhake",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月17日",
   h1: "庭の水はけ改善の考え方｜水たまり・ぬかるみの原因と対策をわかりやすく解説",
   breadcrumbLabel: "庭の水はけ改善の考え方",
   tagChips: ["水はけ", "水たまり", "ぬかるみ", "土壌改良", "基礎知識"],

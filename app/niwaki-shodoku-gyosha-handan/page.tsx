@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-shodoku-gyosha-handan",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木の消毒（薬剤散布）を業者に依頼する判断｜時期・回数・自分で行う範囲",
   breadcrumbLabel: "庭木の消毒を業者に依頼する判断",
   tagChips: ["庭木の消毒", "薬剤散布", "業者の選び方", "基礎知識"],

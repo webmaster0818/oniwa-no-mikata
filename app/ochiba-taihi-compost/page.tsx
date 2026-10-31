@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "ochiba-taihi-compost",
   published: "2026-09-02",
-  updatedLabel: "2026年9月2日",
+  updatedLabel: "2026年10月20日",
   h1: "落ち葉堆肥・コンポストの基本｜庭で出る落ち葉と刈り草を土に還す",
   breadcrumbLabel: "落ち葉堆肥・コンポストの基本",
   tagChips: ["落ち葉", "堆肥", "コンポスト", "基礎知識"],

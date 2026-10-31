@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "olive-niwaki-teire",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "オリーブを庭木にするときの手入れ｜大きくなりすぎる前の剪定と実の扱い",
   breadcrumbLabel: "オリーブを庭木にするときの手入れ",
   tagChips: ["オリーブ", "シンボルツリー", "剪定", "実の扱い", "基礎知識"],

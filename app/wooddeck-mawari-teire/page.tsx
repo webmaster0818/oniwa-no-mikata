@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "wooddeck-mawari-teire",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月20日",
   h1: "ウッドデッキ周りの手入れの基本｜デッキ下の雑草・湿気対策をわかりやすく解説",
   breadcrumbLabel: "ウッドデッキ周りの手入れ",
   tagChips: ["ウッドデッキ", "デッキ下", "雑草", "湿気対策", "基礎知識"],

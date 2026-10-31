@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwaki-hachinosu",
+  updatedLabel: "2026年10月20日",
   h1: "庭木に蜂の巣ができたときの対処｜剪定前の確認方法と安全な対応をわかりやすく解説",
   breadcrumbLabel: "庭木に蜂の巣ができたときの対処",
   tagChips: ["蜂の巣", "庭木", "剪定", "安全対策"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kemushi-chui",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月17日",
   h1: "毛虫に触れたときの注意と予防｜一般的な対応の流れと庭でできる対策",
   breadcrumbLabel: "毛虫に触れたときの注意と予防",
   tagChips: ["毛虫", "チャドクガ", "庭仕事の安全", "予防", "基礎知識"],

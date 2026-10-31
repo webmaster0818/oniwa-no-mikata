@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "amamizu-tank-katsuyo",
   published: "2026-09-02",
-  updatedLabel: "2026年9月2日",
+  updatedLabel: "2026年10月20日",
   h1: "雨水タンクの活用と散水｜設置場所の決め方と使うときの注意",
   breadcrumbLabel: "雨水タンクの活用と散水",
   tagChips: ["雨水タンク", "散水", "水やり", "基礎知識"],

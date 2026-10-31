@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "eda-ekkyo",
+  updatedLabel: "2026年10月20日",
   h1: "隣家への枝の越境と対処の基本｜まず話し合いから始める考え方をわかりやすく解説",
   breadcrumbLabel: "隣家への枝の越境と対処の基本",
   tagChips: ["枝の越境", "隣家", "剪定", "基礎知識"],

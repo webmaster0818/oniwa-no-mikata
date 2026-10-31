@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "take-taisaku",
+  updatedLabel: "2026年10月20日",
   h1: "竹・笹の対策の基礎知識｜広がる仕組みと拡大を止める方法をわかりやすく解説",
   breadcrumbLabel: "竹・笹の対策の基礎知識",
   tagChips: ["竹", "笹", "駆除", "基礎知識"],

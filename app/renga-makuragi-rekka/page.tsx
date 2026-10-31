@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "renga-makuragi-rekka",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月20日",
   h1: "レンガ・枕木の劣化と交換の判断｜傷みのサインと直し方の考え方",
   breadcrumbLabel: "レンガ・枕木の劣化と交換の判断",
   tagChips: ["枕木", "レンガ", "劣化と交換", "基礎知識"],

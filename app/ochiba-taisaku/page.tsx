@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "ochiba-taisaku",
+  updatedLabel: "2026年10月20日",
   h1: "落ち葉対策と掃除の基本｜負担を減らす方法と処分ルールをわかりやすく解説",
   breadcrumbLabel: "落ち葉対策と掃除の基本",
   tagChips: ["落ち葉", "掃除", "庭木", "基礎知識"],

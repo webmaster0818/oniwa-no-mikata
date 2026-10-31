@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "tsubaki-sazanka-teire",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月22日",
   h1: "ツバキ・サザンカの手入れ｜剪定時期とチャドクガへの注意",
   breadcrumbLabel: "ツバキ・サザンカの手入れ",
   tagChips: ["ツバキ", "サザンカ", "剪定", "チャドクガ", "基礎知識"],

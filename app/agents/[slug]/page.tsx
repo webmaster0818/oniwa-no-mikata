@@ -4,7 +4,24 @@ import type { Metadata } from "next";
 import { agents, getAgent } from "../agentsData";
 
 const SITE = "https://oniwa-no-mikata.com";
-const UPDATED = "2026年6月10日";
+const PUBLISHED_ISO = "2026-06-10";
+// 本文（<main>）が最後に変わった日（deploy リポの履歴で確認・2026-10-31）。画面の更新日・time・構造化データ dateModified・sitemap lastmod をこの日にそろえる。
+const UPDATED_ISO: Record<string, string> = {
+  "sentei-110ban": "2026-10-20",
+  "bassai-110ban": "2026-10-17",
+  "kusakari-110ban": "2026-10-20",
+  "kurashi-no-market": "2026-10-17",
+  "duskin": "2026-10-17",
+  "oniwa-master": "2026-10-17",
+  "smile-garden": "2026-10-19",
+};
+function updatedIso(slug: string): string {
+  return UPDATED_ISO[slug] ?? PUBLISHED_ISO;
+}
+function updatedLabel(iso: string): string {
+  const [y, m, d] = iso.split("-");
+  return `${y}年${Number(m)}月${Number(d)}日`;
+}
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -48,7 +65,7 @@ export default async function AgentPage({ params }: Props) {
     "@context": "https://schema.org", "@type": "Article",
     headline: `${a.name}の口コミ・評判・料金の調査`, description: a.metaDesc,
     image: `${SITE}${a.image}`,
-    datePublished: "2026-06-10T00:00:00+09:00", dateModified: "2026-06-10T00:00:00+09:00",
+    datePublished: `${PUBLISHED_ISO}T00:00:00+09:00`, dateModified: `${updatedIso(slug)}T00:00:00+09:00`,
     author: { "@type": "Organization", name: "お庭のミカタ編集部", url: SITE },
     publisher: { "@type": "Organization", name: "お庭のミカタ", url: SITE },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE}/agents/${slug}/` },
@@ -104,7 +121,7 @@ export default async function AgentPage({ params }: Props) {
         </header>
 
         <div className="mx-auto max-w-4xl px-4 py-8 md:py-12">
-          <p className="text-sm text-[#6b7563] mb-8">最終更新日：{UPDATED}　／　お庭のミカタ編集部</p>
+          <p className="text-sm text-[#6b7563] mb-8">最終更新日：<time dateTime={updatedIso(slug)}>{updatedLabel(updatedIso(slug))}</time>　／　お庭のミカタ編集部</p>
 
           <nav aria-label="目次" className="mb-12 rounded-2xl border border-[#d6e4d0] bg-[#f4f9f1] p-6">
             <p className="font-bold text-[#33402f] mb-4">この記事の目次</p>

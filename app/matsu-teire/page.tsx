@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "matsu-teire",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月20日",
   h1: "松の手入れの基礎知識｜みどり摘み・もみあげなど年間の手入れをわかりやすく解説",
   breadcrumbLabel: "松の手入れの基礎知識",
   tagChips: ["松", "剪定", "みどり摘み", "もみあげ", "基礎知識"],

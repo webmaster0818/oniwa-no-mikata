@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/hiroshima/";
-const UPDATED = "2026年8月12日";
-const UPDATED_ISO = "2026-08-12";
+const UPDATED = "2026年10月20日";
+const UPDATED_ISO = "2026-10-20";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "senteieda-shobun",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "剪定枝・刈り草の処分方法｜自治体ごみ・持ち込み・業者回収の選択肢を解説",
   breadcrumbLabel: "剪定枝・刈り草の処分方法",
   tagChips: ["剪定枝の処分", "刈り草", "緑のリサイクル", "ごみ出しルール", "基礎知識"],

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "shokusai-haichi-keikaku",
   published: "2026-08-24",
-  updatedLabel: "2026年8月24日",
+  updatedLabel: "2026年10月20日",
   h1: "植栽の配置計画の立て方｜どの木をどこに植えるかを決める順番",
   breadcrumbLabel: "植栽の配置計画の立て方",
   tagChips: ["植栽計画", "配置", "庭づくり", "基礎知識"],

@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwa-mitsumori-mikata",
+  updatedLabel: "2026年10月20日",
   h1: "剪定・伐採の見積もりの見方｜チェックすべき項目と比較のポイント",
   breadcrumbLabel: "剪定・伐採の見積もりの見方",
   tagChips: ["見積もり", "剪定", "伐採", "料金の考え方"],

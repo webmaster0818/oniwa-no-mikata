@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "shibafu-teire",
+  updatedLabel: "2026年10月20日",
   h1: "芝生の手入れの基本｜芝刈り・水やり・年間管理の考え方をわかりやすく解説",
   breadcrumbLabel: "芝生の手入れの基本",
   tagChips: ["芝生", "芝刈り", "庭の手入れ", "基礎知識"],

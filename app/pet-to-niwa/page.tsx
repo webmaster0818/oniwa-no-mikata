@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "pet-to-niwa",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "ペットと庭の安全の基礎知識｜犬が過ごしやすい庭づくりと注意すべき植物",
   breadcrumbLabel: "ペットと庭の安全の基礎知識",
   tagChips: ["ペットと庭", "犬の庭遊び", "危険な植物への注意", "基礎知識"],

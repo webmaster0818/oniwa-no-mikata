@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "bara-teire-kihon",
   published: "2026-09-08",
-  updatedLabel: "2026年9月8日",
+  updatedLabel: "2026年10月20日",
   h1: "庭のバラの手入れの基本｜剪定・病害虫・冬の作業を一般知識で整理",
   breadcrumbLabel: "庭のバラの手入れの基本",
   tagChips: ["バラ", "剪定", "病害虫", "誘引", "基礎知識"],

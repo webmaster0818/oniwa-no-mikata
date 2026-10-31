@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "semai-niwa-layout",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "狭い庭のレイアウトの考え方｜限られたスペースを活かす庭づくりの基本",
   breadcrumbLabel: "狭い庭のレイアウトの考え方",
   tagChips: ["狭い庭", "レイアウト", "庭づくり", "基礎知識"],

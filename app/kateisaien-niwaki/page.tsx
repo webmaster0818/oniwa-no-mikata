@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kateisaien-niwaki",
   published: "2026-08-13",
-  updatedLabel: "2026年8月13日",
+  updatedLabel: "2026年10月20日",
   h1: "家庭菜園スペースと庭木の両立｜日当たり・根の干渉を踏まえた配置の考え方",
   breadcrumbLabel: "家庭菜園と庭木の両立",
   tagChips: ["家庭菜園", "庭木", "配置", "日当たり", "基礎知識"],

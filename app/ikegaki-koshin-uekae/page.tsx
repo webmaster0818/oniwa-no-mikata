@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "ikegaki-koshin-uekae",
   published: "2026-09-09",
-  updatedLabel: "2026年9月9日",
+  updatedLabel: "2026年10月20日",
   h1: "生垣の更新・植え替えの考え方｜古くなった生垣を再生するか、植え替えるか、やめるか",
   breadcrumbLabel: "生垣の更新・植え替えの考え方",
   tagChips: ["生垣", "更新", "植え替え", "撤去", "基礎知識"],

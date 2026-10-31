@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "ochiba-sukunai-niwaki",
   published: "2026-08-19",
-  updatedLabel: "2026年8月19日",
+  updatedLabel: "2026年10月20日",
   h1: "落ち葉が少ない庭木の選び方｜掃除の負担を減らす樹種の条件",
   breadcrumbLabel: "落ち葉が少ない庭木の選び方",
   tagChips: ["庭木の選び方", "落ち葉", "省管理", "基礎知識"],

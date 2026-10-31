@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "teire-raku-niwaki",
+  updatedLabel: "2026年10月20日",
   h1: "手入れが楽な庭木の選び方｜植える前に考えたい5つのポイント",
   breadcrumbLabel: "手入れが楽な庭木の選び方",
   tagChips: ["庭木", "庭づくり", "シンボルツリー", "基礎知識"],

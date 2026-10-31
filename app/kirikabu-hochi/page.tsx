@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "kirikabu-hochi",
+  updatedLabel: "2026年10月17日",
   h1: "切り株を放置するとどうなる？シロアリなどのリスクと対処の選択肢をわかりやすく解説",
   breadcrumbLabel: "切り株の放置リスクと対処",
   tagChips: ["切り株", "抜根", "シロアリ", "伐採後"],

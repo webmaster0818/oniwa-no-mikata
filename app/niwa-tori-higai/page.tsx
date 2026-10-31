@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-tori-higai",
   published: "2026-10-12",
-  updatedLabel: "2026年10月12日",
+  updatedLabel: "2026年10月17日",
   h1: "庭木に鳥が集まる・フンや実を食べられる｜原因と対策の考え方をわかりやすく解説",
   breadcrumbLabel: "庭木の鳥のフン・実の食害",
   tagChips: ["鳥", "フン", "果樹", "巣"],

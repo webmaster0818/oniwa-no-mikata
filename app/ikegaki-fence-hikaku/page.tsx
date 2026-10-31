@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "ikegaki-fence-hikaku",
+  updatedLabel: "2026年10月20日",
   h1: "生垣とフェンスはどちらがよい？目隠し・境界での違いと選び方をわかりやすく解説",
   breadcrumbLabel: "生垣とフェンスの比較",
   tagChips: ["生垣", "フェンス", "目隠し", "境界"],

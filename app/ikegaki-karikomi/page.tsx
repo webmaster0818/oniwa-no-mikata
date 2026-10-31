@@ -23,6 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "ikegaki-karikomi",
+  updatedLabel: "2026年10月20日",
   h1: "生垣の刈り込みの基礎知識｜時期・頻度・道具と自分でやる手順をわかりやすく解説",
   breadcrumbLabel: "生垣の刈り込みの基礎知識",
   tagChips: ["生垣", "刈り込み", "剪定", "基礎知識"],

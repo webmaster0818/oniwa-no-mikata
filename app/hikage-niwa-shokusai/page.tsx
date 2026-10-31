@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "hikage-niwa-shokusai",
   published: "2026-08-16",
-  updatedLabel: "2026年8月16日",
+  updatedLabel: "2026年10月20日",
   h1: "北向き・日陰の庭の植栽の考え方｜日当たりが悪くても楽しめる庭づくり",
   breadcrumbLabel: "北向き・日陰の庭の植栽の考え方",
   tagChips: ["日陰の庭", "北向きの庭", "耐陰性", "植栽の基礎知識"],
