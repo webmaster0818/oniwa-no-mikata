@@ -179,6 +179,16 @@ const data: KnowArticleData = {
       label: "草刈り機を安全に使う",
       desc: "飛び石・キックバックと服装の基本",
     },
+    {
+      href: "/sentei-110ban-kusakari-bassai-tsukaiwake/",
+      label: "剪定110番・草刈り110番・伐採110番の使い分け",
+      desc: "作業内容ごとの頼み分けと料金の数え方",
+    },
+    {
+      href: "/kurashi-no-market-sentei/",
+      label: "くらしのマーケットで庭木の剪定を頼む",
+      desc: "高さ別の相場と共通の作業内容",
+    },
   ],
 };
 

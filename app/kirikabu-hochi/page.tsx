@@ -193,6 +193,11 @@ const data: KnowArticleData = {
       label: "ひこばえ・胴吹き枝が出る",
       desc: "出る理由と切り方の考え方",
     },
+    {
+      href: "/bassai-110ban-bassai-bakkon/",
+      label: "伐採110番の伐採・抜根料金の見方",
+      desc: "抜根が基本料金に含まれない場合を確認",
+    },
   ],
 };
 

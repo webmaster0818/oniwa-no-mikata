@@ -188,6 +188,16 @@ const data: KnowArticleData = {
       label: "ひこばえ・胴吹き枝が出る",
       desc: "出る理由と切り方の考え方",
     },
+    {
+      href: "/bassai-110ban-bassai-bakkon/",
+      label: "伐採110番の伐採・抜根料金の見方",
+      desc: "8,200円～/本(税込)と基本料金に含まれない場合",
+    },
+    {
+      href: "/kurashi-no-market-bassai-bakkon/",
+      label: "くらしのマーケットで伐採・抜根を頼む",
+      desc: "高さ・幹周り別の相場と共通の作業内容",
+    },
   ],
 };
 

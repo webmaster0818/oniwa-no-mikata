@@ -173,6 +173,11 @@ const data: KnowArticleData = {
       label: "草刈り110番の口コミ・評判",
       desc: "草刈り163円/平米〜・税込の掲載値を確認した専門サービス",
     },
+    {
+      href: "/kusakari-110ban-kusakari-ryokin/",
+      label: "草刈り110番の草刈り料金の見方",
+      desc: "草刈り後の防草シート・除草剤の相談",
+    },
   ],
 };
 

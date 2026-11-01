@@ -193,6 +193,11 @@ const data: KnowArticleData = {
       label: "庭木の葉が丸まる・縮れる",
       desc: "虫・乾燥・薬剤の飛散など原因の見分け方",
     },
+    {
+      href: "/kusakari-110ban-kusakari-ryokin/",
+      label: "草刈り110番の草刈り料金の見方",
+      desc: "163円～/㎡(税込)と防草対策の相談",
+    },
   ],
 };
 

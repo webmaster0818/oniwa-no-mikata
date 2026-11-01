@@ -178,6 +178,16 @@ const data: KnowArticleData = {
       label: "庭のリフォームと外構工事の違い",
       desc: "工事の種類ごとの適切な依頼先",
     },
+    {
+      href: "/sentei-110ban-sentei-ryokin/",
+      label: "剪定110番の剪定料金の見方",
+      desc: "4,000円~(税込)の範囲と別途料金になる作業",
+    },
+    {
+      href: "/kurashi-no-market-sentei/",
+      label: "くらしのマーケットで庭木の剪定を頼む",
+      desc: "高さ別の相場と共通の作業内容",
+    },
   ],
 };
 
