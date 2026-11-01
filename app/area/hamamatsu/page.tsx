@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/hamamatsu/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaHamamatsuPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             駐車場と庭が隣り合う家では、<Hl>車の出入りの動線と視界</Hl>も植栽の条件になります。出入り口の脇の低木が育ちすぎると左右の見通しが悪くなり、自転車や物置との取り合いも生まれます。動線の考え方は<Link href="/jitensha-okiba-dosen/" className="text-[#2D7F3E] underline">自転車置き場と庭の動線</Link>を参考にしてください。木の根が駐車場の舗装を持ち上げている場合は、根の処理は庭業者、舗装の直しは外構工事の業者と担当が分かれます。考え方は<Link href="/niwaki-neagari-hoso/" className="text-[#2D7F3E] underline">庭木の根上がりと舗装への影響</Link>にまとめました。カーポートの設置や庭の照明の配線は、それぞれ外構工事の業者と電気工事士の範囲で、庭の作業とは分けて依頼する必要があります。手入れの手間を減らす方向で木を入れ替える場合は、<Link href="/teire-raku-niwaki/" className="text-[#2D7F3E] underline">手入れが楽な庭木の選び方</Link>もあわせてご覧ください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">浜松市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">太さ5cm未満・長さ60cm未満の剪定枝は、ひもで束ねて「もえるごみ」に出せます（袋不要）。太さ5cm以上または長さ60cm以上は集積所に出せません。</li>
+              <li className="leading-loose">量が多いときは、家庭から出る落ち葉・刈り草・枝（太さ15cm、長さ1mまで）を市内10か所の「みどりのリサイクル」に持ち込めます。1回の持ち込みは軽トラック1台程度までで、事業活動で生じたものは持ち込めません。</li>
+              <li className="leading-loose">11月・12月は4会場で通常開催に加えて臨時開催があります（8時30分から16時00分）。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/dashikata/dashikata/deteil.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">浜松市「分別区分一覧」</a>、<a href="https://www.city.hamamatsu.shizuoka.jp/ippai/gomi/recycle/midori_recycle.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">浜松市「みどりのリサイクル」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/hamamatsu/senteieda/" className="text-[#2D7F3E] underline">
+                浜松市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

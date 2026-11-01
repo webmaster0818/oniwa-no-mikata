@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/utsunomiya/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -700,6 +700,24 @@ export default function AreaUtsunomiyaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             切り替える場合は、<Hl>生け垣の伐採・抜根から処分までを伐採110番のような専門サービスで一括</Hl>して行い、その後のフェンス設置は外構業者に依頼する流れになります。根を残すと再び芽が出たりフェンス基礎の邪魔になったりするため、抜根まで含めた見積もりを取ることをおすすめします。くらしのマーケットでは、伐採からフェンス設置まで近い分野の出店者を口コミで比較できるため、一連の作業の依頼先を探す際にも利用できます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">宇都宮市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">植木の剪定で出た草木は焼却ごみです。ごみステーションには長さ50cm未満・太さ10cm以下にして片手で持てる程度に束ね、1回3束まで出せます。</li>
+              <li className="leading-loose">クリーンセンター下田原とクリーンパーク茂原では、市内の家庭から出た剪定枝を太さ10cm・長さ2.5m以内、軽トラック1台分まで受け入れ、リサイクルしています。シュロの木と根は持ち込めません。</li>
+              <li className="leading-loose">剪定枝をリサイクルしたチップは、小澤商事株式会社（古田町）で市内の家庭向けに無料配布されています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.utsunomiya.lg.jp/faq/kankyo/kateigomi/1001008.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">宇都宮市「よくある質問　植木の剪定などで出た草木の処理方法を知りたい。」</a>、<a href="https://www.city.utsunomiya.lg.jp/kurashi/gomi/genryo/1013417.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">宇都宮市「剪定枝（せんていし）のリサイクル」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/utsunomiya/senteieda/" className="text-[#2D7F3E] underline">
+                宇都宮市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

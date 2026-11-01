@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/sendai/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -689,6 +689,24 @@ export default function AreaSendaiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             伐採110番は<Hl>伐採後の木材処分まで一括対応</Hl>を掲げており、大きくなりすぎた木の整理と後片付けをまとめて依頼できます。ただし、処分費が料金に含まれるかどうかはサービス・加盟店により異なるため、見積もりの段階で「処分費を含めた総額」と「作業完了までの日数」の両方をご確認ください。引っ越しシーズンは依頼が集中しやすいため、日程には余裕を持たせることをおすすめします。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">仙台市のせん定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭でせん定した庭木の枝（おおむね直径1cm以上）や幹は、通年で無料回収されています。造園業者などの事業者がせん定を行った場合は対象外です。</li>
+              <li className="leading-loose">戸別収集は粗大ごみ受付センター（電話・インターネット）に申し込みます。枝は長さ80cm以内に切りそろえて束の直径30cm以内に、幹は高さ60cm以内・直径50cm以内にします。</li>
+              <li className="leading-loose">自己搬入はお住まいの区の環境事業所に搬入希望日の2日前（土日祝休日を除く）までに電話で申し込み、長さや大きさの制限はありません。集積所の定期収集に出す場合は1回1束までです。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.sendai.jp/kikakukehatsu/kurashi/machi/genryo/genryo/senteishi.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">仙台市「庭木のせん定枝のリサイクルを通年で実施しています」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/sendai/senteieda/" className="text-[#2D7F3E] underline">
+                仙台市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

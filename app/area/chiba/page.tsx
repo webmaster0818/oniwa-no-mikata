@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/chiba/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -695,6 +695,24 @@ export default function AreaChibaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             smileガーデンの<Hl>定額制の年間管理プラン</Hl>は剪定・消毒・施肥をセットで任せられ、季節ごとの手入れを一つの仕組みにできます。作業後は写真付きの報告書で仕上がりを確認できます。庭の雑草は草刈り110番の定期メンテナンスプランや防草シート施工で手間を減らせます。くらしのマーケットを使えば、地域の事情に通じた出店者を口コミで選び、予約前にメッセージで庭の環境を伝えて相談することもできます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">千葉市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭から出る木の枝・刈り草・葉は、月2回の資源収集日の朝10時までにごみステーションに出します。枝は1本あたり太さ（直径）20cm、長さ100cm以内に切ってひもで束ね、排出量の制限はありません。</li>
+              <li className="leading-loose">やむを得ず可燃ごみ収集日に出す場合は、1本あたり太さ10cm、長さ50cm以内です。キョウチクトウ・竹の根・芝生の根は資源収集に出せず、可燃ごみです。</li>
+              <li className="leading-loose">業者に木の枝のせん定や草刈りを依頼した場合は、市では収集しません（業者が民間処理施設等に運搬します）。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.chiba.jp/kankyo/junkan/shushugyomu/senteieda-recycle.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">千葉市「剪定枝等（木の枝・刈り草・葉）の再資源化事業」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/chiba/senteieda/" className="text-[#2D7F3E] underline">
+                千葉市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

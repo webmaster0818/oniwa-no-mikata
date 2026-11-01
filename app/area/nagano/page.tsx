@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/nagano/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -706,6 +706,24 @@ export default function AreaNaganoPage() {
             <Link href="/kirikabu-hochi/" className="text-[#2D7F3E] underline">切り株の放置リスクの解説記事</Link>
             を参考にしてください。今後ほとんど使わない見込みであれば、定期の草刈りだけを残して植栽を最小限にするなど、庭の維持の仕方そのものを業者と相談することも一つの方法です。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">長野市の剪定枝葉の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">庭木の剪定枝葉や竹、草花、雑草、落ち葉は「剪定枝葉等」として集積所に出せます。直径20cmもしくは長さ1mを超える枝は出せません。</li>
+              <li className="leading-loose">枝は一束あたり直径50cm以内に荒縄・麻縄・ビニール紐でしばり（粗大ごみシール不要）、葉や草は土を落として無色透明の袋に入れます。</li>
+              <li className="leading-loose">多量のときは長野市資源再生センターへ持ち込めます。剪定枝葉等のごみ処理手数料は無料で、運転免許証等による住所確認があります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.nagano.nagano.jp/n121500/contents/p006220.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">長野市「剪定枝葉」</a>、<a href="https://www.city.nagano.nagano.jp/n121515/contents/p000605.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">長野市「資源再生センターへのごみの搬入方法及び処理手数料」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/nagano/senteieda/" className="text-[#2D7F3E] underline">
+                長野市の剪定枝葉の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

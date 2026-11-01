@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/niigata/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -702,6 +702,24 @@ export default function AreaNiigataPage() {
             <Link href="/area/sapporo/" className="text-[#2D7F3E] underline">札幌の庭業者まとめ</Link>
             でも触れています）。冬前の作業は<Hl>同じ時期に依頼が集中しやすい</Hl>ため、直前ではなく余裕を持って予約すると確実です。smileガーデンの年間管理プランのように季節ごとの手入れを定期化しておけば、依頼を忘れたまま冬を迎えるといった事態も防げます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">新潟市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定した枝木は「枝葉・草」（資源）として週1回、無料でごみ集積所に出せます。1月・2月は冬期間のため収集がなく、事業活動で発生したものは出せません。</li>
+              <li className="leading-loose">亀田一般廃棄物処理場・第4赤塚埋立処分地・白根環境事業所へは、家庭系の「枝葉・草」を無料で持ち込めます（太さ15cm以内・長さ100cm以内、一束の直径30cm以内）。</li>
+              <li className="leading-loose">「ごみ」として持ち込む場合は家庭系で10kgまでごとに100円です。どのサイズにもできない場合は民間業者への依頼が案内されています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.niigata.lg.jp/kurashi/gomi/gomishigen/junsui20241121135211.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">新潟市「剪定した枝木の処理方法について」</a>、<a href="https://www.city.niigata.lg.jp/kurashi/gomi/gomishigen/gomidasi/niigata/grass.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">新潟市「枝葉・草」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/niigata/senteieda/" className="text-[#2D7F3E] underline">
+                新潟市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

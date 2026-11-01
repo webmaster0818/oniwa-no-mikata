@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/hachioji/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaHachiojiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             作業の時期は、<Hl>隣の農地の収穫期や薬剤散布の時期と重ならないように組む</Hl>と、互いに気を遣わずに済みます。刈った草や剪定枝が風で農地側に飛ばないよう、作業日は風の弱い日を選び、片付けまで同じ日に終える段取りが基本です。庭で果樹や家庭菜園を楽しむ家では、庭木との日当たりの競合が起きやすいため、<Link href="/kateisaien-niwaki/" className="text-[#2D7F3E] underline">家庭菜園と庭木の解説記事</Link>で配置の考え方をご確認ください。毛虫や害虫は農地と庭の間を行き来するため、<Link href="/niwaki-byogaichu/" className="text-[#2D7F3E] underline">庭木の病害虫対策の基本</Link>と<Link href="/kemushi-chui/" className="text-[#2D7F3E] underline">庭の毛虫の注意点</Link>を参考に、消毒を依頼するかどうかは<Link href="/niwaki-shodoku-gyosha-handan/" className="text-[#2D7F3E] underline">庭木の消毒を業者に依頼する判断</Link>を目安にしてください。毎年同じ時期に依頼することが決まっている場合は、smileガーデンの定額制の年間管理プランのように回数と時期を決めて任せる形にすると、農作業の時期を避けた段取りも固定できます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">八王子市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">木の枝（剪定枝）は可燃ごみの日にひもで束ねて出せます。1回2束まで（無料）で、束は長さ100cm×直径30cmまで、1本あたりの太さは5cmまでです。</li>
+              <li className="leading-loose">落ち葉・草花・芝は45L以下の透明・半透明の袋に入れて1回2袋までで、剪定枝の2束と同時に出せます。</li>
+              <li className="leading-loose">太さ5cm超から20cm以内×長さ100cm以内の枝は粗大ごみ（持ち込みも収集も事前予約）です。それより大きいものは、ごみ総合相談センターへの相談になります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.hachioji.tokyo.jp/kurashi/gomi/kateigomi/dashikata/p002476.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">八王子市「可燃ごみの出し方」</a>、<a href="https://www.city.hachioji.tokyo.jp/question/010/p035795.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">八王子市「【家庭ごみの分別・出し方】木の枝（剪定枝）の出し方を教えてください。」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/hachioji/senteieda/" className="text-[#2D7F3E] underline">
+                八王子市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

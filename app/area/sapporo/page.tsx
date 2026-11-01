@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/sapporo/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -689,6 +689,24 @@ export default function AreaSapporoPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             剪定枝や刈り草を家庭ごみとして出す場合、<Hl>長さ・束ね方・一度に出せる量のルールは市区町村ごとに決められています</Hl>。降雪前の作業で大量の枝が出ると、雪が来るまでに出しきれないこともあるため、量が多い場合は業者に処分まで任せるほうが現実的です。伐採110番は伐採後の木材処分まで一括対応を掲げています。処分費が料金に含まれるかはサービス・加盟店により異なるため、見積もり時に処分費を含めた総額を必ずご確認ください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">札幌市の枝・葉・草の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">「枝・葉・草」は5月から12月中旬まで（地区により異なる）4週に1回、無料で収集されます。枝は長さ50cm以下にして長さ1mくらいのひもで縛り、草や落ち葉は透明または半透明の袋に入れます。</li>
+              <li className="leading-loose">収集期間外は指定ごみ袋（有料）に入れて「燃やせるごみ」の日に出せます。竹や笹、冬囲い用品（むしろなど）は「枝・葉・草」の対象外です。</li>
+              <li className="leading-loose">5月1日から12月10日まで（休館日を除く）は、地区リサイクルセンターに無料で持ち込めます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.sapporo.jp/seiso/gomi/eda_ha_kusa.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">札幌市「枝・葉・草」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/sapporo/senteieda/" className="text-[#2D7F3E] underline">
+                札幌市の枝・葉・草の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

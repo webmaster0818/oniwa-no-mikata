@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/fujisawa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,24 @@ export default function AreaFujisawaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             眺めをふさぐほど大きくなった木は、切るか、移すか、入れ替えるかの判断になります。<Hl>切り株を残すか根まで取るかで費用と後の使い道が変わる</Hl>ため、<Link href="/bassai-bakkon-chigai/" className="text-[#2D7F3E] underline">伐採と抜根の違い</Link>と<Link href="/kirikabu-hochi/" className="text-[#2D7F3E] underline">切り株の放置リスクの解説記事</Link>を確認してから決めてください。同じ木を別の場所で生かす場合は<Link href="/niwaki-ishoku/" className="text-[#2D7F3E] underline">庭木の植え替え・移植の基礎知識</Link>が参考になります。歩道側の街路樹や植樹帯は道路を管理する自治体などの担当であり、庭業者に依頼して切ることはできません。分譲地の入口や区画の間にある共用の緑地は、管理組合や自治会の管轄になっていることがあります。<Hl>大きくなった木の整理には、切り分けて運び出す方法から相談できる伐採110番</Hl>、仕上がりを毎年同じ状態で保ちたい場合は、写真付きの作業報告書を受け取れるsmileガーデンの年間管理が適しています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">藤沢市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">太さ1cm以上の枝・幹・根は「剪定枝」として予約制・無料の各戸収集です。予約は株式会社藤沢市興業公社（電話・インターネット）で受け付けています。</li>
+              <li className="leading-loose">枝は長さ1.5m未満に切り、方向をそろえて直径35cm未満に束ねます。針金では束ねません。竹・シュロ・キョウチクトウ・つる性樹木は長さ50cm未満にして可燃ごみです。</li>
+              <li className="leading-loose">太さ1cm未満の枝（長さ50cm以下に束ねる）と草葉（透明・半透明袋で1回10袋以内）は、可燃ごみの収集日に出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.fujisawa.kanagawa.jp/kankyo-j/kurashi/gomi/wakekata/dasikata/h30sentei.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">藤沢市「剪定枝の出し方」</a>、<a href="https://www.city.fujisawa.kanagawa.jp/kankyo-j/kurashi/gomi/wakekata/dasikata/kusaha.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">藤沢市「草葉・枝（太さ1cm未満のもの）の出し方」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/fujisawa/senteieda/" className="text-[#2D7F3E] underline">
+                藤沢市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

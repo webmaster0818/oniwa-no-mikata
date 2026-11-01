@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/tsukuba/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaTsukubaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             除草剤を使わずに対策したい場合は、<Hl>刈る、覆う、地面の使い方を変える</Hl>という順で考えます。覆う方法には防草シートや砂利があり、<Hl>初期の手間はかかりますが、その区画は毎年の作業の対象から外れます</Hl>。業者に依頼する際は、「この範囲は薬剤を使わないでほしい」と事前に伝えてください。草刈り110番は草刈りに加えて防草シート施工や除草剤散布にも対応しており、範囲を分けた依頼ができます。覆う方法は<Link href="/bousou-sheet/" className="text-[#2D7F3E] underline">防草シートの解説記事</Link>と<Link href="/zasso-haenikui-niwa/" className="text-[#2D7F3E] underline">雑草が生えにくい庭の解説記事</Link>にまとめています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">つくば市のせん定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭のせん定枝・庭草・落葉は燃やせるごみです。枝は長さ1m以下・太さ15cm以下、幹は長さ50cm以下・太さ15cm以下に切ります。</li>
+              <li className="leading-loose">1束直径30cm程度にひもでしばり、5束以内で出します。葉などが散らばる場合は燃やせるごみの指定袋に入れます。</li>
+              <li className="leading-loose">大量のときはつくばサステナスクエアに直接持ち込みます（家庭ごみは10kgにつき130円）。免許証の住所と異なる宅地の草木は、所有者であることが分かる書類が必要です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.tsukuba.lg.jp/kurashi/recycle/gomi/katei/wakekata/1000827.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">つくば市「燃やせるごみ」</a>、<a href="https://www.city.tsukuba.lg.jp/soshikikarasagasu/seikatsukankyobusasutenasukueakanrika/gyomuannai/1/1/1000849.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">つくば市「つくばサステナスクエア（クリーンセンター）」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/tsukuba/senteieda/" className="text-[#2D7F3E] underline">
+                つくば市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

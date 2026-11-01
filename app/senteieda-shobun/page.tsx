@@ -189,6 +189,16 @@ const data: KnowArticleData = {
       label: "所沢市の剪定枝の出し方",
       desc: "業者が切った木は事業ごみ扱い（市の公式情報）",
     },
+    {
+      href: "/area/chiba/senteieda/",
+      label: "千葉市の剪定枝の出し方",
+      desc: "月2回の資源収集は量の制限なし（市の公式情報）",
+    },
+    {
+      href: "/area/sendai/senteieda/",
+      label: "仙台市のせん定枝の出し方",
+      desc: "庭木の枝・幹を通年で無料回収（市の公式情報）",
+    },
   ],
 };
 

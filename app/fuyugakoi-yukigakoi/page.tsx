@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/area/sapporo/senteieda/",
+      label: "札幌市の枝・葉・草の出し方",
+      desc: "無料収集は5月〜12月中旬（市の公式情報）",
+    },
+    {
       href: "/fuyu-niwa-checklist/",
       label: "冬の庭のチェックリスト",
       desc: "寒さ・雪に備えて冬に確認すること",
