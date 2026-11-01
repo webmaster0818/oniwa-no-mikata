@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/ichikawa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaIchikawaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             そのうえで、<Hl>元に戻せない手入れだけは毎年必ず依頼する</Hl>と決めておくと、忙しい年でも庭が荒れ果てることはありません。伐採110番は伐採・抜根と伐採後の木材処分まで一括で相談でき、見積もりは無料・24時間受付です。smileガーデンは定額制の年間管理プランで回数と時期を決めて任せられます。見送る手入れの負担も減らしたい場合は、地面を覆う植物に切り替える<Link href="/groundcover-erabikata/" className="text-[#2D7F3E] underline">グランドカバープランツの選び方</Link>や<Link href="/jinkoshiba-tennenshiba/" className="text-[#2D7F3E] underline">人工芝と天然芝の比較</Link>、毎年芽を出す植物を使う<Link href="/shukkonso-ichinenso/" className="text-[#2D7F3E] underline">宿根草と一年草の使い分け</Link>も選択肢になります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">市川市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">太さ10cm以下の木の枝を長さ50cm以下・直径30cm以下の束にしてひもでしばって出します（袋には入れません）。</li>
+              <li className="leading-loose">1回に出せるのは1世帯3束までです。葉・草・竹は「燃やすごみ」の日に出します。</li>
+              <li className="leading-loose">太さ10cm超、または長さ50cm超の剪定枝は「大型ごみ」で出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.ichikawa.lg.jp/page/4028.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">市川市「剪定枝の出し方」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/ichikawa/senteieda/" className="text-[#2D7F3E] underline">
+                市川市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

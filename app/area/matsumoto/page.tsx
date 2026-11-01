@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/matsumoto/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaMatsumotoPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             季節ごとに適した作業は異なります。<Hl>葉が落ちている時期は枝ぶりが見える</Hl>ため、太い枝を落とす作業や樹形を直す作業は進めやすくなります。一方、日が長い時期は量の多い草刈りに適しています。年間の並べ方は<Link href="/niwa-soji-nenkan/" className="text-[#2D7F3E] underline">庭掃除の年間計画の解説記事</Link>、冬前の段取りは<Link href="/nenmatsu-niwa-shitaku/" className="text-[#2D7F3E] underline">年末の庭支度の解説記事</Link>にまとめています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">松本市の剪定枝の処分（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">松本クリーンセンターの受入基準は剪定枝・枝葉・丸太が直径30cm未満・長さ1m未満で、処理手数料は10kgあたり150円です（破砕後に焼却処理）。</li>
+              <li className="leading-loose">市は、木くず（剪定枝等）を市内の資源化事業者に持ち込んでリサイクルするよう呼びかけています。市内で発生したものなら家庭から出たものも持ち込めます。</li>
+              <li className="leading-loose">受入基準や処理費用は各事業者に問い合わせます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.matsumoto.nagano.jp/soshiki/53/163127.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">松本市「木くず（剪定枝等）のリサイクルにご協力ください。」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/matsumoto/senteieda/" className="text-[#2D7F3E] underline">
+                松本市の剪定枝の処分を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/maebashi/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -706,6 +706,24 @@ export default function AreaMaebashiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             業者に任せる場合、夏場の草刈り・剪定は依頼が集中しやすいため、日程には余裕を持って予約してください。草刈り110番は1平米163円〜（税込）の面積単価で、伸びる前に定期的に刈る計画も立てられます。毎年夏の手入れが負担になっている場合は、smileガーデンの年間管理プランのように<Hl>季節ごとの作業をあらかじめ年間の計画に組み込んでおく</Hl>方法もあります。手配の手間がなくなれば、夏の庭を眺めて楽しむ余裕も生まれます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">前橋市の剪定枝の持ち込み先（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝等の自己搬入先は六供清掃工場と荻窪清掃工場です。富士見クリーンステーションでは剪定枝を処分していません。事前に清掃工場へ電話で確認します。</li>
+              <li className="leading-loose">長さ50cm、太さ4cmを超えるものは工場で処理できないため、一般廃棄物処理業者（木くず）等に有料で依頼します。</li>
+              <li className="leading-loose">受付は午前8時30分から11時45分、午後1時00分から4時30分。土曜・日曜、祝日（月曜・火曜を除く）、年末年始は休業日です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.maebashi.gunma.jp/kurashi_tetsuzuki/1/3/3/10362.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">前橋市「剪定枝等の搬入先について」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/maebashi/senteieda/" className="text-[#2D7F3E] underline">
+                前橋市の剪定枝の持ち込み先を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

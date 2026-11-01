@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/takasaki/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaTakasakiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             毎年同じ形で手入れを続ける場合は、<Hl>回数と時期を決めて任せる定期の仕組み</Hl>が適しています。草は草刈り110番のように1平米163円〜（税込）の掲載料金で範囲を決めて依頼でき、定期メンテナンスプランも用意されています。木はsmileガーデンの定額制の年間管理プランのように、剪定・消毒・施肥をまとめて時期を決めて任せる方法があり、立ち会えない日の作業でも写真付きの作業報告書で仕上がりを確認できます。毎年の落ち葉が負担なら、木を入れ替える機会に<Link href="/ochiba-sukunai-niwaki/" className="text-[#2D7F3E] underline">落ち葉が少ない庭木の選び方</Link>を、草取りの手間そのものを減らすなら<Link href="/groundcover-erabikata/" className="text-[#2D7F3E] underline">グランドカバープランツの選び方</Link>を参考にしてください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">高崎市の保存樹木・保存生垣（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">高崎市緑化条例により、幹周り1.5m以上・高さ15m以上の樹木、500平方メートル以上の樹林、延長30m以上の生け垣などが指定の対象です。</li>
+              <li className="leading-loose">補助は保存樹木が1本（1株）につき年額3,000円、保存樹林が100平方メートルにつき年額700円、保存生垣が片側10平方メートルにつき年額500円です。</li>
+              <li className="leading-loose">令和8年4月1日現在、樹木246本、樹林6箇所、生垣72箇所が指定されています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.takasaki.gunma.jp/page/6320.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">高崎市「保存樹木」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/takasaki/hozon-jumoku/" className="text-[#2D7F3E] underline">
+                高崎市の保存樹木・保存生垣を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

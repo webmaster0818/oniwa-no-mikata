@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/takatsuki/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaTakatsukiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             ご自身の敷地側については、<Hl>当番の日に合わせて作業を済ませておく</Hl>という依頼の仕方ができます。一斉清掃の前の週に刈っておけば、当日の負担が軽くなります。年間の実施回数が決まっている場合は、<Hl>その日程に合わせて定期契約にまとめる</Hl>方法もあります。smileガーデンは定額制の年間管理プランがあり、作業後に写真付きの報告書を受け取れます。一年の段取りは<Link href="/niwa-soji-nenkan/" className="text-[#2D7F3E] underline">庭仕事の年間スケジュールの解説記事</Link>を参考にしてください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">高槻市の生け垣設置工事助成金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">道路に面した敷地内に生け垣を設置する工事に、延長1mあたり5,000円（最大10万円）を限度に助成しています。</li>
+              <li className="leading-loose">対象は、市のブロック塀等撤去工事補助金などの交付を受けた方です。工事に着手する前の申請が必要です。</li>
+              <li className="leading-loose">道路に面した部分が2m以上、道路側から見える高さ1m以上、1mにつき2本以上の植栽などの条件があります。令和8年度の申請期間は令和9年1月29日までです。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.takatsuki.osaka.jp/soshiki/57/118009.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">高槻市「生け垣設置工事助成金交付制度」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/takatsuki/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                高槻市の生け垣設置工事助成金を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

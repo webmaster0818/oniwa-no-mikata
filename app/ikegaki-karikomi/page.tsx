@@ -197,6 +197,11 @@ const data: KnowArticleData = {
       label: "相模原市の生垣設置奨励金",
       desc: "1mあたり5,000円・工事前の申請が必要",
     },
+    {
+      href: "/area/takatsuki/ikegaki-josei/",
+      label: "高槻市の生け垣設置工事助成金",
+      desc: "ブロック塀撤去後の生け垣に1mあたり5,000円",
+    },
   ],
 };
 

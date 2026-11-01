@@ -199,6 +199,16 @@ const data: KnowArticleData = {
       label: "仙台市のせん定枝の出し方",
       desc: "庭木の枝・幹を通年で無料回収（市の公式情報）",
     },
+    {
+      href: "/area/gifu/senteieda/",
+      label: "岐阜市の剪定枝の出し方",
+      desc: "2026年10月から自己搬入で無料回収（市の公式情報）",
+    },
+    {
+      href: "/area/kyoto/senteieda/",
+      label: "京都市のせん定枝の出し方",
+      desc: "移動式拠点回収で一度に2束まで（市の公式情報）",
+    },
   ],
 };
 

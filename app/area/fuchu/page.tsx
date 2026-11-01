@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/fuchu/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -19,16 +19,16 @@ const AFF: Record<string, string | null> = {
 export const metadata: Metadata = {
   title: {
     absolute:
-      "【2026年最新】府中の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較｜お庭のミカタ",
+      "【2026年最新】東京都府中市の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較｜お庭のミカタ",
   },
   description:
-    "府中で剪定・伐採・草刈りを依頼できる庭業者5社を比較。剪定110番（1本4,000円〜・税込）・草刈り110番（1平米163円〜・税込）などの料金と特徴、通学路に面した庭の作業時間帯、ごみ集積所が庭ぎわにある家の日程、消火栓や防火水槽を隠さない手入れ、大きな庭石の扱いについて編集部が中立の立場でまとめました。",
+    "東京都府中市で剪定・伐採・草刈りを依頼できる庭業者5社を比較。剪定110番（1本4,000円〜・税込）・草刈り110番（1平米163円〜・税込）などの料金と特徴、通学路に面した庭の作業時間帯、ごみ集積所が庭ぎわにある家の日程、消火栓や防火水槽を隠さない手入れ、大きな庭石の扱いについて編集部が中立の立場でまとめました。",
   alternates: { canonical: `${SITE}${PATH}` },
   openGraph: {
     title:
-      "【2026年最新】府中の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較",
+      "【2026年最新】東京都府中市の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較",
     description:
-      "府中で剪定・伐採・草刈りを依頼できる庭業者5社を料金・特徴で比較します。通学路に面した庭では作業の時間帯を登下校から外すこと、ごみの集積所が庭ぎわにある家では収集日と作業日を重ねないこと、消火栓や防火水槽のまわりを隠さない手入れを続けること、大きな庭石の扱いは重さと搬出経路で決まることも解説します。",
+      "東京都府中市で剪定・伐採・草刈りを依頼できる庭業者5社を料金・特徴で比較します。通学路に面した庭では作業の時間帯を登下校から外すこと、ごみの集積所が庭ぎわにある家では収集日と作業日を重ねないこと、消火栓や防火水槽のまわりを隠さない手入れを続けること、大きな庭石の扱いは重さと搬出経路で決まることも解説します。",
     url: `${SITE}${PATH}`,
     type: "article",
     images: ["/images/kv-top.jpg"],
@@ -62,7 +62,7 @@ const companies: AreaCompany[] = [
       <>
         剪定110番は、シェアリングテクノロジー株式会社が運営する剪定専門のマッチングサービスです。
         <Hl>全国の加盟店ネットワーク</Hl>
-        から依頼者の近くのプロを手配する仕組みで、府中市内の依頼でも近隣の加盟店が対応します。
+        から依頼者の近くのプロを手配する仕組みです。剪定110番の東京都のページでは、剪定・草刈り・伐採に対応している市区町村に府中市が挙げられています（2026年11月1日確認）。
         <Hl>剪定1本4,000円〜（税込）の明朗会計</Hl>
         で、現地調査・見積もりは無料。見積もり後の追加料金がない点と、
         <Hl>24時間365日の受付</Hl>
@@ -362,9 +362,9 @@ export default function AreaFuchuPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline:
-      "【2026年最新】府中の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較",
+      "【2026年最新】東京都府中市の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較",
     description:
-      "府中で剪定・伐採・草刈りを依頼できる庭業者5社を、料金・特徴で比較した記事です。",
+      "東京都府中市で剪定・伐採・草刈りを依頼できる庭業者5社を、料金・特徴で比較した記事です。",
     image: `${SITE}/images/kv-top.jpg`,
     datePublished: "2026-09-28T00:00:00+09:00",
     dateModified: `${UPDATED_ISO}T00:00:00+09:00`,
@@ -386,7 +386,7 @@ export default function AreaFuchuPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "お庭のミカタ", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: "府中の庭業者おすすめ5選", item: `${SITE}${PATH}` },
+      { "@type": "ListItem", position: 2, name: "東京都府中市の庭業者おすすめ5選", item: `${SITE}${PATH}` },
     ],
   };
 
@@ -423,14 +423,14 @@ export default function AreaFuchuPage() {
                 <Link href="/" className="hover:underline">お庭のミカタ</Link>
               </li>
               <li>/</li>
-              <li className="text-[#33402f]">府中の庭業者おすすめ5選</li>
+              <li className="text-[#33402f]">東京都府中市の庭業者おすすめ5選</li>
             </ol>
           </nav>
 
           {/* h1・更新日・タグchips */}
           <header className="grid gap-4">
             <h1 className="text-2xl md:text-[32px] font-bold leading-normal tracking-wide text-[#33402f]">
-              【2026年最新】府中の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較
+              【2026年最新】東京都府中市の庭業者おすすめ5選｜剪定・伐採・草刈りの料金を比較
             </h1>
             <div>
               <span className="inline-block rounded-full bg-[#2D7F3E] px-3 py-1 text-xs font-bold tracking-wide text-white">
@@ -474,7 +474,7 @@ export default function AreaFuchuPage() {
           {/* 導入文 */}
           <div className="mt-6 leading-loose text-[#4a5443]">
             <p className="mb-4">
-              府中で庭業者を探すきっかけには、庭の中のことだけでなく、家の前の使われ方に関わる困りごとが含まれていることがあります。たとえば「家の前が通学路で、作業の時間帯に気をつかう」「庭のすぐ横がごみの集積所で、作業日と収集日が重なると作業できない」「門のそばの消火栓が、植え込みで見えなくなってきた」「庭を片付けたいが、大きな石だけは手に負えない」といったケースです。
+              東京都府中市で庭業者を探すきっかけには、庭の中のことだけでなく、家の前の使われ方に関わる困りごとが含まれていることがあります。たとえば「家の前が通学路で、作業の時間帯に気をつかう」「庭のすぐ横がごみの集積所で、作業日と収集日が重なると作業できない」「門のそばの消火栓が、植え込みで見えなくなってきた」「庭を片付けたいが、大きな石だけは手に負えない」といったケースです。
             </p>
             <p>
               本記事では、府中市内から依頼できる主要な庭業者を、当サイト編集部が各社紹介ページの作成時に調査した料金・サービス内容で比較しました。あわせて、通学路に面した庭の作業時間帯、ごみの集積所が庭ぎわにある家の日程の組み方、消火栓や防火水槽のまわりを隠さない手入れ、大きな庭石の扱いが重さと搬出経路で決まることなど、府中で依頼する際に確認していただきたい点もまとめています。業者選びの参考としてご活用ください。
@@ -701,6 +701,24 @@ export default function AreaFuchuPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             見積もりを依頼する際は、<Hl>石の大きさが分かる写真</Hl>を用意しておくと、相談が円滑に進みます。比較できる身近な物を一緒に写しておくと、大きさが伝わりやすくなります。石の処分は枝葉とは別の扱いになることが多いため、費用も分けて出してもらってください。庭を整理していく進め方は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまいの解説記事</Link>にまとめています。伐採110番は重機を使った作業にも対応しています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">東京都府中市のせん定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">せん定枝を出すには、事前に府中市粗大ごみコールセンター（電話03-6424-4645、またはインターネット）への申込みが必要です。</li>
+              <li className="leading-loose">一本の太さが10cm未満の枝を、長さ60cm・直径30cm以内の束にして出します。</li>
+              <li className="leading-loose">1束目から5束目までは無料、6束目以降は1束につき200円です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.fuchu.tokyo.jp/kurashi/gomirisaikuru/dashikata/senteieda.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">府中市「せん定枝の出し方」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/fuchu/senteieda/" className="text-[#2D7F3E] underline">
+                東京都府中市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

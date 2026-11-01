@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/matsudo/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,24 @@ export default function AreaMatsudoPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             一年を待たずに手を入れたほうがよいのは、<Hl>隣家や道路に張り出した枝、枯れ枝、通り道をふさぐ草</Hl>です。外へ影響が出る場所だけ先に依頼し、残りは一年見てから決めるという分け方が可能です。草の出方が分かってきたら、刈る場所と覆う場所を分けるのが基本で、考え方は<Link href="/zasso-taisaku/" className="text-[#2D7F3E] underline">雑草対策の方法比較</Link>と<Link href="/zasso-haenikui-niwa/" className="text-[#2D7F3E] underline">雑草が生えにくい庭のつくり方</Link>にまとめています。面で片付ける場合、草刈り110番は1平米163円〜（税込）の面積単価で範囲を決めて依頼でき、草刈り後の防草シート施工も相談できます。枝を1本単位で先に整える場合は剪定110番やお庭マスター、一年見て木を入れ替えると決めた場合は、抜根と処分まで一括で対応する伐採110番に相談できます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">松戸市の剪定枝・落ち葉・草の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭から出る剪定枝や落ち葉・草は、当分の間「不燃ごみ」・「資源ごみ」の日に専用車両で収集されます。可燃ごみの日には収集しません。</li>
+              <li className="leading-loose">枝は直径10cm未満・長さ50cm未満にして少量ずつひもで縛るか、松戸市認定袋（可燃ごみ用）や透明・半透明のポリ袋に入れます。</li>
+              <li className="leading-loose">落ち葉・草は土を落として袋に入れます。花や果実がついていると収集できないため、花や果実は可燃ごみで出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.matsudo.chiba.jp/kurashi/gomi_shinyou/shuushuubi/sentei_kyouryoku.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">松戸市「家庭から出る剪定枝（切った枝）や落ち葉・草等は、当分の間「不燃ごみ」・「資源ごみ」の日に収集します」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/matsudo/senteieda/" className="text-[#2D7F3E] underline">
+                松戸市の剪定枝・落ち葉・草の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

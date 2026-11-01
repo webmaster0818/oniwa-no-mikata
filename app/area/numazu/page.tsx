@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/numazu/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaNumazuPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             場所を決めたら、<Hl>ホースの経路</Hl>を確認します。よく歩く場所を横切る、門の開閉の妨げになる、芝刈りのたびに外す必要があるといった配置では、長く使い続けることが難しくなります。地面に埋める場合は、掘る範囲に何があるかを先に確認してください。庭の道具の選び方は<Link href="/niwa-dogu-erabikata/" className="text-[#2D7F3E] underline">庭の道具の選び方の解説記事</Link>にまとめています。草刈り110番は場所を指定して依頼しやすいサービスです。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">沼津市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">庭木の剪定枝は長さ50cm程度に切って束ね、燃やすごみとして出せます。</li>
+              <li className="leading-loose">自治会単位で申し込む剪定枝リサイクル事業では、集積した枝を専用車両で破砕・チップ化し、チップは現地で下草抑えなどに使います。</li>
+              <li className="leading-loose">リサイクル事業に出す枝は長さ1m程度・太さ5cm程度で、麻ひも・縄で束ねます。竹は破砕できないため出せません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.numazu.shizuoka.jp/kurashi/sumai/gomi/recycle/niwaki.htm" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">沼津市「庭木等の剪定枝」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/numazu/senteieda/" className="text-[#2D7F3E] underline">
+                沼津市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

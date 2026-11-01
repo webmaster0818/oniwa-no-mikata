@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kyoto/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -693,6 +693,24 @@ export default function AreaKyotoPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             業者に依頼する場合は、<Hl>処分費・出張費を含めた総額</Hl>を見積もり時にご確認ください。伐採110番は伐採後の木材処分まで一括対応を掲げています。処分費が料金に含まれるかはサービス・加盟店により異なるため、「この金額は処分費込みか」を一言確認しておくことで、後の行き違いを防げます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">京都市のせん定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭のせん定枝（木の枝）は移動式拠点回収で回収し、堆肥や燃料チップにリサイクルしています。資源ごみ収集場所での月1回の収集は令和2年9月末で終了しました。</li>
+              <li className="leading-loose">長さ50cm以内・一本の太さ10cm以内、中身の見える袋かひもで束ねて、一度に2束（袋）までです。落ち葉は燃やすごみ（黄色の袋）です。</li>
+              <li className="leading-loose">造園業者などの事業者がせん定したものは事業ごみになるため、せん定する事業者に事前に引き取りを依頼します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kyoto.lg.jp/kankyo/page/0000204693.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">京都市「せん定枝（木の枝）の分別・リサイクルについて」</a>、<a href="https://www.city.kyoto.lg.jp/kankyo/page/0000269272.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">京都市「移動式拠点回収事業について」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kyoto/senteieda/" className="text-[#2D7F3E] underline">
+                京都市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

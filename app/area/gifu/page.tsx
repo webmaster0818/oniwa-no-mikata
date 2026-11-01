@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/gifu/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -706,6 +706,24 @@ export default function AreaGifuPage() {
             <Link href="/akiya-niwa-kanri/" className="text-[#2D7F3E] underline">空き家・遠方の実家の庭管理の解説記事</Link>
             で詳しくまとめています。方針が固まったら、この記事の「残す一角」の考え方に沿って、縮小や作り替えを段階的に相談することをおすすめします。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">岐阜市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">令和8年10月1日から、自分で剪定した枝と枝についた葉を、申込みのうえ粗大ごみ自己搬入施設へ持ち込むと無料で回収されます（業者が剪定したものは対象外）。</li>
+              <li className="leading-loose">束は1本の長さ1.5m・太さ直径20cm以内、1束の太さ直径40cm以内。申込先は粗大ごみ受付センター（電話058-243-0530）です。</li>
+              <li className="leading-loose">持ち込めない場合、直径3cm以下・長さ30cm以下の細い枝や葉は指定ごみ袋で普通ごみ、それより長い・太い枝は粗大ごみ（有料）になります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.gifu.lg.jp/kurashi/gomi/1038443/1038446/1038449.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">岐阜市「令和8年10月1日から、剪定枝の出し方が変わります！」</a>、<a href="https://www.city.gifu.lg.jp/kurashi/gomi/1038443/1038446/1038447.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">岐阜市「剪定枝の出し方について」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/gifu/senteieda/" className="text-[#2D7F3E] underline">
+                岐阜市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
