@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/tokorozawa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaTokorozawaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             そのため、見積もりの際に<Hl>「どのような場合に金額が変わるのか」「変わる際は作業を止めて相談してもらえるのか」</Hl>の二点を確認し、回答を書面に残してもらってください。あわせて、<Hl>支払いのタイミングと方法</Hl>も事前に確認します。作業後の一括払いか、着手時に一部を支払うか、現金かそれ以外かを決めておきます。領収書が必要な場合は、宛名もその際に伝えておくと確実です。剪定110番は見積もり後の追加料金がないことを掲げており、くらしのマーケットは料金が出店者ごとに事前明示され、トラブル時の費用補償制度もあります。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">所沢市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定した枝は「燃やせるごみ」で、直径5センチメートル・長さ90センチメートルまで、一度に2～3束程度までです。</li>
+              <li className="leading-loose">それより太い枝や幹はクリーンセンターへ持ち込めます。家庭で出た木くずは無料、事業で出た木くずは10キログラムにつき250円です。</li>
+              <li className="leading-loose">自宅の樹木を業者が伐採・剪定した場合、ごみの排出者は業者となり事業で出た木くずの扱いになるため、処分は作業した業者に依頼するよう市は案内しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.tokorozawa.saitama.jp/kurashi/gomi/gomidashikata/haitai_2008110420122838.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">所沢市「「燃やせるごみ」の出し方」</a>、<a href="https://www.city.tokorozawa.saitama.jp/kurashi/gomi/mochikomikyotenkaishuu/kikuzuhannyu.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">所沢市「木くずの搬入について」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/tokorozawa/senteieda/" className="text-[#2D7F3E] underline">
+                所沢市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

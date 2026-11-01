@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/asahikawa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaAsahikawaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             見立てを依頼する際に整理しておくとよいのは、<Hl>その木で困っていること</Hl>と<Hl>放っておいた場合に何が起きると困るか</Hl>の二つです。「大きいから」ではなく「隣の屋根に届きそうだから」「道に張り出しているから」のように具体的に伝えると、伐採以外の対処法も検討しやすくなります。枝の張り出しは<Link href="/eda-ekkyo/" className="text-[#2D7F3E] underline">枝の越境の解説記事</Link>、依頼先の違いは<Link href="/zoen-uekiya-chigai/" className="text-[#2D7F3E] underline">造園業者と植木屋の違いの解説記事</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">旭川市の剪定枝・落ち葉の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">個人の庭から出る剪定枝は無料の戸別収集です（専用受付電話 0166-36-6711）。1本の直径20cm以内の枝を長さ1m以内に切りそろえ、麻ひもかビニールひもで直径30cm以内に束ねます。</li>
+              <li className="leading-loose">広葉樹の落ち葉は10月・11月の2か月間、透明・半透明の袋に入れて申し込むと戸別収集され、腐葉土になります（受付専用電話 0166-36-8841）。</li>
+              <li className="leading-loose">いずれも自宅敷地内からの回収で、ごみステーションには出しません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.asahikawa.hokkaido.jp/kurashi/271/272/273/p005891.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">旭川市「剪定枝の回収」</a>、<a href="https://www.city.asahikawa.hokkaido.jp/kurashi/271/272/273/d053292.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">旭川市「落ち葉（季節限定）」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/asahikawa/senteieda/" className="text-[#2D7F3E] underline">
+                旭川市の剪定枝・落ち葉の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

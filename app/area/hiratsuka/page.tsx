@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/hiratsuka/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaHiratsukaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             ただし、<Hl>向かないものもあります</Hl>。病気が出ていた葉や枝、種をたくさん付けた草、地下で広がる竹や笹の根は、敷地内に残すと問題が広がります。これらは分けて処分してください。業者に依頼する際は、<Hl>「この分は残すので持ち帰らないでほしい」と作業前に伝える</Hl>ことと、<Hl>置き場所を指定しておく</Hl>ことの二つを行えば、意図が伝わります。残す量が分からない場合は、まず持ち帰りを含めた見積もりを取り、そのうえで減らせるか相談すると確実です。病害虫の扱いは<Link href="/niwaki-byogaichu/" className="text-[#2D7F3E] underline">庭木の病害虫の解説記事</Link>、竹は<Link href="/take-taisaku/" className="text-[#2D7F3E] underline">竹の対策の解説記事</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">平塚市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝は電話予約の各戸収集です（粗大ごみ等・剪定枝予約受付専用ダイヤル 0463-71-5100）。予約から収集まで原則1、2週間程度かかります。</li>
+              <li className="leading-loose">1本は太さ10cm以下・長さ80cm以下、1束は太さ30cm以下・長さ80cm以下で、針金やポリ袋は使いません。</li>
+              <li className="leading-loose">造園業者などに剪定を依頼したものは収集できないため、市は剪定枝の処理を含めて依頼するよう案内しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.hiratsuka.kanagawa.jp/kankyo/page-c_01229.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">平塚市「剪定枝（せんていえだ）の処分」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/hiratsuka/senteieda/" className="text-[#2D7F3E] underline">
+                平塚市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

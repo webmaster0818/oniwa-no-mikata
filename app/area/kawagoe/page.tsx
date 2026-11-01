@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kawagoe/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaKawagoePage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             立ち会えない日に依頼する場合は、<Hl>同じ3か所を写真で送ってもらう</Hl>よう事前に決めておくと確認できます。smileガーデンは写真付きの作業報告書を掲げているため、立ち会えない日が多い家でも仕上がりを後から確認できます。切った直後は分からず、しばらくしてから葉が落ちてくることもあります。木が弱っているかどうかの見方は<Link href="/niwaki-kareta/" className="text-[#2D7F3E] underline">庭木が枯れたかどうかの見分け方</Link>、虫や病気が関わる場合は<Link href="/niwaki-byogaichu/" className="text-[#2D7F3E] underline">庭木の病害虫</Link>を参考にしてください。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">川越市の保存樹木・保存樹林の奨励金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">川越市は、市街化区域内で幹周り1.5m以上・樹高15m以上などの基準を満たす樹木を保存樹木に指定し、年額1本あたり2,800円の奨励金を交付しています。</li>
+              <li className="leading-loose">保存樹林は市街化区域で年額1平方メートルあたり21円、市街化調整区域で年額1平方メートルあたり2円です。</li>
+              <li className="leading-loose">指定後も樹木の剪定、樹林内の草刈り、落ち葉掃きは所有者が行い、指定を解除するときは届出書の提出が必要です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kawagoe.saitama.jp/kurashi/kankyo/1002540/1002546.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">川越市「樹木・樹林の保存に奨励金を交付（保存樹木・保存樹林）」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kawagoe/hozon-jumoku/" className="text-[#2D7F3E] underline">
+                川越市の保存樹木・保存樹林を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

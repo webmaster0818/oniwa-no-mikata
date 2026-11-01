@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/sagamihara/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaSagamiharaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             出張の回数を減らすには、<Hl>一度に依頼する作業をまとめる</Hl>ことが有効です。剪定と草刈りと処分を別々に依頼するより、同じ日にまとめたほうが出張の手間が一回で済み、総額の見当もつけやすくなります。毎年依頼することが決まっている場合は、定額制の年間管理プランのように回数と時期を決めて任せる形にすると、そのたびに業者を探す手間もなくなります。刈り草や剪定枝の処分の選択肢は<Link href="/senteieda-shobun/" className="text-[#2D7F3E] underline">剪定枝・刈り草の処分方法</Link>、家を空けがちな場合の考え方は<Link href="/akiya-niwa-kanri/" className="text-[#2D7F3E] underline">空き家の庭の管理の基本</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">相模原市の生垣設置奨励金（市・公社の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">相模原市は、新しく生垣を設置する方に奨励金を交付しています（相模原市まち・みどり公社が窓口）。</li>
+              <li className="leading-loose">手引きでは、戸建住宅は1メートルあたり5,000円・限度額100,000円。幅4m以上の公道に接する（建築基準法第42条2項の道路の場合は中心線から2m以上離れる）延長3m以上の生垣が対象です。</li>
+              <li className="leading-loose">必ず工事に着手する前に申請します。公社はカナメモチ類（レッドロビンなど）を推奨樹種にしていません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/kankyo/hojyo/1008086.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">相模原市「生垣設置助成事業」</a>、<a href="https://drive.google.com/file/d/1qjhMkZv-rJfFRWUaidmv1aXGuIdhNSSe/view" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">相模原市まち・みどり公社「生垣設置奨励金交付申請の手引き」（PDF）</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/sagamihara/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                相模原市の生垣設置奨励金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

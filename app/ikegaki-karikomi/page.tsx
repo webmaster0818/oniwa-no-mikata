@@ -192,6 +192,11 @@ const data: KnowArticleData = {
       label: "マキ（イヌマキ）の剪定と手入れ",
       desc: "生垣の刈り込みとキオビエダシャク",
     },
+    {
+      href: "/area/sagamihara/ikegaki-josei/",
+      label: "相模原市の生垣設置奨励金",
+      desc: "1mあたり5,000円・工事前の申請が必要",
+    },
   ],
 };
 

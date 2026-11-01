@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/tachikawa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaTachikawaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             庭業者に依頼できるのは、<Hl>側溝へ落ちてくる葉を減らすこと</Hl>と<Hl>きわに茂った草を止めること</Hl>です。「掃除してほしい場所」ではなく「葉がどこへ落ちてくるか」を伝えると、切る枝が明確になります。刈った草を側溝に流さない片付け方も、あわせて依頼してください。水の抜け方は<Link href="/niwa-mizuhake/" className="text-[#2D7F3E] underline">庭の水はけの解説記事</Link>にまとめています。草刈り110番は場所を指定して依頼しやすいサービスです。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">立川市のせん定枝の出し方と保存樹木（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">収集に出すせん定枝は長さ50cm未満（枝の直径は15cmまで）に切ってひもで束ね、1回の収集で5束までです。草・掃き集めた落ち葉・樹木の根・竹はせん定枝としては出せません。</li>
+              <li className="leading-loose">量が多いときは総合リサイクルセンター（西砂町）へ持ち込めます。一般家庭から出たせん定枝は無料で、事業所から出たせん定枝は10kgにつき200円です。</li>
+              <li className="leading-loose">幹周り1.5m以上・高さ10m以上の保存樹木には、1本あたり年額4,500円の補助金があります。大きな木を伐採する前に指定の有無を確認してください。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.tachikawa.lg.jp/kurashi/gomi/1001712/1001735.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">立川市「せん定枝の出し方」</a>、<a href="https://www.city.tachikawa.lg.jp/kurashi/gomi/1019923/1001718/1001823.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">立川市「総合リサイクルセンターへの資源・ごみの持ち込み」</a>、<a href="https://www.city.tachikawa.lg.jp/kurashi/seikatsu/1001871/1001891.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">立川市「樹木と樹林の保護指定」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/tachikawa/senteieda/" className="text-[#2D7F3E] underline">
+                立川市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

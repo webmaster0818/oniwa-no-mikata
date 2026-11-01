@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/machida/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaMachidaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             日数がかかると分かった場合は、<Hl>一度にすべてを依頼するか、場所を分けて複数年で進めるか</Hl>を決めます。分けると一回あたりの金額と拘束時間は抑えられますが、回数は増えます。お庭マスターは剪定1本550円〜・伐採1本3,300円〜という1本単位の料金体系で、見積もり・出張は無料、施工後の保証があります。庭そのものを手のかからない形に変えていく進め方は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまいとローメンテナンス化</Link>、外構の工事と植栽の作業で担当が分かれる点は<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭のリフォームと外構工事の違い</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">町田市の剪定枝の出し方と相談窓口（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝は資源物として資源集積所（ビン・カンの収集日に収集用カゴが置かれる場所）で収集し、戸別収集ではありません。1束は直径30cm・長さ60cm以内、1本の太さは直径10cmまでです。</li>
+              <li className="leading-loose">毒性を持つ植物（キョウチクトウ、ジンチョウゲなど）や竹・シュロ、草花・落ち葉・根は剪定枝では出せず、燃やせるごみの日に出します。</li>
+              <li className="leading-loose">剪定枝資源化センターは2027年12月29日で受入れを終了する予定です。庭木の剪定・造園の相談窓口として、市は町田造園業組合などを案内しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/shigen/senteisi.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">町田市「剪定枝の出し方」</a>、<a href="https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/shiryo/shisetu/senteishishigenkasennta-heisa.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">町田市「剪定枝資源化センター閉鎖のお知らせと今後の剪定枝処理について」</a>、<a href="https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/sumai/soudan10.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">町田市「住宅の改修や庭木の剪定に関する相談窓口」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/machida/senteieda/" className="text-[#2D7F3E] underline">
+                町田市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

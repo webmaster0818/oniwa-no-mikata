@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "剪定・伐採の見積もりの見方",
       desc: "チェックすべき項目と比較のポイント",
     },
+    {
+      href: "/area/kawagoe/hozon-jumoku/",
+      label: "川越市の保存樹木・保存樹林",
+      desc: "指定基準と奨励金、解除の届出",
+    },
   ],
 };
 

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/saitama/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -695,6 +695,24 @@ export default function AreaSaitamaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             smileガーデンの<Hl>定額制の年間管理プラン</Hl>は剪定・消毒・施肥をセットで任せられ、生垣や庭木が伸びすぎる前に定期的に手入れが行われます。作業後の写真付き報告書で仕上がりを確認できるため、日中留守がちの家庭でも利用しやすい仕組みです。境界沿いの雑草が気になる場合は、草刈り110番の定期メンテナンスプランや防草シート施工で、境界まわりを手のかからない状態にしておく方法もあります。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">さいたま市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">木の枝葉は「もえるごみ」で、木の枝等は太さ10センチメートルまで、長さ90センチメートルまで、束にして直径30センチメートル未満にします。とげのある枝には「とげ注意」などの張り紙を付けます。</li>
+              <li className="leading-loose">清掃センターへの直接持込みは令和7年1月から完全事前予約制です。</li>
+              <li className="leading-loose">事業活動に伴い排出される剪定枝・刈草等は、令和7年4月1日から市清掃センターでの受入れが停止されています。業者に剪定を頼む場合は処分の扱いを確認してください。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.saitama.lg.jp/001/006/010/003/p072162.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">さいたま市「もえるごみの出し方」</a>、<a href="https://www.city.saitama.lg.jp/001/006/008/001/p115731.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">さいたま市「事業系木くず（剪定枝・刈草等）の受入れを停止します」</a>（いずれも2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/saitama/senteieda/" className="text-[#2D7F3E] underline">
+                さいたま市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

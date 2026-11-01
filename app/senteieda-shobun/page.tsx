@@ -174,6 +174,21 @@ const data: KnowArticleData = {
       label: "剪定・伐採の見積もりの見方",
       desc: "処分費を含む見積書の項目の意味と比較方法",
     },
+    {
+      href: "/area/chigasaki/senteieda/",
+      label: "茅ヶ崎市の剪定枝の出し方",
+      desc: "予約制収集と無料の持ち込み先（市の公式情報）",
+    },
+    {
+      href: "/area/tachikawa/senteieda/",
+      label: "立川市のせん定枝の出し方",
+      desc: "長さ50cm未満・1回5束まで（市の公式情報）",
+    },
+    {
+      href: "/area/tokorozawa/senteieda/",
+      label: "所沢市の剪定枝の出し方",
+      desc: "業者が切った木は事業ごみ扱い（市の公式情報）",
+    },
   ],
 };
 

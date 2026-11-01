@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/atsugi/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaAtsugiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             虫が集まりやすい場所でもあるため、足元の手入れは<Hl>虫の相談とあわせて依頼する</Hl>と一度で済みます。地面にひそむ虫の扱いは<Link href="/mukade-yasude-taisaku/" className="text-[#2D7F3E] underline">ムカデ・ヤスデ対策</Link>、蚊が出にくい庭のつくり方は<Link href="/ka-hassei-shinikui-niwa/" className="text-[#2D7F3E] underline">蚊が発生しにくい庭</Link>にまとめています。smileガーデンは定額制の年間管理プランで剪定・消毒・施肥をセットで任せられ、作業後には写真付きの作業報告書を受け取れます。樹木の上部と足元をまとめて管理を任せると、目隠しの状態を保ちやすくなります。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">厚木市のせん定枝・落ち葉・雑草の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭から出るせん定枝・落ち葉・雑草は、協同組合 厚木市資源再生センター（046-242-4600）に予約すれば無料で戸別収集され、たい肥にリサイクルされます。</li>
+              <li className="leading-loose">枝は長さ50センチ程度（幹の太さは直径12センチまで）に切りそろえて麻ひもなどで束ね、小枝・落ち葉・雑草は透明・半透明の袋に入れます。</li>
+              <li className="leading-loose">竹・シュロ・つる性の植物や、事業所・事業活動から出たものは収集しません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.atsugi.kanagawa.jp/kurashi_tetsuzuki/gomi/3/3/32790.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">厚木市「せん定枝等のリサイクル」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/atsugi/senteieda/" className="text-[#2D7F3E] underline">
+                厚木市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

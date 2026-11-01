@@ -54,6 +54,10 @@ export interface KnowArticleData {
   faqHeading: string;
   faqs: KnowFaq[];
   related: KnowRelated[];
+  /** パンくずの中間階層（エリア子ページで親のエリアページを入れる） */
+  parent?: { href: string; label: string };
+  /** h1下のバッジ文言（省略時は「お庭の基礎知識」） */
+  badge?: string;
 }
 
 // 強調ハイライト（オレンジの下線マーカー・既存ページ踏襲）
@@ -114,7 +118,15 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "お庭のミカタ", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: data.breadcrumbLabel, item: `${SITE}${path}` },
+      ...(data.parent
+        ? [{ "@type": "ListItem", position: 2, name: data.parent.label, item: `${SITE}${data.parent.href}` }]
+        : []),
+      {
+        "@type": "ListItem",
+        position: data.parent ? 3 : 2,
+        name: data.breadcrumbLabel,
+        item: `${SITE}${path}`,
+      },
     ],
   };
 
@@ -135,6 +147,16 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
                 </Link>
               </li>
               <li>/</li>
+              {data.parent && (
+                <>
+                  <li>
+                    <Link href={data.parent.href} className="hover:underline">
+                      {data.parent.label}
+                    </Link>
+                  </li>
+                  <li>/</li>
+                </>
+              )}
               <li className="text-[#33402f]">{data.breadcrumbLabel}</li>
             </ol>
           </nav>
@@ -146,7 +168,7 @@ export default function KnowArticle({ data }: { data: KnowArticleData }) {
             </h1>
             <div>
               <span className="inline-block rounded-full bg-[#2D7F3E] px-3 py-1 text-xs font-bold tracking-wide text-white">
-                お庭の基礎知識
+                {data.badge ?? "お庭の基礎知識"}
               </span>
             </div>
             <div className="flex flex-wrap items-center gap-4 text-xs font-bold tracking-wide text-[#6b7563]">

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/chigasaki/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月1日";
+const UPDATED_ISO = "2026-11-01";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaChigasakiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             対策は、<Hl>踏まれた場所を特定し、その場所だけ扱いを変える</Hl>ことから始めます。上を歩く経路を別に設ける、地面を覆って直接踏まないようにする、木の足元には特に立ち入らない、という三点が基本です。工事の予定がある場合は、<Hl>車両が入る前に「ここは通らない」と決めておく</Hl>ことが最も確実です。地面を覆う選び方は<Link href="/groundcover-erabikata/" className="text-[#2D7F3E] underline">グラウンドカバーの選び方の解説記事</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-01 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">茅ヶ崎市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝は電話（0467-57-1166）または市公式LINEによる予約制収集（無料）で、1本あたり長さ1m以下・太さ1cmを超え20cm以下、束の直径は35cm以下です。</li>
+              <li className="leading-loose">リサイクル施設（株式会社都実業グリーンリサイクル茅ヶ崎営業所）へは、長さ・太さの制限なく無料で直接持ち込めます。</li>
+              <li className="leading-loose">造園業者やシルバー人材センターなどに依頼して出た剪定枝は有料となり、剪定をした事業者に処理・処分を依頼するよう案内されています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.chigasaki.kanagawa.jp/kankyo/gomi/1021180/1042464.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">茅ヶ崎市「剪定枝」</a>（2026年11月1日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/chigasaki/senteieda/" className="text-[#2D7F3E] underline">
+                茅ヶ崎市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">
