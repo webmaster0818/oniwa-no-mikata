@@ -182,6 +182,16 @@ const data: KnowArticleData = {
       label: "生垣の下枝が枯れる・すき間があく",
       desc: "原因と再生の考え方",
     },
+    {
+      href: "/kashi-teire/",
+      label: "カシ（シラカシ）の剪定と手入れ",
+      desc: "生垣の刈り込みと注意する病気",
+    },
+    {
+      href: "/maki-teire/",
+      label: "マキ（イヌマキ）の剪定と手入れ",
+      desc: "生垣の刈り込みとキオビエダシャク",
+    },
   ],
 };
 

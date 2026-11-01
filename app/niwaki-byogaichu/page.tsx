@@ -208,6 +208,11 @@ const data: KnowArticleData = {
       label: "庭木の葉が白くなる・白い粉が付く",
       desc: "うどんこ病・ハダニなどの見分け方",
     },
+    {
+      href: "/maki-teire/",
+      label: "マキ（イヌマキ）の剪定と手入れ",
+      desc: "キオビエダシャクの見分け方",
+    },
   ],
 };
 

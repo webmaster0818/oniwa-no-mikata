@@ -189,6 +189,16 @@ const data: KnowArticleData = {
       label: "庭木の実が落ちて汚れる",
       desc: "道路・駐車場・隣家への落果対策",
     },
+    {
+      href: "/hanamizuki-teire/",
+      label: "ハナミズキの剪定と手入れ",
+      desc: "花芽を残す冬の剪定",
+    },
+    {
+      href: "/yamaboushi-teire/",
+      label: "ヤマボウシの剪定と手入れ",
+      desc: "花後と冬の剪定の使い分け",
+    },
   ],
 };
 

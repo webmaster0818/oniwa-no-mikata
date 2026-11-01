@@ -173,6 +173,21 @@ const data: KnowArticleData = {
       label: "庭業者の一覧・比較",
       desc: "剪定・年間管理を依頼できる業者の比較",
     },
+    {
+      href: "/shimatoneriko-teire/",
+      label: "シマトネリコの剪定と手入れ",
+      desc: "大きくなりすぎる前に高さを止める",
+    },
+    {
+      href: "/yamaboushi-teire/",
+      label: "ヤマボウシの剪定と手入れ",
+      desc: "花後と冬の剪定の使い分け",
+    },
+    {
+      href: "/hanamizuki-teire/",
+      label: "ハナミズキの剪定と手入れ",
+      desc: "花芽を残す冬の剪定",
+    },
   ],
 };
 

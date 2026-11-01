@@ -174,6 +174,11 @@ const data: KnowArticleData = {
       label: "剪定110番の口コミ・評判",
       desc: "剪定1本からの明朗会計を掲げる専門サービス",
     },
+    {
+      href: "/fuyugakoi-yukigakoi/",
+      label: "庭木の冬囲い・雪囲い",
+      desc: "雪吊りの時期と業者に頼む目安",
+    },
   ],
 };
 

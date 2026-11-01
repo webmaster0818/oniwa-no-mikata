@@ -189,6 +189,11 @@ const data: KnowArticleData = {
       label: "庭木の枝が折れた・裂けた",
       desc: "応急の確認と切り直しの考え方",
     },
+    {
+      href: "/fuyugakoi-yukigakoi/",
+      label: "庭木の冬囲い・雪囲い",
+      desc: "雪で枝が折れる前の準備と時期",
+    },
   ],
 };
 
