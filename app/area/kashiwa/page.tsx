@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kashiwa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaKashiwaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             日を分けて依頼する場合は、<Hl>枝や草の処分をどの回にまとめるか</Hl>も決めておくと、総額を把握しやすくなります。作業のたびに持ち帰ってもらうのか、最後にまとめて運び出すのかで、費用の出方が変わることがあります。出た枝の始末は<Link href="/senteieda-shobun/" className="text-[#2D7F3E] underline">剪定枝の処分方法</Link>、粉砕して庭で使う方法は<Link href="/garden-shredder-katsuyo/" className="text-[#2D7F3E] underline">ガーデンシュレッダーの活用</Link>を参考にしてください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">柏市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">柏地域では、木の枝は1本の太さを5cm以内・長さ30cm以内にして、直径20cm程度にひもで束ねて可燃ごみの日に出します。</li>
+              <li className="leading-loose">太さ5cmを超える木の枝は収集できないごみです。長さ1.0m未満、太さ10cm未満にし、クリーンセンターに事前連絡します。</li>
+              <li className="leading-loose">沼南地域は、木の枝（太さ2cm、長さ50cm以内）をひもで束ねて出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kashiwa.lg.jp/kankyoservice/garbage_environment/kashiwaarea/guide-k/k_2.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">柏市／可燃ごみ</a>、<a href="https://www.city.kashiwa.lg.jp/garbage_environment/kashiwaarea/guide-k/ki/0012.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">木の枝-太さ5cmを超える | 柏市</a>（いずれも2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kashiwa/senteieda/" className="text-[#2D7F3E] underline">
+                柏市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

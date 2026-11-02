@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/morioka/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -686,6 +686,24 @@ export default function AreaMoriokaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             定期的な仕組みにする場合は、smileガーデンの<Hl>定額制の年間管理プラン</Hl>のように剪定・消毒・施肥をセットで任せる方法があります。作業後に写真付きの報告書が受け取れるため、立ち会えないときでも仕上がりを確認できます。草の管理だけなら草刈り110番の定期メンテナンスプランで、雪のない季節をまとめて任せることもできます。単発で依頼する場合も、剪定110番・伐採110番は24時間受付のため、次の作業の予定が決まった時点で予約しておけば適期を逃しにくくなります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">盛岡市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">盛岡地域では、木くず（長さ50センチ以内、1本の太さ5センチ以内）は燃やせるごみです。</li>
+              <li className="leading-loose">玉山地域は、庭木の枝（直径10センチメートル以内）などを乾燥させて長さ50センチメートル以内にして束ねます。</li>
+              <li className="leading-loose">引っ越しなどに伴う一時多量ごみは、クリーンセンターへの自己搬入か許可業者への依頼が案内されています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.morioka.iwate.jp/kurashi/gomi_recycle/gomidashikata/1001153.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみの分け方・出し方(盛岡地域)｜盛岡市公式ホームページ</a>、<a href="https://www.city.morioka.iwate.jp/kurashi/gomi_recycle/gomidashikata/1001163.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみの分けかた・出しかた(玉山地域)｜盛岡市公式ホームページ</a>（いずれも2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/morioka/senteieda/" className="text-[#2D7F3E] underline">
+                盛岡市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

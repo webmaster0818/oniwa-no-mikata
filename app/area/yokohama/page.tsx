@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/yokohama/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -686,6 +686,24 @@ export default function AreaYokohamaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             通路が歩きやすくなると、<Hl>業者に依頼する際の作業条件も改善されます</Hl>。道具を運び込みやすくなり、作業にかかる時間が短くなるためです。草刈り110番は1平米163円〜（税込）という面積単価のため、通路まわりのように範囲がはっきりした依頼と相性がよく、刈った後の防草シート施工も相談できます。足元を土のままにしない仕上げは<Link href="/jarishiki/" className="text-[#2D7F3E] underline">砂利敷きの基本</Link>と<Link href="/niwa-doma-concrete/" className="text-[#2D7F3E] underline">庭の土間コンクリート</Link>、水がたまる場所がある場合は<Link href="/niwa-mizuhake/" className="text-[#2D7F3E] underline">庭の水はけ</Link>もあわせてご確認ください。smileガーデンは定額制の年間管理プランで回数と時期を決めて任せられます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">横浜市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定後の枝は燃やすごみで、50cm未満にして出します。50cm以上のものは粗大ごみです。</li>
+              <li className="leading-loose">1回の排出の目安は、両手で抱えられるくらいの束が2〜3束程度です。多量の場合は小分けにして収集日ごとに出します。</li>
+              <li className="leading-loose">造園業者に委託して剪定した枝は事業活動に伴うごみとなり、粗大ごみとしては出せません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://cgi.city.yokohama.lg.jp/shigen/bunbetsu/list_a.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">横浜市ごみ分別辞典「MIctionary（ミクショナリー）」 | ごみと資源物の出し方一覧表</a>、<a href="https://www.sodai-faq.city.yokohama.lg.jp/faq/show/75?category_id=13&site_domain=default" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">自宅の庭の木を剪定した。大量の枝等を粗大ごみで出したい。 | 粗大ごみよくあるご質問（FAQ）　横浜市</a>（いずれも2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/yokohama/senteieda/" className="text-[#2D7F3E] underline">
+                横浜市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

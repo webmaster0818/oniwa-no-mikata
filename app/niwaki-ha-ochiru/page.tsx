@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shimatoneriko-teire/",
+      label: "シマトネリコの剪定・手入れ",
+      desc: "半常緑で葉の入れ替わりがある木の管理",
+    },
+    {
       href: "/niwaki-ha-henshoku/",
       label: "庭木の葉が黄色・茶色になる",
       desc: "原因の切り分けと対処の考え方",

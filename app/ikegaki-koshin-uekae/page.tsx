@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/conifer-teire/",
+      label: "コニファーの剪定と手入れ",
+      desc: "針葉樹の生垣・目隠しの刈り込み時期",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込みの基礎知識",
       desc: "時期・頻度・道具と自分で行う手順",

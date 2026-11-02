@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/iwaki/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,23 @@ export default function AreaIwakiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             業者には、<Hl>前の道は私道であること</Hl>を伝えてください。停める場所、資材を置く場所、通行を止める時間の長さが変わるため、段取りに影響します。狭い道での搬出は費用にも影響するため、見積もりの際に現地を確認してもらってください。依頼前の準備は<Link href="/sentei-irai-junbi/" className="text-[#2D7F3E] underline">剪定を依頼する前の準備の解説記事</Link>にまとめています。草刈り110番は1平米163円〜（税込）で、範囲を決めて依頼しやすいサービスです。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">いわき市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝は燃やすごみで、長さ60cm、直径一束20cm未満にしてひもでしばって出します。1回2束程度までです。</li>
+              <li className="leading-loose">清掃センターへの自己搬入は事前予約不要で、剪定枝は直径15cm未満で長さ180cm未満のものを燃やすごみとして搬入できます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.iwaki.lg.jp/www/contents/1001000001842/index.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">家庭ごみの分け方・出し方（ハンドブック）｜いわき市役所</a>、<a href="https://www.city.iwaki.lg.jp/www/contents/1001000001954/index.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみの自己搬入方法｜いわき市役所</a>（いずれも2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/iwaki/senteieda/" className="text-[#2D7F3E] underline">
+                いわき市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

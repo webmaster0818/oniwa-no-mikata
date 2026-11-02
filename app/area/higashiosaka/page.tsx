@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/higashiosaka/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,23 @@ export default function AreaHigashiosakaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             店舗や事務所を兼ねた家では、<Hl>毎年決まった時期に、決まった程度まで整える</Hl>形が適しています。年に何回、どの季節に、どこまで切るかを一度決めておけば、そのたびに営業との調整をやり直す必要がなくなります。切る時期の考え方は<Link href="/sentei-jiki/" className="text-[#2D7F3E] underline">庭木の剪定時期の基本</Link>、一年の掃除の段取りは<Link href="/niwa-soji-nenkan/" className="text-[#2D7F3E] underline">庭掃除の年間スケジュール</Link>にまとめています。smileガーデンの定額制の年間管理プランは、剪定・消毒・施肥をセットにして回数と時期を決めて任せられ、写真付きの作業報告書で仕上がりを確認できます。植栽を減らして駐車や搬入のスペースに変えたい場合は、植栽の作業と外構の工事で担当が分かれる場合があるため、<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭リフォームと外構工事の違い</Link>で切り分けを確認してください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">東大阪市の剪定ごみの出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定ごみ(枝)は大型ごみです。直径10cm以下、長さ50cm以下に切り、大型ごみ受付センターに電話で申し込みます。</li>
+              <li className="leading-loose">剪定ごみ(刈り葉、落ち葉)は家庭ごみ（もえる物）で、週の後半の収集日（木曜日か金曜日）に2袋までです。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.higashiosaka.lg.jp/module/garbage.php?mode=detail&id=409&page=9" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみ分別検索：剪定ごみ(枝) | 東大阪市</a>、<a href="https://www.city.higashiosaka.lg.jp/module/garbage.php?mode=detail&id=408&page=9" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみ分別検索：剪定ごみ(刈り葉、落ち葉) | 東大阪市</a>（いずれも2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/higashiosaka/senteieda/" className="text-[#2D7F3E] underline">
+                東大阪市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

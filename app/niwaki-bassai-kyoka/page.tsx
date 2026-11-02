@@ -179,6 +179,11 @@ const data: KnowArticleData = {
       label: "川越市の保存樹木・保存樹林",
       desc: "指定基準と奨励金、解除の届出",
     },
+    {
+      href: "/area/takasaki/hozon-jumoku/",
+      label: "高崎市の保存樹木",
+      desc: "指定された木の手入れ・伐採前の確認（市の公式情報）",
+    },
   ],
 };
 

@@ -130,6 +130,42 @@ const data: KnowArticleData = {
     <p key="3">
       自分で切った枝の回収だけを依頼したい場合は、地域の便利屋や回収業者を比較できる<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>のようなマッチング型が探しやすいサービスです。なお、無許可の回収業者による高額請求のトラブルは各地で注意喚起されています。一般家庭の廃棄物の回収には自治体の許可が必要とされるため、極端に安い巡回業者には注意し、実績と口コミを確認できる依頼先を選んでください。さいたま市周辺での依頼は<Link href="/area/saitama/" className="text-[#2D7F3E] underline">さいたまの庭業者まとめ</Link>も参考になります。
     </p>,
+    <p key="area-hub">
+      市区町村ごとの剪定枝の出し方（各市の公式情報をもとに整理）：
+      <Link href="/area/asahikawa/senteieda/" className="text-[#2D7F3E] underline">旭川市</Link>、
+      <Link href="/area/atsugi/senteieda/" className="text-[#2D7F3E] underline">厚木市</Link>、
+      <Link href="/area/chiba/senteieda/" className="text-[#2D7F3E] underline">千葉市</Link>、
+      <Link href="/area/chigasaki/senteieda/" className="text-[#2D7F3E] underline">茅ヶ崎市</Link>、
+      <Link href="/area/fuchu/senteieda/" className="text-[#2D7F3E] underline">東京都府中市</Link>、
+      <Link href="/area/fujisawa/senteieda/" className="text-[#2D7F3E] underline">藤沢市</Link>、
+      <Link href="/area/gifu/senteieda/" className="text-[#2D7F3E] underline">岐阜市</Link>、
+      <Link href="/area/hachinohe/senteieda/" className="text-[#2D7F3E] underline">八戸市</Link>、
+      <Link href="/area/hachioji/senteieda/" className="text-[#2D7F3E] underline">八王子市</Link>、
+      <Link href="/area/hamamatsu/senteieda/" className="text-[#2D7F3E] underline">浜松市</Link>、
+      <Link href="/area/higashiosaka/senteieda/" className="text-[#2D7F3E] underline">東大阪市</Link>、
+      <Link href="/area/hiratsuka/senteieda/" className="text-[#2D7F3E] underline">平塚市</Link>、
+      <Link href="/area/ichikawa/senteieda/" className="text-[#2D7F3E] underline">市川市</Link>、
+      <Link href="/area/iwaki/senteieda/" className="text-[#2D7F3E] underline">いわき市</Link>、
+      <Link href="/area/kashiwa/senteieda/" className="text-[#2D7F3E] underline">柏市</Link>、
+      <Link href="/area/kyoto/senteieda/" className="text-[#2D7F3E] underline">京都市</Link>、
+      <Link href="/area/machida/senteieda/" className="text-[#2D7F3E] underline">町田市</Link>、
+      <Link href="/area/maebashi/senteieda/" className="text-[#2D7F3E] underline">前橋市</Link>、
+      <Link href="/area/matsudo/senteieda/" className="text-[#2D7F3E] underline">松戸市</Link>、
+      <Link href="/area/matsumoto/senteieda/" className="text-[#2D7F3E] underline">松本市</Link>、
+      <Link href="/area/morioka/senteieda/" className="text-[#2D7F3E] underline">盛岡市</Link>、
+      <Link href="/area/nagano/senteieda/" className="text-[#2D7F3E] underline">長野市</Link>、
+      <Link href="/area/nagoya/senteieda/" className="text-[#2D7F3E] underline">名古屋市</Link>、
+      <Link href="/area/niigata/senteieda/" className="text-[#2D7F3E] underline">新潟市</Link>、
+      <Link href="/area/numazu/senteieda/" className="text-[#2D7F3E] underline">沼津市</Link>、
+      <Link href="/area/saitama/senteieda/" className="text-[#2D7F3E] underline">さいたま市</Link>、
+      <Link href="/area/sapporo/senteieda/" className="text-[#2D7F3E] underline">札幌市</Link>、
+      <Link href="/area/sendai/senteieda/" className="text-[#2D7F3E] underline">仙台市</Link>、
+      <Link href="/area/tachikawa/senteieda/" className="text-[#2D7F3E] underline">立川市</Link>、
+      <Link href="/area/tokorozawa/senteieda/" className="text-[#2D7F3E] underline">所沢市</Link>、
+      <Link href="/area/tsukuba/senteieda/" className="text-[#2D7F3E] underline">つくば市</Link>、
+      <Link href="/area/utsunomiya/senteieda/" className="text-[#2D7F3E] underline">宇都宮市</Link>、
+      <Link href="/area/yokohama/senteieda/" className="text-[#2D7F3E] underline">横浜市</Link>
+    </p>,
   ],
   ctaHeading: "剪定と片付けをまとめて依頼すれば一日で完了できる",
   ctaText:
@@ -208,6 +244,16 @@ const data: KnowArticleData = {
       href: "/area/kyoto/senteieda/",
       label: "京都市のせん定枝の出し方",
       desc: "移動式拠点回収で一度に2束まで（市の公式情報）",
+    },
+    {
+      href: "/area/yokohama/senteieda/",
+      label: "横浜市の剪定枝の出し方",
+      desc: "50cm未満は燃やすごみ、1回2〜3束が目安（市の公式情報）",
+    },
+    {
+      href: "/area/nagoya/senteieda/",
+      label: "名古屋市のせん定枝の出し方",
+      desc: "事前申込制の草木類収集（市の公式情報）",
     },
   ],
 };

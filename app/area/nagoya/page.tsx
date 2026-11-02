@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/nagoya/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -681,6 +681,24 @@ export default function AreaNagoyaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             業者に依頼する場合は、<Hl>処分費まで含めた総額</Hl>を見積もりの際に確認することが大切です。伐採110番は伐採後の木材処分まで一括対応を掲げています。処分費が料金に含まれるかどうかはサービス・加盟店により異なるため、「処分費を含む金額かどうか」を必ずご確認ください。あわせて、作業車の駐車スペースの有無や庭までの経路も伝えておくと、当日の追加費用や作業変更のリスクを減らせます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">名古屋市のせん定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭の草木類（せん定枝・落葉・刈草）は事前申込み制の草木類収集で出せます。令和8年度は年3回（6月、10月、11月）です。</li>
+              <li className="leading-loose">せん定枝は2メートル以下（太さ10センチメートルを超える場合は1メートル以下）に切って、ひもで縛ります。</li>
+              <li className="leading-loose">資源化できない場合は可燃ごみとして出します。事業者から排出される草木類は草木類収集の対象外です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.nagoya.jp/kurashi/gomi/1012183/1033464.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">草木類の分け方・出し方｜名古屋市公式ウェブサイト</a>（2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/nagoya/senteieda/" className="text-[#2D7F3E] underline">
+                名古屋市のせん定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

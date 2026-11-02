@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/hachinohe/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月2日";
+const UPDATED_ISO = "2026-11-02";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,23 @@ export default function AreaHachinohePage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             紹介による依頼には利点もあります。<Hl>近所での実際の施工をご自身の目で確認できる</Hl>ことです。仕上がりの高さ、切り方、片付けの様子は、写真よりも実物のほうが分かりやすくなります。依頼すると決めた後に伝える内容は、紹介でない場合と同じで問題ありません。仕上がりの言葉のそろえ方は<Link href="/sentei-diy-gyosha/" className="text-[#2D7F3E] underline">剪定を自分で行うか業者に依頼するかの解説記事</Link>、庭業者の選び方は<Link href="/zoen-uekiya-chigai/" className="text-[#2D7F3E] underline">造園業者と植木屋の違いの解説記事</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-02 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">八戸市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">枝木・剪定枝は燃やせるごみで、直径10センチメートル以下、長さ50センチメートル以下に切って出します。集積所には1世帯2袋までです。</li>
+              <li className="leading-loose">大量に出た場合は、45リットル以下の中身の見える（半）透明な袋に入れて八戸清掃工場へ持ち込めます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kankyoseisakuka/gomi_kankyo_pet/1/1/4316.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">燃やせるごみ(家庭から出るもの)／八戸市</a>、<a href="https://www.city.hachinohe.aomori.jp/soshikikarasagasu/kankyoseisakuka/gomi_kankyo_pet/1/1/2079.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">引っ越しごみ・大量に出るごみ／八戸市</a>（いずれも2026年11月2日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/hachinohe/senteieda/" className="text-[#2D7F3E] underline">
+                八戸市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">
