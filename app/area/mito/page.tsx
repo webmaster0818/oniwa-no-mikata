@@ -749,7 +749,7 @@ export default function AreaMitoPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"
@@ -906,8 +906,8 @@ export default function AreaMitoPage() {
             <ul className="grid gap-3 md:grid-cols-2">
               {[
                 { href: "/agents/", label: "庭・剪定業者の一覧・比較" },
-                { href: "/agents/smile-garden/", label: "smileガーデンの口コミ・評判" },
-                { href: "/agents/sentei-110ban/", label: "剪定110番の口コミ・評判" },
+                { href: "/agents/smile-garden/", label: "smileガーデンの料金・対応" },
+                { href: "/agents/sentei-110ban/", label: "剪定110番の料金・対応" },
                 { href: "/niwa-soji-nenkan/", label: "庭仕事の年間スケジュール" },
                 { href: "/ikegaki-karikomi/", label: "生垣の刈り込みの基本" },
                 { href: "/sentei-jiki/", label: "剪定に適した時期" },

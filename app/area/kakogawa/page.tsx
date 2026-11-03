@@ -745,7 +745,7 @@ export default function AreaKakogawaPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"
@@ -902,7 +902,7 @@ export default function AreaKakogawaPage() {
             <ul className="grid gap-3 md:grid-cols-2">
               {[
                 { href: "/agents/", label: "庭・剪定業者の一覧・比較" },
-                { href: "/agents/kusakari-110ban/", label: "草刈り110番の口コミ・評判" },
+                { href: "/agents/kusakari-110ban/", label: "草刈り110番の料金・対応" },
                 { href: "/zasso-taisaku/", label: "雑草対策の基本" },
                 { href: "/niwa-dogu-erabikata/", label: "庭の道具の選び方" },
                 { href: "/shibafu-teire/", label: "芝生の手入れ" },

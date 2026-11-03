@@ -175,7 +175,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/duskin/",
-      label: "ダスキンの庭木・剪定の口コミ・評判",
+      label: "ダスキンの庭木・剪定の料金・対応",
       desc: "病害虫の予防・駆除を含むトータルケアに対応",
     },
     {

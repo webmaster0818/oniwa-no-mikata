@@ -750,7 +750,7 @@ export default function AreaNagasakiPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"
@@ -907,8 +907,8 @@ export default function AreaNagasakiPage() {
             <ul className="grid gap-3 md:grid-cols-2">
               {[
                 { href: "/agents/", label: "庭・剪定業者の一覧・比較" },
-                { href: "/agents/bassai-110ban/", label: "伐採110番の口コミ・評判" },
-                { href: "/agents/kusakari-110ban/", label: "草刈り110番の口コミ・評判" },
+                { href: "/agents/bassai-110ban/", label: "伐採110番の料金・対応" },
+                { href: "/agents/kusakari-110ban/", label: "草刈り110番の料金・対応" },
                 { href: "/semai-niwa-layout/", label: "狭い庭のレイアウトの工夫" },
                 { href: "/senteieda-shobun/", label: "剪定枝の処分方法" },
                 { href: "/takagi-sentei-kiken/", label: "高木剪定の危険性" },

@@ -170,7 +170,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/duskin/",
-      label: "ダスキンの庭木手入れの口コミ・評判",
+      label: "ダスキンの庭木手入れの料金・対応",
       desc: "定期管理で施肥や手入れを任せられるサービス",
     },
   ],

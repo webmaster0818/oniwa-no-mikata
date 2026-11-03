@@ -175,7 +175,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/smile-garden/",
-      label: "smileガーデンの口コミ・評判",
+      label: "smileガーデンの料金・対応",
       desc: "年間管理プランで手入れごと任せられるサービス",
     },
     {

@@ -170,7 +170,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kurashi-no-market/",
-      label: "くらしのマーケットの口コミ・評判",
+      label: "くらしのマーケットの料金・対応",
       desc: "庭掃除・剪定の出品者を比較して選べるサービス",
     },
     {

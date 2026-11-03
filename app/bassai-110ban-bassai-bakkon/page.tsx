@@ -127,7 +127,7 @@ const data: KnowArticleData = {
       伐採（木を根元近くで切る）と抜根（根を掘り起こす）の違いは<Link href="/bassai-bakkon-chigai/" className={A}>伐採と抜根の違い</Link>、切り株を残した場合のリスクは<Link href="/kirikabu-hochi/" className={A}>切り株を放置するとどうなるか</Link>にまとめています。
     </p>,
     <p key="2">
-      伐採110番は、剪定110番・草刈り110番と同じシェアリングテクノロジー株式会社の運営です。木を残して小さくしたい場合は剪定110番の担当になります。頼み分けは<Link href="/sentei-110ban-kusakari-bassai-tsukaiwake/" className={A}>剪定110番・草刈り110番・伐採110番の使い分け</Link>、別の会社と比べたい場合は高さ・幹周り別の相場が公開されている<Link href="/kurashi-no-market-bassai-bakkon/" className={A}>くらしのマーケットの伐採・抜根</Link>や<Link href="/agents/bassai-110ban/" className={A}>伐採110番の口コミ・評判</Link>をご覧ください。
+      伐採110番は、剪定110番・草刈り110番と同じシェアリングテクノロジー株式会社の運営です。木を残して小さくしたい場合は剪定110番の担当になります。頼み分けは<Link href="/sentei-110ban-kusakari-bassai-tsukaiwake/" className={A}>剪定110番・草刈り110番・伐採110番の使い分け</Link>、別の会社と比べたい場合は高さ・幹周り別の相場が公開されている<Link href="/kurashi-no-market-bassai-bakkon/" className={A}>くらしのマーケットの伐採・抜根</Link>や<Link href="/agents/bassai-110ban/" className={A}>伐採110番の料金・対応</Link>をご覧ください。
     </p>,
   ],
   ctaHeading: "高さ・幹の太さ・根の扱いをそろえて見積もりを依頼する",
@@ -160,8 +160,8 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/bassai-110ban/",
-      label: "伐採110番の口コミ・評判",
-      desc: "サービスの特徴と評判のまとめ",
+      label: "伐採110番の料金・対応",
+      desc: "サービスの特徴と料金のまとめ",
     },
     {
       href: "/bassai-bakkon-chigai/",

@@ -179,7 +179,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/oniwa-master/",
-      label: "お庭マスターの口コミ・評判",
+      label: "お庭マスターの料金・対応",
       desc: "剪定1本550円〜の掲載値を確認したサービス",
     },
   ],

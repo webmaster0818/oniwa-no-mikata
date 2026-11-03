@@ -170,7 +170,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kusakari-110ban/",
-      label: "草刈り110番の口コミ・評判",
+      label: "草刈り110番の料金・対応",
       desc: "面積単価で依頼できる草刈り・除草サービスの紹介ページ",
     },
   ],

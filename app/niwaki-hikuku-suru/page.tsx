@@ -171,7 +171,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/sentei-110ban/",
-      label: "剪定110番の口コミ・評判",
+      label: "剪定110番の料金・対応",
       desc: "剪定1本4,000円〜（税込）の掲載値を確認したサービス",
     },
     {

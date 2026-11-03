@@ -170,7 +170,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/bassai-110ban/",
-      label: "伐採110番の口コミ・評判",
+      label: "伐採110番の料金・対応",
       desc: "伐採・抜根に対応する専門サービスの紹介ページ",
     },
     {

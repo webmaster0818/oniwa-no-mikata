@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "お庭のミカタ｜剪定・草刈り・伐採の業者比較【2026年最新】",
   description:
-    "剪定・草刈り・伐採・造園の業者のうち、全国に対応する7社を、公式サイトの情報にもとづいて比較する専門ガイドです。料金・口コミ・サービス内容を掲載しています。各社とも見積もりは無料です。",
+    "剪定・草刈り・伐採・造園の業者のうち、全国に対応する7社を、公式サイトの情報にもとづいて比較する専門ガイドです。料金・サービス内容を掲載しています。各社とも見積もりは無料です。",
 };
 
 /* ─── Header ─── */
@@ -67,7 +67,7 @@ function Hero() {
             <span className="text-[#90EE90]">専門業者</span>の比較
           </h1>
           <p className="text-white/85 text-base md:text-lg max-w-xl mb-8 leading-relaxed">
-            「庭木が伸びすぎた」「雑草が手に負えない」「大きな木を切りたい」といったお悩みに対応する業者を、料金・口コミ・サービス内容で比較できます。
+            「庭木が伸びすぎた」「雑草が手に負えない」「大きな木を切りたい」といったお悩みに対応する業者を、料金・サービス内容で比較できます。
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#ranking" className="btn-cta text-lg px-8 py-4 inline-block text-center">

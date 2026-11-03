@@ -152,7 +152,7 @@ const data: KnowArticleData = {
       くらしのマーケットは店舗を自分で選んで予約する仕組みです。電話で相談して加盟店を紹介してもらう仕組みのサービスとしては伐採110番があり、料金ページでは「伐採 8,200円～/本(税込)」と示し、残った木の根の抜根が必要な場合は伐採の基本料金に含まれない場合としています。条件は<Link href="/bassai-110ban-bassai-bakkon/" className={A}>伐採110番の伐採・抜根料金の見方</Link>にまとめています。
     </p>,
     <p key="2">
-      木を残して枝だけ切りたい場合は、同じくらしのマーケットの<Link href="/kurashi-no-market-sentei/" className={A}>庭木の剪定</Link>カテゴリが対象です。伐採前の確認は<Link href="/niwaki-bassai-kyoka/" className={A}>庭木の伐採に許可は必要か</Link>、くらしのマーケット全体の特徴は<Link href="/agents/kurashi-no-market/" className={A}>くらしのマーケットの口コミ・評判</Link>をご覧ください。
+      木を残して枝だけ切りたい場合は、同じくらしのマーケットの<Link href="/kurashi-no-market-sentei/" className={A}>庭木の剪定</Link>カテゴリが対象です。伐採前の確認は<Link href="/niwaki-bassai-kyoka/" className={A}>庭木の伐採に許可は必要か</Link>、くらしのマーケット全体の特徴は<Link href="/agents/kurashi-no-market/" className={A}>くらしのマーケットの料金・対応</Link>をご覧ください。
     </p>,
   ],
   ctaHeading: "高さ・幹周り・回収の有無をそろえてから店舗を比べる",
@@ -180,8 +180,8 @@ const data: KnowArticleData = {
   related: [
     {
       href: "/agents/kurashi-no-market/",
-      label: "くらしのマーケットの口コミ・評判",
-      desc: "サービスの特徴と評判のまとめ",
+      label: "くらしのマーケットの料金・対応",
+      desc: "サービスの特徴と料金のまとめ",
     },
     {
       href: "/kurashi-no-market-sentei/",

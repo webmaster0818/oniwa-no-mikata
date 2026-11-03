@@ -741,7 +741,7 @@ export default function AreaTakarazukaPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"

@@ -730,7 +730,7 @@ export default function AreaNaraPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"
@@ -887,8 +887,8 @@ export default function AreaNaraPage() {
             <ul className="grid gap-3 md:grid-cols-2">
               {[
                 { href: "/agents/", label: "庭・剪定業者の一覧・比較" },
-                { href: "/agents/sentei-110ban/", label: "剪定110番の口コミ・評判" },
-                { href: "/agents/kusakari-110ban/", label: "草刈り110番の口コミ・評判" },
+                { href: "/agents/sentei-110ban/", label: "剪定110番の料金・対応" },
+                { href: "/agents/kusakari-110ban/", label: "草刈り110番の料金・対応" },
                 { href: "/eda-ekkyo/", label: "隣家への枝の越境と対処の基本" },
                 { href: "/ochiba-taisaku/", label: "落ち葉対策と掃除の基本" },
                 { href: "/ikegaki-karikomi/", label: "生垣の刈り込みの基礎知識" },

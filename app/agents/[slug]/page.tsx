@@ -6,14 +6,15 @@ import { agents, getAgent } from "../agentsData";
 const SITE = "https://oniwa-no-mikata.com";
 const PUBLISHED_ISO = "2026-06-10";
 // 本文（<main>）が最後に変わった日（deploy リポの履歴で確認・2026-10-31）。画面の更新日・time・構造化データ dateModified・sitemap lastmod をこの日にそろえる。
+// 2026-11-03：出典の確認できない口コミ要約を全社から削除・title/h1 から口コミ・評判を外した。
 const UPDATED_ISO: Record<string, string> = {
-  "sentei-110ban": "2026-10-20",
-  "bassai-110ban": "2026-10-17",
-  "kusakari-110ban": "2026-10-20",
-  "kurashi-no-market": "2026-10-17",
-  "duskin": "2026-10-17",
-  "oniwa-master": "2026-10-17",
-  "smile-garden": "2026-10-19",
+  "sentei-110ban": "2026-11-03",
+  "bassai-110ban": "2026-11-03",
+  "kusakari-110ban": "2026-11-03",
+  "kurashi-no-market": "2026-11-03",
+  "duskin": "2026-11-03",
+  "oniwa-master": "2026-11-03",
+  "smile-garden": "2026-11-03",
 };
 function updatedIso(slug: string): string {
   return UPDATED_ISO[slug] ?? PUBLISHED_ISO;
@@ -53,7 +54,6 @@ export default async function AgentPage({ params }: Props) {
     ["about", `${a.name}のサービス概要`],
     ["service", "対応している作業の種類"],
     ["price", `${a.name}の料金体系と相場`],
-    ["reviews", "利用者の口コミ・評判"],
     ["merit", "メリットと注意点"],
     ["recommend", `${a.name}をおすすめする方`],
     ["compare", "他社と比較する際の確認事項"],
@@ -63,7 +63,7 @@ export default async function AgentPage({ params }: Props) {
 
   const articleSchema = {
     "@context": "https://schema.org", "@type": "Article",
-    headline: `${a.name}の口コミ・評判・料金の調査`, description: a.metaDesc,
+    headline: `${a.name}の料金・対応の調査`, description: a.metaDesc,
     image: `${SITE}${a.image}`,
     datePublished: `${PUBLISHED_ISO}T00:00:00+09:00`, dateModified: `${updatedIso(slug)}T00:00:00+09:00`,
     author: { "@type": "Organization", name: "お庭のミカタ編集部", url: SITE },
@@ -78,8 +78,8 @@ export default async function AgentPage({ params }: Props) {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "お庭のミカタ", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: "業者の口コミ・評判", item: `${SITE}/agents/` },
-      { "@type": "ListItem", position: 3, name: `${a.name}の口コミ・評判`, item: `${SITE}/agents/${slug}/` },
+      { "@type": "ListItem", position: 2, name: "業者の料金・対応", item: `${SITE}/agents/` },
+      { "@type": "ListItem", position: 3, name: `${a.name}の料金・対応`, item: `${SITE}/agents/${slug}/` },
     ],
   };
 
@@ -94,19 +94,19 @@ export default async function AgentPage({ params }: Props) {
           <ol className="flex flex-wrap gap-1">
             <li><Link href="/" className="hover:underline">お庭のミカタ</Link></li>
             <li>/</li>
-            <li><Link href="/agents/" className="hover:underline">業者の口コミ・評判</Link></li>
+            <li><Link href="/agents/" className="hover:underline">業者の料金・対応</Link></li>
             <li>/</li>
-            <li className="text-[#33402f]">{a.name}の口コミ・評判</li>
+            <li className="text-[#33402f]">{a.name}の料金・対応</li>
           </ol>
         </nav>
 
         <header className="relative overflow-hidden bg-gradient-to-br from-[#1f5e2e] to-[#2D7F3E] text-white mt-4">
           <div className="mx-auto max-w-4xl px-4 py-12 md:py-16">
-            <p className="text-sm tracking-widest text-[#FFB347] mb-3">庭・剪定業者の口コミ・評判</p>
+            <p className="text-sm tracking-widest text-[#FFB347] mb-3">庭・剪定業者の料金・対応</p>
             <h1 className="font-bold text-2xl md:text-4xl leading-relaxed mb-4">
-              {a.name}の口コミ・評判
+              {a.name}の料金・対応
               <br className="hidden md:block" />
-              料金・対応・メリットの調査結果
+              メリットと注意点の調査結果
             </h1>
             <p className="text-green-50 leading-relaxed max-w-2xl">{a.heroLead}</p>
             <div className="mt-6 flex flex-wrap gap-2">
@@ -173,34 +173,6 @@ export default async function AgentPage({ params }: Props) {
               </table>
             </div>
             <p className="text-sm text-[#6b7563] mt-3">{a.priceNote ?? "※ 料金は変動する場合があります。正確な金額は無料の見積もりでご確認ください。"}</p>
-          </section>
-
-          <section id="reviews" className="scroll-mt-20 mb-14">
-            <h2 className="text-2xl md:text-3xl font-bold border-l-4 border-[#FF8C00] pl-4 mb-5">利用者の口コミ・評判</h2>
-            <div className="rounded-2xl bg-[#fff6e9] border border-[#ffe0b3] p-6 mb-6">
-              <p className="text-[#4a5443] text-sm leading-relaxed">{a.reviewsSummary}</p>
-            </div>
-            <h3 className="font-bold text-lg mb-3 text-[#2D7F3E]">良い口コミ</h3>
-            <div className="space-y-4 mb-8">
-              {a.goodReviews.map((r, i) => (
-                <div key={i} className="rounded-xl border border-[#d6e4d0] p-5">
-                  <p className="font-bold mb-1">{r.title}</p>
-                  <p className="text-sm leading-relaxed mb-2 text-[#4a5443]">{r.body}</p>
-                  <p className="text-xs text-[#9aa394]">{r.meta}</p>
-                </div>
-              ))}
-            </div>
-            <h3 className="font-bold text-lg mb-3 text-[#c2620a]">気になる口コミ・注意点</h3>
-            <div className="space-y-4">
-              {a.badReviews.map((r, i) => (
-                <div key={i} className="rounded-xl border border-[#d6e4d0] bg-[#faf8f4] p-5">
-                  <p className="font-bold mb-1">{r.title}</p>
-                  <p className="text-sm leading-relaxed mb-2 text-[#4a5443]">{r.body}</p>
-                  <p className="text-xs text-[#9aa394]">{r.meta}</p>
-                </div>
-              ))}
-            </div>
-            <p className="text-xs text-[#9aa394] mt-4">※ 口コミは、各種口コミサイトやGoogleのクチコミなどに掲載されている利用者の声をもとに、編集部が傾向を要約したものです。感じ方には個人差があります。</p>
           </section>
 
           <section id="merit" className="scroll-mt-20 mb-14">

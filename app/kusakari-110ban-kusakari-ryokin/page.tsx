@@ -127,7 +127,7 @@ const data: KnowArticleData = {
       草刈りだけでは根が残り、時間がたつとまた生えてきます。防草シートの選び方と張り方は<Link href="/bousou-sheet/" className={A}>防草シートの基礎知識</Link>、雑草対策全体は<Link href="/zasso-taisaku/" className={A}>庭の雑草対策</Link>、芝生の手入れは<Link href="/shibafu-teire/" className={A}>芝生の手入れの基本</Link>にまとめています。
     </p>,
     <p key="2">
-      草刈り110番は、剪定110番・伐採110番と同じシェアリングテクノロジー株式会社の運営です。庭木の枝を切りたい場合は剪定110番、木を切り倒したい場合は伐採110番の担当になります。頼み分けは<Link href="/sentei-110ban-kusakari-bassai-tsukaiwake/" className={A}>剪定110番・草刈り110番・伐採110番の使い分け</Link>、サービスの特徴は<Link href="/agents/kusakari-110ban/" className={A}>草刈り110番の口コミ・評判</Link>をご覧ください。
+      草刈り110番は、剪定110番・伐採110番と同じシェアリングテクノロジー株式会社の運営です。庭木の枝を切りたい場合は剪定110番、木を切り倒したい場合は伐採110番の担当になります。頼み分けは<Link href="/sentei-110ban-kusakari-bassai-tsukaiwake/" className={A}>剪定110番・草刈り110番・伐採110番の使い分け</Link>、サービスの特徴は<Link href="/agents/kusakari-110ban/" className={A}>草刈り110番の料金・対応</Link>をご覧ください。
     </p>,
   ],
   ctaHeading: "面積と作業内容をそろえて見積もりを依頼する",
@@ -160,8 +160,8 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kusakari-110ban/",
-      label: "草刈り110番の口コミ・評判",
-      desc: "サービスの特徴と評判のまとめ",
+      label: "草刈り110番の料金・対応",
+      desc: "サービスの特徴と料金のまとめ",
     },
     {
       href: "/bousou-sheet/",

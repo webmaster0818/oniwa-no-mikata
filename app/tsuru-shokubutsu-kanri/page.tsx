@@ -171,7 +171,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kusakari-110ban/",
-      label: "草刈り110番の口コミ・評判",
+      label: "草刈り110番の料金・対応",
       desc: "つる性雑草の繁茂にも対応する除草専門サービス",
     },
   ],

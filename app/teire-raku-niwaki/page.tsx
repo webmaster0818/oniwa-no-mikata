@@ -165,7 +165,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/oniwa-master/",
-      label: "お庭マスターの口コミ・評判",
+      label: "お庭マスターの料金・対応",
       desc: "剪定から造園・デザインの相談まで対応",
     },
     {

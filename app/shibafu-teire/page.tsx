@@ -170,12 +170,12 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kusakari-110ban/",
-      label: "草刈り110番の口コミ・評判",
+      label: "草刈り110番の料金・対応",
       desc: "1平米163円〜（税込）の掲載値・定期プランにも対応",
     },
     {
       href: "/agents/duskin/",
-      label: "ダスキンの庭木・剪定の口コミ・評判",
+      label: "ダスキンの庭木・剪定の料金・対応",
       desc: "芝生管理を含むトータルケアに対応",
     },
     {

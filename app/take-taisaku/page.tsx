@@ -165,7 +165,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kusakari-110ban/",
-      label: "草刈り110番の口コミ・評判",
+      label: "草刈り110番の料金・対応",
       desc: "草刈り163円/平米〜・税込の掲載値を確認した専門サービス",
     },
     {

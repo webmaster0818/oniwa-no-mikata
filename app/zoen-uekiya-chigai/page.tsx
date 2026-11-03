@@ -171,7 +171,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/kurashi-no-market/",
-      label: "くらしのマーケットの口コミ・評判",
+      label: "くらしのマーケットの料金・対応",
       desc: "地域の事業者を料金と口コミで比較できるサービス",
     },
   ],

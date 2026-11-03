@@ -748,7 +748,7 @@ export default function AreaToyohashiPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"
@@ -905,8 +905,8 @@ export default function AreaToyohashiPage() {
             <ul className="grid gap-3 md:grid-cols-2">
               {[
                 { href: "/agents/", label: "庭・剪定業者の一覧・比較" },
-                { href: "/agents/sentei-110ban/", label: "剪定110番の口コミ・評判" },
-                { href: "/agents/smile-garden/", label: "smileガーデンの口コミ・評判" },
+                { href: "/agents/sentei-110ban/", label: "剪定110番の料金・対応" },
+                { href: "/agents/smile-garden/", label: "smileガーデンの料金・対応" },
                 { href: "/niwaki-byogaichu/", label: "庭木の病害虫対策の基本" },
                 { href: "/niwaki-shodoku/", label: "庭木の消毒の時期と考え方" },
                 { href: "/niwaki-kareta/", label: "庭木が枯れたかどうかの見分け方" },

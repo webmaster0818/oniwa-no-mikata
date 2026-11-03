@@ -783,7 +783,7 @@ export default function AreaMatsudoPage() {
           <div className="rounded-2xl bg-[#2D7F3E] text-white p-6 text-center">
             <p className="font-bold text-lg mb-2">お庭のお手入れでお困りの方へ</p>
             <p className="text-green-50 text-sm mb-4">
-              各社の詳細ページで評判・料金を比較し、条件に合う業者をお選びください。
+              各社の詳細ページで料金・対応を比較し、条件に合う業者をお選びください。
             </p>
             <Link
               href="/agents/"
@@ -940,8 +940,8 @@ export default function AreaMatsudoPage() {
             <ul className="grid gap-3 md:grid-cols-2">
               {[
                 { href: "/agents/", label: "庭・剪定業者の一覧・比較" },
-                { href: "/agents/sentei-110ban/", label: "剪定110番の口コミ・評判" },
-                { href: "/agents/bassai-110ban/", label: "伐採110番の口コミ・評判" },
+                { href: "/agents/sentei-110ban/", label: "剪定110番の料金・対応" },
+                { href: "/agents/bassai-110ban/", label: "伐採110番の料金・対応" },
                 { href: "/eda-ekkyo/", label: "隣家への枝の越境と対処の基本" },
                 { href: "/niwaki-neagari-hoso/", label: "庭木の根上がりと舗装への影響" },
                 { href: "/sentei-jiki/", label: "庭木の剪定時期の基本" },

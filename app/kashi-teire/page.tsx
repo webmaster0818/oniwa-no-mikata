@@ -129,7 +129,7 @@ const data: KnowArticleData = {
       <Hl>生垣が長く一日で刈りきれない、庭木が自分で手の届く高さを超えた、数年放置して大きく小さくしたい、枝枯れが繰り返し出る</Hl>といった場合は、業者に頼むと安全で確実です。剪定110番は料金ページで「剪定 4,000円~(税込)」と示し、対応する常緑樹の例としてカシを挙げています（出典：<a href="https://www.sharing-tech.co.jp/sentei/price/" className={A} target="_blank" rel="noopener noreferrer">剪定110番「料金」</a>、2026年11月1日確認）。同ページには、対応エリア・加盟店により記載価格や条件では対応できない場合があること、重機が必要な場合や処分が必要な場合などは別途料金が発生する場合があることも書かれています。
     </p>,
     <p key="2">
-      生垣は本数ではなく延長（何メートル分か）や高さで見積もられることが多いため、依頼時には長さと高さを伝えると話が早く進みます。<Hl>刈った枝葉の処分が料金に含まれるか</Hl>も総額を大きく左右するので、見積もりで必ず確認してください。業者ごとの特徴は<Link href="/agents/sentei-110ban/" className={A}>剪定110番の口コミ・評判</Link>や<Link href="/agents/" className={A}>庭業者の一覧・比較</Link>をご覧ください。
+      生垣は本数ではなく延長（何メートル分か）や高さで見積もられることが多いため、依頼時には長さと高さを伝えると話が早く進みます。<Hl>刈った枝葉の処分が料金に含まれるか</Hl>も総額を大きく左右するので、見積もりで必ず確認してください。業者ごとの特徴は<Link href="/agents/sentei-110ban/" className={A}>剪定110番の料金・対応</Link>や<Link href="/agents/" className={A}>庭業者の一覧・比較</Link>をご覧ください。
     </p>,
     <p key="3">
       生垣の刈り込み全般は<Link href="/ikegaki-karikomi/" className={A}>生垣の刈り込み</Link>、大きくなりすぎた木の下げ方は<Link href="/niwaki-hikuku-suru/" className={A}>庭木を低くする方法</Link>、病害虫の見分け方は<Link href="/niwaki-byogaichu/" className={A}>庭木の病害虫</Link>にまとめています。病害の出典は<a href="https://www.pref.fukuoka.lg.jp/uploaded/life/805964_62798281_misc.pdf" className={A} target="_blank" rel="noopener noreferrer">福岡県「【花き花木】病害虫・雑草の発生生態と防除」（PDF）</a>、<a href="https://www.sangyo-rodo.metro.tokyo.lg.jp/documents/d/sangyo-rodo/150_200_000_ueki_r8-pdf" className={A} target="_blank" rel="noopener noreferrer">東京都産業労働局「樹種別の病害虫と主な登録農薬」（PDF）</a>（いずれも2026年11月1日確認）です。
@@ -180,7 +180,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/sentei-110ban/",
-      label: "剪定110番の口コミ・評判",
+      label: "剪定110番の料金・対応",
       desc: "料金ページで剪定4,000円〜（税込）を確認",
     },
   ],

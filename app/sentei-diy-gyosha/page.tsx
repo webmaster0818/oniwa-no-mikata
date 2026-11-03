@@ -161,7 +161,7 @@ const data: KnowArticleData = {
     },
     {
       href: "/agents/sentei-110ban/",
-      label: "剪定110番の口コミ・評判",
+      label: "剪定110番の料金・対応",
       desc: "庭木1本から依頼できる剪定専門サービス",
     },
     {
