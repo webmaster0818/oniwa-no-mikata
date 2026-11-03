@@ -151,7 +151,7 @@ const data: KnowArticleData = {
   ],
   related: [
     { href: "/area/kawagoe/", label: "川越の庭業者おすすめ", desc: "剪定・伐採・草刈りを依頼できる業者の比較" },
-    { href: "/takagi-sentei-kiken/", label: "高い木の剪定の危険性", desc: "自分で切る前に知っておきたいこと" },
+    { href: "/takagi-sentei-kiken/", label: "高い木の剪定の危険性", desc: "自分で切る前に確認すること" },
     { href: "/niwaki-bassai-kyoka/", label: "庭木の伐採に許可は必要か", desc: "伐採前に確認しておくこと" },
     { href: "/niwaki-hikuku-suru/", label: "庭木を低くする方法", desc: "大きくなりすぎた木を段階的に下げる" },
     { href: "/ochiba-taisaku/", label: "落ち葉対策", desc: "落ち葉の集め方と処分の考え方" },
