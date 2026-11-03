@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/matsukuimushi-yobo/",
+      label: "庭の松の松くい虫対策",
+      desc: "樹幹注入・薬剤散布の時期と枯れた松の扱い",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "樹種ごとの適期の考え方と季節ごとの剪定の基礎",

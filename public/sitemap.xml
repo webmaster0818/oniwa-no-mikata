@@ -38,11 +38,11 @@
   <url><loc>https://oniwa-no-mikata.com/agents/duskin/</loc><lastmod>2026-10-17</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/agents/oniwa-master/</loc><lastmod>2026-10-17</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/agents/smile-garden/</loc><lastmod>2026-10-19</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://oniwa-no-mikata.com/area/tokyo/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/tokyo/</loc><lastmod>2026-11-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/amagasaki/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://oniwa-no-mikata.com/area/fujisawa/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/fujisawa/</loc><lastmod>2026-11-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/fujisawa/senteieda/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://oniwa-no-mikata.com/area/matsudo/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/matsudo/</loc><lastmod>2026-11-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/matsudo/senteieda/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/sentei-jiki/</loc><lastmod>2026-10-20</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/niwaki-byogaichu/</loc><lastmod>2026-10-22</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
@@ -229,13 +229,13 @@
   <url><loc>https://oniwa-no-mikata.com/area/koriyama/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/nagaoka/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/okazaki/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://oniwa-no-mikata.com/area/ichikawa/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/ichikawa/</loc><lastmod>2026-11-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/ichikawa/senteieda/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/toyohashi/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/nishinomiya/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/machida/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/machida/senteieda/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://oniwa-no-mikata.com/area/toyonaka/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/toyonaka/</loc><lastmod>2026-11-03</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/kawagoe/</loc><lastmod>2026-11-01</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/kawagoe/hozon-jumoku/</loc><lastmod>2026-11-01</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/area/ichinomiya/</loc><lastmod>2026-10-20</lastmod><priority>0.8</priority><changefreq>monthly</changefreq></url>
@@ -344,4 +344,10 @@
   <url><loc>https://oniwa-no-mikata.com/bassai-110ban-bassai-bakkon/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/kurashi-no-market-sentei/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://oniwa-no-mikata.com/kurashi-no-market-bassai-bakkon/</loc><lastmod>2026-11-02</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/matsukuimushi-yobo/</loc><lastmod>2026-11-03</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/tokyo/hogo-jumoku-ikegaki-josei/</loc><lastmod>2026-11-03</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/fujisawa/ikegaki-josei/</loc><lastmod>2026-11-03</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/toyonaka/ikegaki-josei/</loc><lastmod>2026-11-03</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/ichikawa/ikegaki-josei/</loc><lastmod>2026-11-03</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://oniwa-no-mikata.com/area/matsudo/ikegaki-josei/</loc><lastmod>2026-11-03</lastmod><priority>0.7</priority><changefreq>monthly</changefreq></url>
 </urlset>

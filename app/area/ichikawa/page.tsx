@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/ichikawa/";
-const UPDATED = "2026年11月1日";
-const UPDATED_ISO = "2026-11-01";
+const UPDATED = "2026年11月3日";
+const UPDATED_ISO = "2026-11-03";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -718,6 +718,23 @@ export default function AreaIchikawaPage() {
             <p className="text-sm md:text-base font-bold">
               <Link href="/area/ichikawa/senteieda/" className="text-[#2D7F3E] underline">
                 市川市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
+          {/* 地域固有の公式情報：生垣の助成（2026-11-03 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">市川市の生垣助成・保存樹木の補助（公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">市川市花と緑のまちづくり財団は、接道部に新しく設ける生垣に1mあたり7,000円、既存ブロック塀等の撤去に1mあたり5,000円（上限12万円・最長10m）を助成しています。着工前の申請が必要です。</li>
+              <li className="leading-loose">市は、幹回り3m以上（クロマツは1.5m以上）の保存樹木の剪定費用の2分の1（上限20万円）を補助しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.ichikawa-fgud.com/wp-content/uploads/2026/04/2026jyosei_ikegaki.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">市川市花と緑のまちづくり財団「生垣助成事業に関するパンフレット」（PDF）</a>、<a href="https://www.city.ichikawa.lg.jp/page/4806.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">市川市「市川市保存樹木管理等補助金交付制度についてのご案内です」</a>（いずれも2026年11月3日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/ichikawa/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                市川市の生垣助成と保存樹木の補助を詳しく見る
               </Link>
             </p>
           </section>

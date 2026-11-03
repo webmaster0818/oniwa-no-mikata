@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/tokyo/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月3日";
+const UPDATED_ISO = "2026-11-03";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -683,6 +683,24 @@ export default function AreaTokyoPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             枝が越境して対応を求められる前に、定期的な剪定で予防するほうが、結果的に費用を抑えられます。smileガーデンやダスキンのような<Hl>年間管理プランのあるサービス</Hl>であれば、伸びすぎる前に手を入れてもらえます。また、作業当日は隣家側から枝を下ろす場面もあり得るため、業者と相談のうえ、必要に応じて事前に隣家へ声をかけておくことをおすすめします。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-03 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">区市町村の保護樹木・生垣の助成（東京都の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">東京都の一覧「保護樹木・樹林・生垣」には、44区市の48制度（保護樹木の指定、管理費の助成、奨励金など）が掲載されています。</li>
+              <li className="leading-loose">「屋上・壁面・接道部緑化」の一覧には、生垣の造成・設置を対象とする17区市町の制度が掲載されています。</li>
+              <li className="leading-loose">金額や条件は自治体ごとに異なります。業者に見積もりを頼む前に、お住まいの区市町村のページで確認してください。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.tokyogreenery.metro.tokyo.lg.jp/green-system/system.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">東京都「緑を保全・創出するための助成制度 | 緑関連制度 | 東京の緑」</a>（2026年11月3日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/tokyo/hogo-jumoku-ikegaki-josei/" className="text-[#2D7F3E] underline">
+                区市町村別の制度一覧を見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

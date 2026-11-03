@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/fujisawa/";
-const UPDATED = "2026年11月1日";
-const UPDATED_ISO = "2026-11-01";
+const UPDATED = "2026年11月3日";
+const UPDATED_ISO = "2026-11-03";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -719,6 +719,23 @@ export default function AreaFujisawaPage() {
             <p className="text-sm md:text-base font-bold">
               <Link href="/area/fujisawa/senteieda/" className="text-[#2D7F3E] underline">
                 藤沢市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
+          {/* 地域固有の公式情報：生垣の助成（2026-11-03 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">藤沢市の生垣用苗木の交付・保存生垣の奨励金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">藤沢市は、道路に面した新しい生垣（連続3m以上・最高20m）に、生垣用苗木を1mにつき3本、最長20mで60本まで無償で交付しています。受付は毎年1月下旬〜2月上旬、5月、9月の年3回です。</li>
+              <li className="leading-loose">長さ10m以上の保存生垣には、長さに応じて年5,000円〜15,000円の緑の保全奨励金があります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://nagakubokouen.jp/green/?sec=sapling" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">藤沢市長久保公園 都市緑化植物園「記念樹事業」</a>、<a href="https://www.city.fujisawa.kanagawa.jp/midori/machizukuri/kankyo/shizenhogo/midorinohozensyoreikin.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">藤沢市「緑の保全奨励金」</a>（いずれも2026年11月3日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/fujisawa/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                藤沢市の生垣用苗木の交付と保存生垣の奨励金を詳しく見る
               </Link>
             </p>
           </section>

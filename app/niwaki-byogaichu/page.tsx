@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/matsukuimushi-yobo/",
+      label: "庭の松の松くい虫対策",
+      desc: "松が短期間で枯れるときに疑う病気",
+    },
+    {
       href: "/kaboku-tsubomi-ochiru/",
       label: "花木のつぼみが咲く前に落ちる",
       desc: "落蕾の原因の見分け方と翌年に向けた手入れ",

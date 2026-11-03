@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/area/tokyo/hogo-jumoku-ikegaki-josei/",
+      label: "東京都の区市町村の保護樹木・生垣の助成制度一覧",
+      desc: "生垣の造成・設置の助成がある17区市町",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "樹種ごとの適期の考え方と季節ごとの剪定",

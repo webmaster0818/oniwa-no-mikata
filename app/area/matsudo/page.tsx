@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/matsudo/";
-const UPDATED = "2026年11月1日";
-const UPDATED_ISO = "2026-11-01";
+const UPDATED = "2026年11月3日";
+const UPDATED_ISO = "2026-11-03";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -719,6 +719,23 @@ export default function AreaMatsudoPage() {
             <p className="text-sm md:text-base font-bold">
               <Link href="/area/matsudo/senteieda/" className="text-[#2D7F3E] underline">
                 松戸市の剪定枝・落ち葉・草の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
+          {/* 地域固有の公式情報：生垣の助成（2026-11-03 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">松戸市の生け垣づくり助成金（基金の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">松戸みどりと花の基金は、幅員4m以上の道路に面した延長5m以上の生け垣の設置・改修に、経費の2分の1（1mにつき1万円、1件10万円まで）を助成しています。</li>
+              <li className="leading-loose">職員が現地確認を行うため、申請の前に必ず基金へ連絡します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://midori-kikin.jp/subsidy/" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">松戸みどりと花の基金「支援事業」</a>、<a href="https://midori-kikin.jp/images/subsidyPDF02-202505.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">同「助成の採否の基準及び助成額」（PDF）</a>（いずれも2026年11月3日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/matsudo/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                松戸市の生け垣づくり助成金を詳しく見る
               </Link>
             </p>
           </section>

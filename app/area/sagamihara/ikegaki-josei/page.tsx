@@ -152,6 +152,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/area/fujisawa/ikegaki-josei/", label: "藤沢市の生垣用苗木の交付", desc: "近隣の市の生垣の支援制度" },
     { href: "/area/sagamihara/", label: "相模原の庭業者おすすめ", desc: "剪定・伐採・草刈りを依頼できる業者の比較" },
     { href: "/ikegaki-karikomi/", label: "生垣の刈り込み", desc: "刈り込みの時期と仕上がりをそろえるコツ" },
     { href: "/ikegaki-fence-hikaku/", label: "生垣とフェンスの比較", desc: "費用と手間、目隠し効果の違い" },

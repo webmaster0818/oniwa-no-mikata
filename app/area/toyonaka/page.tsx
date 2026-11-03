@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/toyonaka/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月3日";
+const UPDATED_ISO = "2026-11-03";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,23 @@ export default function AreaToyonakaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             植え足す前に、<Hl>その木が大きくなったときの姿で置き場所を考える</Hl>と、後から切り続ける手間が減ります。手のかかりにくい木の選び方は<Link href="/teire-raku-niwaki/" className="text-[#2D7F3E] underline">手入れが楽な庭木の選び方</Link>、落ち葉を減らしたい場合は<Link href="/ochiba-sukunai-niwaki/" className="text-[#2D7F3E] underline">落ち葉が少ない庭木</Link>、鉢で育ててきた木を地面に下ろす場合は<Link href="/hachiue-jiue-uekae/" className="text-[#2D7F3E] underline">鉢植えから地植えへの植え替え</Link>が参考になります。すでに大きくなった木を別の場所へ移す場合は<Link href="/niwaki-ishoku/" className="text-[#2D7F3E] underline">庭木の移植</Link>、抜いてしまう場合は<Link href="/bassai-bakkon-chigai/" className="text-[#2D7F3E] underline">伐採と抜根の違い</Link>にまとめています。伐採110番は伐採・抜根と伐採後の木材処分まで一括で相談でき、見積もりは無料・24時間受付です。
           </p>
+
+          {/* 地域固有の公式情報：生垣の助成（2026-11-03 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">豊中市の生垣緑化助成金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">豊中市は、道路に面した延長2m以上の生垣の設置費用の5分の4（沿道緑化と併せて上限10万円）を助成しています。必ず設置する前に申し込みます。</li>
+              <li className="leading-loose">松くい虫で枯れた松の伐採には、目通り周囲に応じて1本2,000円〜6,000円の松くい虫防除事業助成があります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.toyonaka.osaka.jp/machi/kouen_midori/shizen/ikegaki.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">豊中市「生垣緑化・沿道緑化助成金について」</a>、<a href="https://www.city.toyonaka.osaka.jp/machi/kouen_midori/shizen/fuutihogojyumatsuku.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">豊中市「保護樹・松くい虫防除制度のご案内」</a>（いずれも2026年11月3日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/toyonaka/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                豊中市の生垣緑化助成金を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
