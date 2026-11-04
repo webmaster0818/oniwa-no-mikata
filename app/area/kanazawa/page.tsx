@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kanazawa/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月4日";
+const UPDATED_ISO = "2026-11-04";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -697,6 +697,25 @@ export default function AreaKanazawaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             本数を整理する場合は、伐採110番のように<Hl>伐採から抜根・処分まで一括で任せられる</Hl>サービスが便利です。残す木については、どの程度の頻度で手を入れれば現状を保てるのか、業者に現地を確認してもらい、年間の手入れ計画を相談してください。剪定110番・smileガーデンはいずれも見積もり無料のため、維持にかかる費用を金額で把握してから方針を決められます。金額を確認することで、残す木と整理する木の線引きを現実的に判断しやすくなります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-04 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">金沢市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">せん定枝・落ち葉・草花は指定ごみ袋の対象外で、泥をはらってひもで束ねるか半透明袋に入れて燃やすごみの日に出します。</li>
+              <li className="leading-loose">太さは10センチメートル程度、長さ70センチメートル程度のものまで出せます。長さ70センチメートルを超える場合は埋立ごみで、2メートル以上のものは出せません。</li>
+              <li className="leading-loose">業者の剪定した枝木は、市で収集できないものです。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www4.city.kanazawa.lg.jp/soshikikarasagasu/gomigenryosuishinka/gyomuannai/1/3/3/7591.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">燃やすごみ 週2回収集／金沢市公式ホームページ いいね金沢</a>、
+              <a href="https://www4.city.kanazawa.lg.jp/soshikikarasagasu/gomigenryosuishinka/yokuarushitsumon/kateigomi_qa/3048.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみの分け方・出し方【市で収集できないもの等】に関する質問／金沢市公式ホームページ いいね金沢</a>（いずれも2026年11月4日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kanazawa/senteieda/" className="text-[#2D7F3E] underline">
+                金沢市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

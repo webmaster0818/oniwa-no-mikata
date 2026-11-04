@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/funabashi/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月4日";
+const UPDATED_ISO = "2026-11-04";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -703,6 +703,24 @@ export default function AreaFunabashiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             増やす場合は、<Hl>隣家や道路、カーポートとの距離を含めた配置を先に決める</Hl>ことが、将来の手入れを左右します。分譲地は隣家との距離が近く、車を停める場所も決まっているため、<Link href="/shokusai-haichi-keikaku/" className="text-[#2D7F3E] underline">植栽の配置計画の立て方</Link>と<Link href="/carport-mawari-shokusai/" className="text-[#2D7F3E] underline">カーポートまわりの植栽の考え方</Link>、室外機の近くに植えるときの注意は<Link href="/shitsugaiki-shokusai/" className="text-[#2D7F3E] underline">室外機まわりの植栽の注意点</Link>を参考にしてください。造園デザインの相談まで受けるお庭マスターのようなサービスに、植え足しと手入れをまとめて相談する方法もあります。なお、分譲地の入口や区画の間にある共用の緑地は管理組合や自治会の管轄で、外構の保証が残っている間は建築会社や売主に確認してから手を入れると安心です。中古で購入した家の場合は、前の持ち主の手入れの跡を読み解くところから始める考え方を<Link href="/chuko-jutaku-niwa-kakunin/" className="text-[#2D7F3E] underline">中古住宅の庭の確認ポイント</Link>にまとめています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-04 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">船橋市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">枝木は直径10cm以内で長さ50cm以内のものを、ひもでしばって可燃ごみに出します。</li>
+              <li className="leading-loose">可燃ごみはおおむね長さ50cm以内のもので、小さくすることが難しいものは粗大ごみです。粗大ごみには「枝木または丸太」（長さ1.5m以下、直径20cm以下）の品目があります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.funabashi.lg.jp/kurashi/gomi/001/p001542.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">可燃ごみの出し方｜船橋市公式ホームページ</a>、
+              <a href="https://www.city.funabashi.lg.jp/kurashi/gomi/002/p001551.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">粗大ごみ処理手数料一覧｜船橋市公式ホームページ</a>（いずれも2026年11月4日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/funabashi/senteieda/" className="text-[#2D7F3E] underline">
+                船橋市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

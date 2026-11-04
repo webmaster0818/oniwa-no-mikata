@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/toyama/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月4日";
+const UPDATED_ISO = "2026-11-04";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -700,6 +700,25 @@ export default function AreaToyamaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             点検で維持が難しい木が見つかった場合は、雪のない季節のうちに整理まで済ませておくことをおすすめします。弱った木や大きくなりすぎた木は、雪の重みで倒れて建物や隣家を傷めるおそれがあり、<Hl>次の冬が来る前の伐採が最も安全な選択肢</Hl>になることもあります。伐採110番では伐採から抜根・処分まで一括で相談でき、見積もりは無料です。春の点検・夏の草刈り・秋の剪定・冬囲いという一年のサイクルを業者と組み立てることで、家族の負担を抑えながら雪国の庭を維持できます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-04 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">富山市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">庭木の剪定枝はおおむね1メートル以内に切ってビニールひもなどで縛り、燃やせるごみの日に出します。出せる枝の太さは直径10センチメートル程度までです。</li>
+              <li className="leading-loose">それ以上の太い枝や幹は処理できないため、専門の業者等へ相談するよう案内されています。</li>
+              <li className="leading-loose">令和9年10月からの家庭ごみ有料化制度では、剪定枝は有料化の対象外（無料）とされています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.toyama.lg.jp/faq/1008441/1009895/1008844.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">よくある質問　庭の掃除をしたときに出る落ち葉や剪定枝（せんていし）などは、どのようにして出せばよいですか。｜富山市公式ウェブサイト</a>、
+              <a href="https://www.city.toyama.lg.jp/kurashi/gomi/1010242/1019211.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">剪定枝リサイクルプロジェクト（剪定枝資源化モデル事業）｜富山市公式ウェブサイト</a>（いずれも2026年11月4日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/toyama/senteieda/" className="text-[#2D7F3E] underline">
+                富山市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

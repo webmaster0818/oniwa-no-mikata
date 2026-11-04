@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/mito/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月4日";
+const UPDATED_ISO = "2026-11-04";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -705,6 +705,25 @@ export default function AreaMitoPage() {
             <Link href="/zasso-taisaku/" className="text-[#2D7F3E] underline">雑草対策の比較記事</Link>
             でまとめています。縮小する方向の見直しも含めて計画を調整することで、無理なく続けられます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-04 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">水戸市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">せん定枝は1メートル以内の長さに切り、直径30センチメートル程度にひもで束ね、1束につき1枚燃えるごみ処理券を貼って出します。1本の太さは5センチまでです。</li>
+              <li className="leading-loose">1回に出せるのは10束までで、5束を超える場合は清掃事務所に事前連絡が必要です。</li>
+              <li className="leading-loose">市は剪定枝粉砕機を市民に無料で貸し出しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.mito.lg.jp/site/gomi/1774.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみ・資源物の分け方、出し方の基本ルール - ごみ・リサイクル - 水戸市ホームページ</a>、
+              <a href="https://www.city.mito.lg.jp/site/gomi/6076.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">剪定枝粉砕機を無料で貸出します - ごみ・リサイクル - 水戸市ホームページ</a>（いずれも2026年11月4日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/mito/senteieda/" className="text-[#2D7F3E] underline">
+                水戸市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

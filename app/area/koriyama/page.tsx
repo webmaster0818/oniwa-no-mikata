@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/koriyama/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月4日";
+const UPDATED_ISO = "2026-11-04";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,24 @@ export default function AreaKoriyamaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             注意が必要なのは、<Hl>写真だけで判断しきれない部分があること</Hl>です。木は年数とともに太くなり、根も広がるため、数年前の高さに切り戻せば同じ姿になるとは限りません。枯れたように見えても季節によって判断が変わることもあり、見極めは<Link href="/niwaki-kareta/" className="text-[#2D7F3E] underline">庭木が枯れたかどうかの見分け方</Link>にまとめています。大きくなりすぎた木を根元から整理する場合は、伐採110番が抜根と処分まで一括で相談でき、見積もりは無料です。伐採と抜根の違いは<Link href="/bassai-bakkon-chigai/" className="text-[#2D7F3E] underline">伐採と抜根の違い</Link>、切り株を残した場合の注意は<Link href="/kirikabu-hochi/" className="text-[#2D7F3E] underline">切り株を放置するとどうなるか</Link>をご覧ください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-04 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">郡山市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">草木は燃やしてよいごみの日に、幹は2本まで、枝は2束まで、または葉・草・花はごみ袋2袋までごみ集積所に出せます。</li>
+              <li className="leading-loose">幹1本は直径15cm以内・長さ1m以内、枝1束は枝束30cm以内・長さ1m以内です。</li>
+              <li className="leading-loose">全部で3つ（本、束、袋）以上ある場合は、複数日に分けるか民間の業者に依頼します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.koriyama.lg.jp/soshiki/55/150018.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">草木等の処分方法について - 郡山市公式ウェブサイト</a>（2026年11月4日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/koriyama/senteieda/" className="text-[#2D7F3E] underline">
+                郡山市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

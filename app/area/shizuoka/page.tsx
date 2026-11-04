@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/shizuoka/";
-const UPDATED = "2026年10月20日";
-const UPDATED_ISO = "2026-10-20";
+const UPDATED = "2026年11月4日";
+const UPDATED_ISO = "2026-11-04";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -695,6 +695,24 @@ export default function AreaShizuokaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             具体的には、草刈り110番の<Hl>定期メンテナンスプラン</Hl>で雑草を定期的に刈る、あるいは防草シート施工で<Hl>雑草が生えにくい状態</Hl>にする方法があります。1平米163円〜（税込）と面積ベースの料金のため、敷地の広さから費用の目安をつかみやすいのも利点です。大きくなりすぎた木がある場合は、管理の負担を減らすために伐採110番で本数を整理し、処分まで一括で済ませる選択肢もあります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-04 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">静岡市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝は葵区・駿河区・清水区とも可燃ごみで、太さ20cm以内、長さ1m以内にして、袋に入れるか束ねて出します。</li>
+              <li className="leading-loose">可燃ごみで一度に出す点数が11袋以上の場合は、西ケ谷清掃工場・沼上清掃工場へ持ち込めます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.shizuoka.lg.jp/gomi/hinmoku/02186.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">剪定枝／静岡市公式ホームページ</a>、
+              <a href="https://www.city.shizuoka.lg.jp/gomi/s000671.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">清掃工場等への家庭ごみの持ち込み／静岡市公式ホームページ</a>（いずれも2026年11月4日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/shizuoka/senteieda/" className="text-[#2D7F3E] underline">
+                静岡市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
