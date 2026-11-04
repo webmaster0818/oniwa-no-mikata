@@ -187,7 +187,7 @@ function Hero() {
 function TrustBadges() {
   const prefCount = 1 + regions.reduce((n, r) => n + r.prefectures.length, 0);
   const badges: { k: string; v: string; u: string; desc: string }[] = [
-    { k: "掲載業者", v: String(agents.length), u: "社", desc: "実績のある業者を掲載" },
+    { k: "掲載業者", v: String(agents.length), u: "社", desc: "公式サイトの情報をもとに比較" },
     { k: "エリア別まとめ", v: String(allAreaSlugs.length), u: "市", desc: `${prefCount}都道府県の市のページ` },
     { k: "全国対応", v: "47", u: "都道府県", desc: "47都道府県をカバー" },
     { k: "見積もり", v: "無料", u: "", desc: "比較・見積もりは無料" },
