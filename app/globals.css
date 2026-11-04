@@ -97,3 +97,83 @@ html {
     padding: 5rem 2rem;
   }
 }
+
+/* ======================================================================
+ * TOP 刷新（2026-11-04 サンプル・redesign-20261104 ブランチ）
+ * 庭の深緑を基調に、紙のような生成り色の背景と、はっきりした枠線で区切る。
+ * 操作ボタンはすべて同じ深緑（--ow-green）。グラデーション・大きな角丸・影の多用はしない。
+ * ====================================================================== */
+:root {
+  --ow-ink: #1B2B1F;
+  --ow-green: #23583A;
+  --ow-green-dark: #173D28;
+  --ow-leaf: #4E8A4F;
+  --ow-bark: #7A5634;
+  --ow-wash: #EEF3EC;
+  --ow-paper: #F7F6F1;
+  --ow-white: #FFFFFF;
+  --ow-border: #CBD5C6;
+  --ow-border-strong: #93A58F;
+  --ow-muted: #4E5E51;
+}
+
+@layer components {
+.ow-page { background: var(--ow-paper); color: var(--ow-ink); font-feature-settings: "palt" 1; }
+.ow-page a { -webkit-tap-highlight-color: transparent; }
+.ow-page :focus-visible { outline: 3px solid #6FA36F; outline-offset: 2px; }
+
+.ow-container { max-width: 1160px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+@media (min-width: 768px) { .ow-container { padding-left: 24px; padding-right: 24px; } }
+
+/* 統一ボタン（色は1色） */
+.ow-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+  min-height: 52px; padding: 0.8rem 1.5rem; border-radius: 4px;
+  background: var(--ow-green); color: #fff; border: 1px solid var(--ow-green);
+  font-weight: 700; letter-spacing: 0.04em; line-height: 1.35; text-align: center;
+  transition: background-color .2s ease;
+}
+.ow-btn:hover { background: var(--ow-green-dark); }
+.ow-btn--lg { min-height: 64px; font-size: 18px; padding: 0.9rem 1.75rem; }
+@media (min-width: 768px) { .ow-btn--lg { min-height: 72px; font-size: 20px; } }
+.ow-btn--ghost { background: #fff; color: var(--ow-green); border-color: var(--ow-green); }
+.ow-btn--ghost:hover { background: var(--ow-wash); }
+
+/* 枠 */
+.ow-card { background: #fff; border: 1px solid var(--ow-border); border-radius: 4px; }
+.ow-card-link { transition: border-color .2s ease, background-color .2s ease; }
+.ow-card-link:hover { border-color: var(--ow-green); background: #FBFCFA; }
+
+/* 見出し：左寄せ＋下罫線。英字ラベルは使わない */
+.ow-h2 {
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  font-size: 24px; font-weight: 700; letter-spacing: 0.04em; line-height: 1.4;
+  padding-bottom: 12px; border-bottom: 2px solid var(--ow-ink); margin-bottom: 24px;
+}
+@media (min-width: 768px) { .ow-h2 { font-size: 30px; margin-bottom: 32px; } }
+.ow-h2 small { font-size: 13px; font-weight: 500; color: var(--ow-muted); letter-spacing: 0.02em; }
+
+.ow-section { padding: 56px 0; }
+@media (min-width: 768px) { .ow-section { padding: 88px 0; } }
+.ow-band { background: #fff; border-top: 1px solid var(--ow-border); border-bottom: 1px solid var(--ow-border); }
+
+/* 箇条の印（◎や✓の代わりに小さな四角） */
+.ow-dot { position: relative; padding-left: 14px; }
+.ow-dot::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; background: var(--ow-leaf); }
+
+/* details */
+.ow-acc > summary { list-style: none; cursor: pointer; }
+.ow-acc > summary::-webkit-details-marker { display: none; }
+.ow-acc[open] > summary .ow-chev { transform: rotate(180deg); }
+.ow-chev { transition: transform .25s ease; }
+
+}
+
+/* スクロールで順に表示（JS 実行後に html.ow-js を付ける。JS 無効・印刷・reduced-motion では常に表示） */
+.ow-js .ow-reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+.ow-js .ow-reveal.ow-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .ow-js .ow-reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
+@media print { .ow-js .ow-reveal { opacity: 1 !important; transform: none !important; } }
