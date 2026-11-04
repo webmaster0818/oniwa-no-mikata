@@ -146,12 +146,14 @@ function Hero() {
           </ul>
         </div>
 
-        {/* 右（PC）：写真。角丸なし */}
-        <div className="relative hidden md:block">
+        {/* 右（PC）：写真を見出しの下まで広げ、左から背景色のグラデーションを重ねる */}
+        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[64%] md:block lg:w-[62%]" aria-hidden>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/fv-niwashi-pc.jpg" alt="はしごに上って松の木を剪定する庭師" width={1400} height={1750} className="absolute inset-0 h-full w-full object-cover object-[50%_40%]" fetchPriority="high" />
+          <img src="/images/fv-niwashi-pc.jpg" alt="" width={1400} height={1750} className="absolute inset-0 h-full w-full object-cover object-[50%_40%]" fetchPriority="high" />
+          <div className="absolute inset-0 bg-[linear-gradient(90deg,var(--ow-paper)_0%,var(--ow-paper)_6%,color-mix(in_srgb,var(--ow-paper)_82%,transparent)_24%,color-mix(in_srgb,var(--ow-paper)_35%,transparent)_42%,transparent_58%)]" />
           <p className="absolute bottom-3 right-3 bg-black/45 px-2 py-1 text-[11px] text-white">写真はイメージです</p>
         </div>
+        <div className="hidden md:block" />
 
         {/* スマホ：写真の中に主導線 */}
         <div className="relative md:hidden">
