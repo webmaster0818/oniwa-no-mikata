@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaishi-toro-tekkyo",
   published: "2026-08-16",
-  updatedLabel: "2026年10月17日",
+  updatedLabel: "2026年11月4日",
   h1: "庭石・灯篭の撤去の基礎知識｜処分の進め方と業者に依頼する判断を解説",
   breadcrumbLabel: "庭石・灯篭の撤去の基礎知識",
   tagChips: ["庭石の撤去", "灯篭の処分", "庭の作り替え", "基礎知識"],
@@ -128,7 +128,7 @@ const data: KnowArticleData = {
       依頼先としては、造園業者や石材店のほか、庭の作り替えと合わせて相談できる全国対応のサービスがあります。庭木の伐採・抜根とまとめて依頼する場合は<Link href="/agents/bassai-110ban/" className="text-[#2D7F3E] underline">伐採110番</Link>のような伐採専門サービスに庭石の扱いも相談する方法があり、地域の事業者を口コミで比較したい場合は<Link href="/agents/kurashi-no-market/" className="text-[#2D7F3E] underline">くらしのマーケット</Link>で庭石撤去や庭の片付けを扱う出店者を探せます。撤去費用は石の大きさ・数量・搬出条件で大きく変わるため、<Hl>写真を添えて複数の業者から総額の見積もりを取る</Hl>ことをおすすめします。
     </p>,
     <p key="3">
-      庭石の撤去は、庭全体の見直しとセットで考えると効果的です。石を減らした後の空間を手入れしやすい庭に整える場合は、<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまい・ローメンテナンス化の解説記事</Link>が参考になります。撤去後の地面を砂利敷きにする場合は<Link href="/jarishiki/" className="text-[#2D7F3E] underline">砂利敷きの解説記事</Link>もあわせてご覧ください。<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のように造園デザインの相談に対応するサービスであれば、撤去とその後の庭づくりまで一緒に相談できます（関東エリア中心のため、関東以外の地域では対応可否を確認してください）。
+      庭石の撤去は、庭全体の見直しとセットで考えると効果的です。石を減らした後の空間を手入れしやすい庭に整える場合は、<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまい・ローメンテナンス化の解説記事</Link>が参考になります。撤去後の地面を砂利敷きにする場合は<Link href="/jarishiki/" className="text-[#2D7F3E] underline">砂利敷きの解説記事</Link>もあわせてご覧ください。<Link href="/agents/oniwa-master/" className="text-[#2D7F3E] underline">お庭マスター</Link>のように造園デザインの相談に対応するサービスであれば、撤去とその後の庭づくりまで一緒に相談できます。
     </p>,
   ],
   ctaHeading: "動かせない庭石も、写真1枚から相談できます",

@@ -30,7 +30,7 @@ export default function ContentPolicyPage() {
           </nav>
 
           <h1 className="text-3xl font-bold text-foreground mb-2">コンテンツ制作ポリシー</h1>
-          <p className="text-text-muted text-sm mb-8">最終更新日：2026年10月23日</p>
+          <p className="text-text-muted text-sm mb-8">最終更新日：2026年11月4日</p>
 
           <div className="space-y-8 text-foreground">
             <section>
@@ -85,10 +85,6 @@ export default function ContentPolicyPage() {
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>
                   <span><span className="font-medium text-foreground">対応力：</span>対応エリアの広さ、受付時間、スピード</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary mt-1 shrink-0">●</span>
-                  <span><span className="font-medium text-foreground">ユーザー評価：</span>口コミ・評判、利用者の満足度</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1 shrink-0">●</span>

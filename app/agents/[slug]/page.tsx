@@ -7,14 +7,15 @@ const SITE = "https://oniwa-no-mikata.com";
 const PUBLISHED_ISO = "2026-06-10";
 // 本文（<main>）が最後に変わった日（deploy リポの履歴で確認・2026-10-31）。画面の更新日・time・構造化データ dateModified・sitemap lastmod をこの日にそろえる。
 // 2026-11-03：出典の確認できない口コミ要約を全社から削除・title/h1 から口コミ・評判を外した。
+// 2026-11-04：注意点のうち削除した口コミと同じ内容は公式で確かめたものだけ出典つきで残した（okina 判断12）。お庭マスターの対応エリアの記載を外した（判断2）。
 const UPDATED_ISO: Record<string, string> = {
-  "sentei-110ban": "2026-11-03",
-  "bassai-110ban": "2026-11-03",
-  "kusakari-110ban": "2026-11-03",
-  "kurashi-no-market": "2026-11-03",
-  "duskin": "2026-11-03",
-  "oniwa-master": "2026-11-03",
-  "smile-garden": "2026-11-03",
+  "sentei-110ban": "2026-11-04",
+  "bassai-110ban": "2026-11-04",
+  "kusakari-110ban": "2026-11-04",
+  "kurashi-no-market": "2026-11-04",
+  "duskin": "2026-11-04",
+  "oniwa-master": "2026-11-04",
+  "smile-garden": "2026-11-04",
 };
 function updatedIso(slug: string): string {
   return UPDATED_ISO[slug] ?? PUBLISHED_ISO;
@@ -184,7 +185,9 @@ export default async function AgentPage({ params }: Props) {
               </div>
               <div className="rounded-2xl border-2 border-[#f3d2a6] bg-[#fff7ee] p-6">
                 <h3 className="font-bold text-[#c2620a] mb-3">注意点</h3>
-                <ul className="space-y-2 text-sm text-[#4a5443]">{a.demerits.map((m, i) => <li key={i}>{m}</li>)}</ul>
+                <ul className="space-y-2 text-sm text-[#4a5443]">{a.demerits.map((m, i) => typeof m === "string" ? <li key={i}>{m}</li> : (
+                  <li key={i}>{m.text}<span className="block text-xs text-[#6b7563] mt-1">出典：<a href={m.src.url} target="_blank" rel="noopener noreferrer" className="underline">{m.src.label}</a>（{m.src.checked}確認）</span></li>
+                ))}</ul>
               </div>
             </div>
           </section>
