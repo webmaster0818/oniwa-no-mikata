@@ -197,10 +197,7 @@ function TopRanking() {
         "少量の依頼にも対応",
         "料金体系が明確",
       ],
-      cons: [
-        "加盟店のため品質にばらつきあり",
-        "繁忙期は予約が取りにくい",
-      ],
+      cons: [] as string[],
       recommend:
         "初めて業者に依頼する方や、1本から剪定を依頼したい方におすすめです。料金体系が明確で、対応が早い点が特長です。",
     },
@@ -221,10 +218,7 @@ function TopRanking() {
         "事前に業者の情報を確認できる",
         "料金を比較しやすい",
       ],
-      cons: [
-        "業者によって品質差がある",
-        "人気業者は予約が埋まりやすい",
-      ],
+      cons: [] as string[],
       recommend:
         "口コミを確認したうえで業者を選びたい方におすすめです。地域の職人を直接比較し、指名できる点が特長です。",
     },
@@ -245,7 +239,7 @@ function TopRanking() {
         "研修を受けた専門スタッフが担当",
         "アフターフォローが充実",
       ],
-      cons: ["料金はやや高めの水準", "スポット依頼には不向き"],
+      cons: [] as string[],
       recommend:
         "年間を通して庭の管理を任せたい方におすすめです。大手企業による安定したサービスと、手厚いサポート体制が特長です。",
     },
@@ -331,6 +325,7 @@ function TopRanking() {
                           ))}
                         </ul>
                       </div>
+                      {c.cons.length > 0 && (
                       <div>
                         <p className="text-sm font-bold text-accent-dark mb-2">
                           デメリット
@@ -346,6 +341,7 @@ function TopRanking() {
                           ))}
                         </ul>
                       </div>
+                      )}
                     </div>
                     {/* Recommendation */}
                     <div className="bg-surface-alt rounded-lg p-3">
