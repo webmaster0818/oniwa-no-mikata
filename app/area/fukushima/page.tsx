@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/fukushima/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -733,6 +733,24 @@ export default function AreaFukushimaPage() {
             <Link href="/take-taisaku/" className="text-[#2D7F3E] underline">竹の対策の解説記事</Link>
             が参考になります。本数を減らす場合、伐採110番では伐採から抜根・処分まで一括で相談でき、見積もりは無料です。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">福島市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定した枝木は燃やすごみです。おおむね長さ60cm以内、束の直径30cm以内（1本の直径10cm以内）に束ねます。</li>
+              <li className="leading-loose">1世帯1回に出せるのは枝木2〜3束、葉2〜3袋までです。</li>
+              <li className="leading-loose">多量に出すときはクリーンセンターへ自己搬入します。家庭用剪定枝破砕機の無料貸出もあります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.fukushima.fukushima.jp/kurashi/gomi-recycle/1/2/7861.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">資源にできない燃やすごみ(燃やすごみ)／福島市公式ホームページ</a>、<a href="https://www.city.fukushima.fukushima.jp/kurashi/gomi-recycle/2/7803.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">家庭用剪定枝破砕機を使ってみませんか?／福島市公式ホームページ</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/fukushima/senteieda/" className="text-[#2D7F3E] underline">
+                福島市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

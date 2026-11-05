@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kasukabe/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaKasukabePage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             対策の選択肢は、<Hl>表面を粗い仕上げに替える</Hl>、<Hl>砂利などを敷いて覆う</Hl>、<Hl>上の枝を透かして日と風を通す</Hl>の三つです。舗装や土間そのものの補修は外構の工事業者が相談先になりますが、<Hl>枝を透かす・落ち葉を減らす</Hl>作業は庭業者に依頼できます。土間や舗装の考え方は<Link href="/niwa-doma-concrete/" className="text-[#2D7F3E] underline">庭の土間コンクリートの解説記事</Link>、足元の安全は<Link href="/niwa-barrier-free/" className="text-[#2D7F3E] underline">庭のバリアフリーの解説記事</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">春日部市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭で剪定した枝（幹径10cm以下）は、50cm以下に裁断してひもで束ね、可燃ごみとして出します。</li>
+              <li className="leading-loose">直径10cmまたは長さ50cmを超えるものは処理困難物で、市の施設では処理できません。</li>
+              <li className="leading-loose">量が多いときは、数回に分けて集積所に出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kasukabe.lg.jp/kurashi/gomi_recycle/kateigomi/19165.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">可燃ごみの出し方／春日部市公式ホームページ</a>、<a href="https://www.city.kasukabe.lg.jp/kurashi/gomi_recycle/kateigomi/33098.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">剪定枝・伐採木の処分／春日部市公式ホームページ</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kasukabe/senteieda/" className="text-[#2D7F3E] underline">
+                春日部市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

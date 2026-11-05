@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/nagaoka/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,24 @@ export default function AreaNagaokaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             直し方を決めるときは、<Hl>その通り道を今後も使い続けるかどうか</Hl>から考えると判断しやすくなります。使い続ける場合は並べ直しや下地の作り直し、あまり通らない場合は石を外して覆うほうが手間を減らせます。歩きやすさを優先する場合は<Link href="/niwa-barrier-free/" className="text-[#2D7F3E] underline">庭のバリアフリーの考え方</Link>、夜の足元が不安な場合は<Link href="/niwa-shomei-keikaku/" className="text-[#2D7F3E] underline">庭の照明計画の基本</Link>と<Link href="/garden-light-chui/" className="text-[#2D7F3E] underline">ガーデンライトと配線の注意点</Link>もご覧ください。石や灯篭そのものを外す場合は重量があり運び出しに手間がかかるため、<Link href="/niwaishi-toro-tekkyo/" className="text-[#2D7F3E] underline">庭石・灯篭の撤去の基礎知識</Link>を確認したうえで業者にご相談ください。くらしのマーケットでは、足元の写真を送って対応可否をメッセージで確認してから予約できます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">長岡市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">庭木を剪定した枝・葉は「枝葉・草」として、袋に入れずにわら縄・麻縄などで縛って出します。</li>
+              <li className="leading-loose">1本の太さ10cm以内・長さ150cm以内、1束の直径30cm以内です。1月・2月は収集しません。</li>
+              <li className="leading-loose">木の幹・根は「枝葉・草」に出せず、市のごみ収集運搬業許可業者に依頼します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.nagaoka.niigata.jp/kurashi/cate08/ek-gomi.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">枝葉・草（長岡市）</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/nagaoka/senteieda/" className="text-[#2D7F3E] underline">
+                長岡市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

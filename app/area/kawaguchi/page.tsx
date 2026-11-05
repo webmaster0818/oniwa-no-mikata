@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kawaguchi/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaKawaguchiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             工事の間は、<Hl>葉に付いたほこりを水で洗い流し、弱った木を「枯れた」と決めつけない</Hl>ことが基本です。見極めは<Link href="/niwaki-kareta/" className="text-[#2D7F3E] underline">庭木が枯れたかどうかの見分け方</Link>を参考に、春の芽吹きまで見てから判断します。工事で木に影響が出た場合の話し合いは施工会社と隣地の所有者との間で行うもので、庭業者に依頼できるのは木を守る手入れと、傷んだ後の整理までです。境界ぎわの木を工事の前に整理する場合は、伐採110番のように処分まで一括で依頼できるサービスに、切り分けて搬出する方法を含めて相談できます。工事が終わった後は、隣の建物の高さや窓の位置が変わっていることが多いため、<Link href="/mekakushi-niwaki/" className="text-[#2D7F3E] underline">目隠しになる庭木の選び方</Link>と<Link href="/hikage-niwa-shokusai/" className="text-[#2D7F3E] underline">北向き・日陰の庭の植栽の考え方</Link>を参考に、新しい日当たりに合わせて植栽を見直してください。塀やフェンスを作り直す場合は<Link href="/ikegaki-fence-hikaku/" className="text-[#2D7F3E] underline">生垣とフェンスの比較</Link>と<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭のリフォームと外構工事の違い</Link>を参考に、庭業者と外構業者のどちらに依頼する内容かを分けておいてください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">川口市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">自宅内の庭木の直径10cm以下の枝等は、長さ40cm以下に切ってひもで束ね、袋に入れずに一般ごみとして出します。</li>
+              <li className="leading-loose">直径10cm〜50cmの枝・幹は長さ120cm以下に切って粗大ごみ、直径50cmを超える幹は縦に割ります。</li>
+              <li className="leading-loose">土は払い、生木は乾燥させてから出します。量が多いときの自己搬入は前日までの電話予約制です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kawaguchi.lg.jp/kurashi_tetsuzuki/gomi_risaikuru/2/1/9617.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">家庭ごみの分け方・出し方／川口市ホームページ</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kawaguchi/senteieda/" className="text-[#2D7F3E] underline">
+                川口市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

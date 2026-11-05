@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/koshigaya/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaKoshigayaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             そのため、見積書を受け取ったら<Hl>有効期限</Hl>を確認してください。期限が記載されていればそれに従い、記載がなければ口頭でも確認しておきます。しばらく検討する場合は、<Hl>「◯月に依頼する場合も、この見積もりのままでよいか」を事前に確認しておく</Hl>のが確実です。一方、太い枝の切除、切り株の抜根、庭石の撤去など、状態が変わりにくい作業は、時間がたっても金額が変わりにくい傾向があります。相見積もりの取り方は<Link href="/aimitsumori-torikata/" className="text-[#2D7F3E] underline">相見積もりの取り方の解説記事</Link>、庭石の撤去は<Link href="/niwaishi-toro-tekkyo/" className="text-[#2D7F3E] underline">庭石・灯篭の撤去の解説記事</Link>を参考にしてください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">越谷市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">家庭の枝は長さ50cm未満・直径10cm以下に切り、透明又は半透明の袋に入れて燃えるごみとして出します。</li>
+              <li className="leading-loose">自分で剪定した枝と刈り草は、前日までに電話で申し込み、東埼玉資源環境組合第一工場へ1日1件200kgまで搬入できます。</li>
+              <li className="leading-loose">搬入できる枝は直径15cm以下・長さ100cm以下です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.koshigaya.saitama.jp/kurashi_shisei/kurashi/gomi_recycle/gomicalendar/files/R8-01.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">越谷市 第1地区のごみ収集カレンダー（PDF）20ページ</a>、<a href="https://www.city.koshigaya.saitama.jp/kurashi_shisei/kurashi/gomi_recycle/oshirase/senteiedataihihanbai.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">せん定枝等の個人搬入・堆肥販売について　越谷市公式ホームページ</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/koshigaya/senteieda/" className="text-[#2D7F3E] underline">
+                越谷市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

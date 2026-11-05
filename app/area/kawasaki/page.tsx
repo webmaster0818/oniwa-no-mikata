@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kawasaki/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaKawasakiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             運ぶ経路が限られる家では、<Hl>そもそも運び出す量を減らす</Hl>という発想も有効です。大きくなりすぎてから一度に切ると搬出の負担が大きくなりますが、毎年少しずつ透かして大きさを保てば、一回あたりに出る枝の量は抑えられます。伐採110番は重機が入れない立地でも木を切り分けて搬出する方法を含めて相談でき、草刈り110番は1平米163円〜（税込）の掲載料金で範囲を決めて依頼できます。刈り草や剪定枝の処分の選択肢は<Link href="/senteieda-shobun/" className="text-[#2D7F3E] underline">剪定枝・刈り草の処分方法</Link>、庭の中で枝の量を減らす道具の考え方は<Link href="/garden-shredder-katsuyo/" className="text-[#2D7F3E] underline">ガーデンシュレッダーの活用</Link>にまとめています。集合住宅では、ごみ置き場に出せるものの範囲が管理規約で決まっていることもあるため、作業と一緒に処分まで依頼するほうが、結果的に手間が少なくなることがあります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">川崎市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">落ち葉・剪定枝・刈り草は普通ごみです。</li>
+              <li className="leading-loose">枝は太さ10cm程度・長さ50cm未満に切って小さく束ね、1回3束程度を目安に出します。</li>
+              <li className="leading-loose">最長辺が50cm以上なら、乾燥後に粗大ごみとして出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kawasaki.jp/kurashi/category/261-1-10-2-0-0-0-0-0-0.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">川崎市 : ごみの分別に迷ったら</a>、<a href="https://www.city.kawasaki.jp/kurashi/category/261-1-10-9-0-0-0-0-0-0.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">川崎市 : 普通ごみ</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kawasaki/senteieda/" className="text-[#2D7F3E] underline">
+                川崎市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/fukui/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月5日";
+const UPDATED_ISO = "2026-11-05";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaFukuiPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             毎年の冬支度と春の手入れが負担になってきた場合は、<Hl>生垣を続けるかフェンスに切り替えるか</Hl>を一度検討することも選択肢です。フェンスは雪の重みや除雪の影響を受けることがあるため、素材と設置位置の検討が必要ですが、日常の刈り込みはなくなります。判断材料は<Link href="/ikegaki-fence-hikaku/" className="text-[#2D7F3E] underline">生垣とフェンスの比較</Link>にまとめました。生垣を続ける場合は、作業単位で近隣の事業者を比べられるくらしのマーケットで、雪囲いや冬支度の経験があるかを予約前のメッセージで確認してから依頼する方法があります。庭全体をあまり手のかからない作りに変えたい場合は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまいとローメンテナンス化の進め方</Link>も参考になります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-05 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">福井市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">細い枝は指定ごみ袋に入れてごみステーションに出せます。</li>
+              <li className="leading-loose">直径10cm以内・長さ2m以内の剪定枝は、福井市クリーンセンターか、令和8年4月からは収集資源センターに持ち込めます。</li>
+              <li className="leading-loose">それを超える枝や木の根・切り株は市の施設では処理できず、民間の処理業者に相談します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.fukui.lg.jp/kurasi/kankyo/kgomi/kikuzu.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">剪定枝や木くずの処理（福井市）</a>、<a href="https://www.city.fukui.lg.jp/kurasi/kankyo/gomimochikomi/senteieda.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">収集資源センターに剪定枝が持ち込めます（令和8年4月から）</a>（2026年11月5日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/fukui/senteieda/" className="text-[#2D7F3E] underline">
+                福井市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
