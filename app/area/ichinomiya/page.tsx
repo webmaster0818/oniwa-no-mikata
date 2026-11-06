@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/ichinomiya/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月6日";
+const UPDATED_ISO = "2026-11-06";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,24 @@ export default function AreaIchinomiyaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             それでも葉が減ったり枝先が枯れ込んだりした場合は、<Hl>植えた場所が合っていない可能性</Hl>もあります。枯れたかどうかの見分け方は<Link href="/niwaki-kareta/" className="text-[#2D7F3E] underline">庭木が枯れたかどうかの見分け方</Link>、虫や病気が関係する場合は<Link href="/niwaki-byogaichu/" className="text-[#2D7F3E] underline">庭木の病害虫</Link>にまとめています。どうしても合わない場合は、根づく前のほうが移植しやすいことが多いため、早めにご相談ください（<Link href="/niwaki-ishoku/" className="text-[#2D7F3E] underline">庭木の移植</Link>）。smileガーデンは定額制の年間管理プランで剪定・消毒・施肥をセットで任せられ、作業後には写真付きの作業報告書を受け取れます。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-06 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">一宮市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">植木の剪定で出た枝は、長さ60センチメートル以内・太さ15センチメートル以内にして可燃ごみ袋に入れ、収集日に出します。</li>
+              <li className="leading-loose">1世帯3袋まで、1袋の重さは6キログラム以内です。大量に出た場合は環境センターへ直接持ち込みます（有料）。</li>
+              <li className="leading-loose">枯れ葉や枯れ枝などの野焼きは、一部の場合を除いて法律で禁止されています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.ichinomiya.aichi.jp/faq/1005662/1044526/1006398.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">植木の剪定や日曜大工で出た木くずの処理は。｜一宮市</a>、<a href="https://www.city.ichinomiya.aichi.jp/faq/1005662/1044526/1006367.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">庭の枯れ葉などの処理方法はどうしたらよいか。｜一宮市</a>（2026年11月6日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/ichinomiya/senteieda/" className="text-[#2D7F3E] underline">
+                一宮市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

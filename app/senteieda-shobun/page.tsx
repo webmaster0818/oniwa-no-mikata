@@ -132,6 +132,8 @@ const data: KnowArticleData = {
     </p>,
     <p key="area-hub">
       市区町村ごとの剪定枝の出し方（各市の公式情報をもとに整理）：
+      <Link href="/area/akita/senteieda/" className="text-[#2D7F3E] underline">秋田市</Link>、
+      <Link href="/area/aomori/senteieda/" className="text-[#2D7F3E] underline">青森市</Link>、
       <Link href="/area/asahikawa/senteieda/" className="text-[#2D7F3E] underline">旭川市</Link>、
       <Link href="/area/atsugi/senteieda/" className="text-[#2D7F3E] underline">厚木市</Link>、
       <Link href="/area/chiba/senteieda/" className="text-[#2D7F3E] underline">千葉市</Link>、
@@ -144,10 +146,12 @@ const data: KnowArticleData = {
       <Link href="/area/gifu/senteieda/" className="text-[#2D7F3E] underline">岐阜市</Link>、
       <Link href="/area/hachinohe/senteieda/" className="text-[#2D7F3E] underline">八戸市</Link>、
       <Link href="/area/hachioji/senteieda/" className="text-[#2D7F3E] underline">八王子市</Link>、
+      <Link href="/area/hakodate/senteieda/" className="text-[#2D7F3E] underline">函館市</Link>、
       <Link href="/area/hamamatsu/senteieda/" className="text-[#2D7F3E] underline">浜松市</Link>、
       <Link href="/area/higashiosaka/senteieda/" className="text-[#2D7F3E] underline">東大阪市</Link>、
       <Link href="/area/hiratsuka/senteieda/" className="text-[#2D7F3E] underline">平塚市</Link>、
       <Link href="/area/ichikawa/senteieda/" className="text-[#2D7F3E] underline">市川市</Link>、
+      <Link href="/area/ichinomiya/senteieda/" className="text-[#2D7F3E] underline">一宮市</Link>、
       <Link href="/area/iwaki/senteieda/" className="text-[#2D7F3E] underline">いわき市</Link>、
       <Link href="/area/kanazawa/senteieda/" className="text-[#2D7F3E] underline">金沢市</Link>、
       <Link href="/area/kashiwa/senteieda/" className="text-[#2D7F3E] underline">柏市</Link>、
@@ -173,11 +177,13 @@ const data: KnowArticleData = {
       <Link href="/area/sendai/senteieda/" className="text-[#2D7F3E] underline">仙台市</Link>、
       <Link href="/area/shizuoka/senteieda/" className="text-[#2D7F3E] underline">静岡市</Link>、
       <Link href="/area/tachikawa/senteieda/" className="text-[#2D7F3E] underline">立川市</Link>、
+      <Link href="/area/takasaki/senteieda/" className="text-[#2D7F3E] underline">高崎市</Link>、
       <Link href="/area/tokorozawa/senteieda/" className="text-[#2D7F3E] underline">所沢市</Link>、
       <Link href="/area/toyama/senteieda/" className="text-[#2D7F3E] underline">富山市</Link>、
       <Link href="/area/tsukuba/senteieda/" className="text-[#2D7F3E] underline">つくば市</Link>、
       <Link href="/area/utsunomiya/senteieda/" className="text-[#2D7F3E] underline">宇都宮市</Link>、
-      <Link href="/area/yokohama/senteieda/" className="text-[#2D7F3E] underline">横浜市</Link>
+      <Link href="/area/yokohama/senteieda/" className="text-[#2D7F3E] underline">横浜市</Link>、
+      <Link href="/area/yokosuka/senteieda/" className="text-[#2D7F3E] underline">横須賀市</Link>
     </p>,
   ],
   ctaHeading: "剪定と片付けをまとめて依頼すれば一日で完了できる",

@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/akita/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月6日";
+const UPDATED_ISO = "2026-11-06";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -731,6 +731,24 @@ export default function AreaAkitaPage() {
             <Link href="/eda-ekkyo/" className="text-[#2D7F3E] underline">枝の越境の解説記事</Link>
             でまとめています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-06 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">秋田市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝は50センチメートル以下にして束ね、袋に入れずにそのまま家庭ごみとして出せます（1回の収集につき2束まで）。</li>
+              <li className="leading-loose">草（雑草・刈草）・落葉は「資源化物用」袋に入れて1回2袋まで出せます。</li>
+              <li className="leading-loose">集積所に大量の剪定枝・草・落ち葉がある場合は、次回以降の収集になる場合があります。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.akita.lg.jp/kurashi/recycle/1006071/1010211/1012981.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">家庭ごみの出し方｜秋田市公式サイト</a>、<a href="https://www.city.akita.lg.jp/kurashi/recycle/1006071/1010211/1006252.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">秋田市　ごみの分け方・出し方　さ行｜秋田市公式サイト</a>（2026年11月6日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/akita/senteieda/" className="text-[#2D7F3E] underline">
+                秋田市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

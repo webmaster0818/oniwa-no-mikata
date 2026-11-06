@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/aomori/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月6日";
+const UPDATED_ISO = "2026-11-06";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -710,6 +710,24 @@ export default function AreaAomoriPage() {
             <Link href="/nenmatsu-niwa-shitaku/" className="text-[#2D7F3E] underline">年末の庭支度の解説記事</Link>
             が参考になります。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-06 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">青森市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">木の枝・根などは1本あたり長さ60cm・太さ10cm未満にしてひもでしばり、週後半の「燃えるごみ」へ出します。</li>
+              <li className="leading-loose">1本あたり長さが60cm〜1.8m・太さ10cm程度のものは粗大ごみ、これを超えるものは専門業者や取扱店へ依頼します。</li>
+              <li className="leading-loose">落ち葉・草は土を取り除き、乾燥させてから指定ごみ袋に入れます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.aomori.aomori.jp/kurashi_kankyo/gomi/1001942/1007974.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみの出し方分別事典（五十音順） │ 青森市</a>、<a href="https://www.city.aomori.aomori.jp/kurashi_kankyo/gomi/1001942/1001944/1001952.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">燃えるごみ │ 青森市</a>（2026年11月6日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/aomori/senteieda/" className="text-[#2D7F3E] underline">
+                青森市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

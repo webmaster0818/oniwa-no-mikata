@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/yokosuka/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月6日";
+const UPDATED_ISO = "2026-11-06";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaYokosukaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             事前にできることもあります。<Hl>家を建てたときの図面や、以前の外構工事の記録</Hl>が残っていれば確認してもらう、地面をたたいて音の違うところを探す、掘る予定の場所を1か所だけ試しに掘ってみる、といった方法です。図面の読み方は<Link href="/niwa-sekkeizu-mikata/" className="text-[#2D7F3E] underline">庭の設計図の見方の解説記事</Link>、これから植える場所を決める際の考え方は<Link href="/shokusai-haichi-keikaku/" className="text-[#2D7F3E] underline">植栽の配置計画の解説記事</Link>にまとめています。伐採110番は伐採・抜根から木材の処分まで一括で相談でき、見積もりは無料・24時間受付です。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-06 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">横須賀市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">剪定枝・刈り草・落ち葉は燃せるごみです。長さ50センチメートル・直径20センチメートル以内にひもで束ねるか、無色透明か白色半透明のポリ袋に入れて出します。</li>
+              <li className="leading-loose">トゲのある枝は「危険・トゲ」などと紙に書いて貼ります。</li>
+              <li className="leading-loose">エコミルへ持ち込む場合、幹は太さ10cm未満なら長さ1m以下、太さ10cm以上20cm未満なら長さ50cm以下で処分できます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.yokosuka.kanagawa.jp/cgi-bin/gomi/detail.php?id=734&lang=1" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">剪定枝/刈り草/落ち葉｜横須賀市</a>、<a href="https://www.city.yokosuka.kanagawa.jp/4150/g_info/l100000695.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">燃せるごみ｜横須賀市</a>（2026年11月6日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/yokosuka/senteieda/" className="text-[#2D7F3E] underline">
+                横須賀市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

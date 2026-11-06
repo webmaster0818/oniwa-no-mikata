@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/hakodate/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月6日";
+const UPDATED_ISO = "2026-11-06";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -698,6 +698,24 @@ export default function AreaHakodatePage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             業者に依頼する際は、「この場所には井戸（または水栓）がある」と<Hl>作業前に指し示して伝える</Hl>ことが確実です。ふたを外す、埋める、使えるようにするといった作業は庭業者の範囲外になることがあるため、扱いは見積もりの際にご確認ください。庭に残る古い設備の整理の進め方は<Link href="/niwajimai/" className="text-[#2D7F3E] underline">庭じまいの解説記事</Link>にまとめています。
           </p>
+          {/* 地域固有の公式情報（2026-11-06 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">函館市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">木・枝は太さまたは厚さ10センチ未満、長さ50センチ未満にすれば燃やせるごみ（有料）です。</li>
+              <li className="leading-loose">40リットルの指定袋に入らない枝は切って束ね、ごみ処理券を直接貼って出します。指定ごみ袋以外の袋やダンボールには貼れません。</li>
+              <li className="leading-loose">草・葉は土を落とし、乾燥させてから指定ごみ袋に入れます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.hakodate.hokkaido.jp/docs/2014011800014/" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">燃やせるごみ（有料）の分け方・出し方 | 函館市</a>（2026年11月6日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/hakodate/senteieda/" className="text-[#2D7F3E] underline">
+                函館市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">
