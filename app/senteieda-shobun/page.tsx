@@ -156,8 +156,10 @@ const data: KnowArticleData = {
       <Link href="/area/kanazawa/senteieda/" className="text-[#2D7F3E] underline">金沢市</Link>、
       <Link href="/area/kashiwa/senteieda/" className="text-[#2D7F3E] underline">柏市</Link>、
       <Link href="/area/kasukabe/senteieda/" className="text-[#2D7F3E] underline">春日部市</Link>、
+      <Link href="/area/kawagoe/senteieda/" className="text-[#2D7F3E] underline">川越市</Link>、
       <Link href="/area/kawaguchi/senteieda/" className="text-[#2D7F3E] underline">川口市</Link>、
       <Link href="/area/kawasaki/senteieda/" className="text-[#2D7F3E] underline">川崎市</Link>、
+      <Link href="/area/kofu/senteieda/" className="text-[#2D7F3E] underline">甲府市</Link>、
       <Link href="/area/koriyama/senteieda/" className="text-[#2D7F3E] underline">郡山市</Link>、
       <Link href="/area/koshigaya/senteieda/" className="text-[#2D7F3E] underline">越谷市</Link>、
       <Link href="/area/kyoto/senteieda/" className="text-[#2D7F3E] underline">京都市</Link>、
@@ -172,16 +174,20 @@ const data: KnowArticleData = {
       <Link href="/area/nagoya/senteieda/" className="text-[#2D7F3E] underline">名古屋市</Link>、
       <Link href="/area/niigata/senteieda/" className="text-[#2D7F3E] underline">新潟市</Link>、
       <Link href="/area/numazu/senteieda/" className="text-[#2D7F3E] underline">沼津市</Link>、
+      <Link href="/area/sagamihara/senteieda/" className="text-[#2D7F3E] underline">相模原市</Link>、
       <Link href="/area/saitama/senteieda/" className="text-[#2D7F3E] underline">さいたま市</Link>、
       <Link href="/area/sapporo/senteieda/" className="text-[#2D7F3E] underline">札幌市</Link>、
       <Link href="/area/sendai/senteieda/" className="text-[#2D7F3E] underline">仙台市</Link>、
       <Link href="/area/shizuoka/senteieda/" className="text-[#2D7F3E] underline">静岡市</Link>、
+      <Link href="/area/soka/senteieda/" className="text-[#2D7F3E] underline">草加市</Link>、
       <Link href="/area/tachikawa/senteieda/" className="text-[#2D7F3E] underline">立川市</Link>、
       <Link href="/area/takasaki/senteieda/" className="text-[#2D7F3E] underline">高崎市</Link>、
       <Link href="/area/tokorozawa/senteieda/" className="text-[#2D7F3E] underline">所沢市</Link>、
       <Link href="/area/toyama/senteieda/" className="text-[#2D7F3E] underline">富山市</Link>、
+      <Link href="/area/toyota/senteieda/" className="text-[#2D7F3E] underline">豊田市</Link>、
       <Link href="/area/tsukuba/senteieda/" className="text-[#2D7F3E] underline">つくば市</Link>、
       <Link href="/area/utsunomiya/senteieda/" className="text-[#2D7F3E] underline">宇都宮市</Link>、
+      <Link href="/area/yamagata/senteieda/" className="text-[#2D7F3E] underline">山形市</Link>、
       <Link href="/area/yokohama/senteieda/" className="text-[#2D7F3E] underline">横浜市</Link>、
       <Link href="/area/yokosuka/senteieda/" className="text-[#2D7F3E] underline">横須賀市</Link>
     </p>,

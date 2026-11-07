@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/toyota/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月7日";
+const UPDATED_ISO = "2026-11-07";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -704,6 +704,24 @@ export default function AreaToyotaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             三つ目は<Hl>後継の木を育てる</Hl>ことです。同じ種類の若い木を先に植えておけば、切る前に次の木が育ち始めます。植える場所は、建物の壁と窓、塀や境界、地中の配管からそれぞれどれだけ離すかを事前に決めておいてください。伐採110番は伐採・抜根と伐採後の木材処分まで一括で相談でき、見積もりは無料・24時間受付です。配置の考え方は<Link href="/shokusai-haichi-keikaku/" className="text-[#2D7F3E] underline">植栽の配置計画</Link>、鉢で育てる場合は<Link href="/hachiue-jiue-uekae/" className="text-[#2D7F3E] underline">鉢植えから地植えへの植え替え</Link>にまとめています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-07 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">豊田市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">せん定枝・刈草は燃やすごみで、指定ごみ袋に入れて分別ごみステーションに出します。</li>
+              <li className="leading-loose">袋に入らないもの、多量に発生した場合は、緑のリサイクルセンター（豊田市枝下町）へ持ち込みます。</li>
+              <li className="leading-loose">木の枝・幹・根は粗大ごみで、袋に入れば燃やすごみです。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/024/063/r0806/01.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">豊田市「資源・ごみの分け方、出し方「ごみガイドブック」日本語」（PDF）</a>（2026年11月7日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/toyota/senteieda/" className="text-[#2D7F3E] underline">
+                豊田市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

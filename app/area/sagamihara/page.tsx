@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/sagamihara/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月7日";
+const UPDATED_ISO = "2026-11-07";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -719,6 +719,24 @@ export default function AreaSagamiharaPage() {
             </p>
           </section>
 
+
+          {/* 地域固有の公式情報（2026-11-07 確認） */}
+          <section id="chiiki-koyu-senteieda" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">相模原市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">長さ50センチメートル未満で、かつ太さ10センチメートル以下の枝は一般ごみです。少量ずつ、ひもでしばるか透明または半透明の袋に入れて出します。</li>
+              <li className="leading-loose">長さ50センチメートル以上2メートル以下で、かつ太さ10センチメートル以下の枝は粗大ごみです。</li>
+              <li className="leading-loose">太さ10センチメートルを超える枝、または長さ2メートルを超える枝は市では処理できません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/recycle/1026493/katei/1014750.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">枝の出し方｜相模原市</a>（2026年11月7日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/sagamihara/senteieda/" className="text-[#2D7F3E] underline">
+                相模原市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

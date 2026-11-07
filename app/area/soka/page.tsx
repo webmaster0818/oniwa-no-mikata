@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/soka/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月7日";
+const UPDATED_ISO = "2026-11-07";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -701,6 +701,24 @@ export default function AreaSokaPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             工事が終わったあとの地面は、<Hl>埋め戻した土がしばらく落ち着きません</Hl>。すぐに植え直すと沈んで傾くことがあるため、期間を置くか、鉢で様子を見る形にします。植え直す場所の決め方は<Link href="/shokusai-haichi-keikaku/" className="text-[#2D7F3E] underline">植栽の配置計画の解説記事</Link>、庭と外構工事の線引きは<Link href="/niwa-reform-gaiko-chigai/" className="text-[#2D7F3E] underline">庭リフォームと外構工事の違いの解説記事</Link>にまとめています。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-07 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">草加市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">小枝（長さ50センチメートル、直径10センチメートル以下）は可燃ごみです。1回に2束から3束までとします。</li>
+              <li className="leading-loose">量が多い場合は数回に分けて出すか、市が許可した収集運搬許可業者に依頼（有料）します。</li>
+              <li className="leading-loose">家庭のせん定枝・刈草は、東埼玉資源環境組合第一工場堆肥化施設へ個人搬入もできます（直径15cm以下・長さ100cm以下、1日1件200キログラムまで）。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.soka.saitama.jp/cont/s1702/010/020/010/03.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">家庭ごみの分け方・出し方～分別等のルールを守ったごみの出し方にご協力をお願いします～ - 草加市役所</a>、<a href="https://www.city.soka.saitama.jp/cont/s1702/010/020/010/PAGE000000000000062714.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">堆肥の販売、枝・草の搬入について - 草加市役所</a>（2026年11月7日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/soka/senteieda/" className="text-[#2D7F3E] underline">
+                草加市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

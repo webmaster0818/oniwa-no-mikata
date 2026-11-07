@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kofu/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月7日";
+const UPDATED_ISO = "2026-11-07";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -686,6 +686,24 @@ export default function AreaKofuPage() {
           <p className="leading-loose mb-4 text-[#4a5443]">
             生垣を選ぶ場合は、<Hl>刈り込みを続けることが前提</Hl>になります。手入れが止まると枝が伸びて厚みが増し、かえって見通しが悪くなります。刈り込みの時期と頻度は<Link href="/ikegaki-karikomi/" className="text-[#2D7F3E] underline">生垣の刈り込みの基礎知識</Link>をご覧ください。定期的に整える場合は、smileガーデンの定額制の年間管理プランのように回数を決めて任せる方法があります。塀の所有関係や境界の確認が必要な場合は<Link href="/shikichi-kyokai-hei/" className="text-[#2D7F3E] underline">敷地境界と塀の基礎知識</Link>も参考にしてください。
           </p>
+
+          {/* 地域固有の公式情報（2026-11-07 確認） */}
+          <section id="chiiki-koyu" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">甲府市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">木の枝は燃えないごみの区分の粗大ごみです。長さ1m、太さ直径15cm以下に切って30cm以内に束ねて出します。</li>
+              <li className="leading-loose">袋に入らないごみ（粗大ごみ等）は、ごみ処理券（シール）を1つのごみにつき1枚貼ります。収集日の朝8時30分までに出します。</li>
+              <li className="leading-loose">落葉は燃えるごみで、燃えるごみ用指定袋（黄色半透明）で出します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kofu.lg.jp/genryo/kurashi/gomi/bunbetsu/bunbetsu.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみの分別方法／甲府市</a>（2026年11月7日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kofu/senteieda/" className="text-[#2D7F3E] underline">
+                甲府市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>

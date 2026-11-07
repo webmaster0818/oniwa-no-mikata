@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 
 const SITE = "https://oniwa-no-mikata.com";
 const PATH = "/area/kawagoe/";
-const UPDATED = "2026年11月4日";
-const UPDATED_ISO = "2026-11-04";
+const UPDATED = "2026年11月7日";
+const UPDATED_ISO = "2026-11-07";
 
 // 後日ASP広告コードに差し替えるためのリンク枠。nullの間は公式サイトへ。
 const AFF: Record<string, string | null> = {
@@ -719,6 +719,24 @@ export default function AreaKawagoePage() {
             </p>
           </section>
 
+
+          {/* 地域固有の公式情報（2026-11-07 確認） */}
+          <section id="chiiki-koyu-senteieda" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">川越市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">直径10センチメートル未満の木の枝は、長さ50cm未満・束ねて30cm未満にしてひもでしばり可燃ごみに出します。1回の排出は5束までです。</li>
+              <li className="leading-loose">直径10センチメートル以上30センチメートル未満の枝は、事前に市処理施設に問い合わせます。直径30センチメートル以上は業者処分です。</li>
+              <li className="leading-loose">落ち葉・草は可燃ごみで、集積所に出す場合は1回に45リットル袋で5つ程度までです。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kawagoe.saitama.jp/kurashi/gomi/1002380/1014541.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">ごみ分別検索｜川越市</a>（2026年11月7日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kawagoe/senteieda/" className="text-[#2D7F3E] underline">
+                川越市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
 
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
