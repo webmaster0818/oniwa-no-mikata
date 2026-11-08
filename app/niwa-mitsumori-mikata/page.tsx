@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 const data: KnowArticleData = {
   slug: "niwa-mitsumori-mikata",
-  updatedLabel: "2026年10月20日",
+  updatedLabel: "2026年11月8日",
   h1: "剪定・伐採の見積もりの見方｜チェックすべき項目と比較のポイント",
   breadcrumbLabel: "剪定・伐採の見積もりの見方",
   tagChips: ["見積もり", "剪定", "伐採", "料金の考え方"],
@@ -172,6 +172,11 @@ const data: KnowArticleData = {
       href: "/area/tokyo/",
       label: "東京の庭業者おすすめ5選",
       desc: "駐車・処分など都市部特有の見積もり注意点",
+    },
+    {
+      href: "/kurashi-no-market-bassai-110ban-chigai/",
+      label: "くらしのマーケットと伐採110番の違い",
+      desc: "申し込み方・料金の決まり方・補償の比較",
     },
   ],
 };
