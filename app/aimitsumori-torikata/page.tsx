@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "aimitsumori-torikata",
   published: "2026-08-24",
-  updatedLabel: "2026年10月20日",
+  updatedLabel: "2026年11月9日",
   h1: "庭工事の相見積もりの取り方｜依頼する社数と条件をそろえる伝え方",
   breadcrumbLabel: "庭工事の相見積もりの取り方",
   tagChips: ["相見積もり", "業者選び", "依頼の準備", "基礎知識"],
@@ -158,6 +158,11 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    {
+      href: "/kurashi-no-market-sentei-110ban-chigai/",
+      label: "くらしのマーケットと剪定110番の違い",
+      desc: "松・立ち会い・別途料金の場面別の確認点",
+    },
     {
       href: "/niwa-mitsumori-mikata/",
       label: "剪定・伐採の見積もりの見方",

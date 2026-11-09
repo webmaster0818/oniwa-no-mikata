@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "nenmatsu-niwa-shitaku",
   published: "2026-08-16",
-  updatedLabel: "2026年10月20日",
+  updatedLabel: "2026年11月9日",
   h1: "正月前の庭の整え方｜年末の庭仕事と業者に依頼する段取り",
   breadcrumbLabel: "正月前の庭の整え方",
   tagChips: ["年末の庭仕事", "正月準備", "松の手入れ", "基礎知識"],
@@ -154,6 +154,11 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    {
+      href: "/kurashi-no-market-sentei-110ban-chigai/",
+      label: "くらしのマーケットと剪定110番の違い",
+      desc: "松・立ち会い・別途料金の場面別の確認点",
+    },
     {
       href: "/matsu-teire/",
       label: "松の手入れの基礎知識",
