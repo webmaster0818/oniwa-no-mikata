@@ -723,6 +723,23 @@ export default function AreaToyotaPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-10 確認） */}
+          <section id="chiiki-koyu-ryokka" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">豊田市のみどりのまちづくり推進事業補助金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">民有地の緑化に補助があり、生垣設置は延長15メートル以上（都心中心部の敷地は5メートル以上）が対象です。</li>
+              <li className="leading-loose">都心中心部を除く敷地では、補助率は経費の10分の5以内、上限は生垣延長1メートルあたり5千円以下です。交付申請は4月1日から12月15日までで、着手後の申請は受理されません。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.toyota.aichi.jp/shisei/machizukuri/hojo/1009104/index.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">みどりのまちづくり推進事業補助金｜豊田市</a>（2026年11月10日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/toyota/ryokka-josei/" className="text-[#2D7F3E] underline">
+                豊田市のみどりのまちづくり推進事業補助金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

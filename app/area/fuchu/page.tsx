@@ -720,6 +720,23 @@ export default function AreaFuchuPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-10 確認） */}
+          <section id="chiiki-koyu-hozon" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">府中市の指定樹木の奨励金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">1.5メートルの高さの幹の周囲が1.5メートル以上、または高さが10メートル以上で、所有者の住居の敷地内にある個人所有（共有物を除く）の樹木が対象です。</li>
+              <li className="leading-loose">奨励金は指定樹木1本につき年額4,000円で、申請を行う者1人につき30本が限度です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.fuchu.tokyo.jp/kurashi/sekatu/shizenhogo_seibutsutayousei/shiteijumoku.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">指定樹木の奨励金制度　東京都府中市ホームページ</a>（2026年11月10日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/fuchu/shitei-jumoku/" className="text-[#2D7F3E] underline">
+                府中市の指定樹木奨励金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

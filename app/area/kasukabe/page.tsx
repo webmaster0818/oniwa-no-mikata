@@ -716,6 +716,23 @@ export default function AreaKasukabePage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-10 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">春日部市の生垣設置奨励金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">幅員4メートル以上の道路（私道も含む）に面し、延長3メートル以上・原則1メートルにつき3本以上・樹高0.9メートル以上の生垣が対象です。</li>
+              <li className="leading-loose">奨励金は生垣樹木の代金の半額で、限度額は5万円です（工事費などは対象外）。生垣工事を実施する前に申請が必要です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kasukabe.lg.jp/soshikikarasagasu/koenryokuchika/gyomuannai/1/1/4549.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">生垣設置奨励金制度／春日部市公式ホームページ</a>（2026年11月10日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kasukabe/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                春日部市の生垣設置奨励金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

@@ -716,6 +716,23 @@ export default function AreaTachikawaPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-10 確認） */}
+          <section id="chiiki-koyu-hozon" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">立川市の保存樹木（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">地上1.5メートルの高さの幹周りが1.5メートル以上で、高さが10メートル以上の樹木が保存樹木の指定基準です。</li>
+              <li className="leading-loose">樹木の保護に要する費用の助成として、1本あたり年額4,500円の補助金が交付されます。滅失などの変更や土地の造成などの前には市への届出が必要です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.tachikawa.lg.jp/koenryokuchi/kurashi/kankyo/shisaku/jumoku.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">樹木と樹林の保護指定｜立川市</a>（2026年11月10日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/tachikawa/hozon-jumoku/" className="text-[#2D7F3E] underline">
+                立川市の保存樹木・保護樹林地を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

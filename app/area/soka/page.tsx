@@ -720,6 +720,23 @@ export default function AreaSokaPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-10 確認） */}
+          <section id="chiiki-koyu-hozon" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">草加市の保存樹林・保存樹木・保存生垣（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">草加市みどりの条例にもとづき指定され、市と所有者で協定を交わします。やむを得ず伐採などを行う場合は届出が必要です。</li>
+              <li className="leading-loose">維持管理のための補助金は、樹林10万円、樹木1本につき5,000円、生垣1件につき1万円がそれぞれの限度です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.soka.saitama.jp/cont/s1805/010/020/010/05.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">保存樹林、保存樹木、保存生垣 - 草加市役所</a>（2026年11月10日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/soka/hozon-jumoku/" className="text-[#2D7F3E] underline">
+                草加市の保存樹木・保存生垣を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

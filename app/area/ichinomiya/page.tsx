@@ -723,6 +723,23 @@ export default function AreaIchinomiyaPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-10 確認） */}
+          <section id="chiiki-koyu-ryokka" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">一宮市緑化推進事業補助金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">民有地の緑化に補助があり、生垣の場合は延長15メートル以上が要件です。</li>
+              <li className="leading-loose">交付額は対象経費の2分の1（上限500万円）で、生垣設置は延長1メートルあたり5千円以内です。生垣設置で交付額が3万円未満の場合は交付されません。工事着手の2カ月前までに相談し、着手前に申請します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.ichinomiya.aichi.jp/machidukuri/kouenryokuchi/1044299/1000216/1002329.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">一宮市緑化推進事業補助金制度｜一宮市</a>（2026年11月10日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/ichinomiya/ryokka-josei/" className="text-[#2D7F3E] underline">
+                一宮市緑化推進事業補助金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">
