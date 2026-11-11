@@ -720,6 +720,23 @@ export default function AreaTokorozawaPage() {
           </section>
 
 
+          {/* 地域固有の公式情報（2026-11-11 確認） */}
+          <section id="chiiki-koyu-hozon" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">所沢市の保存樹木・保存樹林・ふるさとの樹（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">大きな樹木を保存樹木・ふるさとの樹に、まとまった面積の樹林を保存樹林に指定しています（生け垣も対象）。指定された樹木の伐採を予定する場合は、事前にみどり自然課と協議します。</li>
+              <li className="leading-loose">維持管理（せん定等）を事業者に依頼したときは経費の一部が補助され、保存樹木の樹木管理は対象経費の2分の1以内・限度額10万円です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.tokorozawa.saitama.jp/kurashi/seikatukankyo/midori/ryokuchi/kyojyu_kyobokushokai/index.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">所沢市ホームページ　保存樹木・保存樹林・ふるさとの樹</a>（2026年11月11日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/tokorozawa/hozon-jumoku/" className="text-[#2D7F3E] underline">
+                所沢市の保存樹木・保存樹林を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

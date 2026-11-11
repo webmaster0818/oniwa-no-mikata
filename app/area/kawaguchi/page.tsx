@@ -720,6 +720,23 @@ export default function AreaKawaguchiPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-11 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">川口市の生け垣設置等補助金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">道路に接する場所での生け垣設置・植込地設置・フェンス緑化に補助があり、市内業者を利用する場合に限られます。</li>
+              <li className="leading-loose">生け垣は1メートルあたり11,000円まで（延長20メートルまで）、同じ位置にある既存塀の撤去は1メートルあたり8,800円までです。工事の前にみどり課への相談が必要です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kawaguchi.lg.jp/soshiki/01130/070/2/2248.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">生け垣や屋上緑化等に対する補助制度｜川口市ホームページ</a>（2026年11月11日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kawaguchi/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                川口市の生け垣設置等補助金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

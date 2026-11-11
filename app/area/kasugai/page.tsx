@@ -702,6 +702,23 @@ export default function AreaKasugaiPage() {
             こうした作業だけを単独で受けてもらえるかは、業者によって異なります。<Hl>剪定と一緒なら対応するが、それだけでは受けにくい</Hl>ということもあるため、見積もりの際にご確認ください。年間管理の契約なら、剪定・消毒・施肥をまとめて任せる形になります。smileガーデンは定額制の年間管理プランがあり、作業後に写真付きの報告書を受け取れるため、<Hl>毎年の状態を残していく</Hl>使い方に向いています。くらしのマーケットは予約前にメッセージで相談でき、扱える作業かどうかを確かめてから依頼できます。
           </p>
 
+          {/* 地域固有の公式情報（2026-11-11 確認） */}
+          <section id="chiiki-koyu-ryokka" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">春日井市の都市緑化推進事業補助金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">民有地の緑化に補助があり、生垣設置は延長15メートル以上の緑化工事が対象です。接道延長の割合50%以上と、1メートルあたり2本以上・地面から0.9メートルの高さが要件です。</li>
+              <li className="leading-loose">補助は対象経費の2分の1以内（上限200万円）で、生垣は延長1メートルあたり5千円の範囲内です。受付は4月1日から12月28日までで、申請の前に公園緑地課への事前相談が必要です。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kasugai.lg.jp/shisei/machi/park/1024026.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">都市緑化推進事業補助金｜春日井市公式ホームページ</a>（2026年11月11日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kasugai/ryokka-josei/" className="text-[#2D7F3E] underline">
+                春日井市の都市緑化推進事業補助金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">
