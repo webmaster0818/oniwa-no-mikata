@@ -705,6 +705,23 @@ export default function AreaKofuPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-12 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">甲府市の生垣設置奨励助成（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">市内に居住し、宅地の道路に面している部分に生け垣を設置する市民が対象です。樹高0.8メートル以上2.0メートル以下の樹木を1メートル内に原則3本以上植えます。</li>
+              <li className="leading-loose">植栽樹木費は1メートルあたり5,000円以内（限度額15万円）、ブロック塀等の取壊し費は1平方メートルあたり5,000円以内（限度額10万円）です。ブロック塀は取り壊す前に申請します。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kofu.lg.jp/k079/p003318.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">生垣設置奨励助成／甲府市</a>（2026年11月12日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kofu/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                甲府市の生垣設置奨励助成を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

@@ -720,6 +720,23 @@ export default function AreaMatsumotoPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-12 確認） */}
+          <section id="chiiki-koyu-ikegaki" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">松本市の生垣設置補助金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">公道または隣地境界沿いに3メートル以上連続して、1メートルにつき2本以上・植栽時の樹高50センチ以上で植える生垣が対象です。ビャクシン類は赤星病の予防防止のため補助対象外です。</li>
+              <li className="leading-loose">一般家庭は生垣設置のみで補助率50%（限度額5万円）、既存のブロック塀等の解体を伴う場合は60〜70%（限度額20万円）です。申請は必ず着工前に行います。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.matsumoto.nagano.jp/site/benricho/2820.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">生垣設置補助金交付事業 - 松本市ホームページ</a>（2026年11月12日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/matsumoto/ikegaki-josei/" className="text-[#2D7F3E] underline">
+                松本市の生垣設置補助金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

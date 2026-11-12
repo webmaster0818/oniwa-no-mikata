@@ -716,6 +716,23 @@ export default function AreaChigasakiPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-12 確認） */}
+          <section id="chiiki-koyu-hozon" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">茅ヶ崎市の保存樹木指定制度（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">幹周1.5メートル以上・高さ15メートル以上などの基準を満たす樹木を保存樹木に指定し、指定期間中は毎年度1本あたり4,500円の助成金を交付しています（周囲30メートル以内の2本目以降は2,250円）。</li>
+              <li className="leading-loose">令和3年（2021年）1月から、新規の指定を一時中止しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.chigasaki.kanagawa.jp/machidukuri/ryokka/1008124.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">保存樹木指定制度について｜茅ヶ崎市</a>（2026年11月12日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/chigasaki/hozon-jumoku/" className="text-[#2D7F3E] underline">
+                茅ヶ崎市の保存樹木指定制度を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

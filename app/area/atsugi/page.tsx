@@ -720,6 +720,23 @@ export default function AreaAtsugiPage() {
           </section>
 
 
+          {/* 地域固有の公式情報（2026-11-12 確認） */}
+          <section id="chiiki-koyu-hozon" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">厚木市の保護樹木・保存生垣の奨励金（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">美観に優れた樹木・生垣を保護樹木・保存生垣に指定し、奨励金を交付しています。保存生垣は道路に接し、連続15メートル以上・高さ1メートル以上などが要件です。</li>
+              <li className="leading-loose">奨励金は保護樹木が1本（株）につき4,500円、保存生垣が1メートルにつき180円（上限18,000円）です（厚木市緑を豊かにする事業推進要綱の別表）。指定は随時募集しています。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.atsugi.kanagawa.jp/soshiki/koenryokuchika/1/3/6800.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">緑地・保護樹木・保存生垣を募集しています／厚木市</a>（2026年11月12日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/atsugi/hogo-jumoku/" className="text-[#2D7F3E] underline">
+                厚木市の保護樹木・保存生垣の奨励金を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">
