@@ -719,6 +719,23 @@ export default function AreaKasugaiPage() {
             </p>
           </section>
 
+          {/* 地域固有の公式情報（2026-11-13 確認） */}
+          <section id="chiiki-koyu-senteieda" className="scroll-mt-20 mt-14 mb-10 rounded-2xl border border-[#bfe0b8] bg-[#f1f9ee] p-5 md:p-6">
+            <h2 className="text-lg md:text-xl font-bold text-[#33402f] mb-4 leading-snug">春日井市の剪定枝の出し方（市の公式情報）</h2>
+            <ul className="list-disc pl-5 space-y-2 text-sm md:text-base text-[#4a5443] mb-4">
+              <li className="leading-loose">庭木を剪定したときに出た木の枝は燃やせるごみです。指定袋（黄色）に入れるか、50cm程度に切りそろえてひもでしばって出します。</li>
+              <li className="leading-loose">パッカー車の故障につながるため、枝の直径は3cm程度までにします。多量の場合は複数回に分けて出すか、クリーンセンターに持ち込みます。</li>
+            </ul>
+            <p className="text-xs md:text-sm leading-relaxed text-[#6b7563] mb-3">
+              出典：<a href="https://www.city.kasugai.lg.jp/_res/projects/default_project/_page_/001/032/949/2026benrityou.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">春日井市「資源・ごみの出し方便利帳」（令和8年10月・PDF）</a>（2026年11月13日確認）
+            </p>
+            <p className="text-sm md:text-base font-bold">
+              <Link href="/area/kasugai/senteieda/" className="text-[#2D7F3E] underline">
+                春日井市の剪定枝の出し方を詳しく見る
+              </Link>
+            </p>
+          </section>
+
           {/* 6｜選び方 */}
           <H2 id="erabikata" num="6">庭業者の選び方（4つの手順）</H2>
           <p className="leading-loose mb-6 text-[#4a5443]">

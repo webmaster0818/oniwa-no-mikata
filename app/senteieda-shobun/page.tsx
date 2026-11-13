@@ -155,6 +155,7 @@ const data: KnowArticleData = {
       <Link href="/area/iwaki/senteieda/" className="text-[#2D7F3E] underline">いわき市</Link>、
       <Link href="/area/kanazawa/senteieda/" className="text-[#2D7F3E] underline">金沢市</Link>、
       <Link href="/area/kashiwa/senteieda/" className="text-[#2D7F3E] underline">柏市</Link>、
+      <Link href="/area/kasugai/senteieda/" className="text-[#2D7F3E] underline">春日井市</Link>、
       <Link href="/area/kasukabe/senteieda/" className="text-[#2D7F3E] underline">春日部市</Link>、
       <Link href="/area/kawagoe/senteieda/" className="text-[#2D7F3E] underline">川越市</Link>、
       <Link href="/area/kawaguchi/senteieda/" className="text-[#2D7F3E] underline">川口市</Link>、
