@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "area/sapporo/senteieda",
   published: "2026-11-01",
-  updatedLabel: "2026年11月1日",
+  updatedLabel: "2026年11月17日",
   parent: { href: "/area/sapporo/", label: "札幌の庭業者" },
   badge: "札幌市の地域情報",
   h1: "札幌市の枝・葉・草の出し方｜5月〜12月中旬は無料収集、枝は長さ50cm以下",
@@ -40,6 +40,13 @@ const data: KnowArticleData = {
     <>
       <p className="mb-4">
         札幌市では、庭木の剪定枝や刈った草、落ち葉は「枝・葉・草」という区分で集められます。排出量の多い<Hl>5月から12月中旬までの期間（地区により異なる）に無料で収集</Hl>され、収集頻度は4週に1回です（出典：<a href={SRC_EDA} className={A} target="_blank" rel="noopener noreferrer">札幌市「枝・葉・草」</a>、2026年11月1日確認）。
+      </p>
+      <p className="mb-4">
+        自分で持ち込む場合、「枝・葉・草」を無料で受け入れるのは<Hl>市内4か所の地区リサイクルセンター（中央・北・厚別・西）だけで、受け入れ期間は5月1日から12月10日まで（休館日を除く）</Hl>です。
+        ごみステーションに出すときと同じ形（枝は長さ50cm以下でひもで縛る、草・落ち葉は透明か半透明の袋）にして持ち込みます。
+        受入時間は中央が10時〜15時、北・厚別・西が10時〜16時で、北・厚別・西は月曜日が休館日（祝日の場合は翌平日）です。
+        事前連絡は不要で、計量のあと指定の場所まで自分で運びます。事業活動で出たものや、事業者による持ち込みは受け入れていません
+        （出典：<a href={SRC_EDA} className={A} target="_blank" rel="noopener noreferrer">札幌市「枝・葉・草」</a>・<a href="https://www.city.sapporo.jp/seiso/gomi/chikuri.html" className={A} target="_blank" rel="noopener noreferrer">札幌市「地区リサイクルセンター」</a>、2026年11月17日確認）。
       </p>
       <p>
         本記事では、収集に出すときの枝の長さと縛り方、草や落ち葉の袋、収集期間外や量が多いときの出し方、「枝・葉・草」の対象外になるものを、市の公式ページの記載に沿って整理します。冬囲いの準備で枝を切る時期は収集期間の終わりと重なるため、日程の確認に使ってください。
