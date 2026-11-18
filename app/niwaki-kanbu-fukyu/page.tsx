@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-kanbu-fukyu",
   published: "2026-09-30",
-  updatedLabel: "2026年10月25日",
+  updatedLabel: "2026年11月18日",
   h1: "木の幹に空洞・くぼみがあるときは、倒れる危険を外観で確認し専門家へ｜腐りのサインと相談の目安",
   breadcrumbLabel: "幹の腐り・空洞と倒木のサイン",
   tagChips: ["腐朽", "空洞", "倒木", "安全"],
@@ -33,6 +33,12 @@ const data: KnowArticleData = {
     "庭木の幹の腐りや空洞に関する一般知識。腐りが入る原因、外から見えるサイン、倒木の危険が高い状態、応急的にできること、相談先の考え方をまとめた記事です。",
   lead: (
     <>
+      <p className="mb-4">
+        木の幹の穴は、大きく分けて<Hl>腐りで材が失われて外に開いた空洞</Hl>と、<Hl>カミキリムシの幼虫などの虫が幹にもぐってあけた穴</Hl>の2つがあります。
+        東京都建設局の街路樹診断マニュアルの用語集では、前者を「開口空洞」（著しい腐朽等で材が侵食され外部に開いた空洞部）、後者の虫を「穿孔性害虫」（幹や枝の樹皮下にもぐる害虫の総称）と呼び、穿孔性害虫の食害でできた傷口から腐朽菌が入り、材が劣化することもあると説明しています。
+        同資料の事例では、虫の穴のまわりには<Hl>虫が排出したフラス</Hl>が出ている例が示されています（<a href="https://www.kensetsu.metro.tokyo.lg.jp/content/000051877.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">東京都建設局「街路樹診断マニュアル 第Ⅶ章 参考資料」</a>・2026年11月18日確認）。
+        穴のまわりに木くずが出ている場合は<Link href="/niwaki-kikuzu-ana/" className="text-[#2D7F3E] underline">庭木の幹に穴があき木くずが出ている場合</Link>を、木くずがなく空洞やくぼみになっている場合は以下をご覧ください。
+      </p>
       <p className="mb-4">
         木の幹に空洞やくぼみがあるときは、<Hl>内部で腐りが進んでいる可能性があるため、根元と幹の外観を確認し、倒れたときに建物・道路・人の通り道に届く木であれば早めに専門家に見てもらいます</Hl>。東京都建設局の街路樹診断マニュアルでは、幹の腐りを起こす木材腐朽菌は剪定の切り口・枯れ枝・接触による傷などから入り、中でも剪定の切り口と枯れ枝が主な原因とされています。また、<Hl>腐りが入った木を処置で完治させることは非常に難しい</Hl>とされ、木の周りにクロアリの集団や蟻道が見られる場合は腐った箇所があるおそれがあると記載されています（<a href="https://www.kensetsu.metro.tokyo.lg.jp/content/000051877.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">東京都建設局「街路樹診断マニュアル 第Ⅶ章 参考資料」</a>・2026年10月25日確認）。
       </p>
