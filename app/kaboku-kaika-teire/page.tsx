@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sarusuberi-sentei/",
+      label: "サルスベリの剪定",
+      desc: "花芽ができる時期と剪定時期",
+    },
+    {
       href: "/kaboku-tsubomi-ochiru/",
       label: "花木のつぼみが咲く前に落ちる",
       desc: "落蕾の原因の見分け方と翌年に向けた手入れ",

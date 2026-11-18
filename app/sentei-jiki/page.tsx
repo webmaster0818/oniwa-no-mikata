@@ -154,6 +154,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sentei-towa/",
+      label: "剪定とは？",
+      desc: "透かし・切り詰め・切り返しの違い",
+    },
+    {
+      href: "/sarusuberi-sentei/",
+      label: "サルスベリの剪定",
+      desc: "花芽が春にできる木の剪定時期",
+    },
+    {
       href: "/sentei-diy-gyosha/",
       label: "剪定は自分でできる？DIYと業者依頼の判断基準",
       desc: "自分で切ってよい範囲と業者に任せる境界線",

@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sentei-towa/",
+      label: "剪定とは？",
+      desc: "剪定の手法の名前と意味",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "自分で切る前に確認したい適期の考え方",

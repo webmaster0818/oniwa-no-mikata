@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kinkan-sentei/",
+      label: "金柑（キンカン）の剪定",
+      desc: "3月の間引き剪定と切り返し",
+    },
+    {
       href: "/eda-ekkyo/",
       label: "隣家への枝の越境と対処の基本",
       desc: "まず話し合いから始める考え方",

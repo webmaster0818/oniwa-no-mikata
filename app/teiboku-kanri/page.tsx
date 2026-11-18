@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nanten-sentei/",
+      label: "南天（ナンテン）の剪定",
+      desc: "3〜4月に幹を選んで切る",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込みの基礎知識",
       desc: "刈り込み作業の時期・頻度・道具をより詳しく",

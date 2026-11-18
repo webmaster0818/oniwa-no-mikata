@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nanten-sentei/",
+      label: "南天（ナンテン）の剪定",
+      desc: "カイガラムシとすす病への対応",
+    },
+    {
       href: "/niwaki-byogaichu/",
       label: "庭木の病害虫対策の基本",
       desc: "葉の異変・虫のサインの見つけ方と対処の基本",

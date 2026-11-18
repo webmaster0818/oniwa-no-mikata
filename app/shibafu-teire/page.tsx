@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-hiryo/",
+      label: "芝生の肥料",
+      desc: "時期と量の計算方法",
+    },
+    {
       href: "/shibafu-aki-fuyu-teire/",
       label: "芝生の秋冬の手入れ",
       desc: "刈り込みを止める時期・落ち葉・冬の踏圧の考え方",

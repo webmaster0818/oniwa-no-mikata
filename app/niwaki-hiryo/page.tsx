@@ -154,6 +154,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kinkan-sentei/",
+      label: "金柑（キンカン）の剪定",
+      desc: "3月の間引き剪定と切り返し",
+    },
+    {
+      href: "/shibafu-hiryo/",
+      label: "芝生の肥料",
+      desc: "窒素の量から計算する方法",
+    },
+    {
       href: "/niwaki-mizuyari/",
       label: "庭木の水やりの基本",
       desc: "施肥とあわせて理解しておくべき水やりの考え方",
