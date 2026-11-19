@@ -155,6 +155,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ichijiku-saibai/",
+      label: "いちじく（イチジク）の栽培",
+      desc: "剪定は12〜2月・春先の霜に注意",
+    },
+    {
+      href: "/ume-sentei/",
+      label: "梅（ウメ）の剪定",
+      desc: "11〜12月の落葉期が適期",
+    },
+    {
       href: "/kinkan-sentei/",
       label: "金柑（キンカン）の剪定",
       desc: "3月の間引き剪定と切り返し",

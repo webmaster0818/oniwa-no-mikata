@@ -155,6 +155,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yukiyanagi-sentei/",
+      label: "ユキヤナギの剪定",
+      desc: "花が終わった直後に",
+    },
+    {
+      href: "/hibiscus-sentei/",
+      label: "ハイビスカスの剪定",
+      desc: "取り込み時の切り詰めと5月の剪定",
+    },
+    {
       href: "/sarusuberi-sentei/",
       label: "サルスベリの剪定",
       desc: "花芽ができる時期と剪定時期",

@@ -154,6 +154,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ume-sentei/",
+      label: "梅（ウメ）の剪定",
+      desc: "11〜12月の落葉期が適期",
+    },
+    {
+      href: "/yukiyanagi-sentei/",
+      label: "ユキヤナギの剪定",
+      desc: "花芽は10月に作られる",
+    },
+    {
       href: "/sentei-towa/",
       label: "剪定とは？",
       desc: "透かし・切り詰め・切り返しの違い",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hibiscus-sentei/",
+      label: "ハイビスカスの剪定",
+      desc: "鉢植えの冬越しと5月の剪定",
+    },
+    {
       href: "/niwaki-ishoku/",
       label: "庭木の植え替え・移植の基礎",
       desc: "移植できる条件・適期・根回しの考え方",

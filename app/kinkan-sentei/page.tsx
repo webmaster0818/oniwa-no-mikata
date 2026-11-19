@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ichijiku-saibai/",
+      label: "いちじく（イチジク）の栽培",
+      desc: "剪定は12〜2月・春先の霜に注意",
+    },
+    {
       href: "/kaju-niwaki-teire/",
       label: "庭の果樹の手入れの基本",
       desc: "柑橘・柿・ブルーベリーなど",

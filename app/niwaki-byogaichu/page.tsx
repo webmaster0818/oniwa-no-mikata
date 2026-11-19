@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/susubyo/",
+      label: "すす病とは？",
+      desc: "葉や枝が黒くなる原因と対処",
+    },
+    {
       href: "/matsukuimushi-yobo/",
       label: "庭の松の松くい虫対策",
       desc: "松が短期間で枯れるときに疑う病気",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/susubyo/",
+      label: "すす病とは？",
+      desc: "葉や枝が黒くなる原因と対処",
+    },
+    {
       href: "/nanten-sentei/",
       label: "南天（ナンテン）の剪定",
       desc: "カイガラムシとすす病への対応",
