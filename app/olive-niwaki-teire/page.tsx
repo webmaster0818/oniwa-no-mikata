@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/olive-hana/",
+      label: "オリーブの花",
+      desc: "5月中旬〜6月上旬に咲く",
+    },
+    {
       href: "/symboltree-teire/",
       label: "シンボルツリーの手入れの基本",
       desc: "定番樹種の管理の手間と育て方の注意点",

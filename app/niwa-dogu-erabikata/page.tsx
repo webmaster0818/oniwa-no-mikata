@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-tsukaikata/",
+      label: "チェーンソーの使い方と安全",
+      desc: "保護具・固定・立ち位置",
+    },
+    {
       href: "/sentei-diy-gyosha/",
       label: "剪定DIYと業者依頼の判断基準",
       desc: "自分で切れる範囲と業者に依頼する範囲の線引き",

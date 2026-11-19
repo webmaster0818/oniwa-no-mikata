@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-medo/",
+      label: "芝生の目土（目砂）のやり方",
+      desc: "厚さ2〜3mmで芝の間に擦り込む",
+    },
+    {
       href: "/shibafu-byoki/",
       label: "芝生の病気の見分け方",
       desc: "変色・枯れの原因を切り分ける基本",

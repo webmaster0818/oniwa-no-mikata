@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/olive-hana/",
+      label: "オリーブの花",
+      desc: "5月中旬〜6月上旬に咲く",
+    },
+    {
       href: "/yukiyanagi-sentei/",
       label: "ユキヤナギの剪定",
       desc: "花が終わった直後に",

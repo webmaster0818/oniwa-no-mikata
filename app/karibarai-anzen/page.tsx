@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-tsukaikata/",
+      label: "チェーンソーの使い方と安全",
+      desc: "保護具・固定・立ち位置",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート・砂利の選び方",

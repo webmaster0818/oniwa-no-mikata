@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-tanemaki/",
+      label: "芝生の種まき",
+      desc: "冬芝は9月中旬〜10月初旬か3〜5月",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "芝刈り・水やり・年間管理の考え方",

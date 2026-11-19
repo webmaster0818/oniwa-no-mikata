@@ -154,6 +154,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-tanemaki/",
+      label: "芝生の種まき",
+      desc: "冬芝は9月中旬〜10月初旬か3〜5月",
+    },
+    {
+      href: "/shibafu-medo/",
+      label: "芝生の目土（目砂）のやり方",
+      desc: "厚さ2〜3mmで芝の間に擦り込む",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "張り替え後の年間管理（芝刈り・水やり・施肥）",

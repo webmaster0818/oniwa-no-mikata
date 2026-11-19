@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yuzu-sentei/",
+      label: "柚子（ユズ）の剪定",
+      desc: "3月の間引きが中心",
+    },
+    {
       href: "/ichijiku-saibai/",
       label: "いちじく（イチジク）の栽培",
       desc: "剪定は12〜2月・春先の霜に注意",
