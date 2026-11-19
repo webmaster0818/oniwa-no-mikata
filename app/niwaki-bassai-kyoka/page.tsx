@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-shikaku/",
+      label: "チェーンソーの資格（特別教育）",
+      desc: "学科9時間・実技9時間",
+    },
+    {
       href: "/bassai-bakkon-chigai/",
       label: "伐採と抜根の違い",
       desc: "切り株や根を残すとどうなるかと判断基準",

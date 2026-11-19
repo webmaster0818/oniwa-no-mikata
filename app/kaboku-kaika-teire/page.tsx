@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/robai-sentei/",
+      label: "ロウバイ（蝋梅）の剪定",
+      desc: "落葉後すぐか花後",
+    },
+    {
       href: "/olive-hana/",
       label: "オリーブの花",
       desc: "5月中旬〜6月上旬に咲く",

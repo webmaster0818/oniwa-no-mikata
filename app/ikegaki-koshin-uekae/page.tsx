@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ikegaki-shurui/",
+      label: "生垣に向く木の種類",
+      desc: "4市の資料に共通する樹種",
+    },
+    {
       href: "/conifer-teire/",
       label: "コニファーの剪定と手入れ",
       desc: "針葉樹の生垣・目隠しの刈り込み時期",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/josozai-anzen/",
+      label: "庭で除草剤を安全に使うには",
+      desc: "農林水産省登録の表示を確認",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "芝刈り・水やり・年間管理の考え方",

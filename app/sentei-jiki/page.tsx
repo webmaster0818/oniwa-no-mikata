@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sakura-sentei/",
+      label: "桜（サクラ）の剪定",
+      desc: "落葉期に枝抜き程度",
+    },
+    {
       href: "/ume-sentei/",
       label: "梅（ウメ）の剪定",
       desc: "11〜12月の落葉期が適期",

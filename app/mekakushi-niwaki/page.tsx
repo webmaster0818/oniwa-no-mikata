@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ikegaki-shurui/",
+      label: "生垣に向く木の種類",
+      desc: "4市の資料に共通する樹種",
+    },
+    {
       href: "/ikegaki-fence-hikaku/",
       label: "生垣とフェンスの比較",
       desc: "目隠し・境界にどちらが向くかの判断材料",

@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ikegaki-shurui/",
+      label: "生垣に向く木の種類",
+      desc: "4市の資料に共通する樹種",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込みの基礎知識",
       desc: "生垣を維持する場合の刈り込みの時期・頻度・道具",

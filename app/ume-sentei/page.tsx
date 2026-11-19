@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sakura-sentei/",
+      label: "桜（サクラ）の剪定",
+      desc: "落葉期に枝抜き程度",
+    },
+    {
       href: "/ichijiku-saibai/",
       label: "いちじく（イチジク）の栽培",
       desc: "剪定は12〜2月・春先の霜に注意",

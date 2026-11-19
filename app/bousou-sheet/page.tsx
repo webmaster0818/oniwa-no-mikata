@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/josozai-anzen/",
+      label: "庭で除草剤を安全に使うには",
+      desc: "農林水産省登録の表示を確認",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート等の違いと選び方",

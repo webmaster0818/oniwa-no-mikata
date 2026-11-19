@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ikegaki-shurui/",
+      label: "生垣に向く木の種類",
+      desc: "4市の資料に共通する樹種",
+    },
+    {
       href: "/area/tokyo/hogo-jumoku-ikegaki-josei/",
       label: "東京都の区市町村の保護樹木・生垣の助成制度一覧",
       desc: "生垣の造成・設置の助成がある17区市町",

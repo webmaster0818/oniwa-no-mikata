@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sakura-sentei/",
+      label: "桜（サクラ）の剪定",
+      desc: "落葉期に枝抜き程度",
+    },
+    {
       href: "/kirikabu-hochi/",
       label: "切り株を放置するとどうなる？",
       desc: "切り株からの再生と対処の選択肢",

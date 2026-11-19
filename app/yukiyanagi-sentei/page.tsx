@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/robai-sentei/",
+      label: "ロウバイ（蝋梅）の剪定",
+      desc: "落葉後すぐか花後",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花を良くする手入れ",
       desc: "花が咲かない原因と剪定",
