@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/goldcrest-kareru/",
+      label: "ゴールドクレストが枯れる原因",
+      desc: "水のやり過ぎ・乾燥・根の浅さ",
+    },
+    {
       href: "/kaboku-tsubomi-ochiru/",
       label: "花木のつぼみが咲く前に落ちる",
       desc: "落蕾の原因の見分け方と翌年に向けた手入れ",

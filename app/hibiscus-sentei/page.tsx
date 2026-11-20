@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/mukuge-sentei/",
+      label: "ムクゲの剪定",
+      desc: "花後の秋から翌春",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花を良くする手入れ",
       desc: "花が咲かない原因と剪定",

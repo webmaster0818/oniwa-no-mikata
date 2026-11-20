@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/goldcrest-kareru/",
+      label: "ゴールドクレストが枯れる原因",
+      desc: "水のやり過ぎ・乾燥・根の浅さ",
+    },
+    {
       href: "/mekakushi-niwaki/",
       label: "目隠しになる庭木",
       desc: "常緑樹の選び方と管理の手間",

@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/jinchouge-sentei/",
+      label: "沈丁花（ジンチョウゲ）の剪定",
+      desc: "花の終わった直後",
+    },
+    {
       href: "/robai-sentei/",
       label: "ロウバイ（蝋梅）の剪定",
       desc: "落葉後すぐか花後",

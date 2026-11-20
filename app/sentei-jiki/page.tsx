@@ -154,6 +154,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/mukuge-sentei/",
+      label: "ムクゲの剪定",
+      desc: "花後の秋から翌春",
+    },
+    {
+      href: "/kuchinashi-sentei/",
+      label: "クチナシの剪定",
+      desc: "花後なるべく早く",
+    },
+    {
       href: "/sakura-sentei/",
       label: "桜（サクラ）の剪定",
       desc: "落葉期に枝抜き程度",

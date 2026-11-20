@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/tsutsuji-satsuki-chigai/",
+      label: "ツツジとサツキの違い",
+      desc: "咲く時期と剪定の期限",
+    },
+    {
       href: "/kaboku-tsubomi-ochiru/",
       label: "花木のつぼみが咲く前に落ちる",
       desc: "落蕾の原因の見分け方と翌年に向けた手入れ",

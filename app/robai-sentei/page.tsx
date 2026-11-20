@@ -147,6 +147,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/jinchouge-sentei/",
+      label: "沈丁花（ジンチョウゲ）の剪定",
+      desc: "花の終わった直後",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花を良くする手入れ",
       desc: "花が咲かない原因と剪定・施肥",

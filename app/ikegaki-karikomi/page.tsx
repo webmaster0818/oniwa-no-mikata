@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/tsutsuji-satsuki-chigai/",
+      label: "ツツジとサツキの違い",
+      desc: "咲く時期と剪定の期限",
+    },
+    {
       href: "/ikegaki-shurui/",
       label: "生垣に向く木の種類",
       desc: "4市の資料に共通する樹種",

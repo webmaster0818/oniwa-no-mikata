@@ -156,6 +156,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/mukuge-sentei/",
+      label: "ムクゲの剪定",
+      desc: "花後の秋から翌春",
+    },
+    {
       href: "/sentei-towa/",
       label: "剪定とは？",
       desc: "透かし・切り詰め・切り返しの違い",

@@ -155,6 +155,21 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kuchinashi-sentei/",
+      label: "クチナシの剪定",
+      desc: "花後なるべく早く",
+    },
+    {
+      href: "/jinchouge-sentei/",
+      label: "沈丁花（ジンチョウゲ）の剪定",
+      desc: "花の終わった直後",
+    },
+    {
+      href: "/mukuge-sentei/",
+      label: "ムクゲの剪定",
+      desc: "花後の秋から翌春",
+    },
+    {
       href: "/robai-sentei/",
       label: "ロウバイ（蝋梅）の剪定",
       desc: "落葉後すぐか花後",
