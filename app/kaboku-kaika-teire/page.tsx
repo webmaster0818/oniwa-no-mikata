@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shakunage-sentei/",
+      label: "シャクナゲの剪定",
+      desc: "花がら摘みと手入れの時期",
+    },
+    {
       href: "/kuchinashi-sentei/",
       label: "クチナシの剪定",
       desc: "花後なるべく早く",

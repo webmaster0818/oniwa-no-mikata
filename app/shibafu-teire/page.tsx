@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibakari-jiki/",
+      label: "芝刈りの時期と回数",
+      desc: "4月〜10月・月ごとの目安",
+    },
+    {
       href: "/shibafu-medo/",
       label: "芝生の目土（目砂）のやり方",
       desc: "厚さ2〜3mmで芝の間に擦り込む",

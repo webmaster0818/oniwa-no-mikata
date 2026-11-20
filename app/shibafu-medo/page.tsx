@@ -152,6 +152,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibakari-jiki/",
+      label: "芝刈りの時期と回数",
+      desc: "月ごとの回数と刈る高さ",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "芝刈り・水やり・年間管理",

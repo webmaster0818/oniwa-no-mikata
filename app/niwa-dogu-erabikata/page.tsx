@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/karibarai-maintenance/",
+      label: "刈払機のメンテナンス",
+      desc: "清掃・点検・燃料の抜き取り",
+    },
+    {
       href: "/chainsaw-tsukaikata/",
       label: "チェーンソーの使い方と安全",
       desc: "保護具・固定・立ち位置",

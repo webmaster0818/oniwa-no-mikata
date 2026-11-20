@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/edauchi/",
+      label: "枝打ちとは",
+      desc: "適期は10月〜3月",
+    },
+    {
       href: "/chainsaw-tsukaikata/",
       label: "チェーンソーの使い方と安全",
       desc: "保護具・固定・立ち位置",

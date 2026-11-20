@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/edauchi/",
+      label: "枝打ちとは",
+      desc: "林業の枝打ちと剪定の違い",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "季節ごとの考え方と樹種による違い",

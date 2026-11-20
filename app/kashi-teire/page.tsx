@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/soyogo-sentei/",
+      label: "ソヨゴの剪定",
+      desc: "成長が緩やかな常緑樹",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込み",
       desc: "刈り込みの時期と仕上がりをそろえるコツ",

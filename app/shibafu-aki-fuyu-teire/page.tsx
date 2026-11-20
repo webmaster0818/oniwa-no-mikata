@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibakari-jiki/",
+      label: "芝刈りの時期と回数",
+      desc: "最後の芝刈りは10月下旬",
+    },
+    {
       href: "/shibafu-tanemaki/",
       label: "芝生の種まき",
       desc: "冬芝は9月中旬〜10月初旬か3〜5月",

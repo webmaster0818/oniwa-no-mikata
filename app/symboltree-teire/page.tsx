@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/soyogo-sentei/",
+      label: "ソヨゴの剪定",
+      desc: "弱めの剪定で形を保つ",
+    },
+    {
       href: "/teire-raku-niwaki/",
       label: "手入れが楽な庭木の選び方",
       desc: "管理の手間が少ない樹種選びの考え方",

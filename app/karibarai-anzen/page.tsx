@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/karibarai-maintenance/",
+      label: "刈払機のメンテナンス",
+      desc: "使用後の清掃と保管",
+    },
+    {
       href: "/chainsaw-shikaku/",
       label: "チェーンソーの資格（特別教育）",
       desc: "学科9時間・実技9時間",

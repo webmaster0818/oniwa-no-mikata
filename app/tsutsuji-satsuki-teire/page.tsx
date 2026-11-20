@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shakunage-sentei/",
+      label: "シャクナゲの剪定",
+      desc: "花が終わった直後に切る",
+    },
+    {
       href: "/tsutsuji-satsuki-chigai/",
       label: "ツツジとサツキの違い",
       desc: "咲く時期と剪定の期限",
