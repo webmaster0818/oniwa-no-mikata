@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/bermudagrass/",
+      label: "バミューダグラスの特徴と管理",
+      desc: "踏まれても回復しやすい天然芝",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "芝刈り・水やり・年間管理の基本の考え方",

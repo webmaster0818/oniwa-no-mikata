@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/bermudagrass/",
+      label: "バミューダグラスの特徴と管理",
+      desc: "高温に強く日陰に弱い夏芝",
+    },
+    {
       href: "/shibakari-jiki/",
       label: "芝刈りの時期と回数",
       desc: "4月〜10月・月ごとの目安",

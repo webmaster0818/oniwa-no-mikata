@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/centipedegrass/",
+      label: "センチピードグラスの特徴と植え方",
+      desc: "播種は5〜6月が目安",
+    },
+    {
       href: "/shibafu-medo/",
       label: "芝生の目土（目砂）のやり方",
       desc: "厚さ2〜3mmで擦り込む",

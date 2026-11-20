@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/centipedegrass/",
+      label: "センチピードグラスの特徴と植え方",
+      desc: "畦畔で使われる被覆用の芝",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート等の違いと選び方",

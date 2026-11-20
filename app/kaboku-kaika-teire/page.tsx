@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/fuji-sentei/",
+      label: "藤（フジ）の剪定",
+      desc: "夏と冬の年2回の切り方",
+    },
+    {
       href: "/shakunage-sentei/",
       label: "シャクナゲの剪定",
       desc: "花がら摘みと手入れの時期",

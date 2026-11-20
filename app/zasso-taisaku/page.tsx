@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusakari-jiki/",
+      label: "草刈りの時期",
+      desc: "年1回では足りない理由",
+    },
+    {
       href: "/josozai-anzen/",
       label: "庭で除草剤を安全に使うには",
       desc: "農林水産省登録の表示を確認",

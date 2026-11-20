@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusakari-jiki/",
+      label: "草刈りの時期",
+      desc: "5・7・9月の年3回が目安",
+    },
+    {
       href: "/karibarai-maintenance/",
       label: "刈払機のメンテナンス",
       desc: "使用後の清掃と保管",

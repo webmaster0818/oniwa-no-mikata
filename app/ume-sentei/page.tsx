@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hanamomo-sentei/",
+      label: "ハナモモの剪定",
+      desc: "花後すぐに2〜3芽残して切る",
+    },
+    {
       href: "/sakura-sentei/",
       label: "桜（サクラ）の剪定",
       desc: "落葉期に枝抜き程度",

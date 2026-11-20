@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/fuji-sentei/",
+      label: "藤（フジ）の剪定",
+      desc: "夏と冬の年2回の切り方",
+    },
+    {
       href: "/eda-ekkyo/",
       label: "隣家への枝の越境と対処の基本",
       desc: "枝やツルが隣地に越境した場合のルールと対応",

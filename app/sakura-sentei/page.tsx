@@ -151,6 +151,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hanamomo-sentei/",
+      label: "ハナモモの剪定",
+      desc: "花後すぐに2〜3芽残して切る",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "季節ごとの考え方と樹種の違い",
