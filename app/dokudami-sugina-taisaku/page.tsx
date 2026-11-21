@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/seitakaawadachiso-kujo/",
+      label: "セイタカアワダチソウの駆除",
+      desc: "抜き取りと刈り取りの時期",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート・砂利の選び方",

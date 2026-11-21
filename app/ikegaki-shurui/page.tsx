@@ -218,6 +218,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/abelia-sentei/",
+      label: "アベリアの剪定",
+      desc: "刈り込みは年2回・5〜6月",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込みの基礎知識",
       desc: "時期・頻度・道具と手順",

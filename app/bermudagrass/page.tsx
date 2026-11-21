@@ -187,6 +187,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kentucky-bluegrass/",
+      label: "ケンタッキーブルーグラスの特徴",
+      desc: "寒さに強い冬芝",
+    },
+    {
       href: "/shibakari-jiki/",
       label: "芝刈りの時期",
       desc: "月ごとの刈り込み回数の目安",

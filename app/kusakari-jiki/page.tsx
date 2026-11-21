@@ -189,6 +189,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusakari-shamen/",
+      label: "斜面の草刈り",
+      desc: "滑りやすい条件と作業の向き",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート・砂利",

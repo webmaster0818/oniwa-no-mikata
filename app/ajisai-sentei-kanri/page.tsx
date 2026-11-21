@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ajisai-byoki/",
+      label: "アジサイの病気",
+      desc: "葉化病と葉の病斑の対処",
+    },
+    {
       href: "/hikage-niwa-shokusai/",
       label: "北向き・日陰の庭の植栽の考え方",
       desc: "日当たりが悪くても楽しめる庭づくり",

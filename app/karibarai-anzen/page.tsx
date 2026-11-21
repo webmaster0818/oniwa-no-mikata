@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusakari-shamen/",
+      label: "斜面の草刈り",
+      desc: "等高線方向に進み、上下に並ばない",
+    },
+    {
       href: "/kusakari-jiki/",
       label: "草刈りの時期",
       desc: "5・7・9月の年3回が目安",

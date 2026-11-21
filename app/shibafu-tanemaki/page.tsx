@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kentucky-bluegrass/",
+      label: "ケンタッキーブルーグラスの特徴",
+      desc: "寒さに強い冬芝・種まきの量",
+    },
+    {
       href: "/centipedegrass/",
       label: "センチピードグラスの特徴と植え方",
       desc: "播種は5〜6月が目安",

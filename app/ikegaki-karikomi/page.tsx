@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/abelia-sentei/",
+      label: "アベリアの剪定",
+      desc: "刈り込みは年2回・5〜6月",
+    },
+    {
       href: "/tsutsuji-satsuki-chigai/",
       label: "ツツジとサツキの違い",
       desc: "咲く時期と剪定の期限",

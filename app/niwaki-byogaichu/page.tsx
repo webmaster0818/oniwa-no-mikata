@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ajisai-byoki/",
+      label: "アジサイの病気",
+      desc: "葉化病と葉の病斑の対処",
+    },
+    {
       href: "/susubyo/",
       label: "すす病とは？",
       desc: "葉や枝が黒くなる原因と対処",

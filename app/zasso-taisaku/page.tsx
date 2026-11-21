@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/seitakaawadachiso-kujo/",
+      label: "セイタカアワダチソウの駆除",
+      desc: "7月頃までに地下茎ごと抜き取る",
+    },
+    {
       href: "/kusakari-jiki/",
       label: "草刈りの時期",
       desc: "年1回では足りない理由",
