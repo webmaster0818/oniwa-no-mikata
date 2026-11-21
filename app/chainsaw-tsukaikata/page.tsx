@@ -151,6 +151,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/battou/",
+      label: "伐倒とは",
+      desc: "受け口の深さと立入禁止の範囲",
+    },
+    {
       href: "/tamagiri/",
       label: "玉切りとは",
       desc: "倒した木を切り分ける手順",

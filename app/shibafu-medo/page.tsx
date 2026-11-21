@@ -152,6 +152,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-aeration-jiki/",
+      label: "芝生のエアレーションの時期",
+      desc: "目土とあわせる穴あけ作業",
+    },
+    {
       href: "/shibakari-jiki/",
       label: "芝刈りの時期と回数",
       desc: "月ごとの回数と刈る高さ",

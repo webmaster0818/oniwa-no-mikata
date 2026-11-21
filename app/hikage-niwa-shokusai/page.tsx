@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/st-augustinegrass/",
+      label: "セントオーガスチングラス",
+      desc: "日陰でも育つ芝",
+    },
+    {
       href: "/teire-raku-niwaki/",
       label: "手入れが楽な庭木の選び方",
       desc: "管理の手間が少ない庭木を選ぶ考え方",

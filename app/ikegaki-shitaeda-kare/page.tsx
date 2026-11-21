@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hiiragi-sentei/",
+      label: "ヒイラギの剪定",
+      desc: "下枝が枯れ上がりやすい樹種",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込みの基礎知識",
       desc: "時期・頻度・道具と自分でやる手順",

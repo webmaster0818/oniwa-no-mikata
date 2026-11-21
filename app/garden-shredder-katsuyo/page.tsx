@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/woodchip-niwa/",
+      label: "ウッドチップを庭に敷く",
+      desc: "チップを敷く厚さと補充",
+    },
+    {
       href: "/senteieda-shobun/",
       label: "剪定枝・刈り草の処分方法",
       desc: "剪定で出た枝や草の出し方・処分の選択肢",

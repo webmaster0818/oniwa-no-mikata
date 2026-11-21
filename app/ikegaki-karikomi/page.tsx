@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hiiragi-sentei/",
+      label: "ヒイラギの剪定",
+      desc: "年2回の刈り込みと花芽",
+    },
+    {
       href: "/abelia-sentei/",
       label: "アベリアの剪定",
       desc: "刈り込みは年2回・5〜6月",

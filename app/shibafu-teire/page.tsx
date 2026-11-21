@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-aeration-jiki/",
+      label: "芝生のエアレーションの時期",
+      desc: "春から梅雨入りまでの更新作業",
+    },
+    {
       href: "/bermudagrass/",
       label: "バミューダグラスの特徴と管理",
       desc: "高温に強く日陰に弱い夏芝",

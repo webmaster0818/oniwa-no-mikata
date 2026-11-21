@@ -189,6 +189,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/st-augustinegrass/",
+      label: "セントオーガスチングラス",
+      desc: "日陰向けの暖地型芝",
+    },
+    {
       href: "/groundcover-erabikata/",
       label: "グランドカバープランツの選び方",
       desc: "雑草対策と景観を両立する地被植物",

@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/woodchip-niwa/",
+      label: "ウッドチップを庭に敷く",
+      desc: "厚さと効果の持ち",
+    },
+    {
       href: "/yagi-josou/",
       label: "ヤギ除草",
       desc: "利点と課題・人力との比較",

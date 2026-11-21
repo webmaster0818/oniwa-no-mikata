@@ -174,6 +174,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/battou/",
+      label: "伐倒とは",
+      desc: "受け口・追い口・つる",
+    },
+    {
       href: "/chainsaw-tsukaikata/",
       label: "チェーンソーの使い方",
       desc: "始動から切断までの基本",
