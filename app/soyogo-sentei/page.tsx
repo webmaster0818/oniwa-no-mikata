@@ -188,6 +188,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yamamomo-sentei/",
+      label: "ヤマモモの剪定",
+      desc: "常緑樹の剪定時期と枝抜き",
+    },
+    {
       href: "/symboltree-teire/",
       label: "シンボルツリーの手入れ",
       desc: "樹種ごとの育ち方と剪定の頻度",

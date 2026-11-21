@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/lilac-sentei/",
+      label: "ライラックの剪定",
+      desc: "花芽を確かめて花後に剪定",
+    },
+    {
       href: "/fuji-sentei/",
       label: "藤（フジ）の剪定",
       desc: "夏と冬の年2回の切り方",

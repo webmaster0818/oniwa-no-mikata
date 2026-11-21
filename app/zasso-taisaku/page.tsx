@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yagi-josou/",
+      label: "ヤギ除草",
+      desc: "利点と課題・人力との比較",
+    },
+    {
       href: "/seitakaawadachiso-kujo/",
       label: "セイタカアワダチソウの駆除",
       desc: "7月頃までに地下茎ごと抜き取る",

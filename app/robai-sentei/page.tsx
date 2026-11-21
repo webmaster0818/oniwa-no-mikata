@@ -147,6 +147,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/lilac-sentei/",
+      label: "ライラックの剪定",
+      desc: "花芽を確かめて花後に剪定",
+    },
+    {
       href: "/jinchouge-sentei/",
       label: "沈丁花（ジンチョウゲ）の剪定",
       desc: "花の終わった直後",

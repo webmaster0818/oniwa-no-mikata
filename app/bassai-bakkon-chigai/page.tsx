@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/tamagiri/",
+      label: "玉切りとは",
+      desc: "倒した木を切り分ける手順",
+    },
+    {
       href: "/sentei-diy-gyosha/",
       label: "剪定は自分でできる？DIYと業者依頼の判断基準",
       desc: "切る作業全般のDIYと業者依頼の線引き",

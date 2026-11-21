@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kyochikuto-doku/",
+      label: "夾竹桃（キョウチクトウ）の毒",
+      desc: "成分と誤食の事例・片付けの注意",
+    },
+    {
       href: "/niwaki-hachinosu/",
       label: "庭木に蜂の巣ができたときの対処",
       desc: "巣の見つけ方と発見時の安全な対応",

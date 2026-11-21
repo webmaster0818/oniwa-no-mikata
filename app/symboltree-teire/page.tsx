@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yamamomo-sentei/",
+      label: "ヤマモモの剪定",
+      desc: "常緑樹の剪定時期と枝抜き",
+    },
+    {
       href: "/soyogo-sentei/",
       label: "ソヨゴの剪定",
       desc: "弱めの剪定で形を保つ",

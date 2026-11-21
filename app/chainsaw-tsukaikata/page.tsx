@@ -151,6 +151,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/tamagiri/",
+      label: "玉切りとは",
+      desc: "倒した木を切り分ける手順",
+    },
+    {
       href: "/chainsaw-shikaku/",
       label: "チェーンソーの資格（特別教育）",
       desc: "学科9時間・実技9時間",

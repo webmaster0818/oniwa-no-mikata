@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kyochikuto-doku/",
+      label: "夾竹桃（キョウチクトウ）の毒",
+      desc: "成分と誤食の事例・片付けの注意",
+    },
+    {
       href: "/jinkoshiba-tennenshiba/",
       label: "人工芝と天然芝の比較",
       desc: "庭の地面素材を選ぶ際の判断材料",

@@ -184,6 +184,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/yagi-josou/",
+      label: "ヤギ除草",
+      desc: "利点と課題・人力との比較",
+    },
+    {
       href: "/karibarai-anzen/",
       label: "草刈り機（刈払機）を安全に使う",
       desc: "作業前の確認と保護具",
