@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/icho-sentei/",
+      label: "イチョウの剪定",
+      desc: "冬の骨格づくりと秋の枝抜き",
+    },
+    {
       href: "/edauchi/",
       label: "枝打ちとは",
       desc: "適期は10月〜3月",

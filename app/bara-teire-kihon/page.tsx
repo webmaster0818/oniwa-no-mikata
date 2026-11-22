@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/bara-kareru/",
+      label: "バラが枯れる原因",
+      desc: "枝の枯れ込み・株元のこぶ・葉が落ちる症状",
+    },
+    {
       href: "/yofu-garden-kanri/",
       label: "洋風ガーデンの管理の基本",
       desc: "花壇中心の庭を1年間維持する手順",

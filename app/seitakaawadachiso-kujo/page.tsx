@@ -188,6 +188,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kuzu-kujo/",
+      label: "葛（クズ）の駆除",
+      desc: "根で再生するつる性雑草の対処",
+    },
+    {
       href: "/dokudami-sugina-taisaku/",
       label: "ドクダミ・スギナなどしつこい雑草の対策",
       desc: "地下茎で広がる草の考え方",

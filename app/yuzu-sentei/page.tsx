@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sansho-sentei/",
+      label: "山椒（サンショウ）の剪定",
+      desc: "冬の軽い剪定と夏の摘心",
+    },
+    {
       href: "/kinkan-sentei/",
       label: "金柑（キンカン）の剪定",
       desc: "3月の間引き剪定と切り返し",

@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hiba-sentei/",
+      label: "ヒバの剪定",
+      desc: "アスナロの手入れの時期",
+    },
+    {
       href: "/goldcrest-kareru/",
       label: "ゴールドクレストが枯れる原因",
       desc: "水のやり過ぎ・乾燥・根の浅さ",

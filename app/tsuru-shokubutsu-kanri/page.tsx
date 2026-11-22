@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kuzu-kujo/",
+      label: "葛（クズ）の駆除",
+      desc: "刈っても再生するクズの対処",
+    },
+    {
       href: "/fuji-sentei/",
       label: "藤（フジ）の剪定",
       desc: "夏と冬の年2回の切り方",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/icho-sentei/",
+      label: "イチョウの剪定",
+      desc: "落葉高木の剪定の時期",
+    },
+    {
       href: "/wafu-niwa-teire/",
       label: "和風の庭の手入れの基本",
       desc: "苔・砂利・石組みを保つ年間の手順",

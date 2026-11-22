@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sansho-sentei/",
+      label: "山椒（サンショウ）の剪定",
+      desc: "刃物を嫌う木の整え方",
+    },
+    {
       href: "/yuzu-sentei/",
       label: "柚子（ユズ）の剪定",
       desc: "3月の間引きが中心",

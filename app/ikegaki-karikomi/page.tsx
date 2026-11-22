@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/hiba-sentei/",
+      label: "ヒバの剪定",
+      desc: "ヒバの生垣の刈り込み",
+    },
+    {
       href: "/dodantsutsuji-ikegaki/",
       label: "ドウダンツツジの生垣",
       desc: "花後の5〜6月に刈り込む",

@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/bara-kareru/",
+      label: "バラが枯れる原因",
+      desc: "症状別の病気の見分け方",
+    },
+    {
       href: "/bassai-bakkon-chigai/",
       label: "伐採と抜根の違い",
       desc: "枯れ木を処理する際の基礎知識",
