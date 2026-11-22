@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/senryo-sentei/",
+      label: "千両（センリョウ）の剪定",
+      desc: "3月の剪定と実が付かない原因",
+    },
+    {
       href: "/sentei-towa/",
       label: "剪定とは？",
       desc: "透かし・切り詰め・切り返しの違い",

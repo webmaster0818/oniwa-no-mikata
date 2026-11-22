@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ubamegashi-sentei/",
+      label: "ウバメガシの剪定",
+      desc: "生垣の刈り込みと枝抜き",
+    },
+    {
       href: "/soyogo-sentei/",
       label: "ソヨゴの剪定",
       desc: "成長が緩やかな常緑樹",

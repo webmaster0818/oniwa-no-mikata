@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/senryo-sentei/",
+      label: "千両（センリョウ）の剪定",
+      desc: "3月の剪定と実が付かない原因",
+    },
+    {
       href: "/kakuremino-sentei/",
       label: "カクレミノの剪定",
       desc: "日陰に強い常緑樹の枝抜き",

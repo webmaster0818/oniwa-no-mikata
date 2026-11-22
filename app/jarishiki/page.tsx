@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/jari-shobun/",
+      label: "庭の砂利の処分方法",
+      desc: "区・市で異なる出し方",
+    },
+    {
       href: "/bousou-sheet/",
       label: "防草シートの基礎知識",
       desc: "砂利の下に敷くシートの仕組み・寿命・敷き方の注意",

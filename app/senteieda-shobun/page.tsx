@@ -217,6 +217,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/jari-shobun/",
+      label: "庭の砂利の処分方法",
+      desc: "区・市で異なる出し方",
+    },
+    {
       href: "/ochiba-taisaku/",
       label: "落ち葉対策と掃除の基本",
       desc: "落ち葉掃除の負担を減らす方法と処分ルール",

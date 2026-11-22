@@ -177,6 +177,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ubamegashi-sentei/",
+      label: "ウバメガシの剪定",
+      desc: "生垣の刈り込みと枝抜き",
+    },
+    {
       href: "/sentei-jiki/",
       label: "庭木の剪定時期の基本",
       desc: "季節ごとの考え方と樹種の違い",

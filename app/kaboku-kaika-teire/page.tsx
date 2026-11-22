@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sharinbai-sentei/",
+      label: "シャリンバイの剪定",
+      desc: "花芽ができる前の刈り込み",
+    },
+    {
       href: "/lilac-sentei/",
       label: "ライラックの剪定",
       desc: "花芽を確かめて花後に剪定",

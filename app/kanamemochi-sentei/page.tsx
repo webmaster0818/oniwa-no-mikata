@@ -195,6 +195,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sharinbai-sentei/",
+      label: "シャリンバイの剪定",
+      desc: "花芽ができる前の刈り込み",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込み",
       desc: "時期と刈り方の基本",

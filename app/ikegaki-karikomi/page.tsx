@@ -158,6 +158,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/masaki-sentei/",
+      label: "マサキの剪定",
+      desc: "刈り込みの時期と切り返し",
+    },
+    {
+      href: "/ubamegashi-sentei/",
+      label: "ウバメガシの剪定",
+      desc: "生垣の刈り込みと枝抜き",
+    },
+    {
       href: "/hiba-sentei/",
       label: "ヒバの剪定",
       desc: "ヒバの生垣の刈り込み",
