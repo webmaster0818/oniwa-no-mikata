@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwaki-ha-ochiru",
   published: "2026-10-17",
-  updatedLabel: "2026年10月17日",
+  updatedLabel: "2026年11月22日",
   h1: "庭木の葉が落ちる・常緑樹の葉が大量に落ちる｜季節外れの落葉の原因と見分け方をわかりやすく解説",
   breadcrumbLabel: "庭木の葉が季節外れに落ちる",
   tagChips: ["落葉", "常緑樹", "葉の入れ替わり", "庭木の異変"],
@@ -33,6 +33,12 @@ const data: KnowArticleData = {
     "庭木の葉が季節外れに落ちるときの一般知識。常緑樹の自然な葉の入れ替わりと、乾燥・植え替え後・根の傷み・病害虫が疑われる落葉の見分け方、確認の手順、相談の目安をまとめた記事です。",
   lead: (
     <>
+      <p className="mb-4">
+        常緑樹も葉を落とします。常緑樹は「冬も葉を付けている樹木」で（<a href="https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/010/216/gairojyu.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">野田市「街路樹」用語の説明</a>・2026年11月22日確認）、<Hl>葉が一度に全部落ちないだけで、新しい葉が出る時期に古い葉が落ちて入れ替わります</Hl>。
+        北九州市の代表樹種の紹介では、クスノキは「春先３月から５月にかけて新しい葉が出て古い葉のかなりが落葉する」とされています（<a href="https://ssl.city.kitakyushu.lg.jp/files/000158429.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">北九州市「代表樹種 クスノキ」</a>・2026年11月22日確認）。
+        ユズリハも、林野庁の資料で「新葉が展開してから旧葉が落ちる」と説明されています（<a href="https://www.rinya.maff.go.jp/j/kokuyu_rinya/attach/pdf/seibi-3.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">林野庁「国有林野事業における天然力を活用した施業実行マニュアル」分割9</a>・2026年11月22日確認）。
+        <Hl>新しい葉が出ている時期に古い葉が落ちているなら自然な入れ替わり、緑のままの葉や新しい葉まで落ちるなら異常を疑う</Hl>のが見分けの目安です。
+      </p>
       <p className="mb-4">
         「常緑樹なのに、春先に足もとが落ち葉でいっぱいになった」「夏なのに葉がぱらぱらと落ち続けている」「植え替えた木の葉が次々に落ちていく」といった落葉の変化は、掃除の手間が増えるだけでなく、木が枯れるのではないかと心配になる異変です。
       </p>
