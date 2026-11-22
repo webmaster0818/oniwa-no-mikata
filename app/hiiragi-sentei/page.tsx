@@ -175,6 +175,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/inutsuge-sentei/",
+      label: "イヌツゲの剪定",
+      desc: "同じく萌芽力の強い常緑樹",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込み",
       desc: "時期と刈り方の基本",

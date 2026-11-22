@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kakuremino-sentei/",
+      label: "カクレミノの剪定",
+      desc: "8〜10mになる木の枝抜き",
+    },
+    {
       href: "/takagi-sentei-kiken/",
       label: "高い木の剪定を自分で行う危険性",
       desc: "事故のリスクと安全な依頼方法",

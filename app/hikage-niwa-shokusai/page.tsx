@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kakuremino-sentei/",
+      label: "カクレミノの剪定",
+      desc: "日陰に強い常緑樹の枝抜き",
+    },
+    {
       href: "/st-augustinegrass/",
       label: "セントオーガスチングラス",
       desc: "日陰でも育つ芝",

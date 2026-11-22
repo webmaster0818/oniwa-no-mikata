@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kanamemochi-sentei/",
+      label: "カナメモチ（レッドロビン）の剪定",
+      desc: "年2回の刈り込みとごま色斑点病",
+    },
+    {
       href: "/ikegaki-shurui/",
       label: "生垣に向く木の種類",
       desc: "4市の資料に共通する樹種",

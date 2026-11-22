@@ -218,6 +218,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/inutsuge-sentei/",
+      label: "イヌツゲの剪定",
+      desc: "年2回の刈り込みの時期",
+    },
+    {
       href: "/abelia-sentei/",
       label: "アベリアの剪定",
       desc: "刈り込みは年2回・5〜6月",

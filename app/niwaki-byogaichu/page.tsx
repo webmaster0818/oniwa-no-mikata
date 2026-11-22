@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sakura-byoki/",
+      label: "桜の病気",
+      desc: "7つの病気の症状と対処",
+    },
+    {
       href: "/ajisai-byoki/",
       label: "アジサイの病気",
       desc: "葉化病と葉の病斑の対処",

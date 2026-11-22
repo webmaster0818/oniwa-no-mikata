@@ -151,6 +151,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sakura-byoki/",
+      label: "桜の病気",
+      desc: "てんぐ巣病・胴枯病などの症状と対処",
+    },
+    {
       href: "/hanamomo-sentei/",
       label: "ハナモモの剪定",
       desc: "花後すぐに2〜3芽残して切る",

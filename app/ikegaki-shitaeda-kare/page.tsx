@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kanamemochi-sentei/",
+      label: "カナメモチ（レッドロビン）の剪定",
+      desc: "こまめな刈り込みと下枝の枯れ上がり",
+    },
+    {
       href: "/hiiragi-sentei/",
       label: "ヒイラギの剪定",
       desc: "下枝が枯れ上がりやすい樹種",

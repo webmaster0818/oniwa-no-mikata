@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/dodantsutsuji-ikegaki/",
+      label: "ドウダンツツジの生垣",
+      desc: "花後の5〜6月に刈り込む",
+    },
+    {
       href: "/hiiragi-sentei/",
       label: "ヒイラギの剪定",
       desc: "年2回の刈り込みと花芽",

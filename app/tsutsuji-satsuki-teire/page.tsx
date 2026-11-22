@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/dodantsutsuji-ikegaki/",
+      label: "ドウダンツツジの生垣",
+      desc: "花芽ができる時期と刈り込み",
+    },
+    {
       href: "/shakunage-sentei/",
       label: "シャクナゲの剪定",
       desc: "花が終わった直後に切る",
