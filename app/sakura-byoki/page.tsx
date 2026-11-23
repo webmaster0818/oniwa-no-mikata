@@ -204,6 +204,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ume-byoki/",
+      label: "梅の病気",
+      desc: "同じバラ科の花木の病気",
+    },
+    {
       href: "/sakura-sentei/",
       label: "桜の剪定",
       desc: "落葉期に枝抜き程度、切り口は保護",

@@ -188,6 +188,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nagamihinageshi-kujo/",
+      label: "ナガミヒナゲシの駆除",
+      desc: "外来の草の抜き方と捨て方",
+    },
+    {
       href: "/kuzu-kujo/",
       label: "葛（クズ）の駆除",
       desc: "根で再生するつる性雑草の対処",

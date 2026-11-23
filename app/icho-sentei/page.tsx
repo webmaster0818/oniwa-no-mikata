@@ -194,6 +194,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/keyaki-sentei/",
+      label: "ケヤキの剪定",
+      desc: "大きくなる落葉高木",
+    },
+    {
       href: "/takagi-sentei-kiken/",
       label: "高木の剪定の危険",
       desc: "高い木を自分で切るリスク",

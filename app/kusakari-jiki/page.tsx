@@ -189,6 +189,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusakari-silver-jinzai/",
+      label: "草刈りをシルバー人材センターに頼む",
+      desc: "5センターの料金の目安",
+    },
+    {
+      href: "/takagari-kusakari/",
+      label: "高刈りとは",
+      desc: "10cm程度の高さで刈る方法",
+    },
+    {
       href: "/kusakari-shamen/",
       label: "斜面の草刈り",
       desc: "滑りやすい条件と作業の向き",

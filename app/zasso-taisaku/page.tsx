@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nagamihinageshi-kujo/",
+      label: "ナガミヒナゲシの駆除",
+      desc: "実ができる前に根から抜く",
+    },
+    {
       href: "/woodchip-niwa/",
       label: "ウッドチップを庭に敷く",
       desc: "厚さと効果の持ち",

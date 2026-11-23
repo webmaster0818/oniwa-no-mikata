@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ume-byoki/",
+      label: "梅の病気",
+      desc: "黒星病・灰星病と剪定での対策",
+    },
+    {
       href: "/hanamomo-sentei/",
       label: "ハナモモの剪定",
       desc: "花後すぐに2〜3芽残して切る",

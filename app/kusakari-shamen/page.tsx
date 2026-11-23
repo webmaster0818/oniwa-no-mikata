@@ -184,6 +184,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/takagari-kusakari/",
+      label: "高刈りとは",
+      desc: "地際ではなく10cm程度で刈る",
+    },
+    {
       href: "/yagi-josou/",
       label: "ヤギ除草",
       desc: "利点と課題・人力との比較",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusakari-silver-jinzai/",
+      label: "草刈りをシルバー人材センターに頼む",
+      desc: "刈払機の扱いはセンターごとに違う",
+    },
+    {
       href: "/kusakari-shamen/",
       label: "斜面の草刈り",
       desc: "等高線方向に進み、上下に並ばない",

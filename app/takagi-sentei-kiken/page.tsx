@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/keyaki-sentei/",
+      label: "ケヤキの剪定",
+      desc: "高木になる落葉樹の剪定",
+    },
+    {
       href: "/icho-sentei/",
       label: "イチョウの剪定",
       desc: "冬の骨格づくりと秋の枝抜き",
