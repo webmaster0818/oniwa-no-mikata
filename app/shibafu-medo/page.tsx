@@ -152,6 +152,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-runner/",
+      label: "芝生のランナー（ほふく茎）",
+      desc: "目土で伸ばす茎",
+    },
+    {
       href: "/shibafu-aeration-jiki/",
       label: "芝生のエアレーションの時期",
       desc: "目土とあわせる穴あけ作業",

@@ -187,6 +187,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shimotsuke-sentei/",
+      label: "シモツケの剪定",
+      desc: "枝抜き程度にとどめる低木",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花と手入れ",
       desc: "花芽と剪定時期の関係",

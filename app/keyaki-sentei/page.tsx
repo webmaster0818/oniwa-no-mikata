@@ -188,6 +188,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusunoki-sentei/",
+      label: "クスノキの剪定",
+      desc: "大木になる常緑樹",
+    },
+    {
       href: "/takagi-sentei-kiken/",
       label: "高い木の剪定の危険",
       desc: "自分で登らない判断",

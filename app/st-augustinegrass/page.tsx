@@ -179,6 +179,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-runner/",
+      label: "芝生のランナー（ほふく茎）",
+      desc: "はみ出した分の切り方",
+    },
+    {
       href: "/centipedegrass/",
       label: "センチピードグラス（ムカデ芝）",
       desc: "寒さに弱い暖地型芝の植え方",

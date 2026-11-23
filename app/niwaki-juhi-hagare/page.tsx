@@ -171,6 +171,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/natsutsubaki-sentei/",
+      label: "シャラの木（ナツツバキ）の剪定",
+      desc: "梅雨末期までに間引く",
+    },
+    {
       href: "/niwaki-kanbu-fukyu/",
       label: "庭木の幹が腐っている・空洞がある",
       desc: "倒木のサインの見方と相談先",

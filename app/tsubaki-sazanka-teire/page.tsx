@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/natsutsubaki-sentei/",
+      label: "シャラの木（ナツツバキ）の剪定",
+      desc: "チャドクガがつく落葉樹",
+    },
+    {
       href: "/kaboku-tsubomi-ochiru/",
       label: "花木のつぼみが咲く前に落ちる",
       desc: "落蕾の原因の見分け方と翌年に向けた手入れ",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shimotsuke-sentei/",
+      label: "シモツケの剪定",
+      desc: "深く刈り込むと花芽を落とす",
+    },
+    {
       href: "/sharinbai-sentei/",
       label: "シャリンバイの剪定",
       desc: "花芽ができる前の刈り込み",

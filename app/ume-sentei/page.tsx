@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ume-gaichu/",
+      label: "梅の木の害虫",
+      desc: "剪定時に卵塊の枝を切る",
+    },
+    {
       href: "/ume-byoki/",
       label: "梅の病気",
       desc: "黒星病・灰星病と剪定での対策",

@@ -204,6 +204,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/ume-gaichu/",
+      label: "梅の木の害虫",
+      desc: "カイガラムシ・コスカシバなど",
+    },
+    {
       href: "/ume-sentei/",
       label: "梅の剪定",
       desc: "時期と切り方",

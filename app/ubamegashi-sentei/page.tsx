@@ -199,6 +199,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kusunoki-sentei/",
+      label: "クスノキの剪定",
+      desc: "暖かくなってから剪定する常緑樹",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込み",
       desc: "時期と刈り方の基本",
