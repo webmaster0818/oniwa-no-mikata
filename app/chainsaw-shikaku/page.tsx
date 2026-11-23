@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kakarigi/",
+      label: "かかり木とは",
+      desc: "処理で禁止されている方法",
+    },
+    {
       href: "/chainsaw-tsukaikata/",
       label: "チェーンソーの使い方",
       desc: "材料の固定と下半身の防護",

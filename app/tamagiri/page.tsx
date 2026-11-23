@@ -174,6 +174,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kakarigi/",
+      label: "かかり木とは",
+      desc: "倒した木が引っかかったとき",
+    },
+    {
       href: "/battou/",
       label: "伐倒とは",
       desc: "受け口・追い口・つる",

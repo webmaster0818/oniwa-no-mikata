@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sentei-kyatatsu/",
+      label: "剪定で脚立を使うときの注意",
+      desc: "天板から2段以上下に立つ",
+    },
+    {
       href: "/keyaki-sentei/",
       label: "ケヤキの剪定",
       desc: "高木になる落葉樹の剪定",

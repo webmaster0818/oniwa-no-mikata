@@ -177,6 +177,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kakarigi/",
+      label: "かかり木とは",
+      desc: "倒した木が引っかかったとき",
+    },
+    {
       href: "/tamagiri/",
       label: "玉切りとは",
       desc: "倒した木を一定の長さに切る作業",

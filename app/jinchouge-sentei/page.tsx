@@ -147,6 +147,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/asebi-sentei/",
+      label: "アセビの剪定",
+      desc: "早春に咲く常緑低木",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花を良くする手入れ",
       desc: "花が咲かない原因と剪定・施肥",

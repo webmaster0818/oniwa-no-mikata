@@ -151,6 +151,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-metate/",
+      label: "チェーンソーの研ぎ方（目立て）",
+      desc: "ソーチェーンの手入れ",
+    },
+    {
+      href: "/chainsaw-maintenance/",
+      label: "チェーンソーのメンテナンス",
+      desc: "始業前・作業後の点検",
+    },
+    {
       href: "/battou/",
       label: "伐倒とは",
       desc: "受け口の深さと立入禁止の範囲",

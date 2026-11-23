@@ -155,6 +155,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sentei-kyatatsu/",
+      label: "剪定で脚立を使うときの注意",
+      desc: "脚立の置き方と立つ位置",
+    },
+    {
+      href: "/chainsaw-maintenance/",
+      label: "チェーンソーのメンテナンス",
+      desc: "始業前・作業後の点検",
+    },
+    {
       href: "/karibarai-maintenance/",
       label: "刈払機のメンテナンス",
       desc: "清掃・点検・燃料の抜き取り",

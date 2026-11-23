@@ -190,6 +190,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-metate/",
+      label: "チェーンソーの研ぎ方（目立て）",
+      desc: "ソーチェーンの目立て",
+    },
+    {
       href: "/kusakari-jiki/",
       label: "草刈りの時期",
       desc: "5・7・9月の年3回が目安",

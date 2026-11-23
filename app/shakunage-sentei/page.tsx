@@ -189,6 +189,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/asebi-sentei/",
+      label: "アセビの剪定",
+      desc: "同じツツジ科の花木",
+    },
+    {
       href: "/tsutsuji-satsuki-teire/",
       label: "ツツジ・サツキの剪定時期",
       desc: "花が終わった直後に切る",
