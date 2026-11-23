@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-namekuji",
   published: "2026-10-17",
-  updatedLabel: "2026年10月17日",
+  updatedLabel: "2026年11月23日",
   h1: "庭にナメクジが出る｜出やすい場所・季節と減らし方をわかりやすく解説",
   breadcrumbLabel: "庭のナメクジ",
   tagChips: ["ナメクジ", "湿気", "梅雨", "庭の虫"],
@@ -33,6 +33,10 @@ const data: KnowArticleData = {
     "庭に出るナメクジに関する一般知識。出やすい場所と季節、湿気と隠れ場所を減らす整え方、誘引剤を使う場合の注意、触れたときの手洗いやペット・子どもへの配慮をまとめた記事です。",
   lead: (
     <>
+      <p className="mb-4">
+        庭のナメクジは、<Hl>日中は石やマルチ（地面を覆う資材）などの下に潜み、主に夜間に活動</Hl>します。湿ったところを好み、<Hl>梅雨期や雨天時は昼間も活動しますが、高温・乾燥に弱く、真夏に出てくることは少ない</Hl>とされています。山口県の資料では、同県で最も普通に見られる外来種のチャコウラナメクジは秋（9〜10月）に成熟し、<Hl>11月から4月にかけて地中や石などの下に数個から20個をまとめて産卵</Hl>し、産卵を終えた成体は6月には死亡すると説明されています（<a href="https://www.pref.yamaguchi.lg.jp/uploaded/attachment/61936.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">山口県「ナメクジ類（チャコウラナメクジ、ノハラナメクジ）」</a>・2026年11月23日確認）。
+        気温との関係では、同県の資料に「卵は32℃以上ではふ化せず、幼体は36℃以上では生存できない」とあります（<a href="https://www.pref.yamaguchi.lg.jp/uploaded/attachment/61955.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">山口県「ナメクジの生態」</a>・2026年11月23日確認）。発生源・隠れ場所を減らす方法として、同県は<Hl>植物の残りかすを適正に処分し、使用済みのマルチなどの資材を片付ける</Hl>ことを挙げています。
+      </p>
       <p className="mb-4">
         「雨上がりの朝、玄関先や鉢のまわりにナメクジが何匹も出ている」「植えたばかりの苗や花びらが、ひと晩で食べられてしまった」「地面や壁に、光る筋のような跡が残っている」といったナメクジの気配は、見た目の不快さもあって、早く何とかしたいと感じやすい悩みです。
       </p>
