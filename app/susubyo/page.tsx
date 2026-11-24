@@ -153,6 +153,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kuroganemochi-sentei/",
+      label: "クロガネモチの剪定",
+      desc: "枝透かしで風通しを確保",
+    },
+    {
       href: "/kaigaramushi-aburamushi/",
       label: "カイガラムシ・アブラムシ等の見分け方",
       desc: "庭木につく虫のサインと対処",

@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/toboku-shori/",
+      label: "倒木の処理",
+      desc: "倒れた先ごとの連絡先",
+    },
+    {
       href: "/takagi-sentei-kiken/",
       label: "高い木の剪定を自分で行う危険性",
       desc: "高所作業のリスクと安全な依頼の仕方",

@@ -187,6 +187,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kuroganemochi-sentei/",
+      label: "クロガネモチの剪定",
+      desc: "クスノキの剪定に準じる",
+    },
+    {
       href: "/ubamegashi-sentei/",
       label: "ウバメガシの剪定",
       desc: "同じ常緑樹の剪定",

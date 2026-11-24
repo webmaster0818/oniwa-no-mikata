@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/toboku-shori/",
+      label: "倒木の処理",
+      desc: "倒れた先ごとの連絡先",
+    },
+    {
       href: "/niwaki-shichu/",
       label: "庭木の支柱の立て方の基本",
       desc: "種類・必要な期間・外す時期の考え方",

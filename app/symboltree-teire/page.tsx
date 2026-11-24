@@ -154,6 +154,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nemunoki-sodatekata/",
+      label: "ねむの木の育て方",
+      desc: "高さ10m近くになる日なたの木",
+    },
+    {
+      href: "/kuroganemochi-sentei/",
+      label: "クロガネモチの剪定",
+      desc: "生長が遅い常緑樹",
+    },
+    {
       href: "/yamamomo-sentei/",
       label: "ヤマモモの剪定",
       desc: "常緑樹の剪定時期と枝抜き",

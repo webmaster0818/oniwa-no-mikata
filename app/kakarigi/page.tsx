@@ -196,6 +196,16 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/toboku-shori/",
+      label: "倒木の処理",
+      desc: "倒れた先ごとの連絡先",
+    },
+    {
+      href: "/bassai-kusabi/",
+      label: "伐採のくさびの使い方",
+      desc: "薄いくさび→厚いくさび",
+    },
+    {
       href: "/battou/",
       label: "伐倒とは",
       desc: "受け口・追い口・つるの基本",

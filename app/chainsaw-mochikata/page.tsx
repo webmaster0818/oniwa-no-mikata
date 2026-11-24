@@ -201,6 +201,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/bassai-kusabi/",
+      label: "伐採のくさびの使い方",
+      desc: "のこ道の確保と伐倒方向",
+    },
+    {
       href: "/chainsaw-tsukaikata/",
       label: "チェーンソーの使い方と安全の基本",
       desc: "保護具と固定の考え方",

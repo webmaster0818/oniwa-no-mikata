@@ -176,6 +176,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/utsugi-sentei/",
+      label: "ウツギの剪定",
+      desc: "花の後と落葉期",
+    },
+    {
       href: "/sentei-jiki/",
       label: "剪定の時期",
       desc: "庭木ごとの考え方",

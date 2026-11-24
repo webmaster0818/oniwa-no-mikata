@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nemunoki-sodatekata/",
+      label: "ねむの木の育て方",
+      desc: "強く切るのに向かない木",
+    },
+    {
       href: "/kakuremino-sentei/",
       label: "カクレミノの剪定",
       desc: "8〜10mになる木の枝抜き",

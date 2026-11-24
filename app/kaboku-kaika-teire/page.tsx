@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/utsugi-sentei/",
+      label: "ウツギの剪定",
+      desc: "花が咲かない原因",
+    },
+    {
       href: "/rengyo-sentei/",
       label: "レンギョウの剪定",
       desc: "花芽は7〜8月にでき始める",
