@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "fuyugakoi-yukigakoi",
   published: "2026-11-01",
-  updatedLabel: "2026年11月16日",
+  updatedLabel: "2026年11月24日",
   h1: "庭木の冬囲い・雪囲いはいつ・どうする｜雪で枝が折れる前の準備と業者に頼む目安",
   breadcrumbLabel: "庭木の冬囲い・雪囲い",
   tagChips: ["冬囲い", "雪囲い", "雪吊り", "積雪地", "生垣"],
@@ -34,6 +34,9 @@ const data: KnowArticleData = {
     "庭木の冬囲い・雪囲い・雪吊りの時期と考え方を、石川県・北海道立総合研究機構・札幌市などの公的情報をもとに解説。囲い方の選び方、剪定枝の出し方、業者に頼む目安をまとめた記事です。",
   lead: (
     <>
+      <p className="mb-4">
+        冬囲い・雪囲いをいつから始めるかに決まった日付はなく、<Hl>お住まいの地域で雪が積もり始める前に終える</Hl>のが基本です。気象庁の平年値（1991〜2020年）では、札幌は雪の初日（初雪）が<Hl>10月28日</Hl>、積雪1cm以上の初日が<Hl>11月12日</Hl>、根雪（長期積雪）の初日が12月6日、金沢は雪の初日が11月24日、積雪1cm以上の初日が12月15日です（出典：<a href="https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_season.php?prec_no=14&block_no=47412" className={A} target="_blank" rel="noopener noreferrer">気象庁「平年値（霜・雪・結氷の初終日と初冠雪日）」札幌</a>・<a href="https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_season.php?prec_no=56&block_no=47605" className={A} target="_blank" rel="noopener noreferrer">金沢</a>、2026年11月24日確認）。
+      </p>
       <p className="mb-4">
         冬囲い・雪囲いは、<Hl>雪の重みで枝が折れたり、生垣がつぶれたりするのを防ぐための冬支度</Hl>です。時期の目安として、金沢の特別名勝・兼六園では、雪害から樹木を守るための雪吊りを2026年は<Hl>11月1日から始め、12月中旬に終える予定</Hl>と発表されています（出典：<a href="https://www.pref.ishikawa.lg.jp/kisya/r8/documents/1023_10_kouenryokuti.pdf" className={A} target="_blank" rel="noopener noreferrer">石川県 金沢城・兼六園管理事務所「兼六園の雪吊りについて」（令和8年10月23日）</a>、2026年11月1日確認）。積雪地の庭でも、根雪になる前に作業を終えることが基本になります。
       </p>
