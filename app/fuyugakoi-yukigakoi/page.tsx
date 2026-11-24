@@ -162,6 +162,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nanakamado-niwaki/",
+      label: "ナナカマドを庭木にする",
+      desc: "北海道で多い落葉樹",
+    },
+    {
       href: "/area/sapporo/senteieda/",
       label: "札幌市の枝・葉・草の出し方",
       desc: "無料収集は5月〜12月中旬（市の公式情報）",

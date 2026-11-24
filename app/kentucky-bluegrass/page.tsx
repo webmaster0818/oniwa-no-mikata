@@ -188,6 +188,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-towa/",
+      label: "芝生とは",
+      desc: "夏芝と冬芝の違い",
+    },
+    {
       href: "/shibafu-tanemaki/",
       label: "芝生の種まき",
       desc: "冬芝の時期と手順",

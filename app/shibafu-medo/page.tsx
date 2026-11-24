@@ -152,6 +152,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-rake/",
+      label: "芝生のレーキ（熊手）の使いどころ",
+      desc: "目砂の均しとサッチ取り",
+    },
+    {
       href: "/shibafu-runner/",
       label: "芝生のランナー（ほふく茎）",
       desc: "目土で伸ばす茎",

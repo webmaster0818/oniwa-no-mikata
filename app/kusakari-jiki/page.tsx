@@ -189,6 +189,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/akichi-zasso-taisaku/",
+      label: "空き地の雑草対策",
+      desc: "所有者に求められる管理",
+    },
+    {
       href: "/kusakari-silver-jinzai/",
       label: "草刈りをシルバー人材センターに頼む",
       desc: "5センターの料金の目安",

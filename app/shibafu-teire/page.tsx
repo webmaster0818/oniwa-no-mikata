@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-towa/",
+      label: "芝生とは",
+      desc: "夏芝と冬芝の違い",
+    },
+    {
       href: "/shibafu-aeration-jiki/",
       label: "芝生のエアレーションの時期",
       desc: "春から梅雨入りまでの更新作業",

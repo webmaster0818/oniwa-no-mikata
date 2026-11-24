@@ -150,6 +150,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/rengyo-sentei/",
+      label: "レンギョウの剪定",
+      desc: "同じ春の花木",
+    },
+    {
       href: "/jinchouge-sentei/",
       label: "沈丁花（ジンチョウゲ）の剪定",
       desc: "花の終わった直後",

@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nanakamado-niwaki/",
+      label: "ナナカマドを庭木にする",
+      desc: "花と実を楽しむ落葉樹",
+    },
+    {
       href: "/kaboku-kaika-teire/",
       label: "花木の開花を良くする手入れ",
       desc: "花が咲かない原因の切り分け方",

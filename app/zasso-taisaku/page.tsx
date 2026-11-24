@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/akichi-zasso-taisaku/",
+      label: "空き地の雑草対策",
+      desc: "除草は年2回以上が目安",
+    },
+    {
       href: "/josozai-sanpu-jiki/",
       label: "除草剤の散布時期",
       desc: "土壌処理剤と茎葉処理剤",

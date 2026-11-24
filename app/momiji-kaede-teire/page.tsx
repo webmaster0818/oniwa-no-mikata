@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/nanakamado-niwaki/",
+      label: "ナナカマドを庭木にする",
+      desc: "紅葉と赤い実の落葉樹",
+    },
+    {
       href: "/icho-sentei/",
       label: "イチョウの剪定",
       desc: "落葉高木の剪定の時期",

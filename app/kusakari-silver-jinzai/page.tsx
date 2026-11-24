@@ -215,6 +215,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/akichi-zasso-taisaku/",
+      label: "空き地の雑草対策",
+      desc: "遠方の空き地の管理",
+    },
+    {
       href: "/kusakari-jiki/",
       label: "草刈りの時期",
       desc: "年に何回、いつ刈るか",

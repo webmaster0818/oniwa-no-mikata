@@ -180,6 +180,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-rake/",
+      label: "芝生のレーキ（熊手）の使いどころ",
+      desc: "目砂の均しとサッチ取り",
+    },
+    {
       href: "/shibafu-medo/",
       label: "芝生の目土のやり方",
       desc: "エアレーションとあわせて行う作業",

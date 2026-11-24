@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/rengyo-sentei/",
+      label: "レンギョウの剪定",
+      desc: "花後すぐ、夏以降は切り詰めない",
+    },
+    {
       href: "/mokkoku-sentei/",
       label: "モッコクの剪定",
       desc: "4〜10月の暖かい時期に",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/rengyo-sentei/",
+      label: "レンギョウの剪定",
+      desc: "花芽は7〜8月にでき始める",
+    },
+    {
       href: "/shimotsuke-sentei/",
       label: "シモツケの剪定",
       desc: "深く刈り込むと花芽を落とす",

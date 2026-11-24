@@ -187,6 +187,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-towa/",
+      label: "芝生とは",
+      desc: "夏芝と冬芝の違い",
+    },
+    {
       href: "/kentucky-bluegrass/",
       label: "ケンタッキーブルーグラスの特徴",
       desc: "寒さに強い冬芝",
