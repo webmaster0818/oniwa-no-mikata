@@ -200,6 +200,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kinmokusei-gaichu/",
+      label: "キンモクセイの害虫",
+      desc: "常緑樹の害虫",
+    },
+    {
       href: "/ume-byoki/",
       label: "梅の病気",
       desc: "黒星病・灰星病など",

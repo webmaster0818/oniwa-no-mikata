@@ -151,6 +151,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-mochikata/",
+      label: "チェーンソーの持ち方",
+      desc: "両手での保持と構え方",
+    },
+    {
       href: "/chainsaw-metate/",
       label: "チェーンソーの研ぎ方（目立て）",
       desc: "ソーチェーンの手入れ",

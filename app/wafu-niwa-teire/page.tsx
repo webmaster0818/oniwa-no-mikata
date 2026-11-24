@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/mokkoku-sentei/",
+      label: "モッコクの剪定",
+      desc: "和風の庭の常緑樹",
+    },
+    {
       href: "/matsu-teire/",
       label: "松の手入れの基礎知識",
       desc: "みどり摘み・もみあげなど年間の手入れ",

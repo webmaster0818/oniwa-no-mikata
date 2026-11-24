@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kinmokusei-gaichu/",
+      label: "キンモクセイの害虫",
+      desc: "モクセイ類につく虫",
+    },
+    {
       href: "/susubyo/",
       label: "すす病とは？",
       desc: "葉や枝が黒くなる原因と対処",

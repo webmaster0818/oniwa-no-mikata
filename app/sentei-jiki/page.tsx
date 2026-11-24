@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/mokkoku-sentei/",
+      label: "モッコクの剪定",
+      desc: "4〜10月の暖かい時期に",
+    },
+    {
       href: "/mukuge-sentei/",
       label: "ムクゲの剪定",
       desc: "花後の秋から翌春",

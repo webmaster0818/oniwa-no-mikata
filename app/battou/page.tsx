@@ -177,6 +177,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/chainsaw-mochikata/",
+      label: "チェーンソーの持ち方",
+      desc: "構え方と始動",
+    },
+    {
       href: "/kakarigi/",
       label: "かかり木とは",
       desc: "倒した木が引っかかったとき",

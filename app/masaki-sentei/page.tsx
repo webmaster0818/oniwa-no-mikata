@@ -188,6 +188,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sangoju-sentei/",
+      label: "サンゴジュの剪定",
+      desc: "同じ生垣向きの常緑樹",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込み",
       desc: "時期と刈り方の基本",

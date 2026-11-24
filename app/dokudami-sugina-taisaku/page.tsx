@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/josozai-sanpu-jiki/",
+      label: "除草剤の散布時期",
+      desc: "まく時期の考え方",
+    },
+    {
       href: "/seitakaawadachiso-kujo/",
       label: "セイタカアワダチソウの駆除",
       desc: "抜き取りと刈り取りの時期",

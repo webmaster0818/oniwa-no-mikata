@@ -158,6 +158,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sangoju-sentei/",
+      label: "サンゴジュの剪定",
+      desc: "刈り込みに強い常緑樹",
+    },
+    {
       href: "/masaki-sentei/",
       label: "マサキの剪定",
       desc: "刈り込みの時期と切り返し",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/kinmokusei-gaichu/",
+      label: "キンモクセイの害虫",
+      desc: "症状から虫を見分ける",
+    },
+    {
       href: "/ikegaki-karikomi/",
       label: "生垣の刈り込みの基礎知識",
       desc: "時期・頻度・道具と自分で行う手順",

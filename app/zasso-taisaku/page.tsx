@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/josozai-sanpu-jiki/",
+      label: "除草剤の散布時期",
+      desc: "土壌処理剤と茎葉処理剤",
+    },
+    {
       href: "/nagamihinageshi-kujo/",
       label: "ナガミヒナゲシの駆除",
       desc: "実ができる前に根から抜く",

@@ -151,6 +151,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/josozai-sanpu-jiki/",
+      label: "除草剤の散布時期",
+      desc: "生える前と生えた後の使い分け",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート・砂利",

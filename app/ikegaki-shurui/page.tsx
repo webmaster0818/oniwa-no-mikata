@@ -218,6 +218,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/sangoju-sentei/",
+      label: "サンゴジュの剪定",
+      desc: "生垣向きの常緑樹の剪定",
+    },
+    {
       href: "/masaki-sentei/",
       label: "マサキの剪定",
       desc: "刈り込みの時期と切り返し",
