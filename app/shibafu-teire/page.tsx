@@ -154,6 +154,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-4gatsu-teire/",
+      label: "芝生の4月の手入れ",
+      desc: "芝刈り・肥料・除草の始め方",
+    },
+    {
       href: "/shibafu-towa/",
       label: "芝生とは",
       desc: "夏芝と冬芝の違い",

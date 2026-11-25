@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/large-patch/",
+      label: "ラージパッチとは",
+      desc: "春と秋に丸く茶色になる病気",
+    },
+    {
       href: "/shibafu-aki-fuyu-teire/",
       label: "芝生の秋冬の手入れ",
       desc: "刈り込みを止める時期・落ち葉・冬の踏圧の考え方",

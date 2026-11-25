@@ -192,6 +192,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/clover-zasso-taisaku/",
+      label: "クローバー（シロツメクサ）の雑草対策",
+      desc: "肥料不足の目印になる雑草",
+    },
+    {
       href: "/shibafu-teire/",
       label: "芝生の手入れの基本",
       desc: "芝刈り・水やり・年間管理の考え方",

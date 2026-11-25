@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/shibafu-4gatsu-teire/",
+      label: "芝生の4月の手入れ",
+      desc: "春の芝生の作業",
+    },
+    {
       href: "/aki-niwa-checklist/",
       label: "秋の庭仕事チェックリスト",
       desc: "冬を迎える前に行う作業",

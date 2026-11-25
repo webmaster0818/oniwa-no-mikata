@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/clover-zasso-taisaku/",
+      label: "クローバー（シロツメクサ）の雑草対策",
+      desc: "ほふく茎の根元から抜く",
+    },
+    {
       href: "/josozai-anzen/",
       label: "庭で除草剤を安全に使うには",
       desc: "農林水産省登録の表示を確認",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/large-patch/",
+      label: "ラージパッチとは",
+      desc: "丸く枯れる芝生の病気",
+    },
+    {
       href: "/shibafu-medo/",
       label: "芝生の目土（目砂）のやり方",
       desc: "厚さ2〜3mmで芝の間に擦り込む",

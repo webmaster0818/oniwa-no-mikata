@@ -159,6 +159,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/boke-sodatekata/",
+      label: "ボケの育て方",
+      desc: "赤星病とビャクシン類",
+    },
+    {
       href: "/hiba-sentei/",
       label: "ヒバの剪定",
       desc: "アスナロの手入れの時期",

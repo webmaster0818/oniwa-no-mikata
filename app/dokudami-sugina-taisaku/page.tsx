@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/warunasubi-kujo/",
+      label: "ワルナスビの駆除",
+      desc: "根の切れ端から増える外来雑草",
+    },
+    {
       href: "/josozai-sanpu-jiki/",
       label: "除草剤の散布時期",
       desc: "まく時期の考え方",

@@ -155,6 +155,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/boke-sodatekata/",
+      label: "ボケの育て方",
+      desc: "花後の5〜7月に剪定",
+    },
+    {
       href: "/utsugi-sentei/",
       label: "ウツギの剪定",
       desc: "花が咲かない原因",

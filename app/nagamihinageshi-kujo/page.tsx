@@ -205,6 +205,11 @@ const data: KnowArticleData = {
   ],
   related: [
     {
+      href: "/warunasubi-kujo/",
+      label: "ワルナスビの駆除",
+      desc: "トゲのある外来の多年草",
+    },
+    {
       href: "/zasso-taisaku/",
       label: "雑草対策",
       desc: "庭の雑草を増やさない方法",
