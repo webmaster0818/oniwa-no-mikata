@@ -149,6 +149,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/ume-mi-naranai/", label: "梅の実がならない原因", desc: "受粉と開花期の天気" },
     {
       href: "/ume-gaichu/",
       label: "梅の木の害虫",

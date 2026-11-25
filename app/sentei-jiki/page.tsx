@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/ichii-sentei/", label: "イチイ（オンコ）の剪定", desc: "骨格剪定は6〜7月上旬" },
     { href: "/imieda/", label: "忌み枝とは", desc: "剪定で取り除く不要枝" },
     {
       href: "/rengyo-sentei/",

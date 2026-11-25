@@ -154,6 +154,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/ume-mi-naranai/", label: "梅の実がならない原因", desc: "自家不和合性と受粉樹" },
     {
       href: "/sansho-sentei/",
       label: "山椒（サンショウ）の剪定",

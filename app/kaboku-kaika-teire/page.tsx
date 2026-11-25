@@ -154,6 +154,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/karatane-ogatama-sentei/", label: "カラタネオガタマの剪定", desc: "4月に香りのある花" },
     { href: "/enishida-sentei/", label: "エニシダの剪定", desc: "花は前年枝につく" },
     { href: "/hanazuo-sentei/", label: "ハナズオウの剪定", desc: "花芽は7月上旬" },
     {

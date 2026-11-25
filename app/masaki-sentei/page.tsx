@@ -187,6 +187,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/karatane-ogatama-sentei/", label: "カラタネオガタマの剪定", desc: "移植が難しい常緑樹" },
     {
       href: "/sangoju-sentei/",
       label: "サンゴジュの剪定",

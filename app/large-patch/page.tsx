@@ -179,6 +179,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/shibafu-iro/", label: "芝生の色で状態を見る", desc: "黄色・黒っぽいときの見分け" },
     { href: "/shibafu-byoki/", label: "芝生の病気の見分け方", desc: "変色・枯れの切り分け" },
     { href: "/shibafu-bubun-gare/", label: "芝生が部分的に枯れる・はげる", desc: "まだらな枯れの原因" },
     { href: "/shibafu-medo/", label: "芝生の目土（目砂）のやり方", desc: "排水を良くする" },

@@ -157,6 +157,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/nezumimochi-sentei/", label: "ネズミモチの剪定", desc: "生垣に使われる常緑樹" },
     {
       href: "/sangoju-sentei/",
       label: "サンゴジュの剪定",

@@ -191,6 +191,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/shibafu-iro/", label: "芝生の色で状態を見る", desc: "色が薄いときの確認" },
     {
       href: "/clover-zasso-taisaku/",
       label: "クローバー（シロツメクサ）の雑草対策",

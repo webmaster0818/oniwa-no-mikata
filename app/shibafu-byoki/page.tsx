@@ -154,6 +154,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/shibafu-iro/", label: "芝生の色で状態を見る", desc: "5段階の色のチェック" },
     {
       href: "/large-patch/",
       label: "ラージパッチとは",

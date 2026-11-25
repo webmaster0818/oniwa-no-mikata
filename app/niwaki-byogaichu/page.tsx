@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/nezumimochi-sentei/", label: "ネズミモチの剪定", desc: "イボタガなどの害虫" },
     { href: "/enishida-sentei/", label: "エニシダの剪定", desc: "イセリアカイガラムシ" },
     {
       href: "/sakura-byoki/",

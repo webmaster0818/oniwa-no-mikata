@@ -158,6 +158,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/ichii-sentei/", label: "イチイ（オンコ）の剪定", desc: "針葉樹の剪定時期" },
     {
       href: "/boke-sodatekata/",
       label: "ボケの育て方",
