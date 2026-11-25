@@ -164,6 +164,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/shishoboku/", label: "支障木とは", desc: "道路や電線の妨げになる木" },
     {
       href: "/takagi-sentei-kiken/",
       label: "高い木の剪定を自分で行う危険性",

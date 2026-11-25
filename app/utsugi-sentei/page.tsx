@@ -178,6 +178,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/murasakishikibu-sentei/", label: "ムラサキシキブの剪定", desc: "実が終わった後の枝抜き" },
     { href: "/shimotsuke-sentei/", label: "シモツケの剪定", desc: "株立ちの花木" },
     { href: "/yukiyanagi-sentei/", label: "ユキヤナギの剪定", desc: "春の花木" },
     { href: "/kaboku-kaika-teire/", label: "花木の開花と手入れ", desc: "花芽と剪定時期の関係" },

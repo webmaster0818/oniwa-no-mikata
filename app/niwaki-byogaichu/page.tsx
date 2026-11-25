@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/enishida-sentei/", label: "エニシダの剪定", desc: "イセリアカイガラムシ" },
     {
       href: "/sakura-byoki/",
       label: "桜の病気",

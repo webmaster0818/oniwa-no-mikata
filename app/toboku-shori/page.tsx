@@ -178,6 +178,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/shishoboku/", label: "支障木とは", desc: "倒れるおそれのある木の扱い" },
     { href: "/kakarigi/", label: "かかり木とは", desc: "他の木に引っかかった木" },
     { href: "/taifu-niwaki-taisaku/", label: "台風前後の庭木対策", desc: "倒木・枝折れを防ぐ" },
     { href: "/niwaki-katamuki/", label: "庭木が傾いた", desc: "倒れる前の対処" },

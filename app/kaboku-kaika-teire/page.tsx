@@ -154,6 +154,8 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/enishida-sentei/", label: "エニシダの剪定", desc: "花は前年枝につく" },
+    { href: "/hanazuo-sentei/", label: "ハナズオウの剪定", desc: "花芽は7月上旬" },
     {
       href: "/boke-sodatekata/",
       label: "ボケの育て方",

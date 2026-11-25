@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/shishoboku/", label: "支障木とは", desc: "道路に張り出した木の管理" },
     {
       href: "/takagi-sentei-kiken/",
       label: "高い木の剪定の危険性",

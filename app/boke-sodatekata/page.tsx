@@ -178,6 +178,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/hanazuo-sentei/", label: "ハナズオウの剪定", desc: "春の花木の剪定時期" },
     { href: "/kaboku-kaika-teire/", label: "花木の開花と手入れ", desc: "花芽と剪定時期の関係" },
     { href: "/conifer-teire/", label: "コニファーの手入れ", desc: "ビャクシン類と赤星病" },
     { href: "/ume-sentei/", label: "梅の剪定", desc: "春の花木" },

@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/imieda/", label: "忌み枝とは", desc: "剪定で取り除く不要枝9種類" },
     {
       href: "/edauchi/",
       label: "枝打ちとは",

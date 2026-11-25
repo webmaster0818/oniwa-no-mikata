@@ -157,6 +157,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/imieda/", label: "忌み枝とは", desc: "ほかの不要枝との違い" },
     {
       href: "/sakura-sentei/",
       label: "桜（サクラ）の剪定",
