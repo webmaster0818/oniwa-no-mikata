@@ -199,6 +199,7 @@ const data: KnowArticleData = {
       label: "庭木の葉に穴があく・葉が食べられている",
       desc: "虫・ナメクジ・病気の見分け方",
     },
+    { href: "/hisakaki-sentei/", label: "ヒサカキの剪定", desc: "同じツバキ科の常緑樹" },
   ],
 };
 

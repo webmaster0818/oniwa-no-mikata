@@ -181,6 +181,7 @@ const data: KnowArticleData = {
     { href: "/take-taisaku/", label: "竹・笹の対策の基礎知識", desc: "地下茎で広がる仕組みと止め方" },
     { href: "/bassai-bakkon-chigai/", label: "伐採と抜根の違い", desc: "根まで処理するかどうか" },
     { href: "/kirikabu-hochi/", label: "切り株を放置するとどうなるか", desc: "伐った後の根の扱い" },
+    { href: "/chikurin-teire/", label: "竹林の手入れ", desc: "伐る時期と立てておく本数" },
   ],
 };
 

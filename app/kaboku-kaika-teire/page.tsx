@@ -283,6 +283,7 @@ const data: KnowArticleData = {
       label: "ヤマボウシの剪定と手入れ",
       desc: "花後と冬の剪定の使い分け",
     },
+    { href: "/kaido-sentei/", label: "カイドウの剪定", desc: "落葉期に花芽を残して切る" },
   ],
 };
 

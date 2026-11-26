@@ -184,6 +184,7 @@ const data: KnowArticleData = {
       label: "剪定は自分でできる？",
       desc: "DIYと業者依頼の判断基準",
     },
+    { href: "/edaoroshi/", label: "枝下ろしとは", desc: "透かし剪定の最初に行う作業" },
   ],
 };
 

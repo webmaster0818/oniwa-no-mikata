@@ -183,6 +183,7 @@ const data: KnowArticleData = {
     { href: "/conifer-teire/", label: "コニファーの手入れ", desc: "ビャクシン類と赤星病" },
     { href: "/ume-sentei/", label: "梅の剪定", desc: "春の花木" },
     { href: "/kemushi-chui/", label: "毛虫に触れたときの注意と予防", desc: "夏から秋の毛虫" },
+    { href: "/kaido-sentei/", label: "カイドウの剪定", desc: "同じバラ科の花木" },
   ],
 };
 

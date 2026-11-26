@@ -184,6 +184,7 @@ const data: KnowArticleData = {
       label: "庭木の伐採に許可・届出は必要か",
       desc: "切る前に確認すべき5つの立場",
     },
+    { href: "/chikurin-teire/", label: "竹林の手入れ", desc: "伐る時期と立てておく本数" },
   ],
 };
 

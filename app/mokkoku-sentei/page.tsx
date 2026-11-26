@@ -211,6 +211,7 @@ const data: KnowArticleData = {
       label: "サンゴジュの剪定",
       desc: "常緑樹の剪定時期",
     },
+    { href: "/hisakaki-sentei/", label: "ヒサカキの剪定", desc: "同じツバキ科の常緑樹" },
   ],
 };
 

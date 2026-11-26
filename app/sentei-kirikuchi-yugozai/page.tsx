@@ -199,6 +199,7 @@ const data: KnowArticleData = {
       label: "庭木の枝が折れた・裂けた",
       desc: "応急の確認と切り直しの考え方",
     },
+    { href: "/edaoroshi/", label: "枝下ろしとは", desc: "太い枝を付け根から切る剪定" },
   ],
 };
 

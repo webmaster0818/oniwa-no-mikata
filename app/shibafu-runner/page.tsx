@@ -205,6 +205,7 @@ const data: KnowArticleData = {
       label: "芝生が部分的に枯れる",
       desc: "はげた部分の原因",
     },
+    { href: "/shibafu-kiwagari/", label: "芝生のキワ刈り", desc: "芝刈機が届かない際の処理" },
   ],
 };
 
