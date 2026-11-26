@@ -166,6 +166,7 @@ const data: KnowArticleData = {
       label: "庭木の剪定時期の基本",
       desc: "季節ごとの考え方と樹種の違い",
     },
+    { href: "/fuyou-sentei/", label: "芙蓉（フヨウ）の剪定", desc: "同じアオイ科の花木" },
   ],
 };
 

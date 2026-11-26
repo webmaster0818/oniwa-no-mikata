@@ -174,6 +174,7 @@ const data: KnowArticleData = {
       label: "冬の庭仕事チェックリスト",
       desc: "寒い時期に行う作業",
     },
+    { href: "/fuyou-sentei/", label: "芙蓉（フヨウ）の剪定", desc: "同じアオイ科の花木" },
   ],
 };
 

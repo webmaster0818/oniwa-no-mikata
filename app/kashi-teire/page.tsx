@@ -193,6 +193,7 @@ const data: KnowArticleData = {
       label: "剪定110番の料金・対応",
       desc: "料金ページで剪定4,000円〜（税込）を確認",
     },
+    { href: "/konara-niwaki/", label: "コナラを庭木にするときの注意", desc: "同じブナ科の落葉高木" },
   ],
 };
 

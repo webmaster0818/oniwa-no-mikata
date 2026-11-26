@@ -183,6 +183,7 @@ const data: KnowArticleData = {
       label: "庭木が枯れたかどうかの見分け方",
       desc: "休眠との違いと枯れ木の扱い",
     },
+    { href: "/tochoushi-sentei/", label: "徒長枝の剪定", desc: "長く伸びた枝は付け根から" },
   ],
 };
 

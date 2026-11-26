@@ -174,6 +174,7 @@ const data: KnowArticleData = {
       label: "庭木の消毒を業者に依頼する判断",
       desc: "時期・回数・自分でやる範囲",
     },
+    { href: "/konara-niwaki/", label: "コナラを庭木にするときの注意", desc: "ナラ枯れの根元の木くず" },
   ],
 };
 

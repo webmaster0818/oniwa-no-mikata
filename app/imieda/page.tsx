@@ -187,6 +187,7 @@ const data: KnowArticleData = {
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "季節ごとの考え方" },
     { href: "/shishoboku/", label: "支障木とは", desc: "道路や電線の妨げになる木" },
     { href: "/edaoroshi/", label: "枝下ろしとは", desc: "太い枝を付け根から切る剪定" },
+    { href: "/tochoushi-sentei/", label: "徒長枝の剪定", desc: "長く伸びた枝は付け根から" },
   ],
 };
 

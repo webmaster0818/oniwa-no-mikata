@@ -208,6 +208,7 @@ const data: KnowArticleData = {
       label: "ハナミズキの剪定と手入れ",
       desc: "花芽を残す冬の剪定",
     },
+    { href: "/katsura-sentei/", label: "カツラの剪定", desc: "大木になるシンボルツリー" },
   ],
 };
 

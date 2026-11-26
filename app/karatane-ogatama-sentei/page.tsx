@@ -183,6 +183,7 @@ const data: KnowArticleData = {
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "常緑樹の剪定時期の考え方" },
     { href: "/imieda/", label: "忌み枝とは", desc: "切ってよい枝の種類" },
     { href: "/nezumimochi-sentei/", label: "ネズミモチの剪定", desc: "庭や生垣の常緑樹" },
+    { href: "/kobushi-sentei/", label: "コブシの剪定", desc: "同じモクレン科の花木" },
   ],
 };
 

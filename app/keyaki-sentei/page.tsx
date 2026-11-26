@@ -212,6 +212,7 @@ const data: KnowArticleData = {
       label: "落ち葉対策",
       desc: "落葉樹の落ち葉の片付け",
     },
+    { href: "/katsura-sentei/", label: "カツラの剪定", desc: "同じく大木になる落葉樹" },
   ],
 };
 
