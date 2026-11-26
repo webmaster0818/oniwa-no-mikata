@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/take-seicho-sokudo/", label: "竹の成長速度", desc: "1日の伸びと地下茎が伸びる時期" },
     {
       href: "/bassai-bakkon-chigai/",
       label: "伐採と抜根の違い",

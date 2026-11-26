@@ -154,6 +154,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/yatsude-sentei/", label: "ヤツデの剪定", desc: "日陰を好む常緑低木" },
     {
       href: "/senryo-sentei/",
       label: "千両（センリョウ）の剪定",

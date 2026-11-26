@@ -186,6 +186,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/yatsude-sentei/", label: "ヤツデの剪定", desc: "日陰に強い常緑低木" },
     {
       href: "/shimotsuke-sentei/",
       label: "シモツケの剪定",

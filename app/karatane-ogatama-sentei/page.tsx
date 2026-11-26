@@ -178,6 +178,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/mokuren-sentei/", label: "木蓮の剪定", desc: "同じモクレン科の花木" },
     { href: "/kaboku-kaika-teire/", label: "花木の開花と手入れ", desc: "花芽と剪定時期の関係" },
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "常緑樹の剪定時期の考え方" },
     { href: "/imieda/", label: "忌み枝とは", desc: "切ってよい枝の種類" },

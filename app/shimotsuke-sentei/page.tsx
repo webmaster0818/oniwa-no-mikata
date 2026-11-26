@@ -175,6 +175,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/tosamizuki-sentei/", label: "トサミズキの剪定", desc: "枝抜き程度で整える株立ちの花木" },
     {
       href: "/utsugi-sentei/",
       label: "ウツギの剪定",

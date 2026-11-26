@@ -153,6 +153,7 @@ const data: KnowArticleData = {
     },
   ],
   related: [
+    { href: "/take-seicho-sokudo/", label: "竹の成長速度", desc: "竹が伸びる時期と地下茎" },
     {
       href: "/tamagiri/",
       label: "玉切りとは",
