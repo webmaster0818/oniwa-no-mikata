@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "niwa-ari-taisaku",
   published: "2026-10-12",
-  updatedLabel: "2026年10月17日",
+  updatedLabel: "2026年11月26日",
   h1: "庭や庭木にアリが大量に出る｜原因と減らし方の考え方をわかりやすく解説",
   breadcrumbLabel: "庭や庭木にアリが大量に出る",
   tagChips: ["アリ", "アブラムシ", "羽アリ", "庭の虫"],
@@ -33,6 +33,15 @@ const data: KnowArticleData = {
     "庭や庭木にアリが大量に出る原因と対処の一般知識。巣ができやすい場所、アブラムシ・カイガラムシとの関係、家への侵入を防ぐ考え方、羽アリとシロアリの見分けを専門業者に任せる理由をまとめた記事です。",
   lead: (
     <>
+      <p className="mb-4">
+        庭木にアリがたくさんいるときは、<Hl>枝先や葉の裏にアブラムシ・カイガラムシなどがいて、その甘い排泄物（甘露）を目当てに集まっている</Hl>か、<Hl>幹の腐った部分をアリが棲みかにしている</Hl>ことが考えられます。
+        森林総合研究所 多摩森林科学園は、植物の師管液を吸う虫は過剰な糖分を甘露として排泄し、カイガラムシやアブラムシがたかっている木の葉は甘露に黒いカビが生えた「すす病」で覆われることがあると説明しています（<a href="https://www.ffpri.go.jp/tmk/midokoro/tanhou/8august/hagoromo.html" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">森林総合研究所 多摩森林科学園「ハゴロモの成虫（8月）」</a>・2026年11月26日確認）。
+        環境省の手引きも、外来種のアルゼンチンアリが最も好む餌はアブラムシ類・カイガラムシ類が分泌する甘露や花蜜と言われ、これらの虫を外敵から保護するとしています（<a href="https://www.env.go.jp/nature/intro/3control/files/manual_argentine.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">環境省「アルゼンチンアリ防除の手引き」</a>・2026年11月26日確認）。
+      </p>
+      <p className="mb-4">
+        一方、東京都建設局の街路樹診断マニュアルは、<Hl>クロアリは樹木を直接食べないが腐朽箇所を棲みかとする場合があり、木の周囲でクロアリの集団や蟻道を見つけた場合は腐朽箇所が生じているおそれがある</Hl>としています（<a href="https://www.kensetsu.metro.tokyo.lg.jp/content/000051877.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">東京都建設局「街路樹診断マニュアル 第Ⅶ章 参考資料」</a>・2026年11月26日確認）。
+        アリの行き先が枝先や新芽なら<Link href="/kaigaramushi-aburamushi/" className="text-[#2D7F3E] underline">カイガラムシ・アブラムシ</Link>を、幹の穴や根元に集まっているなら<Link href="/niwaki-kanbu-fukyu/" className="text-[#2D7F3E] underline">幹の空洞・くぼみ</Link>をご覧ください。
+      </p>
       <p className="mb-4">
         「庭木の幹をアリが列になって上り下りしている」「花壇の土やレンガの隙間から次々に出てくる」「玄関やキッチンにまで入ってくるようになった」「春先に羽の生えたアリが一斉に飛び出した」など、アリは庭で最も身近な虫の一つですが、数が増えると対策が必要になります。
       </p>
