@@ -199,6 +199,7 @@ const data: KnowArticleData = {
       label: "芝生が部分的に枯れる・はげる",
       desc: "まだらに茶色くなる原因の切り分け",
     },
+    { href: "/shibafu-3gatsu-teire/", label: "芝生の3月の手入れ", desc: "冬明けの手入れ" },
   ],
 };
 

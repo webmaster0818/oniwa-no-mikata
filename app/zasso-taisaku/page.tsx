@@ -238,6 +238,7 @@ const data: KnowArticleData = {
       label: "草刈り110番の草刈り料金の見方",
       desc: "163円～/㎡(税込)と防草対策の相談",
     },
+    { href: "/americasendangusa-kujo/", label: "アメリカセンダングサの駆除", desc: "実ができる前に抜く" },
   ],
 };
 

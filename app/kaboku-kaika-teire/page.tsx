@@ -284,6 +284,7 @@ const data: KnowArticleData = {
       desc: "花後と冬の剪定の使い分け",
     },
     { href: "/kaido-sentei/", label: "カイドウの剪定", desc: "落葉期に花芽を残して切る" },
+    { href: "/buddleja-sentei/", label: "ブッドレア（ブットレア）の剪定", desc: "花がら摘みと3月の間引き" },
   ],
 };
 

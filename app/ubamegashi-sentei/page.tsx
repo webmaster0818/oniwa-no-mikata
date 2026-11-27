@@ -223,6 +223,7 @@ const data: KnowArticleData = {
       label: "マサキの剪定",
       desc: "生垣に多い常緑樹の刈り込み",
     },
+    { href: "/matebashii-sentei/", label: "マテバシイの剪定", desc: "同じブナ科の常緑樹" },
   ],
 };
 

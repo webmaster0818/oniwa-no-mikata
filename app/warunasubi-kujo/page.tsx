@@ -184,6 +184,7 @@ const data: KnowArticleData = {
     { href: "/nagamihinageshi-kujo/", label: "ナガミヒナゲシの駆除", desc: "外来の雑草" },
     { href: "/josozai-anzen/", label: "庭で除草剤を安全に使うには", desc: "ラベルの見方" },
     { href: "/bousou-sheet/", label: "防草シートの基礎知識", desc: "光をさえぎる対策" },
+    { href: "/americasendangusa-kujo/", label: "アメリカセンダングサの駆除", desc: "実が服に付く外来の一年草" },
   ],
 };
 

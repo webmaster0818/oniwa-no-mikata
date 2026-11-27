@@ -218,6 +218,7 @@ const data: KnowArticleData = {
       label: "庭木の剪定時期の基本",
       desc: "季節ごとの考え方と樹種の違い",
     },
+    { href: "/tsuge-sentei/", label: "ツゲの剪定", desc: "名前の似たツゲ科の木" },
   ],
 };
 

@@ -181,6 +181,7 @@ const data: KnowArticleData = {
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "落葉樹と常緑樹の時期の違い" },
     { href: "/shimotsuke-sentei/", label: "シモツケの剪定", desc: "同じ低木類の花木" },
     { href: "/senteieda-shobun/", label: "剪定枝の処分方法", desc: "刈り込んだ枝の出し方" },
+    { href: "/buddleja-sentei/", label: "ブッドレア（ブットレア）の剪定", desc: "3月頃に間引く花木" },
   ],
 };
 

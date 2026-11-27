@@ -211,6 +211,7 @@ const data: KnowArticleData = {
       label: "ケヤキの剪定",
       desc: "大木になる木の剪定",
     },
+    { href: "/matebashii-sentei/", label: "マテバシイの剪定", desc: "クスノキに準じて剪定する木" },
   ],
 };
 

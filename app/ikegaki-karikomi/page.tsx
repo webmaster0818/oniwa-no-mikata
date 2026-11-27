@@ -253,6 +253,7 @@ const data: KnowArticleData = {
       label: "高槻市の生け垣設置工事助成金",
       desc: "ブロック塀撤去後の生け垣に1mあたり5,000円",
     },
+    { href: "/tsuge-sentei/", label: "ツゲの剪定", desc: "6月と10月の刈り込み" },
   ],
 };
 

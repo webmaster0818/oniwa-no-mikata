@@ -185,6 +185,7 @@ const data: KnowArticleData = {
     { href: "/shibafu-hiryo/", label: "芝生の肥料", desc: "量と時期の目安" },
     { href: "/haru-niwa-checklist/", label: "春の庭仕事チェックリスト", desc: "冬明けの作業" },
     { href: "/5gatsu-zasso/", label: "5月の雑草", desc: "5月に目立つ雑草と草取り" },
+    { href: "/shibafu-3gatsu-teire/", label: "芝生の3月の手入れ", desc: "休眠期の終わりと芽出し" },
   ],
 };
 
