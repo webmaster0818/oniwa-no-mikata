@@ -184,6 +184,7 @@ const data: KnowArticleData = {
       label: "雑草対策の方法比較",
       desc: "手取り・除草剤・防草シート・砂利の選び方",
     },
+    { href: "/katabami-josou/", label: "カタバミの除草", desc: "球根で再生する多年草" },
   ],
 };
 

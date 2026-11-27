@@ -189,6 +189,7 @@ const data: KnowArticleData = {
       label: "高い木の剪定を自分で行う危険性",
       desc: "事故のリスクと安全な依頼方法",
     },
+    { href: "/ginmokusei-sentei/", label: "銀木犀（ギンモクセイ）の剪定", desc: "同じモクセイ科の花木" },
   ],
 };
 

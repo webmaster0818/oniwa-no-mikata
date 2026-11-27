@@ -199,6 +199,7 @@ const data: KnowArticleData = {
       label: "キンモクセイの手入れ",
       desc: "花を楽しむ常緑樹の剪定の例",
     },
+    { href: "/ginmokusei-sentei/", label: "銀木犀（ギンモクセイ）の剪定", desc: "同じモクセイ科の常緑樹" },
   ],
 };
 

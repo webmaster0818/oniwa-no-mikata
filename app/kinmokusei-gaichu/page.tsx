@@ -229,6 +229,7 @@ const data: KnowArticleData = {
       label: "庭木の病害虫対策の基本",
       desc: "見つけたときの考え方",
     },
+    { href: "/ginmokusei-sentei/", label: "銀木犀（ギンモクセイ）の剪定", desc: "病害虫が共通の花木" },
   ],
 };
 

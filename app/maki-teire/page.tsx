@@ -183,6 +183,7 @@ const data: KnowArticleData = {
       label: "剪定110番の料金・対応",
       desc: "料金ページで剪定4,000円〜（税込）を確認",
     },
+    { href: "/konotegashiwa-sentei/", label: "コノテガシワの剪定", desc: "同じく円錐形の常緑針葉樹" },
   ],
 };
 

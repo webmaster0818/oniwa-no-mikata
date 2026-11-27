@@ -183,6 +183,7 @@ const data: KnowArticleData = {
     { href: "/shibafu-hiryo/", label: "芝生の肥料", desc: "量と時期の目安" },
     { href: "/shibakari-jiki/", label: "芝刈りの時期", desc: "月ごとの回数" },
     { href: "/dokudami-sugina-taisaku/", label: "ドクダミ・スギナなどしつこい雑草の対策", desc: "地下茎で増える雑草" },
+    { href: "/katabami-josou/", label: "カタバミの除草", desc: "同じくほふくして広がる多年草" },
   ],
 };
 
