@@ -216,6 +216,7 @@ const data: KnowArticleData = {
       label: "センチピードグラスの特徴と植え方",
       desc: "寒さに弱く低く刈ると消える",
     },
+    { href: "/noshiba-teire/", label: "野芝（ノシバ）の手入れ", desc: "比べられることの多い日本の夏芝" },
   ],
 };
 

@@ -200,6 +200,7 @@ const data: KnowArticleData = {
       desc: "料金ページで剪定4,000円〜（税込）を確認",
     },
     { href: "/konotegashiwa-sentei/", label: "コノテガシワの剪定", desc: "円錐形に育つヒノキ科の常緑樹" },
+    { href: "/metasequoia-sentei/", label: "メタセコイアの剪定", desc: "円錐形に育つ落葉の針葉樹" },
   ],
 };
 

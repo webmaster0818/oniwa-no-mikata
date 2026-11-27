@@ -181,6 +181,7 @@ const data: KnowArticleData = {
     { href: "/asebi-sentei/", label: "アセビの剪定", desc: "日陰に強い常緑低木" },
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "常緑樹と落葉樹の時期の違い" },
     { href: "/mokuren-sentei/", label: "木蓮の剪定", desc: "同じガイドラインの表に載る庭木" },
+    { href: "/aoki-sentei/", label: "アオキの剪定", desc: "日陰を好む常緑低木" },
   ],
 };
 

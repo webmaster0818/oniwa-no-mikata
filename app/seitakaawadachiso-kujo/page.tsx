@@ -217,6 +217,7 @@ const data: KnowArticleData = {
       label: "草刈り機（刈払機）を安全に使う",
       desc: "作業前の確認と保護具",
     },
+    { href: "/himemukashiyomogi-kujo/", label: "ヒメムカシヨモギの駆除", desc: "背が高くなるキク科の外来の雑草" },
   ],
 };
 

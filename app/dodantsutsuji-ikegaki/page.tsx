@@ -218,6 +218,7 @@ const data: KnowArticleData = {
       label: "花木の開花を良くする手入れ",
       desc: "花芽と剪定時期の考え方",
     },
+    { href: "/hakuchouge-ikegaki/", label: "ハクチョウゲの生垣と刈り込み", desc: "同じ低い生垣に使う常緑低木" },
   ],
 };
 

@@ -224,6 +224,7 @@ const data: KnowArticleData = {
       desc: "増える理由と手取り・除草剤・張り替えの判断",
     },
     { href: "/shibafu-kiwagari/", label: "芝生のキワ刈り", desc: "芝刈機が届かない際の処理" },
+    { href: "/noshiba-teire/", label: "野芝（ノシバ）の手入れ", desc: "すり減ると回復が遅い日本の芝" },
   ],
 };
 

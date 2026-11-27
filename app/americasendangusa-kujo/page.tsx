@@ -180,6 +180,7 @@ const data: KnowArticleData = {
     { href: "/warunasubi-kujo/", label: "ワルナスビの駆除", desc: "外来の多年草の掘り取り" },
     { href: "/kusakari-jiki/", label: "草刈りの時期", desc: "年3回が目安になる理由" },
     { href: "/akichi-zasso-taisaku/", label: "空き地の雑草対策", desc: "所有者の管理と除草の回数" },
+    { href: "/himemukashiyomogi-kujo/", label: "ヒメムカシヨモギの駆除", desc: "風で種が飛ぶキク科の外来の雑草" },
   ],
 };
 

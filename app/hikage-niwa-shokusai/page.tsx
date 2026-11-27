@@ -190,6 +190,7 @@ const data: KnowArticleData = {
       label: "シンボルツリーの手入れの基本",
       desc: "定番樹種の管理の手間と育て方の注意",
     },
+    { href: "/aoki-sentei/", label: "アオキの剪定", desc: "日陰を好む常緑低木" },
   ],
 };
 

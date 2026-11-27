@@ -183,6 +183,7 @@ const data: KnowArticleData = {
     { href: "/ikegaki-karikomi/", label: "生垣の刈り込みの基礎知識", desc: "刈り込みの時期と回数" },
     { href: "/maki-teire/", label: "マキ（イヌマキ）の剪定・手入れ", desc: "同じく円錐形の常緑針葉樹" },
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "落葉樹と常緑樹の時期の違い" },
+    { href: "/metasequoia-sentei/", label: "メタセコイアの剪定", desc: "同じ円錐形の樹形" },
   ],
 };
 

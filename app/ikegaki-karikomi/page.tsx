@@ -254,6 +254,7 @@ const data: KnowArticleData = {
       desc: "ブロック塀撤去後の生け垣に1mあたり5,000円",
     },
     { href: "/tsuge-sentei/", label: "ツゲの剪定", desc: "6月と10月の刈り込み" },
+    { href: "/hakuchouge-ikegaki/", label: "ハクチョウゲの生垣と刈り込み", desc: "花後すぐに刈る低い生垣" },
   ],
 };
 
