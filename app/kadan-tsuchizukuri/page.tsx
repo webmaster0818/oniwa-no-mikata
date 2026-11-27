@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const data: KnowArticleData = {
   slug: "kadan-tsuchizukuri",
   published: "2026-08-13",
-  updatedLabel: "2026年10月17日",
+  updatedLabel: "2026年11月27日",
   h1: "花壇の土づくりの基本｜土壌改良と植え付け前の準備をわかりやすく解説",
   breadcrumbLabel: "花壇の土づくりの基本",
   tagChips: ["花壇", "土づくり", "土壌改良", "ガーデニング", "基礎知識"],
@@ -33,6 +33,14 @@ const data: KnowArticleData = {
     "植物が育つ良い土の条件、堆肥・腐葉土による土壌改良の考え方、酸度や元肥の基礎、植え付け前に土を準備する手順、避けるべき行動、業者に相談すべきケースを一般知識として解説した記事です。",
   lead: (
     <>
+      <p className="mb-4">
+        花壇の土づくりは、<Hl>植え付けの前に土を深く耕して雑草・ゴミを取り除き、堆肥と元肥（植え付け前に入れる肥料）を混ぜ込む</Hl>のが基本の流れです。
+        横浜市緑土木事務所の花壇づくりの手引きは、大きなスコップで深さ30cmくらいを耕して土中に空気を入れ、花壇の中や周囲の雑草を取り除いたうえで、堆肥と元肥を入れるとしています。量はどちらも袋に記載された量を参考に入れすぎないようにし、鶏ふんは1m²あたり移植ごて2杯分を目安にするとしています（<a href="https://www.city.yokohama.lg.jp/midori/kurashi/machizukuri_kankyo/jimusho/doboku-top/yoshiki/kouhou.files/Kadanzukuri.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">横浜市緑土木事務所「タネから育てる花壇づくり」</a>・2026年11月27日確認）。
+      </p>
+      <p className="mb-4">
+        名古屋市の花壇づくり情報サイト「なごや花の環ネット」は、<Hl>花を植える1、2週間前に根が育つ深さ約20cmまで耕し、ゴミを取り除いて化成肥料や堆肥を加える</Hl>とし、土壌改良材の目安を1m²あたり堆肥10L・苦土石灰100g（年1回程度、土が酸性に偏りすぎないように）、緩効性肥料は種類により適量としています（<a href="https://hananowa.city.nagoya.jp/wp-content/uploads/2025/08/%E8%8A%B1%E5%A3%87%E3%81%A5%E3%81%8F%E3%82%8A%E3%81%AE%E3%83%92%E3%83%B3%E3%83%88%EF%BC%91%EF%BC%92%E3%81%8B%E6%9C%88_9%E6%9C%88_%E8%8A%B1%E8%8B%97%E3%81%AE%E9%81%B8%E3%81%B3%E6%96%B9%E3%83%BB%E6%A4%8D%E3%81%88%E6%96%B9.pdf" className="text-[#2D7F3E] underline" target="_blank" rel="noopener noreferrer">なごや花の環ネット「花壇づくりのヒント12か月 9月 苗の選び方・植え方」</a>・2026年11月27日確認）。
+        資材の量は、実際に使う製品の袋の表示を優先してください。
+      </p>
       <p className="mb-4">
         「同じ苗を植えたのに、隣の家の花壇はよく育つ」「植えてもすぐ枯れる、育ちが悪い」といった差の多くは、目に見えない土の中に原因があります。花や野菜がうまく育つかどうかは、苗選びや水やり以前に、根がのびのびと張れる土になっているかで大きく左右されるといわれます。特に、家を建てたばかりの庭や、長年植えっぱなしの花壇の土は、植物にとって条件が悪くなっていることが少なくありません。
       </p>
