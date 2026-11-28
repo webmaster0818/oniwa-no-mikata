@@ -217,6 +217,7 @@ const data: KnowArticleData = {
       desc: "寒さに弱く低く刈ると消える",
     },
     { href: "/noshiba-teire/", label: "野芝（ノシバ）の手入れ", desc: "比べられることの多い日本の夏芝" },
+    { href: "/shibafu-pot-nae/", label: "芝生のポット苗の植え方", desc: "植え付け時期と間隔" },
   ],
 };
 

@@ -195,6 +195,7 @@ const data: KnowArticleData = {
       label: "庭木の剪定時期の基本",
       desc: "樹種によって適期が違う理由",
     },
+    { href: "/umemodoki-sodatekata/", label: "ウメモドキの育て方", desc: "名前は似ているがモチノキ科の別の木" },
   ],
 };
 

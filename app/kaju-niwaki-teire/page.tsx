@@ -215,6 +215,7 @@ const data: KnowArticleData = {
       label: "庭木に鳥が集まる・フンや実の被害",
       desc: "法律の注意と物理的な対策",
     },
+    { href: "/biwa-kiru/", label: "びわの木を切る", desc: "大きくなったビワの切り方" },
   ],
 };
 

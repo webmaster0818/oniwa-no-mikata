@@ -181,6 +181,7 @@ const data: KnowArticleData = {
     { href: "/imieda/", label: "忌み枝とは", desc: "切ってよい枝の種類" },
     { href: "/utsugi-sentei/", label: "ウツギの剪定", desc: "株立ちの落葉低木" },
     { href: "/hachiue-jiue-uekae/", label: "鉢植えから地植えへの植え替え", desc: "庭に下ろす前の確認" },
+    { href: "/umemodoki-sodatekata/", label: "ウメモドキの育て方", desc: "同じく実を楽しむ落葉低木" },
   ],
 };
 

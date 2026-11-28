@@ -184,6 +184,7 @@ const data: KnowArticleData = {
       label: "剪定の切り口の処理",
       desc: "太い枝を切ったあとの癒合剤と切り方",
     },
+    { href: "/urushi-bassai/", label: "漆（ウルシ）の木の伐採", desc: "切ると白い液が出る木" },
   ],
 };
 

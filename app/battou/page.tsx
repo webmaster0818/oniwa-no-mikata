@@ -206,6 +206,7 @@ const data: KnowArticleData = {
       label: "高い木の剪定を自分で行う危険性",
       desc: "高所作業の注意点",
     },
+    { href: "/urushi-bassai/", label: "漆（ウルシ）の木の伐採", desc: "かぶれに注意して切る木" },
   ],
 };
 

@@ -184,6 +184,7 @@ const data: KnowArticleData = {
     { href: "/tosamizuki-sentei/", label: "トサミズキの剪定", desc: "同じく早春に咲く花木" },
     { href: "/kobushi-sentei/", label: "コブシの剪定", desc: "同じモクレン科の花木" },
     { href: "/taisanboku-sentei/", label: "泰山木（タイサンボク）の剪定", desc: "同じモクレン科の常緑高木" },
+    { href: "/sanshuyu-sentei/", label: "サンシュユの剪定", desc: "同じガイドラインの表に載る花木" },
   ],
 };
 

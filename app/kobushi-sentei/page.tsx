@@ -185,6 +185,7 @@ const data: KnowArticleData = {
     { href: "/sentei-jiki/", label: "庭木の剪定時期の基本", desc: "落葉樹と常緑樹の時期の違い" },
     { href: "/karatane-ogatama-sentei/", label: "カラタネオガタマの剪定", desc: "同じモクレン科の常緑樹" },
     { href: "/taisanboku-sentei/", label: "泰山木（タイサンボク）の剪定", desc: "同じモクレン科の常緑高木" },
+    { href: "/sanshuyu-sentei/", label: "サンシュユの剪定", desc: "早春に咲く花木" },
   ],
 };
 

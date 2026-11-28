@@ -193,6 +193,7 @@ const data: KnowArticleData = {
       label: "人工芝と天然芝の違い",
       desc: "手入れの手間と選び方",
     },
+    { href: "/shibafu-pot-nae/", label: "芝生のポット苗の植え方", desc: "苗で芝生を作る方法" },
   ],
 };
 
